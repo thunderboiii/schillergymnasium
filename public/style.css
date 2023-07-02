@@ -538,6 +538,101 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
     
 }
 
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+
+    padding: 4rem 8rem;
+    display: block;
+}
+
+.cookie-banner.disabled {
+    display: none;
+}
+
+.cookie-banner .cookie-inside {
+    background-color: var(--color-accent-900);
+    padding: .75rem 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25rem;
+    border-radius: 1rem;
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.cookie-banner .cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: .5rem;
+}
+
+
+.cookie-banner .cookie-buttons button {
+    height: 2rem;
+    width: max-content;
+    background: var(--color-dom-100);
+    color: var(--color-dom-900);
+    border-radius: 10rem;
+    border: solid 2px var(--color-compliment-900);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cookie-banner .cookie-buttons .cookie-accept:hover {
+    cursor: pointer;
+    background-color: var(--color-dom-200);
+}
+
+.cookie-banner .cookie-buttons .cookie-close {
+    background: transparent;
+    font-size: 25px;
+    transition: 100ms ease-in-out all;
+    color: var(--color-dom-100);
+    border: none;
+}
+
+.cookie-banner .cookie-buttons .cookie-close:hover {
+    background: var(--color-dom-100);
+    color: var(--color-dom-900);
+    cursor: pointer;
+}
+
+.cookie-banner .cookie-text p {
+    font-size: 16px;
+    color: var(--color-dom-100);
+}
+
+.cookie-banner .cookie-text a {
+    color: var(--color-compliment-900);
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+@media (max-width: 35em) {
+    .cookie-banner {
+        padding: 3rem .35rem;
+    }
+
+    .cookie-banner .cookie-inside {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
 
 
 
