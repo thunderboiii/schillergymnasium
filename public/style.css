@@ -422,7 +422,7 @@ header nav ul .information-grid .dropdown-heading {
     font-weight: 500;
 }
 
-header .desktop-nav ul .dropdown > .link:focus + .dropdown-menu {
+header .desktop-nav ul .dropdown.active > .link + .dropdown-menu {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
@@ -509,7 +509,7 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
         color: var(--color-dom-900);
     }
 
-    header .mobile-nav ul .dropdown > .link:focus + .dropdown-menu {
+    header .mobile-nav ul .dropdown.active > .link + .dropdown-menu {
         display: block;
     }
 
