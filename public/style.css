@@ -305,16 +305,34 @@ hr {
     margin-bottom: 8rem;
 }
 
+@media (max-width: 35em) {
+    .contents {
+        margin: 2rem 2rem;
+    }
+
+    .contents .content {
+        margin-bottom: 8rem;
+    }
+
+    .title h2 {
+        font-size: 45px;
+        text-align: left;
+    }
+}
+
 .gallary {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(max(300px, 100px), 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+
+    width: calc(80vw);
 }
 
 .gallary img {
-    min-width: 300px;
-    max-width: 100px;
+    width: 300px;
     aspect-ratio: 16/9;
     border: #111 solid 1px;
 }
@@ -962,6 +980,16 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
     opacity: .8;
 }
 
+@media (max-width: 35em) {
+    .aussagen .aussage:nth-child(odd) {
+        align-self: center;
+    }
+    
+    .aussagen .aussage:nth-child(even) {
+        align-self: center
+    }
+}
+
 
 
 
@@ -1111,6 +1139,16 @@ footer .cc p {
 
     footer .contact {
         flex-direction: column;
+        text-align: center;
+    }
+
+    footer .content .anmeldung-newsletter .newsletter form {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    footer .content .anmeldung-newsletter .newsletter input {
         text-align: center;
     }
 }
