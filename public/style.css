@@ -525,7 +525,7 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
         gap: 1.5rem;
     }
 
-    header .mobile-nav ul .dropdown > .link:focus + .information-grid {
+    header .mobile-nav ul .dropdown.active > .link + .information-grid {
         display: flex;
     }
 
@@ -980,7 +980,7 @@ footer .content {
     gap: 5rem;
 
     background-color: var(--color-accent-900);
-    padding: 8rem 10rem 4rem;
+    padding: 8vw 10rem 4rem;
 }
 
 footer .content p {
