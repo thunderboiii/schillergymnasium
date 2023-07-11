@@ -266,6 +266,8 @@ hr {
     visibility: hidden;
     width: 0;
     height: 0;
+    user-select: none;
+    pointer-events: none;
 }
 
 .title {
@@ -705,7 +707,7 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-inline: 8rem;
+    margin-inline: 8vw;
     height: 40px;
     list-style: none;
 }
@@ -1067,6 +1069,7 @@ footer .contact a {
     color: var(--color-dom-100);
     opacity: .6;
     font-weight: 200;
+    text-align: center;
 }
 
 
