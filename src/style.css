@@ -337,13 +337,13 @@ header .desktop-nav {
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    margin-inline: 8vw;
 }
 
 header .desktop-nav ul {
     display: flex;
-    gap: 100px;
+    gap: 5vw;
     position: relative;
-    margin-inline: 8rem;
 }
 
 header nav ul button {
