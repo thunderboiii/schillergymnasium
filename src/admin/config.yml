@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/img/uploads"
+public_folder: "/img/uploads"
+collections: 
+  - name: 'aktuelles'
+    label: 'Aktuelles'
+    folder: 'src/_aktuelles'
+    create: true
+    fields:
+      - { name: 'title', label: 'Titel', widget: 'string'}
+      - { name: 'date', label: 'Datum', widget: 'date'}
+      - { name: 'author', label: 'Autor', widget: 'string'}
+      - { name: 'description', label: 'Beschreibung', widget: string }
+      - { name: 'category', label: 'Kategorie', widget: 'select', options: ['Allgemeines', 'AGs', 'Austausche', 'Wettbewerbe', 'Am Schiller'], multiple: true}
+  - name: "profil"
+    label: "Profil"
+    folder: "src/_pages/profil"
+    create: true
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+  - name: "personen"
+    label: "Personen"
+    folder: "src/_pages/personen"
+    create: true
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+  - name: "fächer"
+    label: "Fächer"
+    folder: "src/_pages/fächer"
+    create: true
+    fields:
+      - {name: 'title', label: 'Fach Title', widget: 'string' }
+      - {name: 'fachschaft-text', label: 'Über die Fachschaft', widget: 'markdown'}
+      - {name: 'gallery', label: 'Fachschaftsbilder', widget: 'list', fields: [{name: 'images', label: 'Lehrer Bilder', widget: 'list', fields: [{name: 'image', label: 'Bild', widget: 'image'}] }] }
+      - {name: 'student-reviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'name', label: 'Name', widget: string}]}
+  - name: "lernen"
+    label: "Lernen"
+    folder: "src/_pages/lernen"
+    create: true
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+  
