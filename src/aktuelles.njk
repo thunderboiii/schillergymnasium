@@ -59,40 +59,15 @@ layout: base.njk
     </nav>
 
     <div class="articles">
-        <div class="snippet">
-            <img src="" alt="" class="snippet__image">
-            <div class="snippet__content">
-                <a href="/blog"><h2 class="snippet__title">Schiller in Australien - Ein Bericht</h2></a>
-                <p class="snippet__info">27. 04. 2023 &#8226; [Autor]</p>
-                <p class="snippet__description">Finally – our German exchange program with Schiller Gymnasium has restarted! After 4 long years, we welcome back the Schiller Gymnasium students and teachers to Ferny Grove SHS. They arrived in Australia on 8 April and spent time in Sydney and Port Macquarie before...</p>
+        {% for post in collections.aktuelles %}
+            <div class="snippet">
+                <img src="{{ post.data.image }}" alt="" class="snippet__image">
+                <div class="snippet__content">
+                    <a href="/blog"><h2 class="snippet__title">{{ post.data.title }}</h2></a>
+                    <p class="snippet__info">{{ date | postDate }} &#8226; {{ post.data.author }}</p>
+                    <p class="snippet__description">{{ post.data.description }}</p>
+                </div>
             </div>
-        </div>
-
-        <div class="snippet">
-            <img src="" alt="" class="snippet__image">
-            <div class="snippet__content">
-                <a href="/blog"><h2 class="snippet__title">Schiller in Australien - Ein Bericht</h2></a>
-                <p class="snippet__info">27. 04. 2023 &#8226; [Autor]</p>
-                <p class="snippet__description">Finally – our German exchange program with Schiller Gymnasium has restarted! After 4 long years, we welcome back the Schiller Gymnasium students and teachers to Ferny Grove SHS. They arrived in Australia on 8 April and spent time in Sydney and Port Macquarie before...</p>
-            </div>
-        </div>
-
-        <div class="snippet">
-            <img src="" alt="" class="snippet__image">
-            <div class="snippet__content">
-                <a href="/blog"><h2 class="snippet__title">Schiller in Australien - Ein Bericht</h2></a>
-                <p class="snippet__info">27. 04. 2023 &#8226; [Autor]</p>
-                <p class="snippet__description">Finally – our German exchange program with Schiller Gymnasium has restarted! After 4 long years, we welcome back the Schiller Gymnasium students and teachers to Ferny Grove SHS. They arrived in Australia on 8 April and spent time in Sydney and Port Macquarie before...</p>
-            </div>
-        </div>
-
-        <div class="snippet">
-            <img src="" alt="" class="snippet__image">
-            <div class="snippet__content">
-                <a href="/blog"><h2 class="snippet__title">Schiller in Australien - Ein Bericht</h2></a>
-                <p class="snippet__info">27. 04. 2023 &#8226; [Autor]</p>
-                <p class="snippet__description">Finally – our German exchange program with Schiller Gymnasium has restarted! After 4 long years, we welcome back the Schiller Gymnasium students and teachers to Ferny Grove SHS. They arrived in Australia on 8 April and spent time in Sydney and Port Macquarie before...</p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
