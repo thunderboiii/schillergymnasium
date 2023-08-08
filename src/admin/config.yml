@@ -14,6 +14,7 @@ collections:
       - { name: 'author', label: 'Autor', widget: 'string'}
       - { name: 'description', label: 'Beschreibung', widget: string }
       - { name: 'category', label: 'Kategorie', widget: 'select', options: ['Allgemeines', 'AGs', 'Austausche', 'Wettbewerbe', 'Am Schiller'], multiple: true}
+      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
   - name: "profil"
     label: "Profil"
     folder: "src/_pages/profil"
