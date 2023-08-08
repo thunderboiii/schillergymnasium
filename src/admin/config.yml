@@ -29,15 +29,17 @@ collections:
     fields:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
-  - name: "fächer"
+  - name: "faecher"
     label: "Fächer"
     folder: "src/_pages/fächer"
     create: true
     fields:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
-      - {name: 'fachschaft-text', label: 'Über die Fachschaft', widget: 'markdown'}
-      - {name: 'gallery', label: 'Fachschaftsbilder', widget: 'list', fields: [{name: 'images', label: 'Lehrer Bilder', widget: 'list', fields: [{name: 'image', label: 'Bild', widget: 'image'}] }] }
-      - {name: 'student-reviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'name', label: 'Name', widget: string}]}
+      - {name: 'fachText', label: 'Über das Fach', widget: 'markdown'}
+      - {name: 'fachGallery', label: 'Fachschaftsbilder', widget: 'list', fields: [{name: 'image', label: 'Bild', widget: 'image'}] }
+      - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown'}
+      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', fields: [{name: 'image', label: 'Bild', widget: 'image'}] }
+      - {name: 'studentReviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'name', label: 'Name', widget: string}]}
   - name: "lernen"
     label: "Lernen"
     folder: "src/_pages/lernen"
