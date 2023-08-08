@@ -1,3 +1,4 @@
 {
-    "layout": "fächer.njk"
+    "layout": "fächer.njk",
+    "tags": "fach"
 }
