@@ -59,7 +59,7 @@ layout: base.njk
     </nav>
 
     <div class="articles">
-        {% for post in collections.aktuelles %}
+        {%- for post in collections.aktuelles -%}
             <div class="snippet">
                 <img src="{{ post.data.image }}" alt="" class="snippet__image">
                 <div class="snippet__content">
@@ -68,6 +68,6 @@ layout: base.njk
                     <p class="snippet__description">{{ post.data.description }}</p>
                 </div>
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </section>
