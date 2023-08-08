@@ -45,8 +45,8 @@ layout: base.njk
         </div></center>
         <p>{{ fachschaftText | safe}}</p>
         <div class="gallary">
-            {% for image in collections.faecher.fachschaftGallery %}
-                <img src="{{ collections.faecher.fachschaftGallery.image }}" alt=""> 
+            {% for galleryImage in collections.faecher.fachschaftGallery %}
+                <img src="{{ gallaryImage.data.image }}" alt=""> 
             {% endfor %}
         </div>
     </div>
