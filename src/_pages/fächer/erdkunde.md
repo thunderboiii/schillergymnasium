@@ -1,13 +1,13 @@
 ---
 title: Erdkunde
-fachschaft-text: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde? \r\n\n\r\n\nDas Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt die Zukunft formen. \r\n\n\r\n\nWähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch. \r\n\n\r\n\nIn der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu entwickeln. \r\n\n\r\n\nLasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
+fachschaftText: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde? \r\n\n\r\n\nDas Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt die Zukunft formen. \r\n\n\r\n\nWähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch. \r\n\n\r\n\nIn der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu entwickeln. \r\n\n\r\n\nLasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
 gallery:
   - images:
       - image: /img/uploads/img_avatar.png
       - image: /img/uploads/img_avatar.png
       - image: /img/uploads/img_avatar.png
       - image: /img/uploads/img_avatar.png
-student-reviews:
+studentReviews:
   - name: Schülerin
     review: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi
