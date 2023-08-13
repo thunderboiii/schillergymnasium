@@ -41,12 +41,12 @@ collections:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
       - {name: 'category', label: 'Kategorie', widget: select, options: ['Naturwissenschaften', 'Gesellschaftswissenschaften', 'Sprachen', 'Weitere']}
       - {name: 'banner', label: 'Banner', widget: image}
-      - {name: 'fachText', label: 'Über das Fach', widget: 'markdown'}
-      - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}] }
-      - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown'}
-      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}] }
-      - {name: 'studentReviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'studentName', label: 'Name', widget: string}]}
-      - {name: 'tags', label: 'Tags', widget: list, default: ['fach']}
+      - {name: 'fachText', label: 'Über das Fach', widget: 'markdown', required: false}
+      - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
+      - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown', required: false}
+      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
+      - {name: 'studentReviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'studentName', label: 'Name', widget: string}], required: false}
+      - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
     label: "Lernen"
     folder: "src/_pages/lernen"
