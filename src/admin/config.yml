@@ -44,7 +44,7 @@ collections:
       - {name: 'fachText', label: 'Über das Fach', widget: 'markdown'}
       - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}] }
       - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown'}
-      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}] }
+      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}] }
       - {name: 'studentReviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'studentName', label: 'Name', widget: string}]}
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach']}
   - name: "lernen"
