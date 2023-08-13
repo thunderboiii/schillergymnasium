@@ -13,6 +13,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/img_avatar.png
     teacherName: Stefanie Perner
   - fachschaftImage: /img/uploads/img_avatar.png
+    teacherName: Christian Vogt
 studentReviews:
   - review: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
