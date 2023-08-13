@@ -11,6 +11,7 @@ fachschaftText: >-
   und Umwelt die Zukunft formen.
 fachschaftGallery:
   - fachschaftImage: /img/uploads/img_avatar.png
+    teacherName: Stefanie Perner
   - fachschaftImage: /img/uploads/img_avatar.png
 studentReviews:
   - review: >-
