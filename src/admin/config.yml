@@ -37,6 +37,7 @@ collections:
     create: true
     fields:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
+      - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'fachText', label: 'Über das Fach', widget: 'markdown'}
       - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}] }
       - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown'}
