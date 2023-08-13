@@ -40,7 +40,8 @@ fachGallery:
   - fachImage: /img/uploads/wärme-2.jpg
   - fachImage: /img/uploads/wärme-3.jpg
   - fachImage: /img/uploads/wärme-4.jpg
-fachschaftGallery: []
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/wärme-1.jpg
 tags:
   - fach
 ---
