@@ -36,6 +36,13 @@ layout: base.njk
             <h2>{{ title }} am Schiller</h2>
         </div></center>
         <p>{{ fachText | safe}}</p>
+        <div class="gallary">
+            {% for fach in collections.fach %}
+                {% for fachImage in fach.data.fachGallery %}
+                    <img src="{{fachImage.fachImage}}" alt="">
+                {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 
     <div class="content">
