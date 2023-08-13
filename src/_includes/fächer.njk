@@ -37,7 +37,7 @@ layout: base.njk
         </div></center>
         <p>{{ fachText | safe}}</p>
         <div class="gallary">
-            {% for fach in collections.fach %}
+            {% for fach in collections.faecher %}
                 {% for fachImage in fach.data.fachGallery %}
                     <img src="{{fachImage.fachImage}}" alt="">
                 {% endfor %}
