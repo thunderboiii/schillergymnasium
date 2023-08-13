@@ -7,9 +7,7 @@ fachText: >-
   machen?_
 
 
-  _Woher kommt die elektrische Energie, die wir alle nutzen? 
-
-  _
+  _Woher kommt die elektrische Energie, die wir alle nutzen? _
 
 
   _Kernenergie – klimaneutral oder lebensbedrohlich? _
