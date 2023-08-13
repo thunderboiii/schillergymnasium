@@ -45,9 +45,10 @@ layout: base.njk
         </div></center>
         <p>{{ fachschaftText | safe}}</p>
         <div class="gallary">
-            {% for galleryImage in collections.fach.fachschaftGallery %}
-                <img src="{{ gallaryImage.data.image }}" alt=""> 
-                <p>8458504</p>
+            {% for fach in collections.fach %}
+                {% for fachschaftImage in fach.data.fachschaftGallery %}
+                    <img src="{{fachschaftImage.image}}" alt="">
+                {% endfor %}
             {% endfor %}
         </div>
     </div>
@@ -58,11 +59,13 @@ layout: base.njk
             <h2>Schüler:innen über {{ title }}</h2>
         </div></center>
         <div class="aussagen">
-            {% for studentReview in page.studentReviews %}
-                <div class="aussage">
-                    <p>{{ studentReview.review }}</p>
-                    <p class="name">- {{ studentReview.name }}</p>
-                </div>
+            {% for fach in collections.fach %}
+                {% for review in fach.data.studentReviews %}
+                    <div class="aussage">
+                        <p>{{ review.review | safe}}</p>
+                        <p class="name">- {{ review.studentName }}</p>
+                    </div>
+                {% endfor %}
             {% endfor %}
         </div>
     </div>

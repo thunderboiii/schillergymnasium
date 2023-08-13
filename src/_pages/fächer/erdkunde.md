@@ -10,10 +10,10 @@ fachschaftText: >-
   Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft
   und Umwelt die Zukunft formen.
 fachschaftGallery:
-  - image: /img/uploads/img_avatar.png
-  - image: /img/uploads/img_avatar.png
+  - fachschaftImage: /img/uploads/img_avatar.png
+  - fachschaftImage: /img/uploads/img_avatar.png
 studentReviews:
-  - name: Schülerin
+  - studentName: Schülerin
     review: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
       blanditiis aliquam officia fuga unde consectetur ducimus rerum porro
@@ -26,7 +26,7 @@ studentReviews:
       deserunt ipsum. Facere, dolores hic. Eos incidunt quod deleniti atque
       delectus, aliquid a vitae similique impedit ratione facere eius odit quas,
       nobis libero ullam.
-  - name: Schüler
+  - studentName: Schüler
     review: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
       blanditiis aliquam officia fuga unde consectetur ducimus rerum porro
