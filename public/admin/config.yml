@@ -33,10 +33,13 @@ collections:
       - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
   - name: "faecher"
     label: "Fächer"
+    editor:
+      preview: false
     folder: "src/_pages/fächer"
     create: true
     fields:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
+      - {name: 'category', label: 'Kategorie', widget: select, options: ['Naturwissenschaften', 'Gesellschaftswissenschaften', 'Sprachen', 'Weitere']}
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'fachText', label: 'Über das Fach', widget: 'markdown'}
       - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}] }
