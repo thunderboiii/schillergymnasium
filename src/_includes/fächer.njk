@@ -47,7 +47,7 @@ layout: base.njk
         <div class="gallary">
             {% for fach in collections.fach %}
                 {% for fachschaftImage in fach.data.fachschaftGallery %}
-                    <img src="{{fachschaftImage.image}}" alt="">
+                    <img src="{{fachschaftImage.fachschaftImage}}" alt="">
                 {% endfor %}
             {% endfor %}
         </div>

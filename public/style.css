@@ -336,7 +336,7 @@ hr {
 .gallary img {
     width: 300px;
     aspect-ratio: 16/9;
-    border: #111 solid 1px;
+    object-fit: cover;
 }
 
 
