@@ -37,41 +37,13 @@ layout: base.njk
         <div class="scroll-group">
             <i class='bx bx-chevron-left btn-left'></i>
             <div class="scroll">
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 1</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
-
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 2</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
-
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 3</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
-
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 4</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
-
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 5</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
-
-                <div class="snippet scroll-item">
-                    <img class="snippet_image" src="" alt="">
-                    <a href="/blog"><h3 class="snippet_title">Blog Title 6</h3></a>
-                    <p class="snippet_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eos?</p>
-                </div>
+                {% for post in collections.post %}
+                    <div class="snippet scroll-item">
+                        <img class="snippet_image" src="{{ post.data.image }}" alt="">
+                        <a href="/blog"><h3 class="snippet_title">{{ post.data.title }}</h3></a>
+                        <p class="snippet_description">{{ post.data.description }}</p>
+                    </div>
+                {% endfor %}
             </div>
             <i class='bx bx-chevron-right btn-right' ></i>
         </div>
