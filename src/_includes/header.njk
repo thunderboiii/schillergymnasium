@@ -41,45 +41,44 @@
                     <div>
                         <div class="dropdown-heading">Naturwissenschaften</div>
                         <div class="dropdown-links">
-                            <a href="">Biologie</a>
-                            <a href="">Chemie</a>
-                            <a href="">Physik</a>
-                            <a href="">Mathe</a>
-                            <a href="">Informatik</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Naturwissenschaften' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Sprachen</div>
                         <div class="dropdown-links">
-                            <a href="">Deutsch</a>
-                            <a href="">Englisch</a>
-                            <a href="">Französisch</a>
-                            <a href="">Italienisch</a>
-                            <a href="">Latein</a>
-                            <a href="">Niederländisch</a>
-                            <a href="">Griechisch</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Sprachen' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Gesellschaftswissenschaften</div>
                         <div class="dropdown-links">
-                            <a href="">Geschichte</a>
-                            <a href="/_pages/fächer/erdkunde/">Erdkunde</a>
-                            <a href="">SoWi/Politik</a>
-                            <a href="">Philosophie</a>
-                            <a href="">Religion</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Gesellschaftswissenschaften' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Weitere</div>
                         <div class="dropdown-links">
-                            <a href="">Kunst</a>
-                            <a href="">Musik</a>
-                            <a href="">Sport</a>
-                            <a href="">Darstellen u. Gestalten</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Weitere' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
@@ -197,45 +196,44 @@
                     <div class="information-box">
                         <div class="dropdown-heading">Naturwissenschaften</div>
                         <div class="dropdown-links">
-                            <a href="">Biologie</a>
-                            <a href="">Chemie</a>
-                            <a href="">Physik</a>
-                            <a href="">Mathe</a>
-                            <a href="">Informatik</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Naturwissenschaften' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Sprachen</div>
                         <div class="dropdown-links">
-                            <a href="">Deutsch</a>
-                            <a href="">Englisch</a>
-                            <a href="">Französisch</a>
-                            <a href="">Italienisch</a>
-                            <a href="">Latein</a>
-                            <a href="">Niederländisch</a>
-                            <a href="">Griechisch</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Sprachen' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Gesellschaftswissenschaften</div>
                         <div class="dropdown-links">
-                            <a href="">Geschichte</a>
-                            <a href="">Erdkunde</a>
-                            <a href="">SoWi/Politik</a>
-                            <a href="">Philosophie</a>
-                            <a href="">Religion</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Gesellschaftswissenschaften' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
 
                     <div>
                         <div class="dropdown-heading">Weitere</div>
                         <div class="dropdown-links">
-                            <a href="">Kunst</a>
-                            <a href="">Musik</a>
-                            <a href="">Sport</a>
-                            <a href="">Darstellen u. Gestalten</a>
+                            {% for fach in collections.faecher %}
+                                {% if fach.data.category == 'Weitere' %}
+                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
