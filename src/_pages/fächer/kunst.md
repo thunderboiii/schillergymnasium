@@ -22,8 +22,7 @@ fachText: >-
   Als weiterführenden Einblick in unser Verständnis von Kunstunterricht
   verweisen wir auf die [Fachbeschreibung des Deutschen
   Kulturrats](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
-fachschaftText: >-
-  https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/
+fachschaftText: ''
 tags:
   - fach
 ---
