@@ -38,9 +38,11 @@ layout: base.njk
         <p>{{ fachText | safe}}</p>
         <div class="gallary">
             {% for fach in collections.faecher %}
-                {% for fachImage in fach.data.fachGallery %}
-                    <img src="{{fachImage.fachImage}}" alt="">
-                {% endfor %}
+                {% if fach.data.title == title %}
+                    {% for fachImage in fach.data.fachGallery %}
+                        <img src="{{ fachImage.fachImage }}" alt="">
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -52,10 +54,12 @@ layout: base.njk
         </div></center>
         <p>{{ fachschaftText | safe}}</p>
         <div class="gallary">
-            {% for fach in collections.fach %}
-                {% for fachschaftImage in fach.data.fachschaftGallery %}
-                    <img src="{{fachschaftImage.fachschaftImage}}" alt="">
-                {% endfor %}
+            {% for fach in collections.faecher %}
+                {% if fach.data.title == title %}
+                    {% for fachschaftImage in fach.data.fachschaftGallery %}
+                        <img src="{{ fachschaftImage.fachschaftImage }}" alt="">
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -66,13 +70,15 @@ layout: base.njk
             <h2>Schüler:innen über {{ title }}</h2>
         </div></center>
         <div class="aussagen">
-            {% for fach in collections.fach %}
-                {% for review in fach.data.studentReviews %}
-                    <div class="aussage">
-                        <p>{{ review.review | safe}}</p>
-                        <p class="name">- {{ review.studentName }}</p>
-                    </div>
-                {% endfor %}
+            {% for fach in collections.faecher %}
+                {% if fach.data.title == title %}
+                    {% for review in fach.data.studentReviews %}
+                        <div class="aussage">
+                            <p>{{ review.review | safe}}</p>
+                            <p class="name">- {{ review.studentName }}</p>
+                        </div>
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
