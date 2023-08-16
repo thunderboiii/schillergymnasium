@@ -63,7 +63,7 @@ layout: base.njk
             <div class="snippet">
                 <img src="{{ post.data.image }}" alt="" class="snippet__image">
                 <div class="snippet__content">
-                    <a href="/blog"><h2 class="snippet__title">{{ post.data.title }}</h2></a>
+                    <a href="{{ post.url }}"><h2 class="snippet__title">{{ post.data.title }}</h2></a>
                     {# <p class="snippet__info">{{ date | postDate }} &#8226; {{ post.data.author }}</p> #}
                     <p class="snippet__description">{{ post.data.description }}</p>
                 </div>

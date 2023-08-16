@@ -854,7 +854,7 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
 
 .aktuelles-termine .scroll {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 2rem;
     width: calc(990px + 4rem);
