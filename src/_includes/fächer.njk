@@ -50,9 +50,8 @@ layout: base.njk
     <div class="content">
         <center><div class="title">
             {# <h4>Art</h4> #}
-            <h2>Von der Fachschaft</h2>
+            <h2>Die Fachschaft</h2>
         </div></center>
-        <p>{{ fachschaftText | safe}}</p>
         <div class="gallary">
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}
@@ -62,24 +61,14 @@ layout: base.njk
                 {% endif %}
             {% endfor %}
         </div>
+        <p>{{ teachers }}</p>
     </div>
 
     <div class="content">
         <center><div class="title">
             {# <h4>Art</h4> #}
-            <h2>Schüler:innen über {{ title }}</h2>
+            <h2>Weiteres zu {{ title }}</h2>
         </div></center>
-        <div class="aussagen">
-            {% for fach in collections.faecher %}
-                {% if fach.data.title == title %}
-                    {% for review in fach.data.studentReviews %}
-                        <div class="aussage">
-                            <p>{{ review.review | safe}}</p>
-                            <p class="name">- {{ review.studentName }}</p>
-                        </div>
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
+        
     </div>
 </section>

@@ -217,7 +217,7 @@ body {
 h1 {
     font-size: 140px;
     color: var(--color-dom-100);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Helvetica;
     line-height: 1.1;
 }
 
@@ -240,6 +240,10 @@ li {
     font-size: 21px;
     color: var(--color-dom-100);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li.anmeldung a{
+    color: var(--color-compliment-900) !important;
 }
 
 button {
@@ -1043,6 +1047,48 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
     font-size: 16px;
 }
 
+@media (max-width: 35em) {
+    .aktuelles-page {
+        display: flex;
+        flex-direction: column;
+    
+        margin: 5rem 2rem;
+    }
+
+    .aktuelles-page .sidebar {
+        width: 100%;
+        border-bottom: 1px solid var(--color-dom-600);
+        border-right: 0;
+        margin-bottom: 2.5rem;
+        padding-bottom: 2.5rem;
+        margin-right: 0;
+    }
+
+    .aktuelles-page .snippet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 5rem;
+    }
+
+    .aktuelles-page .snippet img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+
+        padding-bottom: 2rem;
+        padding-right: 0;
+        border-bottom: 1px solid var(--color-dom-600);
+        border-right: 0;
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    .aktuelles-page .snippet .snippet__content {
+        width: auto;
+    }
+}
+
 
 
 
@@ -1220,55 +1266,18 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
 
 
 footer .content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "l c"
-    "a a";
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 
     gap: 5rem;
 
     background-color: var(--color-accent-900);
-    padding: 8vw 10rem 4rem;
+    padding: 4rem 10rem 4rem;
 }
 
 footer .content p {
     font-size: 20px;
-}
-
-footer .content .links {
-    grid-area: l;
-}
-
-footer .content .contact {
-    grid-area: c;
-}
-
-footer .content .anmeldung-newsletter {
-    grid-area: a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-footer .content .anmeldung-newsletter .newsletter input {
-    width: 17rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: solid 2px var(--color-compliment-900);
-    outline: none;
-    color: var(--color-dom-100);
-}
-
-footer .content .anmeldung-newsletter .newsletter input::placeholder {
-    color: var(--color-dom-400);
-}
-
-footer .content .anmeldung-newsletter .newsletter button {
-    font-size: 18px;
-    padding-block: 0;
-    padding-inline: 1rem;
 }
 
 footer .content .links {
@@ -1296,42 +1305,68 @@ footer .contact {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 3rem;
     margin-top: 0 !important;
 }
 
-footer .contact img {
+footer .icon img {
     width: 85px;
 }
 
 footer .contact-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    gap: 1rem;
+    gap: .75rem;
 }
 
 footer .contact p,
 footer .contact a {
-    font-size: 25px;
+    font-size: 20px;
     color: var(--color-dom-100);
     opacity: .6;
     font-weight: 200;
-    text-align: center;
+    text-align: right;
+}
+
+footer .contact p:hover,
+footer .contact a:hover {
+    opacity: 1;
+}
+
+footer .links {
+    margin-top: 2rem;
+}
+
+footer .links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+footer .links ul li a {
+    font-size: 20px !important;
+    font-weight: 200;
+    opacity: .6;
+}
+
+footer .links ul li a:hover {
+    opacity: 1;
 }
 
 
 footer .cc {
     background-color: var(--color-accent-700);
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 footer .cc p {
     color: var(--color-dom-100);
-    opacity: .5;
-    font-size: 25px;
+    font-size: 18px;
+    color: var(--color-compliment-900);
+    font-weight: 500;
 }
 
 @media (max-width: 35em) { 

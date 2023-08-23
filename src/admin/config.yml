@@ -43,9 +43,9 @@ collections:
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'fachText', label: 'Über das Fach', widget: 'markdown', required: false}
       - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
-      - {name: 'fachschaftText', label: 'Von der Fachschaft', widget: 'markdown', required: false}
       - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
-      - {name: 'studentReviews', label: 'Schüler:innen über Kunst', widget: 'list', fields: [{name: 'review', label: Review, widget: 'markdown'}, {name: 'studentName', label: 'Name', widget: string}], required: false}
+      - {name: 'teachers', label: 'Lehrer', widget: 'string'}
+      - {name: 'more', label: 'Weiteres', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'video', label: 'Video Link', widget: 'string' }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
     label: "Lernen"
