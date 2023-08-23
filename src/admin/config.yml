@@ -45,7 +45,7 @@ collections:
       - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
       - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
       - {name: 'teachers', label: 'Lehrer', widget: 'string'}
-      - {name: 'more', label: 'Weiteres', widget: 'list', options: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'video', label: 'Video Link', widget: 'string' }] }
+      - {name: 'more', label: 'Weiteres', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'video', label: 'Video Link', widget: 'string' }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
     label: "Lernen"
