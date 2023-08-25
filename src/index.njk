@@ -25,7 +25,9 @@ layout: base.njk
     <div class="lower-hero">
         <ul>
             <li><a href="">Termine</a></li>
-            <li class="anmeldung"><a href="">Anmelden zum Schuljahr 2023/24</a></li>
+            {% if settings.anmeldephase %}
+                <li class="anmeldung"><a href="">Anmelden zum Schuljahr 2023/24</a></li>
+            {% endif %}
             <li><a href="">Kontakt</a></li>
         </ul>
     </div>
