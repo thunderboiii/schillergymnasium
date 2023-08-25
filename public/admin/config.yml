@@ -61,4 +61,4 @@ collections:
         name: 'settings'
         label: 'Einstellungen'
         fields:
-          - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'bool'}
+          - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'boolean', default: false}
