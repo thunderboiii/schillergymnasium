@@ -45,13 +45,13 @@ collections:
           - {name: 'title', label: 'Fach Title', widget: 'string' }
           - {name: 'banner', label: 'Banner', widget: image}
       - label: 'Über das Fach'
-        name: 'general'
+        name: 'about'
         widget: object
         fields:
           - {name: 'fachText', label: 'Textblock', widget: 'markdown', required: false}
           - {name: 'fachGallery', label: 'Gallerie', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
       - label: 'Die Fachschaft'
-        name: 'general'
+        name: 'fachschaft'
         widget: object
         fields:
           - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
