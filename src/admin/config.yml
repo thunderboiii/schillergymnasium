@@ -59,7 +59,10 @@ collections:
     file: '_data/settings.json'
     extension: 'json'
     - fields:
-      - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'boolean', default: false}
+      - label: 'Anmeldephase'
+        name: 'anmeldephase'
+        widget: 'boolean'
+        default: false
       - label: 'Post Einstellungen'
         name: 'posts'
         widget: 'object'
