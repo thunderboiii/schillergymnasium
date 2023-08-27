@@ -58,7 +58,6 @@ collections:
     label: 'Einstellungen'
     file: '_data/settings.json'
     extension: 'json'
-    description: 'Allgemeine Einstellungen der Seite'
     - fields:
       - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'boolean', default: false}
       - label: 'Post Einstellungen'
