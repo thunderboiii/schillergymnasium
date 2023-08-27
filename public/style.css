@@ -1101,46 +1101,8 @@ header .faecher {
 
 
 
-
-
-.aussagen {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-
-    margin-top: 3rem;
-}
-
-.aussagen .aussage {
-    background-color: var(--color-dom-200);
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    width: 75%;
-}
-
-.aussagen .aussage:nth-child(odd) {
-    align-self: flex-start;
-}
-
-.aussagen .aussage:nth-child(even) {
-    align-self: flex-end;
-}
-
-.aussagen .aussage .name {
-    font-size: 21px;
-    margin-top: 1rem;
-    opacity: .8;
-}
-
-@media (max-width: 35em) {
-    .aussagen .aussage:nth-child(odd) {
-        align-self: center;
-    }
-    
-    .aussagen .aussage:nth-child(even) {
-        align-self: center
-    }
+.teachers {
+    text-align: center;
 }
 
 .content.blog img {

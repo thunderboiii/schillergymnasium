@@ -1,0 +1,55 @@
+---
+layout: base.njk
+---
+
+<section class="hero-section">
+    <div class="hero-center">
+        <div class="upper-title">
+            <img class="decoration-l" src="/img/icons/icon_var2.svg" alt="">
+            <h2>Kategorie</h2>
+            <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
+        </div>
+        <div class="main-title">
+            <h1>{{ title }}</h1>
+        </div>
+        <div class="lower-title">
+            <hr>
+            <h2>am Schillergymnasium</h2>
+            <hr>
+        </div>
+
+        <img class="background" src="{{ banner }}" alt=""> 
+    </div>
+
+    <div class="lower-hero">
+        <ul>
+            <li><a href="">Termine</a></li>
+            <li><a href="">Anmelden</a></li>
+            <li><a href="/contact">Kontakt</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="contents">
+    <div class="content">
+        {% for page in collections.lernen %}
+            {% if page.data.title == title %}
+                {% for textBlock in page.data.contentBlocks%}
+                    <p>{{ textBlock.text | safe }}</p>
+                {%endfor%}
+
+                {% for gallery in page.data.contentBlocks%}
+                    <div class="gallery">
+                        {% for image in gallery %}
+                            <img src="{{ image.image }}" alt="">
+                        {%endfor%}
+                    </div>
+                {%endfor%}
+
+                {% for videoBlock in page.data.contentBlocks%}
+                    <p>{{videoBlock.video}}</p>
+                {%endfor%}
+            {%endif%}
+        {% endfor %}
+    </div>
+</section>

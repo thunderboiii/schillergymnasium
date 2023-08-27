@@ -62,11 +62,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Erprobungs-, Mittel- und Oberstufe</a>
-                        <a href="">Sprachen</a>
-                        <a href="">Gemeinsames Lernen</a>
-                        <a href="">Fördern und Fordern</a>
-                        <a href="">Unterrichtszeiten</a>
+                        {% for lernen in collections.lernen %}
+                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -168,11 +166,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Erprobungs-, Mittel- und Oberstufe</a>
-                        <a href="">Sprachen</a>
-                        <a href="">Gemeinsames Lernen</a>
-                        <a href="">Fördern und Fordern</a>
-                        <a href="">Unterrichtszeiten</a>
+                        {% for lernen in collections.lernen %}
+                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
