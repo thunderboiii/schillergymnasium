@@ -38,13 +38,24 @@ collections:
     folder: "src/_pages/fächer"
     create: true
     fields:
-      - {name: 'title', label: 'Fach Title', widget: 'string' }
-      - {name: 'category', label: 'Kategorie', widget: select, options: ['Naturwissenschaften', 'Gesellschaftswissenschaften', 'Sprachen', 'Weitere']}
-      - {name: 'banner', label: 'Banner', widget: image}
-      - {name: 'fachText', label: 'Über das Fach', widget: 'markdown', required: false}
-      - {name: 'fachGallery', label: 'Fachbilder', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
-      - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
-      - {name: 'teachers', label: 'Lehrer', widget: 'string'}
+      - label: 'Generelle Einstellungen'
+        name: 'general'
+        widget: object
+        fields:
+          - {name: 'title', label: 'Fach Title', widget: 'string' }
+          - {name: 'banner', label: 'Banner', widget: image}
+      - label: 'Über das Fach'
+        name: 'general'
+        widget: object
+        fields:
+          - {name: 'fachText', label: 'Textblock', widget: 'markdown', required: false}
+          - {name: 'fachGallery', label: 'Gallerie', widget: 'list', fields: [{name: 'fachImage', label: 'Bild', widget: 'image'}], required: false }
+      - label: 'Die Fachschaft'
+        name: 'general'
+        widget: object
+        fields:
+          - {name: 'fachschaftGallery', label: 'Fachschaftsbilder', widget: 'list', summary: '{{fields.teacherName}}', fields: [{name: 'fachschaftImage', label: 'Bild', widget: 'image'}, {name: 'teacherName', label: Name, widget: string}], required: false }
+          - {name: 'teachers', label: 'Lehrer', widget: 'string'}
       - {name: 'more', label: 'Weiteres', widget: 'list', types: [ { name: 'text_block', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'video', label: 'Video Link', widget: 'string' }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
