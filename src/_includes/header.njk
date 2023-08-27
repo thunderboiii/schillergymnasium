@@ -37,49 +37,11 @@
             <div class="dropdown" data-dropdown>
                 <button class="link" data-dropdown-button>Fächer</button>
 
-                <div class="dropdown-menu information-grid">
-                    <div>
-                        <div class="dropdown-heading">Naturwissenschaften</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Naturwissenschaften' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Sprachen</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Sprachen' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Gesellschaftswissenschaften</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Gesellschaftswissenschaften' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Weitere</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Weitere' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links faecher">
+                        {% for fach in collections.faecher %}
+                            <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -192,49 +154,11 @@
             <div class="dropdown" data-dropdown>
                 <button class="link" data-dropdown-button>Fächer</button>
 
-                <div class="dropdown-menu information-grid">
-                    <div class="information-box">
-                        <div class="dropdown-heading">Naturwissenschaften</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Naturwissenschaften' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Sprachen</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Sprachen' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Gesellschaftswissenschaften</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Gesellschaftswissenschaften' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="dropdown-heading">Weitere</div>
-                        <div class="dropdown-links">
-                            {% for fach in collections.faecher %}
-                                {% if fach.data.category == 'Weitere' %}
-                                    <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links faecher">
+                        {% for fach in collections.faecher %}
+                            <a href="{{ fach.url }}">{{ fach.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

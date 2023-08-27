@@ -54,11 +54,16 @@ collections:
     fields:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
-  - name: "management"
-    label: 'Management'
-    files: 
-      - file: '_data/settings.js'
-        name: 'settings'
-        label: 'Einstellungen'
+  - name: "settings"
+    label: 'Einstellungen'
+    file: '_data/settings.json'
+    extension: 'json'
+    description: 'Allgemeine Einstellungen der Seite'
+    - fields:
+      - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'boolean', default: false}
+      - label: 'Post Einstellungen'
+        name: 'posts'
+        widget: 'object'
         fields:
-          - {label: 'Anmeldephase', name: 'anmeldephase', widget: 'boolean', default: false}
+          - {label: 'Anzahl der Posts angezeigt auf der Startseite', name: front_limit, widget: 'number'}
+          - {label: 'Standard Autor', name: author, widget: string}

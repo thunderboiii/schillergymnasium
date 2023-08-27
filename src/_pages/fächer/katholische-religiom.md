@@ -1,5 +1,5 @@
 ---
-title: Katholische Religiom
+title: Katholische Religion
 category: Gesellschaftswissenschaften
 banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
 fachText: >-

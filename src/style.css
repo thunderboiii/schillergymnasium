@@ -439,7 +439,7 @@ header .desktop-nav ul .dropdown-menu .dropdown-links {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    margin-top: .4rem;
+    margin-top: 0;
 }
 
 header nav ul .information-grid .dropdown-heading {
@@ -457,6 +457,11 @@ header .desktop-nav ul .dropdown.active > .link + .dropdown-menu {
 header .desktop-nav ul .dropdown.right .dropdown-menu {
     right: 0;
     left: auto;
+}
+
+header .faecher {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* Phone */
@@ -551,6 +556,11 @@ header .desktop-nav ul .dropdown.right .dropdown-menu {
 
     header .mobile-nav ul .dropdown.active > .link + .information-grid {
         display: flex;
+    }
+
+    header .faecher {
+        display: flex !important;
+        flex-direction: column;
     }
 
 }
