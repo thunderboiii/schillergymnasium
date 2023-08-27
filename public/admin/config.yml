@@ -58,7 +58,7 @@ collections:
     label: "Einstellungen"
     file: "_data/settings.json"
     extension: "json"
-    - fields:
+    fields:
       - label: 'Anmeldephase'
         name: 'anmeldephase'
         widget: 'boolean'
