@@ -56,7 +56,7 @@ collections:
       - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
   - name: "settings"
     label: "Einstellungen"
-    file: "_data/settings.json"
+    files: "_data/settings.json"
     extension: "json"
     fields:
       - label: 'Anmeldephase'
