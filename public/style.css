@@ -833,9 +833,10 @@ header .faecher {
 
 .aktuelles-termine .aktuelles .snippet .snippet_title {
     font-size: 30px;
-    color: white;
+    color:var(--color-compliment-900);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
+    margin-top: .75rem;
 }
 
 .aktuelles-termine .aktuelles .snippet .snippet_description {
@@ -843,6 +844,7 @@ header .faecher {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
+    margin-top: .5rem;
 }
 
 .aktuelles-termine .aktuelles .snippet .snippet_image {

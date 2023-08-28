@@ -83,3 +83,10 @@ collections:
             fields:
               - {label: 'Anzahl der Posts angezeigt auf der Startseite', name: front_limit, widget: 'number'}
               - {label: 'Standard Autor', name: author, widget: string}
+          - label: 'Kontakt Einstellungen'
+            name: 'contact'
+            widget: 'object'
+            fields:
+              - {label: 'Telefonnummer', name: phone, widget: 'string'}
+              - {label: 'E-Mail Adresse', name: email, widget: string}
+              - {label: 'Telefax', name: fax, widget: string}
