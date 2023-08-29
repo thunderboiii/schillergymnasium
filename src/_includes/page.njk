@@ -42,7 +42,7 @@ layout: base.njk
                         <img src="{{ contentBlock.image }}" alt="">
                         </div>
                     {% elif contentBlock.type == 'videoBlock' %}
-                        <p>{{ contentBlock.video }}</p>
+                        <p>{{ contentBlock.video.link }}</p>
                     {% elif contentBlock.type == 'title' %}
                         <p>{{ contentBlock.titleElement }}</p>
                     {% endif %}
