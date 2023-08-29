@@ -32,7 +32,7 @@ layout: base.njk
 
 <section class="contents">
     <div class="content">
-        {% for page in collections.lernen %}
+        {% for page in collections.page %}
             {% if page.data.title == title %}
                 {% for contentBlock in page.data.contentBlocks %}
                     {% if contentBlock.type == 'textBlock' %}
@@ -42,7 +42,9 @@ layout: base.njk
                         <img src="{{ contentBlock.image }}" alt="">
                         </div>
                     {% elif contentBlock.type == 'videoBlock' %}
-                        <p>{{ contentBlock.video.link }}</p>
+                        {% if contentBlock.video.platform == 'YouTube' %}
+                            <iframe width="560" height="315" src="{{ contentBlock.video.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        {% endif %}
                     {% elif contentBlock.type == 'title' %}
                         <p>{{ contentBlock.titleElement }}</p>
                     {% endif %}
