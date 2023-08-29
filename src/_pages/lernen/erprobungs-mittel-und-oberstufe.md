@@ -7,6 +7,8 @@ contentBlocks:
     image: /img/uploads/img_avatar.png
   - type: textBlock
     text: d﻿esdfoseigbsefersjkferkjerbkj
+  - type: title
+    titleElement: Titelö
 tags:
   - page
   - lernen
