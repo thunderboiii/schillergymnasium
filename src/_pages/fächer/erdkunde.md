@@ -97,5 +97,5 @@ contentBlocks:
   - type: videoBlock
     video:
       platform: YouTube
-      link: youtube.com
+      link: https://youtube.com
 ---

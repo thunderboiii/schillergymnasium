@@ -81,7 +81,7 @@ layout: base.njk
                         </div>
                     {% elif contentBlock.type == 'videoBlock' %}
                         {% if contentBlock.video.platform == 'YouTube' %}
-                            <iframe width="560" height="315" src="{{ contentBlock.video.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <center><iframe class="video" src="{{ contentBlock.video.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
                         {% endif %}
                     {% elif contentBlock.type == 'title' %}
                         <p>{{ contentBlock.titleElement }}</p>
