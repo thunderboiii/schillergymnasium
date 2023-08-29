@@ -7,4 +7,5 @@ contentBlocks:
       link: https://www.youtube.com/embed/wUsAJbYV9kI?si=lSe-4Zo5P_3Nqhvb
 tags:
   - page
+  - lernen
 ---

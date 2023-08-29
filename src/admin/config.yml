@@ -65,7 +65,7 @@ collections:
     fields:
       - { name: 'title', label: 'Title', widget: 'string' }
       - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
-      - {name: 'tags', label: 'Tags', widget: list, default: ['page'], required: false}
+      - {name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
   - name: "management"
     label: "Management"
     files: 
