@@ -35,15 +35,15 @@ layout: base.njk
         {% for page in collections.lernen %}
             {% if page.data.title == title %}
                 {% for contentBlock in page.data.contentBlocks %}
-                    {% if contentBlock.name == 'textBlock' %}
+                    {% if contentBlock.type == 'textBlock' %}
                         <p>{{ contentBlock.text }}</p>
-                    {% elif contentBlock.name == 'gallery' %}
+                    {% elif contentBlock.type == 'gallery' %}
                         <div class="gallery">
                         <img src="{{ contentBlock.image }}" alt="">
                         </div>
-                    {% elif contentBlock.name == 'videoBlock' %}
+                    {% elif contentBlock.type == 'videoBlock' %}
                         <p>{{ contentBlock.video }}</p>
-                    {% elif contentBlock.name == 'title' %}
+                    {% elif contentBlock.type == 'title' %}
                         <p>{{ contentBlock.titleElement }}</p>
                     {% endif %}
                 {% endfor %}
