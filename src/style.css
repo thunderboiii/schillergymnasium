@@ -278,9 +278,10 @@ hr {
 
 .title {
     position: relative;
-    /* width: 500px; */
-    /* height: 300px; */
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title h2 {
@@ -298,8 +299,6 @@ hr {
     color: var(--color-compliment-900);
     opacity: .35;
     position: absolute;
-    top: 50%;
-    left: 50%;
     z-index: -1;
 }
 
@@ -352,9 +351,27 @@ hr {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 100;
+    transition: 500ms ease-in all;
+}
+
+header.ontop {
+    background-color: var(--color-dom-100) !important;
+    box-shadow: #00000038 0 5px 12px;
+}
+
+header.ontop nav ul button{
+    color: var(--color-accent-900);
+}
+
+header.ontop .desktop-nav ul svg {
+    width: 65px;
+}
+
+header.ontop .desktop-nav ul .cls-1 {
+    fill: var(--color-accent-900);
 }
 
 header .desktop-nav {
@@ -364,6 +381,10 @@ header .desktop-nav {
     justify-content: space-between;
     height: 100px;
     margin-inline: 8vw;
+}
+
+header.ontop .desktop-nav {
+    height: 75px;
 }
 
 header .desktop-nav ul {
@@ -380,6 +401,7 @@ header nav ul button {
     padding: 0;
     margin: 0;
     font-size: 21px;
+    transition: 500ms ease-in all;
 }
 
 header .desktop-nav ul.icons {
@@ -387,8 +409,13 @@ header .desktop-nav ul.icons {
     align-items: center;
 }
 
-header .desktop-nav ul img {
+header .desktop-nav ul svg {
     width: 75px;
+    transition: 500ms ease-in all;
+}
+
+header .desktop-nav ul .cls-1 {
+    transition: 500ms ease-in all;
 }
 
 header .desktop-nav ul li {
@@ -763,6 +790,51 @@ header .faecher {
     .hero-center .upper-title img {
         height: 16px;
     }
+}
+
+
+.lower-hero.ontop {
+    position: fixed !important;
+    width: auto;
+    transform: translateY(0);
+    background-color: transparent;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+    animation: both lowerhero_ontop 500ms ease;
+}
+
+
+
+.lower-hero .buttons {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    transform: translateY(-40px);
+    transition: all ease 500ms;
+}
+
+.lower-hero.ontop ul {
+    display: none;
+}
+
+.lower-hero.ontop .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    user-select: auto;
+    pointer-events: auto;
+    position: relative;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lower-hero.ontop .buttons i {
+    font-size: 28px;
+    background-color: var(--color-accent-700);
+    padding: .4rem;
+    border-radius: .5rem;
 }
 
 

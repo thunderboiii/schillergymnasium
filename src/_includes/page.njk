@@ -34,8 +34,8 @@ layout: base.njk
     <div class="content">
         {% for page in collections.lernen %}
             {% if page.data.title == title %}
-                {% for textBlock in page.data.contentBlocks%}
-                    <p>{{ textBlock.text | safe }}</p>
+                {% for contentBlock in page.data.contentBlocks%}
+                    <p>{{ contentBlock.textBlock.text | safe }}</p>
                 {%endfor%}
 
                 {% for gallery in page.data.contentBlocks%}

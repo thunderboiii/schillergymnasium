@@ -20,3 +20,18 @@ document.addEventListener('click', e=> {
         dropdown.classList.remove('active');
     });
 }); 
+
+const elScrollable = document.querySelector("html")
+const elNav = document.querySelector("header");
+const elLowerHero = document.querySelector(".lower-hero")
+
+const handleNav = () => {
+  const viewportHeight = window.innerHeight;
+  const scrollTop = elScrollable.scrollTop;
+  elNav.classList.toggle("ontop", scrollTop >= viewportHeight);
+  elLowerHero.classList.toggle("ontop", scrollTop >= viewportHeight);
+};
+
+addEventListener("scroll", handleNav)
+addEventListener("resize", handleNav)
+handleNav();
