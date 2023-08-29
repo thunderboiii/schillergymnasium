@@ -9,7 +9,7 @@ description: >-
   geflogen, hatte neun Tage das Land bereist, sechzehn Tage eine australische
   Schule besucht und war während dieser Zeit von australischen Familien
   aufgenommen worden. Eine einmalige Erfahrung...
-image: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
 category: Allgemeines
 content_blocks:
   - ''

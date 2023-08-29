@@ -18,7 +18,7 @@ layout: base.njk
             <hr>
         </div>
 
-        <img class="background" src="/img/banners/main.png" alt="">
+        <img class="background" src="{{ banner }}" alt="">
     </div>
 
     <div class="lower-hero">
@@ -31,16 +31,25 @@ layout: base.njk
 </section>
 
 <section class="contents">
-    <div class="content blog">
-        <center><div class="title">
-            {# <h4>Art</h4> #}
-            <h2>{{ title }}</h2>
-        </div></center>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero et consequatur enim sapiente quaerat, perspiciatis nihil natus rem? Veritatis magni, soluta ratione perspiciatis nemo magnam obcaecati inventore ab delectus est odit reiciendis nihil alias tempora molestias nostrum cumque qui fugit illo optio ea aliquam, aliquid iure. Tenetur, molestiae repudiandae vel dolorem culpa distinctio amet accusantium voluptatem alias quibusdam quod fugiat voluptates neque, nam harum ipsam cupiditate debitis praesentium maxime dolores quia ea voluptas! Id corporis amet nesciunt soluta cupiditate nulla, pariatur accusamus, officia optio expedita dolor debitis consectetur perspiciatis? Consectetur quas quisquam rerum ducimus neque recusandae molestias minus adipisci, perspiciatis facilis tempore vero deserunt facere voluptas unde voluptatibus vel accusantium a laboriosam repellendus aut aperiam! Alias dolor fugiat iusto? Nemo explicabo tempora reprehenderit, modi ab tempore nam facere commodi doloremque pariatur, sit minus ad totam. Doloremque modi quibusdam ex dicta molestias fugiat et rerum qui eos repellendus. Optio non nemo architecto quam voluptatem dolores similique debitis unde incidunt, corrupti illum quod ab itaque quia at, nisi sequi ut reiciendis, earum illo fugit fuga aliquid nesciunt repellendus! Commodi culpa similique nihil?</p>
-        <img src="/img/banners/kunst.png" alt="">
-        <img src="/img/banners/main.png" alt="">
-        <img src="/img/background-images/htrackt.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptatibus reiciendis vel expedita, rem iusto tempora incidunt, explicabo ratione laboriosam veniam officiis perferendis aliquam harum dignissimos voluptas facere iste? Commodi soluta sapiente omnis reiciendis excepturi iste, maiores aperiam rerum magni nostrum sunt, molestiae accusamus ipsum iure perferendis? Earum magnam nihil libero! Ad quibusdam, animi velit doloremque ducimus praesentium natus ex numquam quo in. A, blanditiis neque fugiat provident reiciendis, nisi atque tenetur dolorum quibusdam consequatur repudiandae nam necessitatibus numquam voluptatem exercitationem maiores officia repellendus iusto quam cupiditate non sunt consequuntur obcaecati doloribus. Quaerat sit facere aut praesentium officiis reprehenderit delectus laudantium laboriosam mollitia? Corrupti fugiat minus, id molestiae aspernatur expedita, fugit nam ipsum eius dolore quo pariatur quisquam. Eum culpa eaque ratione tempora voluptatem autem modi facilis, illo non molestiae enim nobis, earum dignissimos. Explicabo incidunt, tempora veniam sapiente praesentium iure magni quas voluptatibus error! Officia, nisi vero velit dolorem ab similique voluptate libero est, dignissimos maxime natus rerum qui, adipisci odio reprehenderit omnis facere soluta dicta saepe deserunt unde dolor. Tempora culpa tenetur nobis omnis quo fugit nihil illum pariatur dolore? Consequuntur inventore assumenda sequi quas reprehenderit. Omnis placeat perspiciatis animi, incidunt laboriosam soluta mollitia debitis ipsam suscipit eum dolor repellendus atque est dignissimos assumenda ad quisquam voluptates illum?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, qui ad labore doloribus, facilis recusandae ut incidunt blanditiis sit eligendi sed harum ex quasi, aliquid ea tempora sint eaque molestias reiciendis ullam corrupti amet. Soluta ipsum doloremque velit eius enim eos alias earum, culpa et, libero facere quibusdam blanditiis provident vero aliquam facilis. Enim maiores adipisci nisi at quia dignissimos incidunt illum, totam nobis alias suscipit voluptas magni, quibusdam velit obcaecati mollitia corrupti explicabo aperiam inventore. Fuga voluptas odit nulla expedita iure, voluptatem, esse inventore ducimus veritatis qui temporibus quasi itaque numquam et quae! Asperiores enim id tenetur distinctio sed sint aliquid minus itaque aliquam illum aperiam veritatis rem, corrupti quas odit aut ad similique sapiente aspernatur. Maiores labore iste ipsam earum! Totam repellendus magnam repudiandae, magni sed qui nobis reprehenderit ut dolorem nulla, obcaecati eum odit dicta. Ipsum ipsam, animi vitae et odio laborum neque porro corrupti, id corporis deleniti reiciendis ullam. Laboriosam iure facilis beatae quibusdam accusantium expedita id labore quidem quo distinctio quis perferendis, doloremque dicta officia aspernatur atque necessitatibus sapiente ex dignissimos! Illum quos saepe deserunt assumenda, at a aperiam et amet voluptatum inventore cupiditate, laborum eos quaerat modi. Atque unde dolore totam consectetur quasi ex soluta vero, excepturi reprehenderit tenetur nisi! Nesciunt ipsam molestias quibusdam reprehenderit neque explicabo accusamus debitis odio accusantium adipisci quam eligendi voluptates dolorum necessitatibus assumenda, cumque, amet quasi perferendis voluptate pariatur quo ducimus, a aliquid fugiat. Amet quam perferendis consequatur non, quo tempore animi eos voluptates veritatis dolor numquam necessitatibus corporis nam recusandae iusto! Assumenda omnis quae necessitatibus velit aperiam vel. Ex praesentium facilis, quae eius voluptas dolorum facere nemo. Cumque, libero laudantium. Reiciendis provident natus, recusandae fugit, et incidunt consequuntur soluta vero corrupti pariatur doloremque molestias. Quidem voluptate ex, quasi consequatur dicta, illo quo fugiat cum totam neque perferendis odit?</p>
+    <div class="content">
+        {% for post in collections.post %}
+            {% if post.data.title == title %}
+                {% for contentBlock in post.data.contentBlocks %}
+                    {% if contentBlock.type == 'textBlock' %}
+                        <p>{{ contentBlock.text }}</p>
+                    {% elif contentBlock.type == 'gallery' %}
+                        <div class="gallery">
+                        <img src="{{ contentBlock.image }}" alt="">
+                        </div>
+                    {% elif contentBlock.type == 'videoBlock' %}
+                        {% if contentBlock.video.platform == 'YouTube' %}
+                            <center><iframe class="video" src="{{ contentBlock.video.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+                        {% endif %}
+                    {% elif contentBlock.type == 'title' %}
+                        <p>{{ contentBlock.titleElement }}</p>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
     </div>
 </section>

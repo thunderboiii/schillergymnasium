@@ -12,11 +12,10 @@ collections:
       - { name: 'title', label: 'Titel', widget: 'string'}
       - { name: 'date', label: 'Datum', widget: 'date'}
       - { name: 'author', label: 'Autor', widget: 'string'}
-      - { name: 'tags', label: 'Tags',  widget: "list", default: ['post']}
       - { name: 'description', label: 'Beschreibung', widget: string }
-      - { name: 'image', label: 'Vorschau Bild', widget: image }
-      - { name: 'category', label: 'Kategorie', widget: 'select', options: ['Allgemeines', 'AGs', 'Austausche', 'Wettbewerbe', 'Am Schiller'], multiple: true}
-      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+      - { name: 'banner', label: 'Vorschau Bild', widget: image }
+      - { name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - { name: 'tags', label: 'Tags',  widget: "list", default: ['post']}
   - name: "profil"
     label: "Profil"
     folder: "src/_pages/profil"
