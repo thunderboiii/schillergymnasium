@@ -1,22 +1,6 @@
 ---
-title: Erdkunde
-category: Gesellschaftswissenschaften
-banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
-fachText: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde? \r\n\n\r\n\nDas Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt die Zukunft formen. \r\n\n\r\n\nWähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch. \r\n\n\r\n\nIn der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu entwickeln. \r\n\n\r\n\nLasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
-fachGallery: []
-fachschaftText: >-
-  Das Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu
-  gestalten. Entwickle Lösungen für globale Herausforderungen wie den
-  Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft
-  und Umwelt die Zukunft formen.
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/img_avatar.png
-    teacherName: Stefanie Perner
-  - fachschaftImage: /img/uploads/img_avatar.png
-    teacherName: Christian Vogt
 studentReviews:
-  - review: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
+  - review: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
       blanditiis aliquam officia fuga unde consectetur ducimus rerum porro
       excepturi expedita nobis, ex assumenda nisi velit nihil? Totam, magnam
       temporibus odit pariatur accusamus deserunt odio quos iure perspiciatis
@@ -28,8 +12,7 @@ studentReviews:
       delectus, aliquid a vitae similique impedit ratione facere eius odit quas,
       nobis libero ullam.
     studentName: Schülerin
-  - review: >-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
+  - review: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sed
       blanditiis aliquam officia fuga unde consectetur ducimus rerum porro
       excepturi expedita nobis, ex assumenda nisi velit nihil? Totam, magnam
       temporibus odit pariatur accusamus deserunt odio quos iure perspiciatis
@@ -41,7 +24,78 @@ studentReviews:
       delectus, aliquid a vitae similique impedit ratione facere eius odit quas,
       nobis libero ullam.
     studentName: Schüler
+fachschaftText: Das Fach Erdkunde bietet dir Wissen über die Welt und die
+  Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale
+  Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen
+  Gesellschaft, Wirtschaft und Umwelt die Zukunft formen.
+general:
+  title: Erdkunde
+  banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+about:
+  fachText: >-
+    Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde? 
+
+
+    Das Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt die Zukunft formen. 
+
+
+    Wähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch. 
+
+
+    In der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu entwickeln. 
+
+
+    Lasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!
+fachText: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde?
+  \r
+
+
+  \r
+
+
+  Das Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv
+  zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den
+  Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft
+  und Umwelt die Zukunft formen. \r
+
+
+  \r
+
+
+  Wähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu
+  globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch.
+  \r
+
+
+  \r
+
+
+  In der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge
+  und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration
+  oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu
+  entwickeln. \r
+
+
+  \r
+
+
+  Lasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
+fachGallery: []
+fachschaft:
+  teachers: Frau Perner
+title: Erdkunde
 tags:
   - fach
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/img_avatar.png
+    teacherName: Stefanie Perner
+  - fachschaftImage: /img/uploads/img_avatar.png
+    teacherName: Christian Vogt
+category: Gesellschaftswissenschaften
+contentBlocks:
+  - type: videoBlock
+    video:
+      platform: YouTube
+      link: youtube.com
 ---
-
