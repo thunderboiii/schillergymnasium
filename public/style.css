@@ -1223,6 +1223,11 @@ header .faecher {
     }
 }
 
+.video {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
 
 .contact {
     display: flex;
