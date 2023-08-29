@@ -1,10 +1,13 @@
 ---
 title: Erprobungs-, Mittel- und Oberstufe
 contentBlocks:
-  - type: videoBlock
+  - name: videoBlock
     video: https://fhdshfhfn
-  - type: gallery
+  - name: gallery
     image: /img/uploads/img_avatar.png
-  - type: textBlock
+  - name: textBlock
     text: d﻿esdfoseigbsefersjkferkjerbkj
+tags:
+  - page
+  - lernen
 ---

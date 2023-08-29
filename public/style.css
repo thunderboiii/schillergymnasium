@@ -370,7 +370,7 @@ header.ontop .desktop-nav ul svg {
     width: 65px;
 }
 
-header.ontop .desktop-nav ul .cls-1 {
+header.ontop .cls-1 {
     fill: var(--color-accent-900);
 }
 
@@ -501,11 +501,21 @@ header .faecher {
         display: block;
     }
 
+    header.ontop {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+
+    header.ontop .mobile-nav .mb-header-elements{
+        background-color: var(--color-dom-100);
+        box-shadow: #00000038 0 5px 12px;
+    }
+
     header .mobile-nav .mb-header-elements {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 100px;
+        height: 75px;
         padding: 0 1rem;
     }
 
@@ -515,13 +525,17 @@ header .faecher {
         gap: .5rem;
     }
 
-    header .mobile-nav .mb-header-elements .icons img {
+    header .mobile-nav .mb-header-elements .icons svg {
         height: 50px;
     }
 
     header .mobile-nav .toggle-button i {
         font-size: 45px;
     }    
+
+    header.ontop .mobile-nav .toggle-button i {
+        color: var(--color-accent-700);
+    }
 
     .mobile-links {
         display: flex;
@@ -835,6 +849,13 @@ header .faecher {
     background-color: var(--color-accent-700);
     padding: .4rem;
     border-radius: .5rem;
+}
+
+@media (max-width: 35em) {
+    .lower-hero.ontop {
+        right: 1rem;
+        bottom: 1rem;
+    }
 }
 
 

@@ -34,22 +34,20 @@ layout: base.njk
     <div class="content">
         {% for page in collections.lernen %}
             {% if page.data.title == title %}
-                {% for contentBlock in page.data.contentBlocks%}
-                    <p>{{ contentBlock.textBlock.text | safe }}</p>
-                {%endfor%}
-
-                {% for gallery in page.data.contentBlocks%}
-                    <div class="gallery">
-                        {% for image in gallery %}
-                            <img src="{{ image.image }}" alt="">
-                        {%endfor%}
-                    </div>
-                {%endfor%}
-
-                {% for videoBlock in page.data.contentBlocks%}
-                    <p>{{videoBlock.video}}</p>
-                {%endfor%}
-            {%endif%}
+                {% for contentBlock in page.data.contentBlocks %}
+                    {% if contentBlock.name == 'textBlock' %}
+                        <p>{{ contentBlock.text }}</p>
+                    {% elif contentBlock.name == 'gallery' %}
+                        <div class="gallery">
+                        <img src="{{ contentBlock.image }}" alt="">
+                        </div>
+                    {% elif contentBlock.name == 'videoBlock' %}
+                        <p>{{ contentBlock.video }}</p>
+                    {% elif contentBlock.name == 'title' %}
+                        <p>{{ contentBlock.titleElement }}</p>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
         {% endfor %}
     </div>
 </section>
