@@ -59,6 +59,8 @@ collections:
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
     label: "Lernen"
+    editor:
+      preview: false
     folder: "src/_pages/lernen"
     create: true
     fields:
