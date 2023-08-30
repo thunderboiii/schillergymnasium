@@ -63,7 +63,7 @@ collections:
     create: true
     fields:
       - { name: 'title', label: 'Title', widget: 'string' }
-      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'gallery', label: 'Gallery Block', widget: 'list', fields: [{name: 'image', label: 'Bild', widget: 'image'}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'gallery', label: 'Gallery Block', widget: 'list', fields: [{name: 'imageItem', label: 'Bild Item', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
   - name: "management"
     label: "Management"
