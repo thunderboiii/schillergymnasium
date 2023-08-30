@@ -64,7 +64,8 @@ collections:
     folder: "src/_pages/lernen"
     create: true
     fields:
-      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'title', label: 'Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string' }
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
