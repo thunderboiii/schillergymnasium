@@ -39,7 +39,7 @@ layout: base.njk
                         <p>{{ contentBlock.text }}</p>
                     {% elif contentBlock.type == 'gallery' %}
                         <div class="gallery">
-                        <img src="{{ contentBlock.image }}" alt="">
+                            <img src="{{ contentBlock.image }}" alt="">
                         </div>
                     {% elif contentBlock.type == 'videoBlock' %}
                         {% if contentBlock.video.platform == 'YouTube' %}
