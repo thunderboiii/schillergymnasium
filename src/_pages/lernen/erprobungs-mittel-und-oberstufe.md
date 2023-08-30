@@ -1,5 +1,6 @@
 ---
 title: Erprobungs-, Mittel- und Oberstufe
+banner: /img/uploads/elektromotor.jpg
 contentBlocks:
   - type: gallery
     image: /img/uploads/img_avatar.png
