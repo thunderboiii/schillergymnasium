@@ -1004,6 +1004,7 @@ header .faecher {
 
 .aktuelles-termine .termine .termin .date .day {
     font-size: 45px;
+    line-height: .8;
 }
 
 .aktuelles-termine .termine .termin h3 {
