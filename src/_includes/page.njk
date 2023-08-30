@@ -38,7 +38,7 @@ layout: base.njk
                     {% if contentBlock.type == 'textBlock' %}
                         <p>{{ contentBlock.text }}</p>
                     {% elif contentBlock.type == 'galleryBlock' %}
-                        <div class="gallery">
+                        <div class="gallary">
                             {% for image in contentBlock.gallery %}
                                 <img src="{{ image.image }}" alt="">
                             {% endfor %}
