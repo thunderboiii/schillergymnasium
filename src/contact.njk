@@ -25,9 +25,19 @@ layout: base.njk
     <div class="lower-hero">
         <ul>
             <li><a href="">Termine</a></li>
-            <li><a href="">Anmelden</a></li>
+            {% if settings.anmeldephase %}
+                <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
+            {% endif %}
             <li><a href="">Kontakt</a></li>
         </ul>
+
+        <div class="buttons">
+            <a href=""><i class='bx bx-calendar' ></i></a>
+            {% if settings.anmeldephase %}
+                <a href=""><i class='bx bx-check-square'></i></a>
+            {% endif %}
+            <a href=""><i class='bx bx-phone-call' ></i></a>
+        </div>
     </div>
 </section>
 
@@ -48,17 +58,17 @@ layout: base.njk
 
                 <div class="phone">
                     <p><b>Telefon</b></p>
-                    <a href="tel:0251 / 6866 180"><p>{{ settings.data.contact.phone }}</p></a>
+                    <a href="tel:0251 / 6866 180"><p>{{ settings.contact.phone }}</p></a>
                 </div>
 
                 <div class="fax">
                     <p><b>Telefax</b></p>
-                    <a href="fax:0251.6866.1849"><p>0251 / 6866 1849</p></a>
+                    <a href="fax:0251.6866.1849"><p>{{ settings.contact.fax }}</p></a>
                 </div>
 
                 <div class="email">
                     <p><b>E-Mail</b></p>
-                    <a href="mailto:schillergymnasium@stadt-muenster.de"><p>schillergymnasium@stadt-muenster.de</p></a>
+                    <a href="mailto:schillergymnasium@stadt-muenster.de"><p>{{ settings.contact.email }}</p></a>
                 </div>
             </div>
 

@@ -74,7 +74,7 @@ collections:
     files: 
       - label: 'Einstellungen'
         name: 'settings'
-        file: '_data/settings.json'
+        file: 'src/_data/settings.json'
         fields:
           - label: 'Anmeldephase'
             name: 'anmeldephase'
