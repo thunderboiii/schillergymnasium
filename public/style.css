@@ -356,6 +356,7 @@ header {
     width: 100%;
     z-index: 100;
     transition: 500ms ease-in all;
+    -webkit-transition: 500ms ease-in all;
 }
 
 header.ontop {
@@ -403,6 +404,7 @@ header nav ul button {
     margin: 0;
     font-size: 21px;
     transition: 500ms ease-in all;
+    -webkit-transition: 500ms ease-in all;
 }
 
 header .desktop-nav ul.icons {
@@ -413,10 +415,12 @@ header .desktop-nav ul.icons {
 header .desktop-nav ul svg {
     width: 75px;
     transition: 500ms ease-in all;
+    -webkit-transition: 500ms ease-in all;
 }
 
 header .desktop-nav ul .cls-1 {
     transition: 500ms ease-in all;
+    -webkit-transition: 500ms ease-in all;
 }
 
 header .desktop-nav ul li {
@@ -453,6 +457,7 @@ header .desktop-nav ul .dropdown-menu {
     transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
     pointer-events: none;
     width: max-content;
+    -webkit-transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
 }
 
 header.ontop .desktop-nav ul .dropdown-menu {
