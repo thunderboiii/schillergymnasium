@@ -71,7 +71,7 @@ layout: base.njk
     <div class="articles">
         {%- for post in collections.post | reverse -%}
             <div class="snippet">
-                <img src="{{ post.data.image }}" alt="" class="snippet__image">
+                <img src="{{ post.data.banner }}" alt="" class="snippet__image">
                 <div class="snippet__content">
                     <a href="{{ post.url }}"><h2 class="snippet__title">{{ post.data.title }}</h2></a>
                     <p class="snippet__info">{{ post.data.date | postDate }} &#8226; {{ post.data.author }}</p>
