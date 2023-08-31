@@ -10,6 +10,10 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
+    eleventyConfig.addCollection("faecher", function(collection) {
+        return collection.getFilteredByGlob("src/_pages/fächer/*.md");
+    });
+
     return {
         dir: {
             input: "src",
