@@ -278,10 +278,11 @@ hr {
 
 .title {
     position: relative;
-    margin-bottom: 1rem;
+    margin-block: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .title h2 {

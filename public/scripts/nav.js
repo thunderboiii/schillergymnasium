@@ -26,7 +26,7 @@ const elNav = document.querySelector("header");
 const elLowerHero = document.querySelector(".lower-hero")
 
 const handleNav = () => {
-  const viewportHeight = window.innerHeight;
+  const viewportHeight = window.innerHeight / 2;
   const scrollTop = elScrollable.scrollTop;
   elNav.classList.toggle("ontop", scrollTop >= viewportHeight);
   elLowerHero.classList.toggle("ontop", scrollTop >= viewportHeight);
