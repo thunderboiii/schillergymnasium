@@ -450,10 +450,13 @@ header .desktop-nav ul .dropdown-menu {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 10%);
     opacity: 0;
     transform: translateY(-10px);
-    transition: 150ms opacity ease-in-out, transform 150ms ease-in-out;
+    transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
     pointer-events: none;
     width: max-content;
+}
 
+header.ontop .desktop-nav ul .dropdown-menu {
+    top: calc(100% + 2rem);
 }
 
 header .desktop-nav ul .information-grid {
