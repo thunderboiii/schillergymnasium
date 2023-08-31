@@ -1,12 +1,12 @@
 {
-    "posts": {
-        "front_limit": 3,
-        "author": "Autor"
-    },
-    "anmeldephase": true,
-    "contact": {
-        "phone": "0251 / 6866 180",
-        "fax": "0251 / 6866 1849",
-        "email": "schillergymnasium@stadt-muenster.de"
-    }
+  "posts": {
+    "front_limit": 3,
+    "author": "Autor"
+  },
+  "anmeldephase": false,
+  "contact": {
+    "phone": "0251 / 6866 180",
+    "fax": "0251 / 6866 1849",
+    "email": "schillergymnasium@stadt-muenster.de"
+  }
 }
