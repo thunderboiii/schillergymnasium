@@ -1,5 +1,6 @@
 ---
 title: Erprobungs-, Mittel- und Oberstufe
+shortTitle: Stufensystem
 banner: /img/uploads/elektromotor.jpg
 contentBlocks:
   - type: gallery
