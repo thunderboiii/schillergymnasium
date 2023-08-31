@@ -1,6 +1,6 @@
 ---
 title: 'Wie Schüler:innen des Schillergymnasiums (ein wenig) die Welt retteten'
-date: '2023-08-07'
+date: 2023-08-06T22:00:00.000Z
 author: Barbara Börding
 tags:
   - post
