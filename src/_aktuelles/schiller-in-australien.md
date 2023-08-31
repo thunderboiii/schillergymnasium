@@ -1,6 +1,6 @@
 ---
 title: Schiller in Australien
-date: '2023-08-08'
+date: 2023-08-06T22:00:00.000Z
 author: Britta Moek
 tags:
   - post
