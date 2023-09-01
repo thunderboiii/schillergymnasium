@@ -3,7 +3,7 @@
     "front_limit": 3,
     "author": "Autor"
   },
-  "anmeldephase": false,
+  "anmeldephase": true,
   "contact": {
     "phone": "0251 / 6866 180",
     "fax": "0251 / 6866 1849",
