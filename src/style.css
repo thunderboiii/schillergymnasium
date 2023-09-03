@@ -525,6 +525,8 @@ header .faecher {
         justify-content: space-between;
         height: 75px;
         padding: 0 1rem;
+
+        transition: all ease 500ms;
     }
 
     header .mobile-nav .mb-header-elements .icons {
@@ -539,6 +541,7 @@ header .faecher {
 
     header .mobile-nav .toggle-button i {
         font-size: 45px;
+        transition: all ease 500ms;
     }    
 
     header.ontop .mobile-nav .toggle-button i {
