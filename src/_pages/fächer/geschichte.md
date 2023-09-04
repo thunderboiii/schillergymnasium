@@ -22,6 +22,12 @@ about:
 
 
     In den letzten Jahren konnte neben Grundkursen auch immer ein Leistungskurs angeboten werden.
+  fachGallery:
+    - fachImage: /img/uploads/2022-im-stadtarchiv.jpeg
+    - fachImage: /img/uploads/ausstellung-zu-1989.jpeg
+    - fachImage: /img/uploads/besuch-der-ausstellung-911.jpeg
+    - fachImage: /img/uploads/buchdruck-im-unterricht-.jpeg
+    - fachImage: /img/uploads/hist.-comics-im-unterricht.jpg
 fachschaft:
   teachers: Frau Stüwe
 tags:
