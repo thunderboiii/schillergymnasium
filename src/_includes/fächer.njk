@@ -45,7 +45,7 @@ layout: base.njk
             <h4>{{ title }}</h4>
             <h2>{{ title }} am Schiller</h2>
         </div></center>
-        <p>{{ about.fachText | safe}}</p>
+        {{ about.fachText | safe}}
         <div class="gallary">
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}

@@ -36,13 +36,10 @@ collections:
       preview: false
     folder: "src/_pages/fächer"
     create: true
+    slug: "{{slug}}"
     fields:
-      - label: 'Generelle Einstellungen'
-        name: 'general'
-        widget: object
-        fields:
-          - {name: 'title', label: 'Fach Title', widget: 'string' }
-          - {name: 'banner', label: 'Banner', widget: image}
+      - {name: 'title', label: 'Fach Title', widget: 'string' }
+      - {name: 'banner', label: 'Banner', widget: image}
       - label: 'Über das Fach'
         name: 'about'
         widget: object
