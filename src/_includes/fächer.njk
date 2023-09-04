@@ -45,11 +45,11 @@ layout: base.njk
             <h4>{{ title }}</h4>
             <h2>{{ title }} am Schiller</h2>
         </div></center>
-        <p>{{ fachText | safe}}</p>
+        <p>{{ about.fachText | safe}}</p>
         <div class="gallary">
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}
-                    {% for fachImage in fach.data.fachGallery %}
+                    {% for fachImage in fach.data.about.fachGallery %}
                         <img src="{{ fachImage.fachImage }}" alt="">
                     {% endfor %}
                 {% endif %}
@@ -65,13 +65,13 @@ layout: base.njk
         <div class="gallary">
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}
-                    {% for fachschaftImage in fach.data.fachschaftGallery %}
+                    {% for fachschaftImage in fach.data.fachschaft.fachschaftGallery %}
                         <img src="{{ fachschaftImage.fachschaftImage }}" alt="">
                     {% endfor %}
                 {% endif %}
             {% endfor %}
         </div>
-        <p class="teachers">{{ teachers }}</p>
+        <p class="teachers">{{ fachschaft.teachers }}</p>
     </div>
 
     {% for fach in collections.faecher %}
