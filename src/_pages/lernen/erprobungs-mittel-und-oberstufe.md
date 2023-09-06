@@ -6,6 +6,4 @@ tags:
   - page
   - lernen
 ---
-
-
-![](/img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg)
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/fghfhf?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
