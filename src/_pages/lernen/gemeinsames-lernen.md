@@ -6,6 +6,4 @@ tags:
   - lernen
   - page
 ---
-customBlockquoteZitat<div class="author">Autor</div>
-
-youtube Y2A_Ff58IeM
+<blockquote><p>blockquote</p><div class="author">zitat</div></blockquote>
