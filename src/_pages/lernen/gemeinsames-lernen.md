@@ -6,6 +6,8 @@ tags:
   - lernen
   - page
 ---
-<blockquote><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam eum earum, illum, eos eligendi enim aliquid neque corrupti cum officia recusandae. Sit animi, magnam quod eos velit recusandae nam tempora in numquam veniam perspiciatis!</p><div class="author"><p> - Jesus</p></div></blockquote>
+<center><div class="title"><h4>Learning</h4><h2>Gemeinsames Lernen</h2></div></center>
 
-<iframe class="youtube" src="https://www.youtube.com/embed/-JQDtzSaAuA?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<blockquote class="component"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam eum earum, illum, eos eligendi enim aliquid neque corrupti cum officia recusandae. Sit animi, magnam quod eos velit recusandae nam tempora in numquam veniam perspiciatis!</p><div class="author"><p> - Jesus</p></div></blockquote>
+
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/-JQDtzSaAuA?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
