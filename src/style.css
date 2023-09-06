@@ -337,6 +337,10 @@ hr {
     width: calc(80vw);
 }
 
+.component {
+    margin-block: 2rem;
+}
+
 .gallary img {
     width: 300px;
     aspect-ratio: 16/9;
