@@ -351,8 +351,13 @@ blockquote {
 blockquote .author p {
     opacity: .6;
     font-size: 16px;
+    margin-top: .5rem;
 }
 
+.youtube {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
 
 
 
