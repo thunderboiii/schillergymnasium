@@ -343,6 +343,15 @@ hr {
     object-fit: cover;
 }
 
+blockquote {
+    background-color: var(--color-dom-200);
+    padding: 1rem;
+}
+
+blockquote .author p {
+    opacity: .6;
+    font-size: 16px;
+}
 
 
 
