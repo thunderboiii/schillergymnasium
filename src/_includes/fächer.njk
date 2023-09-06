@@ -1,6 +1,11 @@
 ---
 layout: base.njk
 ---
+{% for fach in collections.faecher %}
+    {% if fach.data.title == title %}
+        <input type="hidden" name="url" id="url" value="{{ fach.url }}">
+    {% endif %}
+{% endfor %}
 <section class="hero-section">
     <div class="hero-center">
         <div class="upper-title">

@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "marked": "^8.0.0",
+    "nunjucks": "^3.2.4"
   }
 }
