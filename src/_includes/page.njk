@@ -30,26 +30,6 @@ layout: base.njk
 
 <section class="contents">
     <div class="content">
-        {% for page in collections.page %}
-            {% if page.data.title == title %}
-                {% for contentBlock in page.data.contentBlocks %}
-                    {% if contentBlock.type == 'textBlock' %}
-                        <p>{{ contentBlock.text }}</p>
-                    {% elif contentBlock.type == 'galleryBlock' %}
-                        <div class="gallary">
-                            {% for image in contentBlock.gallery %}
-                                <img src="{{ image.image }}" alt="">
-                            {% endfor %}
-                        </div>
-                    {% elif contentBlock.type == 'videoBlock' %}
-                        {% if contentBlock.video.platform == 'YouTube' %}
-                            <center><iframe class="video" src="{{ contentBlock.video.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
-                        {% endif %}
-                    {% elif contentBlock.type == 'title' %}
-                        <h2>{{ contentBlock.titleElement }}</h2>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
+        {{ body | safe}}
     </div>
 </section>
