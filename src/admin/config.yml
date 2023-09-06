@@ -21,15 +21,21 @@ collections:
     folder: "src/_pages/profil"
     create: true
     fields:
-      - { name: 'title', label: 'Title', widget: 'string' }
-      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', types: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+      - { name: 'title', label: 'Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false }
+      - {name: 'banner', label: 'Banner', widget: image}
+      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - {name: 'tags', label: 'Tags', widget: list, default: ['profil', 'page'], required: false}
   - name: "personen"
     label: "Personen"
     folder: "src/_pages/personen"
     create: true
     fields:
-      - { name: 'title', label: 'Title', widget: 'string' }
-      - { name: 'content_blocks', label: 'Content Blocks', widget: 'list', fields: [{ name: 'text_block', label: 'Text Block', widget: 'markdown' }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'images', label: 'Images', widget: 'list', fields: [{ name: 'image', label: "Image", widget: "image"}] }] }] }
+      - { name: 'title', label: 'Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false }
+      - {name: 'banner', label: 'Banner', widget: image}
+      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - {name: 'tags', label: 'Tags', widget: list, default: ['personen', 'page'], required: false}
   - name: "faecher"
     label: "Fächer"
     editor:
@@ -62,10 +68,48 @@ collections:
     create: true
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
-      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false }
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
       - {name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
+  - name: "schulleben"
+    label: "Schulleben"
+    editor:
+      preview: false
+    folder: "src/_pages/schulleben"
+    create: true
+    fields:
+      - { name: 'title', label: 'Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', requied: false }
+      - {name: 'banner', label: 'Banner', widget: image}
+      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}
+  - name: "service"
+    label: "Service"
+    editor:
+      preview: false
+    folder: "src/_pages/service"
+    create: true
+    fields:
+      - { name: 'title', label: 'Titel', widget: 'string' }
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', requied: false }
+      - {name: 'banner', label: 'Banner', widget: image}
+      - {name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, {name: 'galleryBlock', label: 'Gallery Block', widget: 'list', fields: [{name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Bild', widget: 'image'}]}]}, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - {name: 'tags', label: 'Tags', widget: list, default: ['service', 'page'], required: false}
+  - name: "schillerglocke"
+    label: "Schillerglocke"
+    editor:
+      preview: false
+    folder: "src/_schillerglocke"
+    create: true
+    fields:
+      - { name: 'title', label: 'Titel', widget: 'string'}
+      - { name: 'date', label: 'Datum', widget: 'date'}
+      - { name: 'author', label: 'Autor', widget: 'string'}
+      - { name: 'description', label: 'Beschreibung', widget: string }
+      - { name: 'banner', label: 'Vorschau Bild', widget: image }
+      - { name: 'contentBlocks', label: 'Inhalt', widget: 'list', types: [ { name: 'title', label: 'Titel Block', widget: 'list', fields: [{ name: 'titleElement', label: 'Titel', widget: 'string'}] }, { name: 'textBlock', label: 'Text Block', widget: 'list', fields: [{ name: 'text', label: 'Text', widget: 'markdown'}] }, { name: 'gallery', label: 'Gallery', widget: 'list', fields: [{ name: 'image', label: 'Image', widget: 'image' }] }, { name: 'videoBlock', label: 'Video Block', widget: 'list', fields: [{ name: 'video', label: 'Video', widget: 'object', fields: [{label: 'Platform', name: 'platform', widget: 'select', options: ['Vimeo', 'YouTube']}, {label: 'Link', name: 'link', widget: 'string'}] }] }] }
+      - { name: 'tags', label: 'Tags',  widget: "list", default: ['schillerglocke']}
   - name: "management"
     label: "Management"
     files: 

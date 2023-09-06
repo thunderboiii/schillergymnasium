@@ -20,23 +20,7 @@ layout: base.njk
         <img class="background" src="{{ banner }}" alt=""> 
     </div>
 
-    <div class="lower-hero">
-        <ul>
-            <li><a href="">Termine</a></li>
-            {% if settings.anmeldephase %}
-                <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
-            {% endif %}
-            <li><a href="">Kontakt</a></li>
-        </ul>
-
-        <div class="buttons">
-            <a href=""><i class='bx bx-calendar' ></i></a>
-            {% if settings.anmeldephase %}
-                <a href=""><i class='bx bx-check-square'></i></a>
-            {% endif %}
-            <a href=""><i class='bx bx-phone-call' ></i></a>
-        </div>
-    </div>
+    {% include 'lower-hero.njk' %}
 </section>
 
 <section class="contents">
@@ -45,7 +29,7 @@ layout: base.njk
             <h4>{{ title }}</h4>
             <h2>{{ title }} am Schiller</h2>
         </div></center>
-        {{ about.fachText | safe}}
+        {{ about.fachText | safe }}
         <div class="gallary">
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}

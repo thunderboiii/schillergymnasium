@@ -10,7 +10,11 @@ layout: base.njk
             <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
         </div>
         <div class="main-title">
-            <h1>{{ shortTitle }}</h1>
+            {% if shortTitle %}
+                <h1>{{ shortTitle }}</h1>
+            {% elif %}
+                <h1>{{ title }}</h1>
+            {% endif %}
         </div>
         <div class="lower-title">
             <hr>
@@ -21,23 +25,7 @@ layout: base.njk
         <img class="background" src="{{ banner }}" alt=""> 
     </div>
 
-    <div class="lower-hero">
-        <ul>
-            <li><a href="">Termine</a></li>
-            {% if settings.anmeldephase %}
-                <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
-            {% endif %}
-            <li><a href="">Kontakt</a></li>
-        </ul>
-
-        <div class="buttons">
-            <a href=""><i class='bx bx-calendar' ></i></a>
-            {% if settings.anmeldephase %}
-                <a href=""><i class='bx bx-check-square'></i></a>
-            {% endif %}
-            <a href=""><i class='bx bx-phone-call' ></i></a>
-        </div>
-    </div>
+    {% include 'lower-hero.njk' %}
 </section>
 
 <section class="contents">

@@ -1,4 +1,23 @@
-<header class="ontop">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schillerglocke</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <header class="ontop">
     <nav class="desktop-nav">
         <ul class="nav-links">
             <div class="dropdown" data-dropdown>
@@ -6,9 +25,7 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for profil in collections.profil %}
-                            <a href="{{ profil.url }}">{{ profil.data.title }}</a>
-                        {% endfor %}
+                        
                     </div>
                 </div>
             </div>
@@ -18,9 +35,7 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for personen in collections.personen %}
-                            <a href="{{ personen.url }}">{{ personen.data.title }}</a>
-                        {% endfor %}
+                        
                     </div>
                 </div>
             </div>
@@ -30,9 +45,43 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links faecher">
-                        {% for fach in collections.faecher %}
-                            <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                        {% endfor %}
+                        
+                            <a href="/_pages/fächer/erdkunde/">Erdkunde</a>
+                        
+                            <a href="/_pages/fächer/physik/">Physik</a>
+                        
+                            <a href="/_pages/fächer/chemie/">Chemie</a>
+                        
+                            <a href="/_pages/fächer/kunst/">Kunst</a>
+                        
+                            <a href="/_pages/fächer/informatik/">Informatik</a>
+                        
+                            <a href="/_pages/fächer/katholische-religiom/">Katholische Religion</a>
+                        
+                            <a href="/_pages/fächer/biologie/">Biologie</a>
+                        
+                            <a href="/_pages/fächer/darstellen-gestalten/">Darstellen &amp; Gestalten</a>
+                        
+                            <a href="/_pages/fächer/deutsch/">Deutsch</a>
+                        
+                            <a href="/_pages/fächer/englisch/">Englisch</a>
+                        
+                            <a href="/_pages/fächer/französisch/">Französisch</a>
+                        
+                            <a href="/_pages/fächer/geschichte/">Geschichte</a>
+                        
+                            <a href="/_pages/fächer/latein/">Latein</a>
+                        
+                            <a href="/_pages/fächer/mathe/">Mathe</a>
+                        
+                            <a href="/_pages/fächer/niederländisch/">Niederländisch</a>
+                        
+                            <a href="/_pages/fächer/philosophie/">Philosophie</a>
+                        
+                            <a href="/_pages/fächer/politik-sowi/">Politik/SoWi</a>
+                        
+                            <a href="/_pages/fächer/sport/">Sport</a>
+                        
                     </div>
                 </div>
             </div>
@@ -83,9 +132,11 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for lernen in collections.lernen %}
-                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
-                        {% endfor %}
+                        
+                            <a href="/_pages/lernen/erprobungs-mittel-und-oberstufe/">Erprobungs-, Mittel- und Oberstufe</a>
+                        
+                            <a href="/_pages/lernen/gemeinsames-lernen/">Gemeinsames Lernen </a>
+                        
                     </div>
                 </div>
             </div>
@@ -95,9 +146,7 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for schulleben in collections.schulleben %}
-                            <a href="{{ schulleben.url }}">{{ schulleben.data.title }}</a>
-                        {% endfor %}
+                        
                         <a href="/schillerglocke">Schillerglocke</a>
                     </div>
                 </div>
@@ -108,9 +157,7 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for service in collections.service %}
-                            <a href="{{ service.url }}">{{ service.data.title }}</a>
-                        {% endfor %}
+                        
                     </div>
                 </div>
             </div>
@@ -198,9 +245,43 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links faecher">
-                        {% for fach in collections.faecher %}
-                            <a href="{{ fach.url }}">{{ fach.data.title }}</a>
-                        {% endfor %}
+                        
+                            <a href="/_pages/fächer/erdkunde/">Erdkunde</a>
+                        
+                            <a href="/_pages/fächer/physik/">Physik</a>
+                        
+                            <a href="/_pages/fächer/chemie/">Chemie</a>
+                        
+                            <a href="/_pages/fächer/kunst/">Kunst</a>
+                        
+                            <a href="/_pages/fächer/informatik/">Informatik</a>
+                        
+                            <a href="/_pages/fächer/katholische-religiom/">Katholische Religion</a>
+                        
+                            <a href="/_pages/fächer/biologie/">Biologie</a>
+                        
+                            <a href="/_pages/fächer/darstellen-gestalten/">Darstellen &amp; Gestalten</a>
+                        
+                            <a href="/_pages/fächer/deutsch/">Deutsch</a>
+                        
+                            <a href="/_pages/fächer/englisch/">Englisch</a>
+                        
+                            <a href="/_pages/fächer/französisch/">Französisch</a>
+                        
+                            <a href="/_pages/fächer/geschichte/">Geschichte</a>
+                        
+                            <a href="/_pages/fächer/latein/">Latein</a>
+                        
+                            <a href="/_pages/fächer/mathe/">Mathe</a>
+                        
+                            <a href="/_pages/fächer/niederländisch/">Niederländisch</a>
+                        
+                            <a href="/_pages/fächer/philosophie/">Philosophie</a>
+                        
+                            <a href="/_pages/fächer/politik-sowi/">Politik/SoWi</a>
+                        
+                            <a href="/_pages/fächer/sport/">Sport</a>
+                        
                     </div>
                 </div>
             </div>
@@ -210,9 +291,11 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for lernen in collections.lernen %}
-                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
-                        {% endfor %}
+                        
+                            <a href="/_pages/lernen/erprobungs-mittel-und-oberstufe/">Erprobungs-, Mittel- und Oberstufe</a>
+                        
+                            <a href="/_pages/lernen/gemeinsames-lernen/">Gemeinsames Lernen </a>
+                        
                     </div>
                 </div>
             </div>
@@ -265,3 +348,103 @@
 
     <script src="/scripts/cookies.js"></script>
 </div>
+
+    <main>
+        
+<section class="hero-section">
+    <div class="hero-center">
+        <div class="upper-title">
+            <img class="decoration-l" src="/img/icons/icon_var2.svg" alt="">
+            <h2>Schülerzeitung</h2>
+            <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
+        </div>
+        <div class="main-title">
+            <h1>Schillerglocke</h1>
+        </div>
+        <div class="lower-title">
+            <hr>
+            <h2>am Schillergymnasium</h2>
+            <hr>
+        </div>
+
+        <img class="background" src="/img/background-images/htrackt.png" alt="">
+    </div>
+
+    <div class="lower-hero">
+    <ul>
+        <li><a href="">Termine</a></li>
+        
+            <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
+        
+        <li><a href="">Kontakt</a></li>
+    </ul>
+
+    <div class="buttons">
+        <a href=""><i class='bx bx-calendar' ></i></a>
+        
+            <a href=""><i class='bx bx-check-square'></i></a>
+        
+        <a href=""><i class='bx bx-phone-call' ></i></a>
+    </div>
+</div>
+</section>
+
+<section class="contents">
+    <div class="content">
+        <div class="posts">
+            
+        </div>
+
+        <div class="archive">
+
+        </div>
+    </div>
+</section>
+    </main>
+    
+    <footer>
+    <section class="content">
+        <div class="icon-links">
+            <div class="icon">
+                 <img src="/img/icons/icon_polygon.svg" alt="">
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="">Impressum</a></li>
+                    <li><a href="">Datenschutz</a></li>
+                    <li><a href="">AGB</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <div class="contact-links">
+                <p>Gertrudenstr. 5 <br> 48147 Münster</p>
+                <a href="mailto:schillergymnasium@stadt-muenster.de">schillergymnasium@stadt-muenster.de</a>
+                <a href="tel:02516866180">0251 / 686 6180</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cc">
+        <center><p>© Schillergymnasium 2023</p></center>
+    </section>
+</footer>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<script src="/scripts/nav.js"></script>
+</body>
+</html>

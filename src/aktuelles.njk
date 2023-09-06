@@ -22,23 +22,7 @@ layout: base.njk
         <img class="background" src="/img/background-images/htrackt.png" alt="">
     </div>
 
-    <div class="lower-hero">
-        <ul>
-            <li><a href="">Termine</a></li>
-            {% if settings.anmeldephase %}
-                <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
-            {% endif %}
-            <li><a href="">Kontakt</a></li>
-        </ul>
-
-        <div class="buttons">
-            <a href=""><i class='bx bx-calendar' ></i></a>
-            {% if settings.anmeldephase %}
-                <a href=""><i class='bx bx-check-square'></i></a>
-            {% endif %}
-            <a href=""><i class='bx bx-phone-call' ></i></a>
-        </div>
-    </div>
+    {% include 'lower-hero.njk' %}
 </section>
 
 <section class="aktuelles-page">
@@ -68,7 +52,7 @@ layout: base.njk
         </div>
     </nav>
 
-    <div class="articles">
+    <div class="posts">
         {%- for post in collections.post | reverse -%}
             <div class="snippet">
                 <img src="{{ post.data.banner }}" alt="" class="snippet__image">
