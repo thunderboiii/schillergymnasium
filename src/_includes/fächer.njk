@@ -76,7 +76,7 @@ layout: base.njk
                             {% if fach.data.title == title %}
                                 {% for contentBlock in fach.data.contentBlocks %}
                                     {% if contentBlock.type == 'textBlock' %}
-                                        <p>{{ contentBlock.text }}</p>
+                                        <p>{{ contentBlock.text | safe }}</p>
                                     {% elif contentBlock.type == 'gallery' %}
                                         <div class="gallery">
                                         <img src="{{ contentBlock.image }}" alt="">
@@ -97,3 +97,4 @@ layout: base.njk
         {%endif%}
     {% endfor %}
 </section>
+
