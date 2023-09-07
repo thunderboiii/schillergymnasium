@@ -223,7 +223,7 @@ h1 {
 
 h2 {
     font-size: 25px;
-    color: var(--color-dom-100);
+    color: var(--color-accent-900);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     line-height: 1.15;
@@ -238,8 +238,11 @@ p {
 
 li {
     font-size: 21px;
-    color: var(--color-dom-100);
+    color: var(--color-dom-900);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 0 4rem;
 }
 
 li.anmeldung a{
@@ -752,6 +755,10 @@ header .faecher {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.hero-center h2 {
+    color: var(--color-dom-100);
 }
 
 .hero-center .background {
