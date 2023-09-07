@@ -826,6 +826,10 @@ header .faecher {
     transition: all ease 500ms;
 }
 
+.lower-hero li {
+    font-weight: normal;
+}
+
 @media (max-width: 35em) {
     .lower-hero ul {
         margin-inline: 1rem;
@@ -1252,6 +1256,7 @@ header .faecher {
 
 .teachers {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .content.blog img {
