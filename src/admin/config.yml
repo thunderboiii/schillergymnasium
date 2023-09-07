@@ -46,7 +46,9 @@ collections:
     fields:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
       - {name: 'banner', label: 'Banner', widget: image}
-      - {name: 'body', label: 'Inhalt', widget: markdown}
+      - {name: 'about', label: 'Über das Fach', widget: markdown}
+      - {name: 'fachschaftGallery', label: 'Fachschaft Gallerie', widget: list, fields: [{ name: 'fachschaftImage', label: 'Bild', widget: image}]}
+      - {name: 'teachers', label: 'Lehrer', widget: 'string'}
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
   - name: "lernen"
     label: "Lernen"
