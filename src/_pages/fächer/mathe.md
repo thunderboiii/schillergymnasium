@@ -8,25 +8,15 @@ teachers: Frau Hartmann
 tags:
   - fach
 ---
-## Im Mathematikunterricht legen wir besonderen Wert auf individuelle Förderung. 
-
-
+## Im Mathematikunterricht legen wir besonderen Wert auf individuelle Förderung.
 
 Eine Wochenstunde in den Jahrgängen 5 und 6 ist eine sogenannte UNI-Stunde. In dieser werden mit Hilfe verschiedenster Aufgabentypen (universell) Inhalte vertieft oder neu erarbeitet (nachhaltig) und das selbstgesteuert auf dem für das Kind passenden Niveau (individuell). 
 
-
-
 Außerdem werden individuelle Arbeitsformen wie Wochenplanarbeit, Lerntheken etc. in allen Jahrgangsstufen eingesetzt. 
-
-
 
 Eine fest im Stundenplan verankerte Ergänzungsstunde im Jahrgang 9 und der wählbare Vertiefungskurs in der Einführungsphase bieten weitere Möglichkeiten des selbstgesteuerten Lernens. Regelmäßig nehmen wir mit Klassen am MiRA-Projekt (Mathematik in realen Anwendungen) der Universität Münster teil. 
 
-
-
 Besonders interessierte oder begabte Schüler*innen können an diversen Forderangeboten teilnehmen, wie z.B.: 
-
-
 
 * Lange Nacht der Mathematik  
 * Mathe-AG 
