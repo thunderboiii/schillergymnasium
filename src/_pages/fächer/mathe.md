@@ -30,7 +30,7 @@ Besonders interessierte oder begabte Schüler*innen können an diversen Forderan
 
 * Lange Nacht der Mathematik  
 * Mathe-AG 
-* Känguru-Wettbewerb 
-* Mathematik-Olympiade 
-* „Mathe im Advent“ 
+* Känguru-Wettbewerb 
+* Mathematik-Olympiade 
+* „Mathe im Advent“ 
 * Schülerakademie für Mathematik in Münster (SAMMS), die als SAMMSextern am Schillergymnasium für eine große Gruppe der Jahrgangsstufe 6 angeboten wird
