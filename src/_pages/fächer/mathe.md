@@ -8,7 +8,7 @@ teachers: Frau Hartmann
 tags:
   - fach
 ---
-Im Mathematikunterricht legen wir besonderen Wert auf individuelle Förderung. 
+## Im Mathematikunterricht legen wir besonderen Wert auf individuelle Förderung. 
 
 
 
