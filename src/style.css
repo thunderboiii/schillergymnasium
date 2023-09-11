@@ -892,6 +892,10 @@ header .faecher {
     transform: translateY(0);
 }
 
+.lower-hero li a {
+    color: var(--color-dom-100);
+}
+
 .lower-hero.ontop .buttons i {
     font-size: 28px;
     background-color: var(--color-accent-700);
@@ -913,6 +917,7 @@ header .faecher {
     .lower-hero li a {
         font-size: 16px;
         line-height: 0;
+        color: var(--color-dom-100);
     }
 }
 
@@ -1488,6 +1493,7 @@ footer .links ul li a {
     font-size: 20px !important;
     font-weight: 200;
     opacity: .6;
+    color: var(--color-dom-100);
 }
 
 footer .links ul li a:hover {
@@ -1559,6 +1565,7 @@ footer .cc p {
     footer .contact p,
     footer .contact a {
         text-align: center !important;
+        color: var(--color-dom-100);
     }
 
     footer .contact-links {
