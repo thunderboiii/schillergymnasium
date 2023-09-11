@@ -36,4 +36,6 @@ Indem wir uns mit dem Lateinischen beschäftigen, lernen wir so nicht nur eine S
 
 
 
+
+
 *Bildautor: "Stefan Bauer"; Quelle: <http://www.ferras.at>; Datum: Apr 09, 2005*
