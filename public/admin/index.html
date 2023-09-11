@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.css" />
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="shortcut icon" href="/img/icons/config.ico" type="image/x-icon">
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
@@ -33,7 +34,7 @@
         }
       ],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^<center><div class="title"><h4>(.*)<\/h4><h2>(.*)<\/h2><\/div><\/center>$/,
+      pattern: /^<center><div class="title"><h4>(.*?)<\/h4><h2>(.*?)<\/h2><\/div><\/center>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
