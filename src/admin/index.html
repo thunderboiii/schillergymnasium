@@ -61,7 +61,7 @@
       // Fields the user need to fill out when adding an instance of the component
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^youtube (\S+)$/,
+      pattern: /^<center><iframe class="youtube component" src="https:\/\/www.youtube.com\/embed\/(.*?)?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen><\/iframe><\/center>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
@@ -100,7 +100,7 @@
         }
       ],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^customBlockquote (.*)<div class="author">(.*)<\/div>$/,
+      pattern: /^<blockquote class="component"><p> (.*?) <\/p> + '<div class="author"><p> - (.*?)<\/p><\/div><\/blockquote>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
