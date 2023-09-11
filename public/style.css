@@ -446,6 +446,7 @@ header .desktop-nav ul .cls-1 {
 
 header .desktop-nav ul li {
     color: var(--color-dom-100);
+    margin: 0;
 }
 
 header .desktop-nav ul a {
@@ -1160,6 +1161,7 @@ header .faecher {
 
 .aktuelles-page .sidebar li {
     margin-block: 1rem;
+    margin-left: 0;
 }
 
 .posts {
@@ -1425,6 +1427,7 @@ footer .content .links {
 footer .content .links li {
     list-style: none;
     line-height: 1.8;
+    margin: 0;
 }
 
 footer .content .links .sub {
@@ -1527,6 +1530,7 @@ footer .cc p {
 
     footer .content .links li {
         text-align: center;
+        margin-left: 0;
     }
 
     footer .contact {
