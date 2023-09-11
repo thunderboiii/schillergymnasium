@@ -27,3 +27,5 @@ Besonders interessierte oder begabte Schüler*innen können an diversen Forderan
 * Mathematik-Olympiade 
 * „Mathe im Advent“ 
 * Schülerakademie für Mathematik in Münster (SAMMS), die als SAMMSextern am Schillergymnasium für eine große Gruppe der Jahrgangsstufe 6 angeboten wird
+
+  <center><div class="title"><h4>weee</h4><h2>yippie</h2></div></center>
