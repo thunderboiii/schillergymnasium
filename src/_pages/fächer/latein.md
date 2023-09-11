@@ -28,8 +28,4 @@ teachers: Herr Gunderloch
 tags:
   - fach
 ---
-<center><div class="title"><h4>Test Titel</h4><h2>Latein</h2></div></center>
-
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/K8bwKbovoVk??si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
-
-<blockquote class="component"><p>efeferfe</p><div class="author"><p> - ferfefe</p></div></blockquote>
+<center><div class="title"><h4>Latein</h4><h2>Test Titel</h2></div></center>
