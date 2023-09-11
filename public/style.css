@@ -261,7 +261,7 @@ button {
 
 a {
     font-size: 21px;
-    color: var(--color-dom-100);
+    color: var(--color-compliment-900);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
