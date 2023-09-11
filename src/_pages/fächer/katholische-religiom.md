@@ -122,7 +122,7 @@ tags:
   - fach
 category: Gesellschaftswissenschaften
 ---
-Deshalb unterrichten wir RELIGION
+## Deshalb unterrichten wir RELIGION
 
 „Mich reizt und begeistert die kritische Auseinandersetzung mit jungen Menschen über Gott
 
@@ -166,7 +166,9 @@ dem WARUM fragen. Das ist es, was uns ständig lernende Menschen ausmachen sollt
 
 als Religionslehrerin will dazu beitragen!“
 
-Religion am Schiller
+
+
+## Religion am Schiller
 
 … beschränkt sich nicht auf den Religionsunterricht! Wir feiern das Kirchenjahr mit
 
