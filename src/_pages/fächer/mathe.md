@@ -4,7 +4,10 @@ banner: /img/uploads/bild1_mathe.png
 fachschaftGallery:
   - fachschaftImage: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
   - fachschaftImage: /img/uploads/2022-im-stadtarchiv.jpeg
-teachers: Frau Hartmann
+teachers: Frau Hartmann-Dietrich, Frau Albiker, Frau Dreßel, Herr Fastabend,
+  Frau Fieberg, Frau Haverland, Frau Hettwer, Herr Isermann, Frau Jäschke, Herr
+  Lütkecosmann, Herr Möller, Frau Pech, Frau Schechtel, Herr Schilling, Frau
+  Spin und Frau Welp
 tags:
   - fach
 ---
