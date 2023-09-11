@@ -26,32 +26,6 @@ layout: base.njk
 </section>
 
 <section class="aktuelles-page">
-    <nav class="sidebar">
-        <div class="kategorien">
-            <h3>Kategorien</h3>
-            <ul>
-                <li><a href="">Allgemeines</a></li>
-                <li><a href="">AGs</a></li>
-                <li><a href="">Austausche</a></li>
-                <li><a href="">Wettbewerbe</a></li>
-                <li><a href="">Am Schiller</a></li>
-            </ul>
-        </div>
-
-        <div class="archive">
-            <h3>Archive</h3>
-            <ul>
-                <li><a href="">2023 (13)</a></li>
-                <li><a href="">2022 (38)</a></li>
-                <li><a href="">2021 (24)</a></li>
-                <li><a href="">2020 (17)</a></li>
-                <li><a href="">2019 (43)</a></li>
-                <li><a href="">2018 (30)</a></li>
-                <li><a href="">2017 (35)</a></li>
-            </ul>
-        </div>
-    </nav>
-
     <div class="posts">
         {%- for post in collections.post | reverse -%}
             <div class="snippet">
@@ -64,4 +38,11 @@ layout: base.njk
             </div>
         {%- endfor -%}
     </div> 
+    
+    <div class="archive">
+        <button>2023</button>
+        <button>2022</button>
+        <button>2021</button>
+        <button>2020</button>
+    </div>
 </section>
