@@ -28,8 +28,14 @@ teachers: Herr Gunderloch
 tags:
   - fach
 ---
-<center><div class="title"><h4>Latein</h4><h2>Test Titel</h2></div></center>
+Latein zu lernen ist eine spannende Herausforderung: Wie in allen Sprachen geht es nicht ohne Kenntnisse der Vokabeln und der Grammatik. Dazu kommt, dass es beim Lateinischen auf das genaue Hinsehen ankommt, denn anders als in den modernen Fremdsprachen geht es nicht um direkte Kommunikation, sondern um das Übersetzen erhaltener Texte. 
 
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/K8bwKbovoVk?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+Aber die Mühe lohnt sich. Denn Latein ist so viel mehr als eine vermeintlich tote Sprache: Die Römer haben über Jahrhunderte hin die Antike geprägt und Vorbilder in so verschiedenartigen Bereichen wie Philosophie, Architektur und Kunst geschaffen, an denen wir uns noch heute messen; nicht zuletzt haben sie durch das Lateinische unser Mittelalter gestaltet. 
 
-<blockquote class="component"><p>Est veritas in somniis</p><div class="author"><p> - Caeser</p></div></blockquote>
+Indem wir uns mit dem Lateinischen beschäftigen, lernen wir so nicht nur eine Sprache kennen, die vielen Tochtersprachen zugrunde liegt und deren Erlernen erheblich vereinfacht, wir absolvieren gleichsam einen umfassenden Einführungskurs in die europäische Kultur. Deshalb ist es mehr als die Mühe wert, Latein zu lernen. 
+
+
+
+
+
+*Bildautor: "Stefan Bauer"; Quelle: <http://www.ferras.at>; Datum: Apr 09, 2005*
