@@ -142,7 +142,7 @@ category: Gesellschaftswissenschaften
 
 „Wie kann man (an ‚etwas‘) glauben? Den Dingen auf den Grund gehen und immer nach dem WARUM fragen. Das ist es, was uns ständig lernende Menschen ausmachen sollte. Ich als Religionslehrerin will dazu beitragen!“
 
-
+\n
 
 ## Religion am Schiller
 
