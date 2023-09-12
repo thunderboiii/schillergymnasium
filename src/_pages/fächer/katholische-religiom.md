@@ -142,6 +142,8 @@ category: Gesellschaftswissenschaften
 
 „Wie kann man (an ‚etwas‘) glauben? Den Dingen auf den Grund gehen und immer nach dem WARUM fragen. Das ist es, was uns ständig lernende Menschen ausmachen sollte. Ich als Religionslehrerin will dazu beitragen!“
 
+
+
 ## Religion am Schiller
 
 … beschränkt sich nicht auf den Religionsunterricht! Wir feiern das Kirchenjahr mit Schulgottesdiensten in der Advents- und Fastenzeit sowie am Ende des Schuljahres. Advents- und Fastenimpulse laden zum Innehalten ein. Für die Oberstufe findet alle drei Jahre die Religiöse Schulwoche statt und weitere Angebote der Schulseelsorge folgen.
