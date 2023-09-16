@@ -8,5 +8,9 @@
     "phone": "0251 / 6866 180",
     "fax": "0251 / 6866 1849",
     "email": "schillergymnasium@stadt-muenster.de"
+  },
+  "anmeldung": {
+    "anmeldephase": true,
+    "schuljahr": "2024/25"
   }
 }
