@@ -314,6 +314,14 @@ hr {
     margin-bottom: 8rem;
 }
 
+.fach-beschreibung p {
+    margin-top: 10px;
+}
+
+.fach-beschreibung ul {
+    margin-top: 1rem;
+}
+
 @media (max-width: 35em) {
     .contents {
         margin: 2rem 2rem;
