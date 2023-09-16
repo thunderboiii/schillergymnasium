@@ -1,17 +1,17 @@
 <div class="lower-hero">
     <ul>
         <li><a href="">Termine</a></li>
-        {% if settings.anmeldephase %}
+        {% if settings.anmeldung.anmeldephase %}
             <li class="anmeldung"><a href="">Anmeldung Schuljahr 2024/25</a></li>
         {% endif %}
         <li><a href="">Kontakt</a></li>
     </ul>
 
     <div class="buttons">
-        <a href=""><i class='bx bx-calendar' ></i></a>
-        {% if settings.anmeldephase %}
-            <a href=""><i class='bx bx-check-square'></i></a>
+        <a href=""><i class='bx bx-calendar tooltip' ><span class="tooltiptext">Termine</span></i></a>
+        {% if settings.anmeldung.anmeldephase %}
+            <a href="" class="anmeldung"><i class='bx bx-check-square tooltip'><span class="tooltiptext">Anmeldung zum Schuljahr 2024/25</span></i></a>
         {% endif %}
-        <a href=""><i class='bx bx-phone-call' ></i></a>
+        <a href=""><i class='bx bx-phone-call tooltip' ><span class="tooltiptext">Kontakt</span></i></a>
     </div>
 </div>

@@ -108,9 +108,11 @@ collections:
         file: 'src/_data/settings.json'
         fields:
           - label: 'Anmeldephase'
-            name: 'anmeldephase'
-            widget: 'boolean'
-            default: false
+            name: 'anmeldung'
+            widget: 'object'
+            fields:
+              - {label: 'Ja/Nein', name: anmeldephase, widget: 'boolean', default: false}
+              - {label: 'Nächstes Schuljahr', name: schuljahr, widget: string}
           - label: 'Post Einstellungen'
             name: 'posts'
             widget: 'object'

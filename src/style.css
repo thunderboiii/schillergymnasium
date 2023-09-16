@@ -329,6 +329,36 @@ hr {
     }
 }
 
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #111;
+    text-align: center;
+    padding: 4px 0;
+
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    right: 120%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity .3s;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
 .gallary {
     display: flex;
     flex-wrap: wrap;
@@ -801,6 +831,7 @@ header .faecher {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    transform: translateY(-8px);
 }
 
 .hero-center .lower-title hr {
@@ -901,6 +932,11 @@ header .faecher {
     background-color: var(--color-accent-700);
     padding: .4rem;
     border-radius: .5rem;
+    color: var(--color-dom-100);
+}
+
+.lower-hero.ontop .buttons .anmeldung i {
+    color: var(--color-compliment-900);
 }
 
 @media (max-width: 35em) {
