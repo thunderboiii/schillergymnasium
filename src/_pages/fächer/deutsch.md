@@ -34,6 +34,22 @@ about:
     - fachImage: /img/uploads/img_9739.jpeg
 fachschaft:
   teachers: "Frau Schlumbohm "
+teachers: Frau Schlumbohm
 tags:
   - fach
 ---
+**Was macht unsern Deutschunterricht ab Klasse 5 aus?** 
+
+* Wir wollen unsere Schüler:innen in ihrer Fähigkeit stärken, selbstsicher, souverän und frei vor einer Gruppe zu sprechen, beispielsweise durch kleine Vorträge zu Tieren in der 5 und durch Elemente des szenischen Spiels.   
+* In unserer UNI-Zeit arbeiten Schüler:innen selbstständig und eigenverantwortlich. Dabei erschließen sie sich neue Inhalte oder vertiefen Bekanntes. Die Zeit dient somit besonders dem individuellen Fördern und Fordern. 
+* Ab Klasse 5 kann man auch Theater in AGs spielen und die innenstadtnahe Lage ermöglicht regelmäßige Unterrichtsgänge ins Stadttheater. 
+* Wir motivieren zum Lesen – zum Beispiel durch Lesetagebuchprojekte, Workshops in Kooperation mit der Stadtbücherei und die Ausrichtung eines Vorlesewettbewerbs zu Beginn der Jahrgangsstufe 6.   
+* Zur Förderung der Rechtschreibung bieten wir eine Rechtschreibwerkstatt in Kooperation mit dem Internationalen Centrum für Begabungsforschung (ICBF) der Universität Münster an.   
+* Im Rahmen des Balladenprojektes gestalten Schüler:innen der Klasse 7 in kooperativer, kreativer und lebendiger Form Beiträge für das Balladenfest.
+* Als „Jugend debattiert“-Schule fördern wir gezielt die Fähigkeiten, sachorientiert Streitgespräche zu führen und ab Klasse 8 können Schüler:innen am Bundeswettbewerb „Jugend debattiert“ teilnehmen.  
+
+
+
+Video zum Balladenfest:
+
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/O3ULKl2_WJE?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>

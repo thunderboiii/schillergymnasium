@@ -81,17 +81,18 @@ fachText: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde?
 
 
   Lasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
+teachers: Frau Perner
 fachGallery: []
 fachschaft:
   teachers: Frau Perner
 title: Erdkunde
-tags:
-  - fach
 fachschaftGallery:
   - fachschaftImage: /img/uploads/img_avatar.png
     teacherName: Stefanie Perner
   - fachschaftImage: /img/uploads/img_avatar.png
     teacherName: Christian Vogt
+tags:
+  - fach
 category: Gesellschaftswissenschaften
 contentBlocks:
   - type: videoBlock
@@ -99,3 +100,20 @@ contentBlocks:
       platform: YouTube
       link: https://youtube.com
 ---
+Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde? 
+
+
+
+Das Fach Erdkunde bietet dir Wissen über die Welt und die Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt die Zukunft formen. 
+
+
+
+Wähle in der Mittelstufe den Kurs Global Challenges, um dir Expertise zu globalen Schlüsselproblemen zu erarbeiten—und das in der Weltsprache Englisch. 
+
+
+
+In der Oberstufe vertiefst du dein Wissen über geopolitische Zusammenhänge und globale Herausforderungen. Diskutiere kontroverse Themen wie Migration oder nachhaltige Entwicklung, um ein umfassendes Verständnis für die Welt zu entwickeln. 
+
+
+
+Lasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!
