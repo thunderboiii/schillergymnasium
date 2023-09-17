@@ -100,7 +100,7 @@
         }
       ],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^<blockquote class="component"><p>(.*?)<\/p><div class="author"><p>-(.*?)<\/p><\/div><\/blockquote>$/,
+      pattern: /^<blockquote class="component"><p>(.*?)<\/p><div class="author"><p>(.*?)<\/p><\/div><\/blockquote>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
