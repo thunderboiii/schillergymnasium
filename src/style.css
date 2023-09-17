@@ -345,6 +345,7 @@ hr {
     visibility: hidden;
     width: 120px;
     background-color: white;
+    border: 1px solid #111;
     color: #111;
     text-align: center;
     padding: 4px 0;
