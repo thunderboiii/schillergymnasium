@@ -116,11 +116,7 @@
       // (component gives better render performance)
       toPreview: function(obj) {
         return (
-          '<blockquote>' +
-          obj.quote +
-          '<div class="author">' +
-          obj.author + 
-          '</div>'
+          'Quote: ' + obj.quote + ' Author: ' + obj.author
         );
       }
     });
