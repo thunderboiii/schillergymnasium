@@ -27,6 +27,8 @@ layout: base.njk
 
 <section class="contents">
     <div class="content">
+        {{ schillerglockeSettings.body | safe }}
+
         <div class="posts">
             {% for schillerglocke in collections.schillerglocke %}
                 <div class="snippet">
