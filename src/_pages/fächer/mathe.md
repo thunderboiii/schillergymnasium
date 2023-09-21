@@ -1,5 +1,5 @@
 ---
-title: Mathe
+title: Mathematik
 banner: /img/uploads/bild1_mathe.png
 fachschaftGallery:
   - fachschaftImage: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
