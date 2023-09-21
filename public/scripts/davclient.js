@@ -1,4 +1,4 @@
-import dav from 'https://cdn.jsdelivr.net/gh/thunderboiii/schillergymnasium@tree/main/node_modules/dav';
+import dav from 'dav';
 
 const xhr = new dav.transport.Basic(
     new dav.Credentials({
