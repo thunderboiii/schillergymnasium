@@ -131,3 +131,13 @@ collections:
             widget: 'list'
             default: ['settings']
             required: false
+      - label: 'Schillerglocke Einstellungen'
+        name: 'schillerglockeSettings'
+        file: 'src/_data/schillerglocke-settings.json'
+        fields:
+          - label: 'Banner'
+            name: 'banner'
+            widget: image
+          - label: 'Über die Schillerglocke'
+            name: 'body'
+            widget: markdown
