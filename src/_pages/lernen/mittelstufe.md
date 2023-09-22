@@ -39,8 +39,9 @@ Außer durch die individuelle Gestaltung der Schullaufbahn unterstützen wir uns
 
 ## VERA 8
 
-Eine Besonderheit der Mittelstufe bilden die Lernstandserhebungen, die ab dem Schuljahr 20/21 allgemein als VERA 8 bezeichnet werden. In einem Zeitraum von drei Wochen im Frühjahr werden in Stufe 8 in den Fächern Englisch, Deutsch und Mathematik durch Testhefte Standards überprüft. Die schulinterne Auswertung dient der gezielten Förderung der Kompetenzen der Schülerinnen und Schüler. Die Testung findet digital basiert in E und D statt, ab 2024 auch in M. Die Ergebnisse der Tests gehen nicht in die Benotung ein. Für weitere Informationen rund um Vera 8: 
+Eine Besonderheit der Mittelstufe bilden die Lernstandserhebungen, die ab dem Schuljahr 20/21 allgemein als VERA 8 bezeichnet werden. In einem Zeitraum von drei Wochen im Frühjahr werden in Stufe 8 in den Fächern Englisch, Deutsch und Mathematik durch Testhefte Standards überprüft. Die schulinterne Auswertung dient der gezielten Förderung der Kompetenzen der Schülerinnen und Schüler. Die Testung findet digital basiert in E und D statt, ab 2024 auch in M. Die Ergebnisse der Tests gehen nicht in die Benotung ein. 
 
+**Für weitere Informationen rund um Vera 8:** \
 <https://www.schulentwicklung.nrw.de/e/lernstand8/allgemeine-informationen/index.html> 
 
 ## ZP 10
