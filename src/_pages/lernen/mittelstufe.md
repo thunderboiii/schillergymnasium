@@ -47,6 +47,5 @@ Eine Besonderheit der Mittelstufe bilden die Lernstandserhebungen, die ab dem Sc
 
 Neu mit dem Schuljahr 2023/24 werden die ZP 10 - Prüfungen wieder in das G9-Gymnasium aufgenommen, die aus zentral gestellten Aufgaben in Deutsch, Mathematik und Englisch bestehen und im Zeitraum Mai/Juni stattfinden. Bewertungsgrundlage sind die Vornote (Zeitraum des gesamten Schuljahres bis zur Bekanntgabe der Noten) und die Prüfungsnote im Verhältnis 1:1. Für die Versetzung besteht die Besonderheit, dass in den Fächern der ZP 10 keine Nachprüfung abgelegt werden kann. 
 
-**Für weitere Informationen rund um die ZP 10:** 
-
-[https://www.standardsicherung.schulministerium.nrw.de/cms/zentrale-pruefungen-10/uebersicht/uebersicht-zp-10.php ](https://www.standardsicherung.schulministerium.nrw.de/cms/zentrale-pruefungen-10/uebersicht/uebersicht-zp-10.php)
+**Für weitere Informationen rund um die ZP 10:**[\
+https://www.standardsicherung.schulministerium.nrw.de/cms/zentrale-pruefungen-10/uebersicht/uebersicht-zp-10.php ](https://www.standardsicherung.schulministerium.nrw.de/cms/zentrale-pruefungen-10/uebersicht/uebersicht-zp-10.php)
