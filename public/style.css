@@ -349,8 +349,12 @@ hr {
 
     .title h2 {
         font-size: 45px;
-        text-align: left;
+        text-align: center;
         
+    }
+
+    .title h4 {
+        font-size: 12vh;
     }
 }
 
