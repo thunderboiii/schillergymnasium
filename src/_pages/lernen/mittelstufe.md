@@ -1,6 +1,7 @@
 ---
 title: Mittelstufe
 banner: /img/uploads/bild-20200303-141251-735977b9.jpeg
+layout: page.njk
 tags:
   - lernen
   - page
