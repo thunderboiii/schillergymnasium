@@ -338,6 +338,10 @@ hr {
     margin-top: 1.5rem;
 }
 
+.page-content {
+    line-break: loose;
+}
+
 @media (max-width: 35em) {
     .contents {
         margin: 2rem 2rem;
