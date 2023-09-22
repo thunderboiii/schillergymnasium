@@ -338,8 +338,11 @@ hr {
     margin-top: 1.5rem;
 }
 
-.page-content {
+.page-content a {
     line-break: loose;
+    word-break: break-all;
+    user-select: auto;
+    pointer-events: auto;
 }
 
 @media (max-width: 35em) {
@@ -359,6 +362,7 @@ hr {
 
     .title h4 {
         font-size: 16vw;
+        width: 80vw;
     }
 }
 
@@ -912,6 +916,10 @@ header .faecher {
 
     .hero-center .upper-title img {
         height: 16px;
+    }
+
+    .hero-center .main-title h1 {
+        font-size: 12vw;
     }
 }
 
