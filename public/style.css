@@ -294,6 +294,7 @@ hr {
     font-weight: 500;
     color: var(--color-accent-900);
     z-index: 10;
+    margin-top: 0 !important;
 }
 
 .title h4 {
@@ -349,6 +350,7 @@ hr {
     .title h2 {
         font-size: 45px;
         text-align: left;
+        
     }
 }
 
