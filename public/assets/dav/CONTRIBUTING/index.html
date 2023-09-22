@@ -1,0 +1,60 @@
+<h1>Contributing</h1>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<p><strong>Table of Contents</strong>  <em>generated with <a href="http://doctoc.herokuapp.com/">DocToc</a></em></p>
+<ul>
+<li><a href="#under-the-hood">Under the hood</a></li>
+<li><a href="#running-the-tests">Running the tests</a></li>
+<li><a href="#publishing-a-release">Publishing a release</a></li>
+<li><a href="#related-material">Related Material</a></li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<h3>Under the hood</h3>
+<p>dav uses npm to manage external dependencies. External npm modules get bundled into the browser js binary with the (excellent) <a href="http://browserify.org/">browserify</a> utility. dav uses the <code>DOMParser</code> and <code>XMLHttpRequest</code> web apis (to parse xml and send http requests). All of the async library operations use es6 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a>.</p>
+<h3>Running the tests</h3>
+<pre><code>///////////////////////////////////////
+/ suite       / command               /
+///////////////////////////////////////
+/ integration / make test-integration /
+///////////////////////////////////////
+/ lint        / make lint             /
+///////////////////////////////////////
+/ unit        / make test-unit        /
+///////////////////////////////////////
+</code></pre>
+<p>Things to note:</p>
+<ul>
+<li>As of 1.1.1, all of the tests run dav via nodejs. There are no browser tests (yet).</li>
+<li>You can add helpful debug logs to test output with the <code>DEBUG</code> environment variable.
+<ul>
+<li>Filter logs by setting <code>DEBUG=dav:*</code>, <code>DEBUG=dav:request:*</code>, etc.</li>
+</ul>
+</li>
+<li>Integration tests run against <a href="http://sabre.io/">sabredav</a>
+<ul>
+<li>The server code lives <a href="https://github.com/gaye/dav/blob/master/test/integration/server/calendarserver.php">here</a></li>
+<li>There is a make task which downloads a sabredav release from GitHub that <code>make test-integration</code> depends on</li>
+<li>The sabredav instance uses sqlite to store dav collections and objects among other things.
+<ul>
+<li>The code that seeds the database lives <a href="https://github.com/gaye/dav/blob/master/test/integration/server/bootstrap.js">here</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Publishing a release</h3>
+<ol>
+<li>Update <code>package.json</code> to reflect the new version. Use <a href="http://semver.org/">semver</a> to help decide what new version number is best.</li>
+<li>If there are changes to the public api, document them in the README. Then regenerate the <code>README.md</code> table of contents with <code>make toc</code>.</li>
+<li>Add a new entry to <code>HISTORY.md</code> with the new version number and a description of the changeset. Regenerate the <code>HISTORY.md</code> table of contents with <code>make toc</code>.</li>
+<li>Commit the changes to <code>package.json</code>, <code>HISTORY.md</code>, and (perhaps) <code>README.md</code>. Push to GitHub.</li>
+<li>Run <code>make &amp;&amp; npm publish</code>.</li>
+<li>Create a new GitHub release named <code>v.{MAJOR}.{MINOR}.{PATCH}</code> with a description of the changeset. Upload the freshly generated zipball <code>dav.zip</code>.</li>
+</ol>
+<h3>Related Material</h3>
+<ul>
+<li><a href="http://sabre.io/dav/">Amazing webdav docs</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4791">RFC 4791</a></li>
+<li><a href="http://tools.ietf.org/html/rfc5545">RFC 5545</a></li>
+<li><a href="http://tools.ietf.org/html/rfc6352">RFC 6352</a></li>
+</ul>

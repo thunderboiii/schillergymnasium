@@ -1,4 +1,4 @@
-import dav from 'https://cdn.jsdelivr.net/gh/thunderboiii/schillergymnasium/node_modules/dav/';
+import dav from '../assets/dav/dav.min.js';
 
 const xhr = new dav.transport.Basic(
     new dav.Credentials({
@@ -20,3 +20,4 @@ client.createAccount({
 }).catch((error) => {
     console.error(error);
 });
+

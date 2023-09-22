@@ -1,0 +1,394 @@
+<h1>dav</h1>
+<p><a href="https://travis-ci.org/lambdabaa/dav"><img src="https://travis-ci.org/lambdabaa/dav.png?branch=master" alt="Build Status"></a></p>
+<p>WebDAV, CalDAV, and CardDAV client for nodejs and the browser.</p>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<p><strong>Table of Contents</strong>  <em>generated with <a href="http://doctoc.herokuapp.com/">DocToc</a></em></p>
+<ul>
+<li><a href="#api">API</a>
+<ul>
+<li><a href="#accounts">accounts</a>
+<ul>
+<li><a href="#davcreateaccountoptions">dav.createAccount(options)</a></li>
+</ul>
+</li>
+<li><a href="#calendars">calendars</a>
+<ul>
+<li><a href="#davcreatecalendarobjectcalendar-options">dav.createCalendarObject(calendar, options)</a></li>
+<li><a href="#davupdatecalendarobjectcalendarobject-options">dav.updateCalendarObject(calendarObject, options)</a></li>
+<li><a href="#davdeletecalendarobjectcalendarobject-options">dav.deleteCalendarObject(calendarObject, options)</a></li>
+<li><a href="#davsynccalendarcalendar-options">dav.syncCalendar(calendar, options)</a></li>
+<li><a href="#davsynccaldavaccountaccount-options">dav.syncCaldavAccount(account, options)</a></li>
+</ul>
+</li>
+<li><a href="#contacts">contacts</a>
+<ul>
+<li><a href="#davcreatecardaddressbook-options">dav.createCard(addressBook, options)</a></li>
+<li><a href="#davupdatecardcard-options">dav.updateCard(card, options)</a></li>
+<li><a href="#davdeletecardcard-options">dav.deleteCard(card, options)</a></li>
+<li><a href="#davsyncaddressbookaddressbook-options">dav.syncAddressBook(addressBook, options)</a></li>
+<li><a href="#davsynccarddavaccountaccount-options">dav.syncCarddavAccount(account, options)</a></li>
+</ul>
+</li>
+<li><a href="#sandbox">sandbox</a>
+<ul>
+<li><a href="#davsandbox">dav.Sandbox()</a></li>
+</ul>
+</li>
+<li><a href="#transport">transport</a>
+<ul>
+<li><a href="#davtransportbasiccredentials">dav.transport.Basic(credentials)</a>
+<ul>
+<li><a href="#davtransportbasicsendrequest-options">dav.transport.Basic.send(request, options)</a></li>
+</ul>
+</li>
+<li><a href="#davtransportoauth2credentials">dav.transport.OAuth2(credentials)</a>
+<ul>
+<li><a href="#davtransportoauth2sendrequest-options">dav.transport.OAuth2.send(request, options)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#request">request</a>
+<ul>
+<li><a href="#davrequestaddressbookqueryoptions">dav.request.addressBookQuery(options)</a></li>
+<li><a href="#davrequestbasicoptions">dav.request.basic(options)</a></li>
+<li><a href="#davrequestcalendarqueryoptions">dav.request.calendarQuery(options)</a></li>
+<li><a href="#davrequestpropfindoptions">dav.request.propfind(options)</a></li>
+<li><a href="#davrequestsynccollectionoptions">dav.request.syncCollection(options)</a></li>
+</ul>
+</li>
+<li><a href="#client">Client</a>
+<ul>
+<li><a href="#davclientxhr-options">dav.Client(xhr, options)</a>
+<ul>
+<li><a href="#davclientsendreq-options">dav.Client.send(req, options)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#etc">etc</a>
+<ul>
+<li><a href="#davns">dav.ns</a></li>
+</ul>
+</li>
+<li><a href="#example-usage">Example Usage</a>
+<ul>
+<li><a href="#using-the-lower-level-webdav-request-api">Using the lower-level webdav request api</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#debugging">Debugging</a></li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<h2>API</h2>
+<h3>accounts</h3>
+<h4>dav.createAccount(options)</h4>
+<p>Perform an initial download of a caldav or carddav account's data. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled with a <a href="https://github.com/gaye/dav/blob/master/lib/model/account.js">dav.Account</a> object.</p>
+<pre><code>Options:
+
+  (String) accountType - one of 'caldav' or 'carddav'. Defaults to 'caldav'.
+  (Array.&lt;Object&gt;) filters - list of caldav filters to send with request.
+  (Boolean) loadCollections - whether or not to load dav collections.
+  (Boolean) loadObjects - whether or not to load dav objects.
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (String) server - some url for server (needn't be base url).
+  (String) timezone - VTIMEZONE calendar object.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h3>calendars</h3>
+<h4>dav.createCalendarObject(calendar, options)</h4>
+<p>Create a calendar object on the parameter calendar. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the calendar has been created.</p>
+<pre><code>@param {dav.Calendar} calendar the calendar to put the object on.
+
+Options:
+
+  (String) data - rfc 5545 VCALENDAR object.
+  (String) filename - name for the calendar ics file.
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.updateCalendarObject(calendarObject, options)</h4>
+<p>Persist updates to the parameter calendar object to the server. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the calendar has been updated.</p>
+<pre><code>@param {dav.CalendarObject} calendarObject updated calendar object.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.deleteCalendarObject(calendarObject, options)</h4>
+<p>Delete the parameter calendar object on the server. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the calendar has been deleted.</p>
+<pre><code>@param {dav.CalendarObject} calendarObject target calendar object.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.syncCalendar(calendar, options)</h4>
+<p>Fetch changes from the remote server to the parameter calendar. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled with an updated <a href="https://github.com/gaye/dav/blob/master/lib/model/calendar.js">dav.Calendar</a> object once sync is complete.</p>
+<pre><code>@param {dav.Calendar} calendar the calendar to fetch changes for.
+
+Options:
+
+  (Array.&lt;Object&gt;) filters - list of caldav filters to send with request.
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (String) syncMethod - either 'basic' or 'webdav'. If unspecified, will
+      try to do webdav sync and failover to basic sync if rfc 6578 is not
+      supported by the server.
+  (String) timezone - VTIMEZONE calendar object.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.syncCaldavAccount(account, options)</h4>
+<p>Fetch changes from the remote server to the account's calendars. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled with an updated <a href="https://github.com/gaye/dav/blob/master/lib/model/account.js">dav.Account</a> object once sync is complete.</p>
+<pre><code>@param {dav.Account} account the calendar account to sync.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h3>contacts</h3>
+<h4>dav.createCard(addressBook, options)</h4>
+<p>Create a vcard object on the parameter address book. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the vcard has been created.</p>
+<pre><code>@param {dav.AddressBook} addressBook the address book to put the object on.
+
+Options:
+
+  (String) data - VCARD object.
+  (String) filename - name for the vcard vcf file.
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.updateCard(card, options)</h4>
+<p>Persist updates to the parameter vcard object to the server. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the vcard has been updated.</p>
+<pre><code>@param {dav.VCard} card updated vcard object.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.deleteCard(card, options)</h4>
+<p>Delete the parameter vcard object on the server. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled when the vcard has been deleted.</p>
+<pre><code>@param {dav.VCard} card target vcard object.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.syncAddressBook(addressBook, options)</h4>
+<p>Fetch changes from the remote server to the parameter address books. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled with an updated <a href="https://github.com/gaye/dav/blob/master/lib/model/address_book.js">dav.AddressBook</a> object once sync is complete.</p>
+<pre><code>@param {dav.AddressBook} addressBook the address book to fetch changes for.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (String) syncMethod - either 'basic' or 'webdav'. If unspecified, will
+      try to do webdav sync and failover to basic sync if rfc 6578 is not
+      supported by the server.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h4>dav.syncCarddavAccount(account, options)</h4>
+<p>Fetch changes from the remote server to the account's address books. Returns a <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a> which will be fulfilled with an updated <a href="https://github.com/gaye/dav/blob/master/lib/model/account.js">dav.Account</a> object once sync is complete.</p>
+<pre><code>@param {dav.Account} account the address book account to sync.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (dav.Transport) xhr - request sender.
+</code></pre>
+<h3>sandbox</h3>
+<h4>dav.Sandbox()</h4>
+<p>Create a request sandbox. There is also a deprecated interface
+<code>dav.createSandbox()</code>. Add requests to the sandbox like so:</p>
+<pre><code class="language-js">var sandbox = new dav.Sandbox();
+// sandbox instanceof Sandbox
+dav.createAccount({
+  username: 'Yoshi',
+  password: 'babybowsersoscaryomg',
+  server: 'https://caldav.yoshisstory.com',
+  sandbox: sandbox  // &lt;- Insert sandbox here!
+})
+.then(function(calendars) {
+  // etc, etc.
+});
+</code></pre>
+<p>And abort sandboxed requests as a group with <code>sandbox.abort()</code>.</p>
+<h3>transport</h3>
+<h4>dav.transport.Basic(credentials)</h4>
+<p>Create a new <code>dav.transport.Basic</code> object. This sends dav requests using http basic authentication.</p>
+<pre><code>@param {dav.Credentials} credentials user authorization.
+</code></pre>
+<h5>dav.transport.Basic.send(request, options)</h5>
+<pre><code>@param {dav.Request} request object with request info.
+@return {Promise} a promise that will be resolved with an xhr request after its readyState is 4 or the result of applying an optional request `transformResponse` function to the xhr object after its readyState is 4.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+</code></pre>
+<h4>dav.transport.OAuth2(credentials)</h4>
+<p>Create a new <code>dav.transport.OAuth2</code> object. This sends dav requests authorized via rfc 6749 oauth2.</p>
+<pre><code>@param {dav.Credentials} credentials user authorization.
+</code></pre>
+<h5>dav.transport.OAuth2.send(request, options)</h5>
+<pre><code>@param {dav.Request} request object with request info.
+@return {Promise} a promise that will be resolved with an xhr request after its readyState is 4 or the result of applying an optional request `transformResponse` function to the xhr object after its readyState is 4.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+</code></pre>
+<h3>request</h3>
+<h4>dav.request.addressBookQuery(options)</h4>
+<pre><code>Options:
+
+  (String) depth - optional value for Depth header.
+  (Array.&lt;Object&gt;) props - list of props to request.
+</code></pre>
+<h4>dav.request.basic(options)</h4>
+<pre><code>Options:
+
+  (String) data - put request body.
+  (String) method - http method.
+  (String) etag - cached calendar object etag.
+</code></pre>
+<h4>dav.request.calendarQuery(options)</h4>
+<pre><code>Options:
+
+  (String) depth - optional value for Depth header.
+  (Array.&lt;Object&gt;) filters - list of filters to send with request.
+  (Array.&lt;Object&gt;) props - list of props to request.
+  (String) timezone - VTIMEZONE calendar object.
+</code></pre>
+<h4>dav.request.propfind(options)</h4>
+<pre><code>Options:
+
+  (String) depth - optional value for Depth header.
+  (Array.&lt;Object&gt;) props - list of props to request.
+</code></pre>
+<h4>dav.request.syncCollection(options)</h4>
+<pre><code>Options:
+
+  (String) depth - option value for Depth header.
+  (Array.&lt;Object&gt;) props - list of props to request.
+  (Number) syncLevel - indicates scope of the sync report request.
+  (String) syncToken - synchronization token provided by the server.
+</code></pre>
+<h3>Client</h3>
+<h4>dav.Client(xhr, options)</h4>
+<p>Create a new <code>dav.Client</code> object. The client interface allows consumers to set their credentials and transport once and then make authorized requests without passing them to each request. Each of the other, public API methods should be available on <code>dav.Client</code> objects.</p>
+<pre><code>@param {dav.Transport} xhr - request sender.
+
+Options:
+
+  (String) baseUrl - root url to resolve relative request urls with.
+</code></pre>
+<h5>dav.Client.send(req, options)</h5>
+<p>Send a request using this client's transport (and perhaps baseUrl).</p>
+<pre><code>@param {dav.request.Request} req - dav request.
+@return {Promise} a promise that will be resolved with an xhr request after its readyState is 4 or the result of applying an optional request `transformResponse` function to the xhr object after its readyState is 4.
+
+Options:
+
+  (dav.Sandbox) sandbox - optional request sandbox.
+  (String) url - relative url for request.
+</code></pre>
+<h3>etc</h3>
+<h4>dav.ns</h4>
+<p>Object that holds various xml namespace constants.</p>
+<h3>Example Usage</h3>
+<pre><code class="language-js">var dav = require('dav');
+
+var xhr = new dav.transport.Basic(
+  new dav.Credentials({
+    username: 'xxx',
+    password: 'xxx'
+  })
+);
+
+dav.createAccount({ server: 'http://dav.example.com', xhr: xhr })
+.then(function(account) {
+  // account instanceof dav.Account
+  account.calendars.forEach(function(calendar) {
+    console.log('Found calendar named ' + calendar.displayName);
+    // etc.
+  });
+});
+
+// Or, using the dav.Client interface:
+
+var client = new dav.Client(xhr);
+// No transport arg
+client.createAccount({
+  server: 'http://dav.example.com',
+  accountType: 'carddav'
+})
+.then(function(account) {
+  account.addressBooks.forEach(function(addressBook) {
+    console.log('Found address book name ' + addressBook.displayName);
+    // etc.
+  });
+});
+</code></pre>
+<h4>Using the lower-level webdav request api</h4>
+<p><em>Caution</em>: The lower-level request api is undergoing some <em>major</em> reworking with frequent changes which will break consumers upgrading from earlier versions. If you're looking for a stable api and can live with the higher-level CalDAV and/or CardDAV abstractions, I <em>strongly</em> recommend those since that api is largely stable.</p>
+<pre><code>var dav = require('dav');
+
+var client = new dav.Client(
+  new dav.transport.Basic(
+    new dav.Credentials({
+      username: 'xxx',
+      password: 'xxx'
+    })
+  ),
+  {
+    baseUrl: 'https://mail.mozilla.com'
+  }
+);
+
+var req = dav.request.basic({
+  method: 'PUT',
+  data: 'BEGIN:VCALENDAR\nEND:VCALENDAR',
+  etag: '12345'
+});
+
+// req instanceof dav.Request
+
+client.send(req, '/calendars/123.ics')
+.then(function(response) {
+  // response instanceof XMLHttpRequest
+});
+</code></pre>
+<p>Or perhaps without the client:</p>
+<pre><code>var dav = require('dav');
+
+var xhr = new dav.transport.Basic(
+  new dav.Credentials({
+    username: 'xxx',
+    password: 'xxx'
+  })
+);
+
+// xhr instanceof dav.Transport
+
+var req = dav.request.basic({
+  method: 'PUT',
+  data: 'BEGIN:VCALENDAR\nEND:VCALENDAR',
+  etag: '12345'
+});
+
+// req instanceof dav.Request
+
+xhr.send(req, 'https://mail.mozilla.com/calendars/123.ics')
+.then(function(response) {
+  // response instanceof XMLHttpRequest
+});
+</code></pre>
+<p>For more example usages, check out the <a href="https://github.com/gaye/dav/tree/master/test/integration">suite of integration tests</a>.</p>
+<h2>Debugging</h2>
+<p>dav can tell you a lot of potentially useful things if you set <code>dav.debug.enabled = true</code>.</p>
