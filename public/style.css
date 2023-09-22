@@ -333,6 +333,10 @@ hr {
     margin-top: 1rem;
 }
 
+.fach-beschreibung h2 {
+    margin-top: 1.5rem;
+}
+
 @media (max-width: 35em) {
     .contents {
         margin: 2rem 2rem;
