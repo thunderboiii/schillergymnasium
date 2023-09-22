@@ -325,15 +325,15 @@ hr {
     border-radius: 10px;
 }
 
-.fach-beschreibung p {
+.page-content p {
     margin-top: 10px;
 }
 
-.fach-beschreibung ul {
+.page-content ul {
     margin-top: 1rem;
 }
 
-.fach-beschreibung h2 {
+.page-content h2 {
     margin-top: 1.5rem;
 }
 
