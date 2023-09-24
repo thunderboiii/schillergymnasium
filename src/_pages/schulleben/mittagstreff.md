@@ -5,6 +5,7 @@ banner: /img/uploads/mittagstreff.jpg
 tags:
   - schulleben
   - page
+category: Schulleben
 ---
 <center><div class="title"><h4>Mittagstreff</h4><h2>Übermittagsbetreuung</h2></div></center>
 
