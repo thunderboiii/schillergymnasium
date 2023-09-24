@@ -1376,6 +1376,11 @@ header .faecher {
     aspect-ratio: 16/9;
 }
 
+.embet {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
 
 .contact {
     display: flex;
