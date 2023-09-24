@@ -98,7 +98,6 @@
                         {% for schulleben in collections.schulleben %}
                             <a href="{{ schulleben.url }}">{{ schulleben.data.title }}</a>
                         {% endfor %}
-                        <a href="/schillerglocke">Schillerglocke</a>
                     </div>
                 </div>
             </div>
@@ -165,11 +164,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Kurzprofil</a>
-                        <a href="">Theater</a>
-                        <a href="">UNESCO-Schule</a>
-                        <a href="">Digitales Lernen</a>
-                        <a href="">Geschichte</a>
+                        {% for profil in collections.profil %}
+                            <a href="{{ profil.url }}">{{ profil.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -179,16 +176,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Schulleitung u. Koordination</a>
-                        <a href="">Kollegium</a>
-                        <a href="">Schulbegleitung</a>
-                        <a href="">Mitarbeiter</a>
-                        <a href="">Schulsozialarbeit/MPT</a>
-                        <a href="">Beratungslehrer/Seelsorge</a>
-                        <a href="">Schülervertretung</a>
-                        <a href="">Ehemalige</a>
-                        <a href="">Förderverein</a>
-                        <a href="">AG-Leitungen</a>
+                        {% for personen in collections.personen %}
+                            <a href="{{ personen.url }}">{{ personen.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -222,13 +212,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Offener Ganztag</a>
-                        <a href="">Arbeitsgemeinschafen</a>
-                        <a href="">Fahrten und Austauschprogramme</a>
-                        <a href="">Beratung</a>
-                        <a href="">Prävention</a>
-                        <a href="">Schulsanitätsdienst</a>
-                        <a href="">Medienscouts</a>
+                        {% for schulleben in collections.schulleben %}
+                            <a href="{{ schulleben.url }}">{{ schulleben.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -238,13 +224,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        <a href="">Anmeldung zum neuen Schuljahr</a>
-                        <a href="">Mensa / Kiosk</a>
-                        <a href="">Digitale Werkzeuge</a>
-                        <a href="">Formulare</a>
-                        <a href="">Termine</a>
-                        <a href="">Kontakt</a>
-                        <a href="">Newsletter "Einhorn"</a>
+                        {% for service in collections.service %}
+                            <a href="{{ service.url }}">{{ service.data.title }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
