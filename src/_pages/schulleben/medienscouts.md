@@ -5,6 +5,7 @@ banner: /img/uploads/img_0507-3.png
 tags:
   - schulleben
   - page
+category: Schulleben
 ---
 <center><div class="title"><h4>Medienscouts</h4><h2>Umgang mit Medien</h2></div></center>
 
