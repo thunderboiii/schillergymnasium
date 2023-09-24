@@ -26,7 +26,7 @@ collections:
       - { name: 'banner', label: 'Banner', widget: image}
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['profil', 'page'], required: false}
-      - { name: 'category', label: 'Kategorie',  widget: "string", default: ['Profil']}
+      - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Profil'}
   - name: "personen"
     label: "Personen"
     folder: "src/_pages/personen"
@@ -37,7 +37,7 @@ collections:
       - { name: 'banner', label: 'Banner', widget: image}
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['personen', 'page'], required: false}
-      - { name: 'category', label: 'Kategorie',  widget: "string", default: ['Personen']}
+      - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Personen'}
   - name: "faecher"
     label: "Fächer"
     editor:
@@ -64,7 +64,7 @@ collections:
       - { name: 'banner', label: 'Banner', widget: image}
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
-      - { name: 'category', label: 'Kategorie',  widget: "string", default: ['Lernen']}
+      - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Lernen'}
   - name: "schulleben"
     label: "Schulleben"
     editor:
@@ -77,7 +77,7 @@ collections:
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}
-      - { name: 'category', label: 'Kategorie',  widget: "string", default: ['Schulleben']}
+      - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Schulleben'}
   - name: "service"
     label: "Service"
     editor:
