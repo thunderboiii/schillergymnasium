@@ -5,6 +5,7 @@ banner: /img/uploads/elternvertretung-2023_2024.jpg
 tags:
   - schulleben
   - page
+category: Schulleben
 ---
 Alle Eltern einer Klasse bilden die Klassenpflegschaft, die am Anfang eines Schuljahres einen Vorsitzenden/eine Vorsitzende und eine Stellvertretung wählt. Diese sind automatisch Mitglied der Schulpflegschaft. Die Schulpflegschaft ist das zentrale Mitwirkungsorgan der Elternschaft auf der Ebene der Schule. 
 
