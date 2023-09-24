@@ -5,6 +5,7 @@ banner: /img/uploads/banner.jpeg
 tags:
   - schulleben
   - page
+category: Schulleben
 ---
 <center><div class="title"><h4>Schülervertretung</h4><h2>SV-Aktivkreis am Schiller   </h2></div></center>
 
