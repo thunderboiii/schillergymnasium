@@ -31,5 +31,3 @@ schulpflegschaftsvorstand@schiller.ms.de
 **Weiterführende Informationen** 
 
 „Elternmitwirkung in der Schule“ vom Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen
-
-<center><iframe class="embet component" src="https://maple-ink.com" title="Embet" frameborder="0"></iframe></center>
