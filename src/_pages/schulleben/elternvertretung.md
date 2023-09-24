@@ -10,11 +10,7 @@ Alle Eltern einer Klasse bilden die Klassenpflegschaft, die am Anfang eines Schu
 
 In der ersten Schulpflegschaftssitzung eines neuen Schuljahres wird ein Schulpflegschaftsvorstand gewählt. Dieser Vorstand besteht aus dem/der Vorsitzenden und drei Vertreter:innen. 
 
-
-
 Vorstand der Schulpflegschaft im Schuljahr 2023/24: (v. l.) Uwe Hillermann (Kl. 7 und 10), Julia Vogel (Kl. 6 und 10), Kristina Hirschfeld (Vorsitzende, Kl. 6, 8 und Jg. Q1) und Dr. Patricia Hagedorn (Jg. Q2) 
-
-
 
 Als Schulpflegschaftsvorstand treffen wir uns regelmäßig und arbeiten eng zusammen. Wir informieren Eltern über wichtige Themen aus den Bereichen unserer Schule, der Stadtelternschaft, der Landeselternschaft der Gymnasien sowie des Schulministeriums. Durch den fortwährenden Austausch mit unserer Schulleitung und Eltern können wir so Vorschläge und Anregungen direkt aufnehmen, diskutieren, weitergeben und umsetzen. An der Schulpflegschaftsarbeit interessierte Eltern laden wir zwei- bis dreimal jährlich zu Information und Austausch ein. 
 
@@ -35,3 +31,7 @@ schulpflegschaftsvorstand@schiller.ms.de
 **Weiterführende Informationen** 
 
 „Elternmitwirkung in der Schule“ vom Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen
+
+
+
+<center><iframe class="embet component" src="https://www.google.com/search?client=opera-gx&q=color+logo+meaning&sourceid=opera&ie=UTF-8&oe=UTF-8&bshm=rime/1#vhid=MsAGwS-AB9UdVM&vssid=l" title="Embet" frameborder="0"></iframe></center>
