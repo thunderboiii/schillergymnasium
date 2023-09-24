@@ -90,20 +90,6 @@ collections:
       - {name: 'banner', label: 'Banner', widget: image}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['service', 'page'], required: false}
-  - name: "schillerglocke"
-    label: "Schillerglocke"
-    editor:
-      preview: false
-    folder: "src/_schillerglocke"
-    create: true
-    fields:
-      - { name: 'title', label: 'Titel', widget: 'string'}
-      - { name: 'date', label: 'Datum', widget: 'date'}
-      - { name: 'author', label: 'Autor', widget: 'string'}
-      - { name: 'description', label: 'Beschreibung', widget: string }
-      - { name: 'banner', label: 'Vorschau Bild', widget: image }
-      - { name: 'body', label: 'Inhalt', widget: markdown}
-      - { name: 'tags', label: 'Tags',  widget: "list", default: ['schillerglocke']}
   - name: "management"
     label: "Management"
     files: 
