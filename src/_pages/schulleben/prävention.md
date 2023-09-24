@@ -9,8 +9,6 @@ category: Schulleben
 ---
 <center><div class="title"><h4>Prävention</h4><h2>Prävention am Schiller </h2></div></center>
 
- 
-
 Die Präventionsangebote unserer Schule umfassen schwerpunktmäßig die Bereiche Sucht/Drogen, Sexualität/AIDS, Medienkompetenz, Gewalt und Mobbing. 
 
 Ein wichtiger Baustein der Präventionsarbeit ist die allgemeine Persönlichkeitsbildung. Diese ist bei uns mit dem Lions-Quest-Programm unterrichtlich verankert und dient in der gesamten Sek.I der Förderung der sozialen Kompetenzen und der Stärkung des Selbstwertgefühls unserer Schülerinnen und Schüler. 
@@ -21,7 +19,7 @@ Im Bereich der **Sexual/AIDS-Aufklärung** arbeiten wir mit der Aidshilfe Münst
 
 Um Gewalt und Mobbing vorzubeugen gibt es neben der nachhaltigen Arbeit der Klassenleitungen u.a. im Rahmen der Klassenleiterstunden in Klasse 5 und 6 ein besonderes pädagogisches Programm auf der Kennenlernfahrt zu Beginn der 5. Klasse, welches auf die Stärkung des Selbstwertgefühls des Einzelnen sowie der Klassengemeinschaft abzielt. In der Jahrgangsstufe 7. können wir häufig durch Kooperation mit dem Arbeitskreis soziale Bildung den Projekttag Spotlight-Theater gegen Mobbing anbieten. Zudem arbeiten wir bei Bedarf mit der schulpsychologischen Beratungsstelle der Stadt Münster zusammen. 
 
-Zur gezielten Stärkung der **Medienkompetenz** und der **Prävention von Cybermobbing** führen wir in Zusammenarbeit mit Outlaw, einer gemeinnützigen Gesellschaft für Kinder- und Jugendhilfe das **Projekt** *cybermobbing@fairer* Umgang im Netz für die **Jahrgangsstufe 6** durch. Hier werden soziale Kompetenzen für den Umgang untereinander - im Klassenverband wie auch im Netz - und für den Umgang mit persönlichen Daten im Internet vermittelt und es wird aufgezeigt, wie man sicher in sozialen Netzwerken unterwegs sein kann. Abgerundet wird das Angebot im Bereich Medienerziehung von unseren [Medienscouts](/medienscouts).
+Zur gezielten Stärkung der **Medienkompetenz** und der **Prävention von Cybermobbing** führen wir in Zusammenarbeit mit Outlaw, einer gemeinnützigen Gesellschaft für Kinder- und Jugendhilfe das **Projekt** *cybermobbing@fairer* Umgang im Netz für die **Jahrgangsstufe 6** durch. Hier werden soziale Kompetenzen für den Umgang untereinander - im Klassenverband wie auch im Netz - und für den Umgang mit persönlichen Daten im Internet vermittelt und es wird aufgezeigt, wie man sicher in sozialen Netzwerken unterwegs sein kann. Abgerundet wird das Angebot im Bereich Medienerziehung von unseren [Medienscouts](https://schillergymnasium.netlify.app/_pages/schulleben/medienscouts/).
 
 Hier finden Sie eine Übersicht mit weiterführenden Infos und aktuellen Terminen: 
 
