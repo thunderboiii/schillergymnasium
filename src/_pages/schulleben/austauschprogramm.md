@@ -5,6 +5,7 @@ banner: /img/uploads/namibia.jpg
 tags:
   - schulleben
   - page
+category: Schulleben
 ---
 Die Förderung von internationaler Verständigung und interkultureller Kompetenz stehen am Schillergymnasium in einer langen Tradition. Das Schillergymnasium bietet daher auch ein umfangreiches Austauschprogramm und den direkten Kontakt mit gleichaltrigen Jugendlichen aus den unterschiedlichsten Ländern und Kulturen.  
 
