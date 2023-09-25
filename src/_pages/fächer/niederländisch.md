@@ -1,6 +1,6 @@
 ---
 title: Niederländisch
-banner: /img/uploads/buchdruck-im-unterricht-.jpeg
+banner: /img/uploads/img_0903.jpeg
 about:
   fachText: >-
     Entdecke Sprache, Geschichte, Politik und Kultur der Niederlande am
