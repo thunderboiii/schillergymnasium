@@ -18,19 +18,18 @@ Wir treffen uns jeden Donnerstag in der Mittagspause im Raum F101.
 Schau gerne mal vorbei, wir freuen uns auf Dich! \
 Deine/Eure SV am Schiller 
 
-
-
-## Schülersprecher:innen Team 2023/2024  
+## Schülersprecher:innen Team 2023/2024
 
 Dieses Jahr (2023/24) besteht der Schülersprecher: innen Team aus Joy Ann Giesen (Q1), Philipp Göhde (Q2), Luca Näpel (Q2) und Jos Jacobs (Klasse 10). \
 Als SV-Lehrer wurden Frau Heiny und Herr Meyer dieses Mal gewählt. 
 
-
-
 <center><div class="title"><h4>Schillerball</h4><h2>Der Schillerball</h2></div></center>
 
-## Ein Abend des Glanzes und der Gemeinschaft 
+## Ein Abend des Glanzes und der Gemeinschaft
 
+![](/img/uploads/png-image.png)
+
+\
 Im Februar 2023 erlebte die Schulgemeinschaft einen unvergesslichen Abend, als der Schillerball nach vielen Jahren wieder ins Leben gerufen wurde. Organisiert von der Schülervertretung (SV), vereinte der exklusive Ball Lehrer, Schüler und Ehemalige in einer festlichen Atmosphäre. 
 
 Die Aula war festlich geschmückt, und die Gäste erschienen in eleganter Abendgarderobe. Der Abend bot nicht nur Tanz und Musik, sondern auch Gelegenheit für Gespräche und Erinnerungen. Alte Freunde trafen sich wieder, und neue Bindungen wurden geknüpft. 
