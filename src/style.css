@@ -629,6 +629,10 @@ header .faecher {
         height: 50px;
     }
 
+    header .mobile-nav .toggle-button {
+        color: var(--color-dom-100);
+    }
+
     header .mobile-nav .toggle-button i {
         font-size: 45px;
         transition: all ease 500ms;
@@ -639,7 +643,7 @@ header .faecher {
     }
 
     .mobile-links {
-        display: flex;
+        display: none;
         flex-direction: column;
         background-color: var(--color-dom-100);
         height: 60vh;
@@ -648,7 +652,8 @@ header .faecher {
         border-radius: 1rem;
         opacity: 0;
         transform: translateY(-10%);
-        transition: 150ms opacity ease-in-out, transform 150ms ease-in-out; 
+        transition: 150ms opacity ease-in-out, transform 150ms ease-in-out;
+        transition-delay: 150ms;
         pointer-events: none;
         user-select: none;
     }
@@ -658,6 +663,7 @@ header .faecher {
         transform: translateY(0);
         pointer-events: auto;
         user-select: auto;
+        display: flex;
     }
 
     .mobile-links button {
@@ -678,6 +684,8 @@ header .faecher {
         flex-direction: column;
         gap: 1rem;
         text-align: center;
+        z-index: 10000;
+        position: relative;
     }
 
     header .mobile-nav ul .dropdown-menu .dropdown-links a {
@@ -919,10 +927,6 @@ header .faecher {
     .hero-center .upper-title img {
         height: 16px;
     }
-
-    .hero-center .main-title h1 {
-        font-size: 12vw;
-    }
 }
 
 
@@ -992,12 +996,17 @@ header .faecher {
     .lower-hero li {
         line-height: 0;
         margin-bottom: .2rem;
+        margin-left: 0;
     }
 
     .lower-hero li a {
         font-size: 16px;
         line-height: 0;
         color: var(--color-dom-100);
+    }
+    
+    .hero-center .lower-title {
+        transform: translateY(-4px);
     }
 }
 

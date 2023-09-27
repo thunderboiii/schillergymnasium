@@ -7,6 +7,7 @@ const xhr = new dav.transport.Basic(
     })
 );
 
+
 const client = new dav.Client(xhr);
 
 const calendarUrl = 'https://schiller.ms.de/caldav/+public/calendar';
