@@ -650,12 +650,14 @@ header .faecher {
         transform: translateY(-10%);
         transition: 150ms opacity ease-in-out, transform 150ms ease-in-out; 
         pointer-events: none;
+        user-select: none;
     }
 
     .mobile-links.active {
         opacity: 1;
         transform: translateY(0);
         pointer-events: auto;
+        user-select: auto;
     }
 
     .mobile-links button {
