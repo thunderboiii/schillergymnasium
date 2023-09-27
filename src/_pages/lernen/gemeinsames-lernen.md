@@ -15,6 +15,4 @@ In den a-Klassen werden jeweils ca. 26 Schülerinnen und Schüler unterrichtet, 
 
 Um dieser Vielfalt gerecht zu werden, verfügt das Schillergymnasium über besondere personelle und räumliche Möglichkeiten: Unterrichtet werden die Kinder und Jugendlichen sowohl von Lehrkräften des Gymnasiums als auch von Sonderpädagoginnen und Sonderpädagogen. Außerdem wird unser multiprofessionelles Team durch eine Sozialpädagogin unterstützt. Für die Kleingruppenarbeit steht in den a-Klassen ein Differenzierungsraum in unmittelbarer Verbindung mit dem Klassenzimmer zur Verfügung. 
 
-Die bisherigen Erfahrungen zeigen, dass das Gemeinsame Lernen gelingt und alle Schülerinnen und Schüler von dieser Lernkultur profitieren – sowohl fachlich als auch sozial. 
-
-<center><a href="/img/uploads/mittagstreff-1.hj-2022-23.docx" class="download-button" download><i class="bx bx-download"></i> Herunterladen</a></center>
+Die bisherigen Erfahrungen zeigen, dass das Gemeinsame Lernen gelingt und alle Schülerinnen und Schüler von dieser Lernkultur profitieren – sowohl fachlich als auch sozial.
