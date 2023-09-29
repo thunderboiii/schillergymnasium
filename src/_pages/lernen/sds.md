@@ -1,12 +1,14 @@
 ---
 title: Rechtschreibförderung
-shortTitle: Rechtschreibung
+shortTitle: Rechtschreibförderung
 banner: /img/uploads/2022-im-stadtarchiv.jpeg
 tags:
   - lernen
   - page
 category: Lernen
 ---
+<center><div class="title"><h4>Rechtschreibung</h4><h2>Rechtschreibförderung</h2></div></center>
+
 Das Schillergymnasium bietet die Möglichkeit zu einer kontinuierlichen Förderung von Rechtschreibkompetenzen insbesondere für Kinder mit Lese-Rechtschreibschwäche durch inner- und außerunterrichtliche Angebote von Klasse 5 bis 7. 
 
 ## Was kann das Kind schon?
