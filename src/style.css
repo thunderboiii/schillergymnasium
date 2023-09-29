@@ -908,6 +908,7 @@ header .faecher {
 
 .lower-hero li {
     font-weight: normal;
+    margin-left: 0;
 }
 
 @media (max-width: 35em) {
