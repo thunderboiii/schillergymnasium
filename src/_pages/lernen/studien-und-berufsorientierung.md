@@ -1,6 +1,6 @@
 ---
-title: Studien- und Berufsorientierung
-shortTitle: Berufsorientierung
+title: Laufbahnberatung
+shortTitle: Laufbahnberatung
 banner: /img/uploads/fremdbild-berufsorientierung.jpg
 tags:
   - lernen
