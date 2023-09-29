@@ -1,5 +1,5 @@
 ---
-title: Drehstürmodell
+title: Drehtürmodell
 banner: /img/uploads/img_0909.jpeg
 tags:
   - lernen
