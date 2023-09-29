@@ -1,6 +1,6 @@
 ---
-title: Mittagstreff
-shortTitle: Mittagstreff
+title: Offener Ganztag
+shortTitle: Offener Ganztag
 banner: /img/uploads/mittagstreff.jpg
 tags:
   - schulleben
