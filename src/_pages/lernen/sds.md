@@ -1,6 +1,6 @@
 ---
-title: sds
-shortTitle: dsds
+title: Rechtschreibförderung
+shortTitle: Rechtschreibung
 banner: /img/uploads/2022-im-stadtarchiv.jpeg
 tags:
   - lernen
