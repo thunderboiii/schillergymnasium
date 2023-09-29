@@ -1,7 +1,7 @@
 ---
 title: Rechtschreibförderung
 shortTitle: Rechtschreibförderung
-banner: /img/uploads/2022-im-stadtarchiv.jpeg
+banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
 tags:
   - lernen
   - page
