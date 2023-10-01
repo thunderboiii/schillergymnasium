@@ -2,6 +2,10 @@
 title: Rechtschreibförderung
 shortTitle: Rechtschreibung
 banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
+banners:
+  - banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
+  - banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
+  - banner: /img/uploads/bild-20200303-141251-735977b9.jpeg
 tags:
   - lernen
   - page
