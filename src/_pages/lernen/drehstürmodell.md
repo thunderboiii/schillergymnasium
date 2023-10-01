@@ -1,6 +1,8 @@
 ---
 title: Drehtürmodell
 banner: /img/uploads/img_0909.jpeg
+banners:
+  - banner: /img/uploads/img_0909.jpeg
 tags:
   - lernen
   - page
