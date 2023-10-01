@@ -2,6 +2,9 @@
 title: Austauschprogramm
 shortTitle: Austauschprogramm
 banner: /img/uploads/namibia.jpg
+banners:
+  - banner: /img/uploads/namibia.jpg
+  - banner: /img/uploads/polen_2.jpg
 tags:
   - schulleben
   - page
