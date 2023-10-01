@@ -22,7 +22,15 @@ layout: base.njk
             <hr>
         </div>
 
-        <img class="background" src="{{ banner }}" alt=""> 
+        {% for page in collections.page %}
+            {% if page.data.title == title %}
+                {% for banner in page.data.banners %}
+                    <img class="background" src="{{ banner.banner }}" alt="">
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        <script src="/scripts/banner.js"></script>
     </div>
 
     {% include 'lower-hero.njk' %}

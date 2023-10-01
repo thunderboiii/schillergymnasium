@@ -847,6 +847,7 @@ header .faecher {
     height: 100%;
     object-fit: cover;
     filter: brightness(60%);
+    transition: opacity .6s ease-in;
 }
 
 .hero-center .upper-title {

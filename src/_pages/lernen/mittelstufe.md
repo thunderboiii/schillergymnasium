@@ -1,6 +1,5 @@
 ---
 title: Mittelstufe
-banner: /img/uploads/bild-20200303-141251-735977b9.jpeg
 layout: page.njk
 banners:
   - banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
