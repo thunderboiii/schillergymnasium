@@ -12,5 +12,6 @@ function carousel() {
 
     if(slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.opacity = "1";
+
     setTimeout(carousel, 5000);
 }
