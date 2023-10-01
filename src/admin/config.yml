@@ -61,7 +61,7 @@ collections:
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
       - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false }
-      - { name: 'banner', label: 'Banner', widget: image}
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}]}
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Lernen'}
