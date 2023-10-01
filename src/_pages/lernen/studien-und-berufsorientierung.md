@@ -2,6 +2,9 @@
 title: Laufbahnberatung
 shortTitle: Laufbahnberatung
 banner: /img/uploads/fremdbild-berufsorientierung.jpg
+banners:
+  - banner: /img/uploads/fremdbild-berufsorientierung.jpg
+  - banner: /img/uploads/fremdbild-praktikum.jpg
 tags:
   - lernen
   - page
