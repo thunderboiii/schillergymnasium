@@ -2,9 +2,12 @@
 title: Oberstufe
 banner: /img/uploads/bild-20200303-141251-735977b9.jpeg
 layout: page.njk
+banners:
+  - banner: /img/uploads/besuch-der-ausstellung-911.jpeg
 tags:
   - lernen
   - page
+category: Lernen
 ---
 <center><div class="title"><h4>Oberstufe</h4><h2>Informationen zur Oberstufe </h2></div></center>
 

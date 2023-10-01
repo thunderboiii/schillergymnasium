@@ -1,6 +1,9 @@
 ---
 title: Sprachenfolge
 banner: /img/uploads/2022-im-stadtarchiv.jpeg
+banners:
+  - banner: /img/uploads/img_0540.jpeg
+  - banner: /img/uploads/img_0909.jpeg
 tags:
   - lernen
   - page

@@ -2,6 +2,8 @@
 title: "Gemeinsames Lernen "
 shortTitle: ""
 banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+banners:
+  - banner: /img/uploads/bild-1-homepage.jpeg
 tags:
   - lernen
   - page
