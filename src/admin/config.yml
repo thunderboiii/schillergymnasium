@@ -10,7 +10,7 @@ collections:
     create: true
     fields:
       - { name: 'title', label: 'Titel', widget: 'string'}
-      - { name: 'date', label: 'Datum', widget: 'date'}
+      - { name: 'date', label: 'Datum', widget: 'datetime' }
       - { name: 'author', label: 'Autor', widget: 'string'}
       - { name: 'description', label: 'Beschreibung', widget: string }
       - { name: 'banner', label: 'Vorschau Bild', widget: image }
