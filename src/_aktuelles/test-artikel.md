@@ -1,5 +1,6 @@
 ---
 title: Test Artikel
+date: 2023-10-08T10:21:06.483Z
 author: Emil Becher
 description: Das ist eine Test Beschreibung für einen Test Artikel zum testen
   der Funktionen auf der Aktuelles Seite.
