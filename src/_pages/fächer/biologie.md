@@ -33,6 +33,17 @@ about:
     - fachImage: /img/uploads/bild-20230814-102250-93a0de39.jpeg
 fachschaft:
   teachers: Frau Westphal
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/BAR.jpg
+  - fachschaftImage: /img/uploads/DIL.jpg
+  - fachschaftImage: /img/uploads/HAV.jpg
+  - fachschaftImage: /img/uploads/HDN.jpg
+  - fachschaftImage: /img/uploads/LEA.jpg
+  - fachschaftImage: /img/uploads/PE.jpg
+  - fachschaftImage: /img/uploads/SCJ.jpg
+  - fachschaftImage: /img/uploads/STG.jpg
+  - fachschaftImage: /img/uploads/WAA.jpg
+  - fachschaftImage: /img/uploads/WP.jpg
 teachers: Frau Waanders
 tags:
   - fach
