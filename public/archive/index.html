@@ -244,7 +244,7 @@
 
         <ul class="mobile-links">
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Profil</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Profil</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
@@ -256,7 +256,7 @@
             </div>
 
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Personen</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Personen</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
@@ -266,7 +266,7 @@
             </div>
 
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Fächer</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Fächer</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links faecher">
@@ -318,7 +318,7 @@
             </div>
 
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Lernen</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Lernen</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
@@ -342,7 +342,7 @@
             </div>
 
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Schulleben</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Schulleben</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
@@ -368,7 +368,7 @@
             </div>
             
             <div class="dropdown" data-dropdown>
-                <button class="link" data-dropdown-button>Service</button>
+                <button class="link" data-dropdown-button><i class='bx bx-chevron-left chevron' data-dropdown-button></i>Service</button>
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
@@ -434,36 +434,49 @@
 </div>
 </section>
 
-<section class="aktuelles-page">
-    <div class="post-nav">
-        <div class="years">
-            <button>Jahr</button>
-            <div class="dropdown"></div>
-        </div>
+<section class="aktuelles-page archive-page">
+    <div class="posts">
+        <div class="post-nav">
+            <div class="dropdown years" data-dropdown>
+                <button class="link" data-dropdown-button>Jahr</button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links">
+                        <a href="">2023</a> 
+                        <a href="">2022</a> 
+                        <a href="">2021</a> 
+                    </div>
+                </div>
+            </div>
 
-        <div class="months">
-            <button>Monat</button>
-            <div class="dropdown"></div>
-        </div>
-    </div>
-    <div class="posts"><div class="snippet">
+            <div class="dropdown months" data-dropdown>
+                <button class="link" data-dropdown-button>Monat</button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links">
+                        <a href="">Januar</a> 
+                        <a href="">Februar</a> 
+                        <a href="">März</a> 
+                        <a href="">April</a> 
+                        <a href="">Mai</a> 
+                        <a href="">Juni</a> 
+                        <a href="">Juli</a> 
+                        <a href="">August</a> 
+                        <a href="">September</a> 
+                        <a href="">Oktober</a> 
+                        <a href="">November</a> 
+                        <a href="">Dezember</a> 
+                    </div>
+                </div>
+            </div>
+
+            <script src="/scripts/nav.js"></script>
+        </div><div class="snippet">
                 <img src="/img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg" alt="" class="snippet__image">
                 <div class="snippet__content">
                     <a href="/_aktuelles/test-artikel/"><h2 class="snippet__title">Test Artikel</h2></a>
-                    <p class="snippet__info">Invalid DateTime &#8226; Emil Becher</p>
+                    <p class="snippet__info">8 Oct 2023 &#8226; Emil Becher</p>
                     <p class="snippet__description">Das ist eine Test Beschreibung für einen Test Artikel zum testen der Funktionen auf der Aktuelles Seite.</p>
                 </div>
             </div></div> 
-    
-    <div class="archive">
-        <center><h2>Archiv</h2></center>
-        <div class="buttons">
-            <button>2023</button>
-            <button>2022</button>
-            <button>2021</button>
-            <button>2020</button>
-        </div>
-    </div>
 </section>
     </main>
     

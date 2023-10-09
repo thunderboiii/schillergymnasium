@@ -25,19 +25,42 @@ layout: base.njk
     {% include 'lower-hero.njk' %}
 </section>
 
-<section class="aktuelles-page">
-    <div class="post-nav">
-        <div class="years">
-            <button>Jahr</button>
-            <div class="dropdown"></div>
-        </div>
-
-        <div class="months">
-            <button>Monat</button>
-            <div class="dropdown"></div>
-        </div>
-    </div>
+<section class="aktuelles-page archive-page">
     <div class="posts">
+        <div class="post-nav">
+            <div class="dropdown years" data-dropdown>
+                <button class="link" data-dropdown-button>Jahr</button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links">
+                        <a href="">2023</a> 
+                        <a href="">2022</a> 
+                        <a href="">2021</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown months" data-dropdown>
+                <button class="link" data-dropdown-button>Monat</button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-links">
+                        <a href="">Januar</a> 
+                        <a href="">Februar</a> 
+                        <a href="">März</a> 
+                        <a href="">April</a> 
+                        <a href="">Mai</a> 
+                        <a href="">Juni</a> 
+                        <a href="">Juli</a> 
+                        <a href="">August</a> 
+                        <a href="">September</a> 
+                        <a href="">Oktober</a> 
+                        <a href="">November</a> 
+                        <a href="">Dezember</a> 
+                    </div>
+                </div>
+            </div>
+
+            <script src="/scripts/nav.js"></script>
+        </div>
         {%- for post in collections.post | reverse -%}
             <div class="snippet">
                 <img src="{{ post.data.banner }}" alt="" class="snippet__image">
@@ -49,14 +72,4 @@ layout: base.njk
             </div>
         {%- endfor -%}
     </div> 
-    
-    <div class="archive">
-        <center><h2>Archiv</h2></center>
-        <div class="buttons">
-            <button>2023</button>
-            <button>2022</button>
-            <button>2021</button>
-            <button>2020</button>
-        </div>
-    </div>
 </section>

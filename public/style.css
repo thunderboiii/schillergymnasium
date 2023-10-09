@@ -316,7 +316,7 @@ hr {
 }
 
 .contents img {
-    width: 400px;
+    width: 60%;
 }
 
 .contents .download-button {
@@ -343,27 +343,6 @@ hr {
     word-break: break-all;
     user-select: auto;
     pointer-events: auto;
-}
-
-@media (max-width: 35em) {
-    .contents {
-        margin: 2rem 2rem;
-    }
-
-    .contents .content {
-        margin-bottom: 8rem;
-    }
-
-    .title h2 {
-        font-size: 45px;
-        text-align: center;
-        
-    }
-
-    .title h4 {
-        font-size: 16vw;
-        width: 80vw;
-    }
 }
 
 .tooltip {
@@ -418,6 +397,11 @@ hr {
     object-fit: cover;
 }
 
+.fachschaft-gallery img {
+    aspect-ratio: 35/45;
+    width: 200px;
+}
+
 blockquote {
     background-color: var(--color-dom-200);
     padding: 1rem;
@@ -432,6 +416,56 @@ blockquote .author p {
 .youtube {
     width: 80%;
     aspect-ratio: 16/9;
+}
+
+.video {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
+.embet {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
+@media (max-width: 35em) {
+    .contents {
+        margin: 2rem 2rem;
+    }
+
+    .contents .content {
+        margin-bottom: 8rem;
+    }
+
+    .title h2 {
+        font-size: 45px;
+        text-align: center;
+        
+    }
+
+    .title h4 {
+        font-size: 16vw;
+        width: 80vw;
+    }
+
+    .contents img {
+        width: 100%;
+    }
+
+    .youtube {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .video {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+    
+    .embet {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
 }
 
 
@@ -646,10 +680,9 @@ header .faecher {
         display: none;
         flex-direction: column;
         background-color: var(--color-dom-100);
-        height: 60vh;
+        height: 65vh;
         overflow-y: scroll;
         padding: 1rem;
-        border-radius: 1rem;
         opacity: 0;
         transform: translateY(-10%);
         transition: 150ms opacity ease-in-out, transform 150ms ease-in-out;
@@ -690,10 +723,44 @@ header .faecher {
 
     header .mobile-nav ul .dropdown-menu .dropdown-links a {
         color: var(--color-dom-900);
+        z-index: 10000;
+        pointer-events: auto;
     }
 
     header .mobile-nav ul .dropdown.active > .link + .dropdown-menu {
         display: block;
+    }
+
+    header .mobile-nav ul .dropdown.active > .link {
+        background-color: var(--color-accent-700);
+        padding: .5rem;
+        color: var(--color-dom-100);
+        font-weight: 500;
+        position: relative;
+    }
+
+    header .mobile-nav ul .dropdown > .link .chevron {
+        display: none;
+    }
+
+    header .mobile-nav ul .dropdown.active > .link .chevron {
+        display: block;
+        position: absolute;
+        font-size: 28px;
+    }
+
+    header .mobile-nav .mobile-links:has(.dropdown.active) .dropdown {
+        display: none;
+    }
+
+    header .mobile-nav .mobile-links .dropdown.active {
+        display: block !important;
+    }
+
+    header .mobile-nav .mobile-links:has(.dropdown.active) {
+        padding: 0;
+        border-radius: 0;
+        padding-bottom: 1rem;
     }
 
     header nav ul .information-grid .dropdown-heading {
@@ -1262,9 +1329,13 @@ header .faecher {
 }
 
 .aktuelles-page .posts {
-    border-bottom: 1px var(--color-dom-600) solid;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    
+}
+
+.aktuelles-page .archive {
+    border-top: 1px var(--color-dom-600) solid;
+    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 .aktuelles-page .archive h2 {
@@ -1287,6 +1358,7 @@ header .faecher {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .posts .snippet {
@@ -1338,13 +1410,61 @@ header .faecher {
     gap: 2rem;
     justify-content: flex-start;
 
-    width: auto;
+    width: 100%;
 }
 
 .post-nav button {
     background-color: var(--color-dom-200);
     border: none;
+    width: 6em;
+    border-radius: 10px;
+}
 
+
+.archive-page .posts .post-nav .dropdown {
+    position: relative;
+}
+
+.archive-page .posts .post-nav .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: auto;
+    background-color: var(--color-dom-200);
+    padding: .5rem 1.7rem;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
+    pointer-events: none;
+    -webkit-transition: 150ms opacity ease-in-out, transform 150ms ease-in-out, top 500ms ease-in-out;
+    width: 6em;
+    text-align: center;
+}
+
+.archive-page .posts .post-nav .dropdown-menu .dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 0;
+}
+
+.archive-page .posts .post-nav .dropdown-menu .dropdown-links a {
+    color: var(--color-dom-900);
+}
+
+.archive-page .posts .post-nav .dropdown.active > .link {
+    border-radius: 10px 10px 0 0;
+}
+
+.archive-page .posts .post-nav .dropdown.active > .link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.archive-page .posts .post-nav .dropdown.right .dropdown-menu {
+    right: 0;
+    left: auto;
 }
 
 @media (max-width: 35em) {
@@ -1419,15 +1539,7 @@ header .faecher {
     }
 }
 
-.video {
-    width: 80%;
-    aspect-ratio: 16/9;
-}
 
-.embet {
-    width: 80%;
-    aspect-ratio: 16/9;
-}
 
 
 .contact {
