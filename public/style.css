@@ -397,6 +397,12 @@ hr {
     object-fit: cover;
 }
 
+.fachschaft-gallery {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-dom-600);
+    margin-bottom: calc(2rem - 10px);
+}
+
 .fachschaft-gallery img {
     aspect-ratio: 35/45;
     width: 200px;
@@ -1513,7 +1519,6 @@ header .faecher {
 
 .teachers {
     text-align: center;
-    margin-top: 1rem;
 }
 
 .content.blog img {
