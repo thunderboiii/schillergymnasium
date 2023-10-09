@@ -44,7 +44,8 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STG.jpg
   - fachschaftImage: /img/uploads/WAA.jpg
   - fachschaftImage: /img/uploads/WP.jpg
-teachers: Frau Waanders
+teachers: Frau Lechtenböhmer, Frau Haverland, Frau Schüßler, Frau Waanders, Herr
+  Barckhaus, Frau Stegemann, Herr Diletti, Frau Herdin, Frau Pech
 tags:
   - fach
 ---
