@@ -33,7 +33,11 @@ about:
     - fachImage: /img/uploads/lit_01.jpg
 fachschaft:
   teachers: Herr Gutsche
-teachers: Herr Gutsche
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/GU.jpg
+  - fachschaftImage: /img/uploads/HA.jpg
+  - fachschaftImage: /img/uploads/MOE.jpg
+teachers: "Frau Hartwig, Frau Moek, Herr Gutsche, "
 tags:
   - fach
 ---
