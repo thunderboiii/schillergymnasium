@@ -1,6 +1,7 @@
 ---
 banners:
   - banner: /img/uploads/img_9739.jpeg
+  - banner: /img/uploads/foto-d-fs.jpeg
 banner: /img/uploads/img_9739.jpeg
 about:
   fachText: >-
