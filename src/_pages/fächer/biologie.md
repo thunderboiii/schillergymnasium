@@ -1,5 +1,6 @@
 ---
-title: Biologie
+banners:
+  - banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
 banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
 about:
   fachText: >-
@@ -31,8 +32,6 @@ about:
   fachGallery:
     - fachImage: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
     - fachImage: /img/uploads/bild-20230814-102250-93a0de39.jpeg
-fachschaft:
-  teachers: Frau Westphal
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BAR.jpg
   - fachschaftImage: /img/uploads/DIL.jpg
@@ -46,6 +45,9 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/WP.jpg
 teachers: Frau Lechtenböhmer, Frau Haverland, Frau Schüßler, Frau Waanders, Herr
   Barckhaus, Frau Stegemann, Herr Diletti, Frau Herdin, Frau Pech
+fachschaft:
+  teachers: Frau Westphal
+title: Biologie
 tags:
   - fach
 ---

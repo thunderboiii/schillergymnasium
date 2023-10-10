@@ -1,5 +1,7 @@
 ---
-title: Deutsch
+banners:
+  - banner: /img/uploads/img_9739.jpeg
+  - banner: /img/uploads/foto-d-fs.jpeg
 banner: /img/uploads/img_9739.jpeg
 about:
   fachText: >-
@@ -32,9 +34,29 @@ about:
   fachGallery:
     - fachImage: /img/uploads/foto-d-fs.jpeg
     - fachImage: /img/uploads/img_9739.jpeg
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/AC.jpg
+  - fachschaftImage: /img/uploads/BER.jpg
+  - fachschaftImage: /img/uploads/BÖR.jpg
+  - fachschaftImage: /img/uploads/HA.jpg
+  - fachschaftImage: /img/uploads/KIN.jpg
+  - fachschaftImage: /img/uploads/LDS.jpg
+  - fachschaftImage: /img/uploads/LAF.jpg
+  - fachschaftImage: /img/uploads/MOE.jpg
+  - fachschaftImage: /img/uploads/NES.jpg
+  - fachschaftImage: /img/uploads/PAT.jpg
+  - fachschaftImage: /img/uploads/RA.jpg
+  - fachschaftImage: /img/uploads/RIP.jpg
+  - fachschaftImage: /img/uploads/SBM.jpg
+  - fachschaftImage: /img/uploads/STP.jpg
+  - fachschaftImage: /img/uploads/TBE.jpg
+  - fachschaftImage: /img/uploads/WEL.jpg
+  - fachschaftImage: /img/uploads/WK.jpg
+  - fachschaftImage: /img/uploads/NGL.jpg
+teachers: Frau Schlumbohm
 fachschaft:
   teachers: "Frau Schlumbohm "
-teachers: Frau Schlumbohm
+title: Deutsch
 tags:
   - fach
 ---
