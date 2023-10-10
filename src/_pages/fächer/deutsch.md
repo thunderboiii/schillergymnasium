@@ -1,5 +1,6 @@
 ---
-title: Deutsch
+banners:
+  - banner: /img/uploads/img_9739.jpeg
 banner: /img/uploads/img_9739.jpeg
 about:
   fachText: >-
@@ -32,8 +33,6 @@ about:
   fachGallery:
     - fachImage: /img/uploads/foto-d-fs.jpeg
     - fachImage: /img/uploads/img_9739.jpeg
-fachschaft:
-  teachers: "Frau Schlumbohm "
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AC.jpg
   - fachschaftImage: /img/uploads/BER.jpg
@@ -54,6 +53,9 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/WK.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
 teachers: Frau Schlumbohm
+fachschaft:
+  teachers: "Frau Schlumbohm "
+title: Deutsch
 tags:
   - fach
 ---
