@@ -406,6 +406,8 @@ hr {
 .fachschaft-gallery img {
     aspect-ratio: 35/45;
     width: 200px;
+    user-select: none;
+    pointer-events: none;
 }
 
 blockquote {
