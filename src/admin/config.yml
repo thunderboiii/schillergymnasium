@@ -3,6 +3,8 @@ backend:
   branch: main
 media_folder: "public/img/uploads"
 public_folder: "/img/uploads"
+site_url: https://schillergymnasium.netlify.app
+display_url: https://schillergymnasium.netlify.app
 collections: 
   - name: 'aktuelles'
     label: 'Aktuelles'
