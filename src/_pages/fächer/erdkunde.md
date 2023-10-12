@@ -81,16 +81,22 @@ fachText: "Bist du neugierig auf ferne Länder und die Geheimnisse unserer Erde?
 
 
   Lasse dich von Erdkunde begeistern und gestalte deine Zukunft aktiv mit!"
-teachers: Frau Perner
+teachers: Frau Landers, Frau Lanfer, Frau Lechtenböhmer, Frau Perner, Herr
+  Stapelbroek, Frau Stegemann, Frau Uylenkate, Herr Völtz, Herr Vogt, Herr Voigt
 fachGallery: []
 fachschaft:
   teachers: Frau Perner
 title: Erdkunde
 fachschaftGallery:
-  - fachschaftImage: /img/uploads/img_avatar.png
-    teacherName: Stefanie Perner
-  - fachschaftImage: /img/uploads/img_avatar.png
-    teacherName: Christian Vogt
+  - fachschaftImage: /img/uploads/VOI.jpg
+  - fachschaftImage: /img/uploads/VOG.jpg
+  - fachschaftImage: /img/uploads/UY.jpg
+  - fachschaftImage: /img/uploads/STG.jpg
+  - fachschaftImage: /img/uploads/STP.jpg
+  - fachschaftImage: /img/uploads/PER.jpg
+  - fachschaftImage: /img/uploads/LEA.jpg
+  - fachschaftImage: /img/uploads/LAF.jpg
+  - fachschaftImage: /img/uploads/LDS.jpg
 tags:
   - fach
 category: Gesellschaftswissenschaften

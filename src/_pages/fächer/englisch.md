@@ -1,5 +1,13 @@
 ---
-title: Englisch
+banners:
+  - banner: /img/uploads/mun.jpeg
+    alignment: center
+  - banner: /img/uploads/englischunterricht-1.jpeg
+    alignment: center
+  - banner: /img/uploads/englischunterricht-2.jpeg
+    alignment: center
+  - banner: /img/uploads/brisbane.jpeg
+    alignment: center
 banner: /img/uploads/brisbane.jpeg
 about:
   fachText: >-
@@ -26,9 +34,31 @@ about:
     - fachImage: /img/uploads/englischunterricht-2.jpeg
     - fachImage: /img/uploads/mun.jpeg
     - fachImage: /img/uploads/brisbane.jpeg
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/BM.jpg
+  - fachschaftImage: /img/uploads/BÖR.jpg
+  - fachschaftImage: /img/uploads/DRI.jpg
+  - fachschaftImage: /img/uploads/FIE.jpg
+  - fachschaftImage: /img/uploads/HY.jpg
+  - fachschaftImage: /img/uploads/HDN.jpg
+  - fachschaftImage: /img/uploads/ME.jpg
+  - fachschaftImage: /img/uploads/MOE.jpg
+  - fachschaftImage: /img/uploads/NC.jpg
+  - fachschaftImage: /img/uploads/NOW (Fächer).jpg
+  - fachschaftImage: /img/uploads/PUE.jpg
+  - fachschaftImage: /img/uploads/SCJ.jpg
+  - fachschaftImage: /img/uploads/STP.jpg
+  - fachschaftImage: /img/uploads/VOI.jpg
+  - fachschaftImage: /img/uploads/WIE.jpg
+  - fachschaftImage: /img/uploads/BOG.jpg
+teachers: Herr Wierichs, Herr Voigt, Frau Vogelsang, Herr Stapelbroek, Frau
+  Schüßler, Frau Püning, Frau Pietsch, Herr Nowak, Frau Näpel, Frau Moek, Herr
+  Meyer, Frau Herdin, Herr Henrichmann, Frau Heitmann, Frau Heiny, Dr.
+  Grugel-Pannier, Frau Bergmann, Frau Börding, Herr Driver, Frau Fieberg, Herr
+  Borgers
 fachschaft:
   teachers: Frau Heiny
-teachers: Frau Heiny
+title: Englisch
 tags:
   - fach
 ---
