@@ -5,6 +5,7 @@ media_folder: "public/img/uploads"
 public_folder: "/img/uploads"
 site_url: https://schillergymnasium.netlify.app
 display_url: https://schillergymnasium.netlify.app
+locale: 'de'
 collections: 
   - name: 'aktuelles'
     label: 'Aktuelles'
