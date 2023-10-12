@@ -18,7 +18,14 @@ about:
     Es besteht eine Partnerschaft mit dem Collège Gaston Couté in Meung–sur-Loire (bei Orléans). Im Rahmen dieses Austausches erhalten die Schülerinnen und Schüler die Möglichkeit, am Leben einer französischen Familie teilzuhaben, den französischen Schulalltag kennen zu lernen und die Region des Loire-Tals mit ihren vielen Schlössern (Chambord) und schönen Städten (Blois, Orléans) zu entdecken.    
 fachschaft:
   teachers: Frau Hoymann
-teachers: Frau Hoymann
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/HOY.jpg
+  - fachschaftImage: /img/uploads/MKI.jpg
+  - fachschaftImage: /img/uploads/PS.jpg
+  - fachschaftImage: /img/uploads/SD.jpg
+  - fachschaftImage: /img/uploads/WAA.jpg
+teachers: "Frau Waanders, Frau Vogelsang, Herr Schade, Frau Pietsch, Frau
+  Michalski, Frau Hoymann "
 tags:
   - fach
 ---
