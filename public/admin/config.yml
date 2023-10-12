@@ -47,7 +47,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {name: 'title', label: 'Fach Title', widget: 'string' }
-      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}]}
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Über das Fach', widget: markdown}
       - {name: 'fachschaftGallery', label: 'Fachschaft Gallerie', widget: list, fields: [{ name: 'fachschaftImage', label: 'Bild', widget: image}]}
       - {name: 'teachers', label: 'Lehrer', widget: 'string'}
@@ -61,7 +61,7 @@ collections:
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
       - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false }
-      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}]}
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Lernen'}
@@ -74,7 +74,7 @@ collections:
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
       - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', requied: false }
-      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}]}
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Schulleben'}
@@ -87,7 +87,7 @@ collections:
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
       - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', requied: false }
-      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}]}
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['service', 'page'], required: false}
   - name: "management"
