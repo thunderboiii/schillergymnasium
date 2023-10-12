@@ -2,6 +2,7 @@
 title: Leitbild
 banners:
   - banner: /img/uploads/portal.jpg
+    alignment: top
 tags:
   - profil
   - page
