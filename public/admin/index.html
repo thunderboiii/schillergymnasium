@@ -15,10 +15,6 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    import { de } from 'decap-cms-locales';
-
-    CMS.registerLocale('de', de);
-
     CMS.registerEditorComponent({
       // Internal id of the component
       id: "titleElement",
@@ -192,6 +188,10 @@
         );
       }
     });
+
+    import { de } from 'decap-cms-locales';
+
+    CMS.registerLocale('de', de);
   </script>
 </body>
 </html>
