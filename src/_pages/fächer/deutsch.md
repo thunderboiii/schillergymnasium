@@ -1,7 +1,9 @@
 ---
 banners:
   - banner: /img/uploads/img_9739.jpeg
+    alignment: center
   - banner: /img/uploads/foto-d-fs.jpeg
+    alignment: center
 banner: /img/uploads/img_9739.jpeg
 about:
   fachText: >-
