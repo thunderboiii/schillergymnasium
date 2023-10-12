@@ -28,6 +28,13 @@ fachschaftText: Das Fach Erdkunde bietet dir Wissen über die Welt und die
   Chance, sie aktiv zu gestalten. Entwickle Lösungen für globale
   Herausforderungen wie den Klimawandel. Erfahre, wie die Zusammenhänge zwischen
   Gesellschaft, Wirtschaft und Umwelt die Zukunft formen.
+banners:
+  - banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+    alignment: center
+  - banner: /img/uploads/bild-20230803-133243-ea8f180d-1-.jpeg
+    alignment: center
+  - banner: /img/uploads/bild-20230803-133251-de7c83c8.jpeg
+    alignment: center
 general:
   title: Erdkunde
   banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
