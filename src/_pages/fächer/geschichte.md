@@ -30,7 +30,16 @@ about:
     - fachImage: /img/uploads/hist.-comics-im-unterricht.jpg
 fachschaft:
   teachers: Frau Stüwe
-teachers: Frau Stüwe
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/BÖR.jpg
+  - fachschaftImage: /img/uploads/KIN.jpg
+  - fachschaftImage: /img/uploads/KM.jpg
+  - fachschaftImage: /img/uploads/NOW (Fächer).jpg
+  - fachschaftImage: /img/uploads/PS.jpg
+  - fachschaftImage: /img/uploads/ST.jpg
+  - fachschaftImage: /img/uploads/HLR.jpg
+teachers: "Frau Stüwe, Frau Pietsch, Herr Nowak, Herr Klausmann, Herr Kinkelbur,
+  Herr Gunderloch, Herr Dzaebel, Frau Börding, Herr Hauler "
 tags:
   - fach
 ---
