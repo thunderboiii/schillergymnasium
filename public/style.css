@@ -474,6 +474,10 @@ blockquote .author p {
         width: 100%;
         aspect-ratio: 16/9;
     }
+
+    .gallary {
+        width: auto;
+    }
 }
 
 
