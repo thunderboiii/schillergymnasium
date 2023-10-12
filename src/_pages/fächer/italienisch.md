@@ -1,7 +1,11 @@
 ---
 title: Italienisch
 banner: /img/uploads/img_0909.jpeg
-teachers: Frau Teske
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/LAF.jpg
+  - fachschaftImage: /img/uploads/PUE.jpg
+  - fachschaftImage: /img/uploads/ZEC.jpg
+teachers: "Frau Zech, Frau Teske, FrauPüning, Frau Lanfer "
 tags:
   - fach
 ---
