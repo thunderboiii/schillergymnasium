@@ -1,5 +1,17 @@
 ---
-title: Geschichte
+banners:
+  - banner: /img/uploads/2022-im-stadtarchiv.jpeg
+    alignment: center
+  - banner: /img/uploads/ausstellung-zu-1989.jpeg
+    alignment: center
+  - banner: /img/uploads/besuch-der-ausstellung-911.jpeg
+    alignment: center
+  - banner: /img/uploads/buchdruck-im-unterricht-.jpeg
+    alignment: center
+  - banner: /img/uploads/exkursion-nach-leipzig.jpeg
+    alignment: center
+  - banner: /img/uploads/hist.-comics-im-unterricht.jpg
+    alignment: center
 banner: /img/uploads/exkursion-nach-leipzig.jpeg
 about:
   fachText: >-
@@ -28,8 +40,6 @@ about:
     - fachImage: /img/uploads/besuch-der-ausstellung-911.jpeg
     - fachImage: /img/uploads/buchdruck-im-unterricht-.jpeg
     - fachImage: /img/uploads/hist.-comics-im-unterricht.jpg
-fachschaft:
-  teachers: Frau Stüwe
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BÖR.jpg
   - fachschaftImage: /img/uploads/KIN.jpg
@@ -40,6 +50,9 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/HLR.jpg
 teachers: "Frau Stüwe, Frau Pietsch, Herr Nowak, Herr Klausmann, Herr Kinkelbur,
   Herr Gunderloch, Herr Dzaebel, Frau Börding, Herr Hauler "
+fachschaft:
+  teachers: Frau Stüwe
+title: Geschichte
 tags:
   - fach
 ---
