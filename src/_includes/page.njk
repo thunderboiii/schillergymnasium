@@ -25,7 +25,7 @@ layout: base.njk
         {% for page in collections.page %}
             {% if page.data.title == title %}
                 {% for banner in page.data.banners %}
-                    <img class="background" src="{{ banner.banner }}" alt="" style="object-position: {{ banners.alignment }};">
+                    <img class="background" src="{{ banner.banner }}" alt="" style="object-position: {{ page.data.banners.alignment }};">
                 {% endfor %}
             {% endif %}
         {% endfor %}
