@@ -15,7 +15,9 @@ Besonders nachhaltig in Erinnerung wird allen sicherlich der authentische Beitra
 
 Erhard und Titus Holze gelang es, in der kurzen Zeit auch in der großen Gruppe eine vertrauensvolle Atmosphäre herzustellen, in der die Jugendlichen sehr aufmerksam und empathisch zuhörten, um anschließend reflektierte und offene Fragen stellen zu können. Mehrere SchülerInnen formulierten zum Abschluss ihren Respekt dafür, dass Familie Holze die Kraft hat, ihre traurigen Erfahrungen zu teilen.
 
-Die von Familie Holze gegründete, nach ihrem Sohn und Bruder benannte Tilman-Holze-Stiftung engagiert sich für die Förderung von Drogenberatung, -prävention und -therapie. <https://www.caritas-muenster.de/cms/contents/caritas-muenster.de/medien/dokumente/stiftung/flyer-tilman-holze-s2/2022_flyer_tilman-holze-stiftung_v02.pdf>
+Die von Familie Holze gegründete, nach ihrem Sohn und Bruder benannte Tilman-Holze-Stiftung engagiert sich für die Förderung von Drogenberatung, -prävention und -therapie.
+
+<https://www.caritas-muenster.de/cms/contents/caritas-muenster.de/medien/dokumente/stiftung/flyer-tilman-holze-s2/2022_flyer_tilman-holze-stiftung_v02.pdf>
 
 Begleitet wurde die Aulaveranstaltung von der Redakteurin Ina Rottscheidt, die im Sender Domradio über die Veranstaltung, Familie Holze und die Stiftung berichet.
 
