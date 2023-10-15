@@ -1,5 +1,6 @@
 ---
 title: Suchtpräventionstag Jg. 9
+shortTitle: Suchtprävention
 date: 2023-10-14T13:15:26.219Z
 author: Christina Waanders
 description: Suchtpräventionstag Jg. 9
