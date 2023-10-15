@@ -3,7 +3,7 @@ title: Suchtpräventionstag Jg. 9
 date: 2023-10-14T13:15:26.219Z
 author: Christina Waanders
 description: Suchtpräventionstag Jg. 9
-banner: /img/uploads/schiller-präventationstag-jgst.-9-holze.jpg
+banner: /img/uploads/schiller-präventationstag-jgst.-9-holze.jpg
 tags:
   - post
 ---
