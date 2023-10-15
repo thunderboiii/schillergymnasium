@@ -53,12 +53,13 @@ layout: base.njk
             {% for fach in collections.faecher %}
                 {% if fach.data.title == title %}
                     {% for fachschaftImage in fach.data.fachschaftGallery %}
-                        <img src="{{ fachschaftImage.fachschaftImage }}" alt="">
+                        <img class="fachschaftImage" src="{{ fachschaftImage.fachschaftImage }}" alt="">
                     {% endfor %}
                 {% endif %}
             {% endfor %}
         </div>
         <p class="teachers">{{ teachers }}</p>
+        <script src="/scripts/fächer.js"></script>
     </div>
 
     {% for fach in collections.faecher %}

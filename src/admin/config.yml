@@ -13,6 +13,7 @@ collections:
     create: true
     fields:
       - { name: 'title', label: 'Titel', widget: 'string'}
+      - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', required: false}
       - { name: 'date', label: 'Datum', widget: 'datetime' }
       - { name: 'author', label: 'Autor', widget: 'string'}
       - { name: 'description', label: 'Beschreibung', widget: string }

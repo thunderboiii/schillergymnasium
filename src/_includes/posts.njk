@@ -10,11 +10,19 @@ layout: base.njk
             <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
         </div>
         <div class="main-title">
-            <h1>{{ shortTitle }}</h1>
+            {% if shortTitle == null %}
+                <h1>{{title}}</h1>
+            {% elif shortTitle != null %}
+                <h1>{{ shortTitle }}</h1>
+            {% endif %}
         </div>
         <div class="lower-title">
             <hr>
-            <h2>{{ title }}</h2>
+            {% if shortTitle == null %}
+                <h2>am Schillergymnasium</h2>
+            {% elif shortTitle != null %}
+                <h2>{{ title }}</h2>
+            {% endif %}
             <hr>
         </div>
 
