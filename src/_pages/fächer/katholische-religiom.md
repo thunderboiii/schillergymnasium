@@ -1,4 +1,8 @@
 ---
+title: Religion
+banners:
+  - banner: /img/uploads/img_0937.jpeg
+    alignment: center
 banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
 about:
   fachText: >-
@@ -114,11 +118,6 @@ fachText: >-
   Bibelmuseum leicht möglich. Religion sollte sowohl lebensnah als auch erfahrbar sein,
 
   sodass wir am Schiller einen zugänglichen Unterricht für die Lernenden gestalten
-teachers: Frau Welp, Herr Lütkecosmann, Frau Laanders, Frau Herdin, Frau
-  Heitmann, Frau Heiny, Herr Barckhaus, Frau Albiker, Frau Spin, Frau Michalski
-fachschaft:
-  teachers: Frau Heiny
-title: Religion
 fachschaftGallery:
   - fachschaftImage: /img/uploads/MKI.jpg
   - fachschaftImage: /img/uploads/SPN.jpg
@@ -129,6 +128,10 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/LDS.jpg
   - fachschaftImage: /img/uploads/LC.jpg
   - fachschaftImage: /img/uploads/WEL.jpg
+teachers: Frau Welp, Herr Lütkecosmann, Frau Laanders, Frau Herdin, Frau
+  Heitmann, Frau Heiny, Herr Barckhaus, Frau Albiker, Frau Spin, Frau Michalski
+fachschaft:
+  teachers: Frau Heiny
 tags:
   - fach
 category: Gesellschaftswissenschaften
