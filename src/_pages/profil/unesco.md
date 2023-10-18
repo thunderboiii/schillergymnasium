@@ -1,6 +1,15 @@
 ---
 title: UNESCO
 banner: /img/uploads/nam.jpg
+banners:
+  - banner: /img/uploads/nam.jpg
+    alignment: center
+  - banner: /img/uploads/mirco-more.jpg
+    alignment: center
+  - banner: /img/uploads/nam3.jpg
+    alignment: center
+  - banner: /img/uploads/nam4.jpg
+    alignment: center
 tags:
   - profil
   - page
