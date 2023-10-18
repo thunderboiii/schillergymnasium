@@ -24,7 +24,9 @@ about:
     *Information |Description= Einblick ins Pantheon, Rom; Panoramabild |Source= own work |Date= 04-09-2005 |Author= Stefan Bauer,[ http://www.ferras.at ](http://www.ferras.at)|Permission= |other_versions= }}*
 fachschaft:
   teachers: Herr Gunderloch
-teachers: Herr Gunderloch
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/KM.jpg
+teachers: Herr Gunderloch, Frau Teske, Herr Klausmann, Frau Pietsch
 tags:
   - fach
 ---
