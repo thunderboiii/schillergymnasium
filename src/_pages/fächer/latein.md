@@ -26,6 +26,9 @@ fachschaft:
   teachers: Herr Gunderloch
 fachschaftGallery:
   - fachschaftImage: /img/uploads/KM.jpg
+  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/avatar.png
 teachers: Herr Gunderloch, Frau Teske, Herr Klausmann, Frau Pietsch
 tags:
   - fach
