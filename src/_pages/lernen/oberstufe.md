@@ -4,12 +4,13 @@ banner: /img/uploads/bild-20200303-141251-735977b9.jpeg
 layout: page.njk
 banners:
   - banner: /img/uploads/besuch-der-ausstellung-911.jpeg
+    alignment: center
 tags:
   - lernen
   - page
 category: Lernen
 ---
-<center><div class="title"><h4>Oberstufe</h4><h2>Informationen zur Oberstufe </h2></div></center>
+<center><div class="title"><h4>11. - 13.</h4><h2>Informationen zur Oberstufe </h2></div></center>
 
 ## Der Aufbau der Oberstufe
 
