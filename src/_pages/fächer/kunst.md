@@ -1,5 +1,8 @@
 ---
 fachschaftText: ""
+banners:
+  - banner: /img/uploads/kunst_header.jpg
+    alignment: center
 banner: /img/uploads/kunst_header.jpg
 about:
   fachText: >-
@@ -26,10 +29,16 @@ fachText: >-
 
 
   Als weiterführenden Einblick in unser Verständnis von Kunstunterricht verweisen wir auf die [Fachbeschreibung des Deutschen Kulturrats](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
-teachers: Herr Gutsche, Frau Tebben, Herr Wierichs, Frau Hoymann
+teachers: Herr Gutsche, Frau Tebben, Frau Püning, Herr Wierichs, Frau Hoymann
 fachschaft:
   teachers: Herr Gutsche
 title: Kunst
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/WIE.jpg
+  - fachschaftImage: /img/uploads/GU.jpg
+  - fachschaftImage: /img/uploads/HOY.jpg
+  - fachschaftImage: /img/uploads/TBE.jpg
+  - fachschaftImage: /img/uploads/PUE.jpg
 tags:
   - fach
 category: Weitere
