@@ -200,14 +200,16 @@
         fields: [{ name: 'image', label: 'Bild', widget: 'image' }]
       }
     ],
-    pattern: /^<div class="gallary">(.*?)<\/div>$/,  // Adjusted the pattern
+    pattern: /^<div class="gallary">(.*?)<\/div>$/,   
     fromBlock: function(match) {
       return {
         gallery: match[1]
       };
     },
     toBlock: function(obj) {
-      return '<div class="gallary">' + obj.gallery + '</div>'; // Adjusted the class name to "gallerie"
+      return '<div class="gallary">' + for (let image = 0; image < obj.length; image++) {
+        const element = gallery[image];
+        + '<img>' + element + '</img>' + } + '</div>'; 
     },
     toPreview: function(obj) {
       return 'Gallery: ' + obj.gallery;
