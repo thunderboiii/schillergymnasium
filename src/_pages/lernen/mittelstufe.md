@@ -3,13 +3,15 @@ title: Mittelstufe
 layout: page.njk
 banners:
   - banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
+    alignment: center
   - banner: /img/uploads/2022-im-stadtarchiv.jpeg
+    alignment: center
 tags:
   - lernen
   - page
 category: Lernen
 ---
-<center><div class="title"><h4>Mittelstufe</h4><h2>Die Mittelstufe – Organisation und Perspektiven </h2></div></center>
+<center><div class="title"><h4>7/8/9/10</h4><h2>Die Mittelstufe – Organisation und Perspektiven </h2></div></center>
 
 Im Bildungsgang G9 umfasst die Mittelstufe die Stufen 7 – 10. Im Laufe dieser Jahre bietet die Schule – in Fortsetzung der Arbeit in der Erprobungsstufe -verschiedene Möglichkeiten an, den Schülerinnen und Schülern ein Lernumfeld zu bieten, das ihren persönlichen Bedürfnissen sowohl in Bezug auf die Schullaufbahn als auch in Bezug auf das soziale Miteinander gerecht wird. 
 
