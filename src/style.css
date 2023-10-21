@@ -1548,8 +1548,33 @@ header .faecher {
     }
 }
 
+.termin-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5em;
+}
 
+.calendar {
+    width: 60%;
+    aspect-ratio: 16/9;
+}
 
+@media (max-width: 35em) {
+    .calendar {
+        width: 90%;
+        aspect-ratio: 3/5;
+    }
+}
+
+@media (max-width: 74em),
+       (min-width: 35em) {
+        .calendar {
+            width: 80%;
+            aspect-ratio: 16/9;
+        }
+       }
 
 .contact {
     display: flex;
