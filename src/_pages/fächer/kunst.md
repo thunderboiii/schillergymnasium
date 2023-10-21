@@ -48,3 +48,7 @@ Der Kunstunterricht genießt einen hohen Stellenwert an unserer Schule und wird 
 Wir erachten das Fach als unabdingbar für eine ganzheitliche Persönlichkeitsbildung sowie die Ausbildung und Schulung von Wahrnehmungs- und Handlungskompetenzen im Umgang und der Auseinandersetzung mit der gestalteten Welt. Kunst am Schiller ist somit kein „kompensierendes Nebenfach“, sondern vielmehr zentraler Bestandteil hochwertiger Bildung, es schafft kulturelle Teilhabe, ermöglicht in besonderem Maße individuelle Förderung und erzeugt Settings für selbstgesteuertes und projektorientiertes Lernen und Arbeiten. 
 
 Als weiterführenden Einblick in unser Verständnis von Kunstunterricht verweisen wir auf die [Fachbeschreibung des Deutschen Kulturrats.](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
+
+[](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
+
+<div class="gallary">[object Object],[object Object]</div>
