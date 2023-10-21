@@ -1,7 +1,9 @@
 ---
 title: Griechisch
 banner: /img/uploads/15e91c2b-cc21-42ba-841d-36d96bbb39ce_1_105_c.jpeg
-fachschaftGallery: []
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/avatar.png
 teachers: "Herr Gunderloch, Frau Teske "
 tags:
   - fach
