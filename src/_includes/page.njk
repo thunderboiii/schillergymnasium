@@ -6,7 +6,11 @@ layout: base.njk
     <div class="hero-center">
         <div class="upper-title">
             <img class="decoration-l" src="/img/icons/icon_var2.svg" alt="">
-            <h2>{{ category }}</h2>
+            {% if shortTitle %}
+                <h2>{{ title }}</h2>
+            {% else %}
+                <h2>{{ category }}</h2>
+            {% endif %}
             <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
         </div>
         <div class="main-title">
