@@ -434,6 +434,29 @@ blockquote .author p {
     aspect-ratio: 16/9;
 }
 
+.person {
+    width: fit-content;
+    display: inline-block;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+}
+
+.person img {
+    width: 200px;
+    aspect-ratio: 35/45;
+    object-fit: cover;
+}
+
+.person .description {
+    margin-top: 10px;
+}
+
+.person .description p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
 @media (max-width: 35em) {
     .contents {
         margin: 2rem 2rem;
