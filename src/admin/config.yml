@@ -94,34 +94,23 @@ collections:
       - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['service', 'page'], required: false}
-  - name: "management"
-    label: "Management"
+  - name: "settings"
+    label: "Settings"
     files: 
-      - label: 'Einstellungen'
-        name: 'settings'
-        file: 'src/_data/settings.json'
+      - label: 'Anmeldephase'
+        name: 'anmeldung'
+        file: 'src/_data/anmeldung.json'
         fields:
-          - label: 'Anmeldephase'
-            name: 'anmeldung'
-            widget: 'object'
-            fields:
-              - {label: 'Ja/Nein', name: anmeldephase, widget: 'boolean', default: false}
-              - {label: 'Nächstes Schuljahr', name: schuljahr, widget: string}
-          - label: 'Post Einstellungen'
-            name: 'posts'
-            widget: 'object'
-            fields:
-              - {label: 'Anzahl der Posts angezeigt auf der Startseite', name: front_limit, widget: 'number'}
-              - {label: 'Standard Autor', name: author, widget: string}
-          - label: 'Kontakt Einstellungen'
-            name: 'contact'
-            widget: 'object'
-            fields:
-              - {label: 'Telefonnummer', name: phone, widget: 'string'}
-              - {label: 'E-Mail Adresse', name: email, widget: string}
-              - {label: 'Telefax', name: fax, widget: string}
-          - label: 'Tags'
-            name: 'tags'
-            widget: 'list'
-            default: ['settings']
-            required: false
+           - {label: 'Ja/Nein', name: anmeldephase, widget: 'boolean', default: false}
+           - {label: 'Nächstes Schuljahr', name: schuljahr, widget: string}
+           - {label: 'Tags', name: 'tags', widget: 'list', default: ['anmeldung'], required: false }
+      - label: 'Kontakt Einstellungen'
+        name: 'contact'
+        file: 'src/_data/contact.json'
+        fields:
+          - {label: 'Telefonnummer', name: phone, widget: 'string'}
+          - {label: 'E-Mail Adresse', name: email, widget: string}
+          - {label: 'Telefax', name: fax, widget: string}
+          - {label: 'Tags', name: 'tags', widget: 'list', default: ['contact'], required: false }
+
+
