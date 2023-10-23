@@ -64,7 +64,6 @@ Wir fördern insbesondere das Gemeinschaftsbewusstsein
 
 ### **Methodische Kompetenzen** 
 
-\
 Arbeits- und Lerntechniken werden systematisch eingeübt, z. B. durch 
 
 * spezielle Unterrichtsreihen aus dem Bereich "Lernen lernen", 
