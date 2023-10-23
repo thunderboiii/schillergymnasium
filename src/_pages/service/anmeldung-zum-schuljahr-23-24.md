@@ -1,5 +1,5 @@
 ---
-title: Anmeldung zum Schuljahr 23/24
+title: Anmeldung zum Schuljahr 24/25
 shortTitle: Anmeldung
 banners:
   - banner: /img/uploads/portal.jpg
