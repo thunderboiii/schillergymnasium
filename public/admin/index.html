@@ -238,7 +238,7 @@
         }
       ],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^<div class="person"><div><img src="(.*?)" alt=""><div class="description"><p>(.*?)<\/p><p><b>(.*?)<\/b><\/p><\/div><\/div><\/div>$/,
+      pattern: /^<div class="person"><div><center><img src="(.*?)" alt=""><\/center><div class="description"><p>(.*?)<\/p><p><b>(.*?)<\/b><\/p><\/div><\/div><\/div>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
@@ -249,7 +249,7 @@
       },
       // Function to create a text block from an instance of this component
       toBlock: function(obj) {
-        return '<div class="person"><div><img src="' + obj.image + '" alt=""><div class="description"><p>' + obj.name + '</p><p><b>' + obj.position + '</b></p></div></div></div>'
+        return '<div class="person"><div><center><img src="' + obj.image + '" alt=""></center><div class="description"><p>' + obj.name + '</p><p><b>' + obj.position + '</b></p></div></div></div>'
       },
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
