@@ -1,6 +1,9 @@
 ---
 title: Anmeldung zum Schuljahr 23/24
 shortTitle: Anmeldung
+banners:
+  - banner: /img/uploads/portal.jpg
+    alignment: center
 tags:
   - service
   - page
