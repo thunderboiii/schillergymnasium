@@ -1,8 +1,11 @@
 ---
 banners:
   - banner: /img/uploads/dg_01.jpg
+    alignment: center
   - banner: /img/uploads/lit_01.jpg
+    alignment: center
   - banner: /img/uploads/ag6.jpg
+    alignment: center
 banner: /img/uploads/dg_01.jpg
 about:
   fachText: >-
@@ -34,14 +37,14 @@ about:
   fachGallery:
     - fachImage: /img/uploads/dg_01.jpg
     - fachImage: /img/uploads/lit_01.jpg
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/GU.jpg
-  - fachschaftImage: /img/uploads/HA.jpg
-  - fachschaftImage: /img/uploads/MOE.jpg
 teachers: "Frau Hartwig, Frau Moek, Herr Gutsche, "
 fachschaft:
   teachers: Herr Gutsche
 title: Darstellen & Gestalten
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/gu.jpg
+  - fachschaftImage: /img/uploads/HA.jpg
+  - fachschaftImage: /img/uploads/MOE.jpg
 tags:
   - fach
 ---
