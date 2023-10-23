@@ -127,7 +127,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/HDN.jpg
   - fachschaftImage: /img/uploads/LDS.jpg
   - fachschaftImage: /img/uploads/LC.jpg
-  - fachschaftImage: /img/uploads/WEL.jpg
+  - fachschaftImage: /img/uploads/wel.jpg
 teachers: Frau Welp, Herr Lütkecosmann, Frau Laanders, Frau Herdin, Frau
   Heitmann, Frau Heiny, Herr Barckhaus, Frau Albiker, Frau Spin, Frau Michalski
 fachschaft:
