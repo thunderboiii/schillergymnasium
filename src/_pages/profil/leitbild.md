@@ -8,7 +8,9 @@ tags:
   - page
 category: Profil
 ---
-<center><div class="title"><h4>Unser Leitbild</h4><h2>Willkommen am Schiller</h2></div></center>
+<center><div class="title"><h4>Leitbild</h4><h2>Unser Leitbild</h2></div></center>
+
+Herzlich Willkommen am Schillergymnasium!
 
 Wenn man unser Gebäude betritt, dann sieht man über dem Eingangsportal unser Schulmotto „Pietati – Virtuti - Doctrinae“. Es ist weit über 100 Jahre alt, hat aber auch heute noch Geltung für uns, denn am Schillergymnasium wollen wir mehr denn je gemeinsam auf der Grundlage des humanistischen Menschenbildes leben und arbeiten, um in politisch, sozial und klimatisch herausfordernden Zeiten ein Leitbild zu geben. 
 
