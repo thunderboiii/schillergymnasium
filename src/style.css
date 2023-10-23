@@ -1638,7 +1638,7 @@ header .faecher {
 }
 
 .contact .contact-form button {
-    width: 30%;
+    width: fit-content;
     border: var(--color-accent-900) 3px solid;
     text-align: center;
     transition: all ease-in-out 200ms;
