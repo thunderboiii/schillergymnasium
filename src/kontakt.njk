@@ -44,17 +44,17 @@ layout: base.njk
 
                 <div class="phone">
                     <p><b>Telefon</b></p>
-                    <a href="tel:0251 / 6866 180"><p>{{ settings.contact.phone }}</p></a>
+                    <a href="tel:{{ contact.phone }}"><p>{{ contact.phone }}</p></a>
                 </div>
 
                 <div class="fax">
                     <p><b>Telefax</b></p>
-                    <a href="fax:0251.6866.1849"><p>{{ settings.contact.fax }}</p></a>
+                    <a href="fax:{{ contact.fax }}"><p>{{ contact.fax }}</p></a>
                 </div>
 
                 <div class="email">
                     <p><b>E-Mail</b></p>
-                    <a href="mailto:schillergymnasium@stadt-muenster.de"><p>{{ settings.contact.email }}</p></a>
+                    <a href="mailto:{{ contact.email }}"><p>{{ contact.email }}</p></a>
                 </div>
             </div>
 
