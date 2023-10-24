@@ -51,7 +51,7 @@ fachText: >-
 
 
   Nicht zuletzt unterstützen wir besonders begabte und interessierte Schüler*innen bei der Teilnahme an Wettbewerben oder Projekten der Universität.
-teachers: Herr Stier, Frau Hartmann, Frau Schechtel, Herr Möller
+teachers: Herr Stier, Frau Schechtel, Herr Möller, Frau Lechtenböhmer, Frau Hartmann
 fachGallery:
   - fachImage: /img/uploads/wärme-1.jpg
   - fachImage: /img/uploads/wärme-2.jpg
@@ -61,7 +61,11 @@ fachschaft:
   teachers: Herr Stier
 title: Physik
 fachschaftGallery:
-  - fachschaftImage: /img/uploads/wärme-1.jpg
+  - fachschaftImage: /img/uploads/HD.jpg
+  - fachschaftImage: /img/uploads/LEA.jpg
+  - fachschaftImage: /img/uploads/MLR.jpg
+  - fachschaftImage: /img/uploads/STL.jpg
+  - fachschaftImage: /img/uploads/SIR.jpg
 tags:
   - fach
 category: Naturwissenschaften
