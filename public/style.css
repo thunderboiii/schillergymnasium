@@ -223,10 +223,13 @@ body {
 }
 
 h1 {
-    font-size: 140px;
-    color: var(--color-dom-100);
-    font-family: Helvetica;
-    line-height: 1.1;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: var(--color-accent-900);
+    z-index: 10;
+    margin-top: 0 !important;
+    text-align: center;
 }
 
 h2 {
@@ -1031,6 +1034,9 @@ header .faecher {
     user-select: none;
     font-size: 8vw;
     text-align: center;
+    color: var(--color-dom-100);
+    font-family: Helvetica;
+    line-height: 1.1;
 }
 
 .hero-center .lower-title {
@@ -1675,6 +1681,16 @@ header .faecher {
 
 .contact .contact-form input {
     border: none;
+    border-bottom: var(--color-compliment-900) 3px solid;
+    width: 47%;
+    outline: none;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-dom-900);
+}
+
+.contact .contact-form select {
+    border: white 1px solid;
     border-bottom: var(--color-compliment-900) 3px solid;
     width: 47%;
     outline: none;

@@ -493,7 +493,49 @@
 
         <div id="tableContainer"></div>
         <script src="/scripts/table.js"></script>
+
+        <div class="contact">
+            <div class="contact-form">
+                <h1>Anmeldeformular</h1>
+                
+                <form action="https://formsubmit.co/">
+                    <div>
+                        <input type="hidden" name="_subject" value="New submission!">
+                        <input type="hidden" name="_template" value="box">
+                    </div>
+                    <div class="vorname-nachname input-holder">
+                        <input type="text" name="vorname" id="vorname" placeholder="Vorname Kind" required>
+                        <input type="text" name="nachname" id="nachname" placeholder="Nachname Kind" required>
+                    </div>
+                    <div class="geschlecht-kind input-holder">
+                        <select name="geschlecht" id="geschlecht" required>
+                            <option value="auswählen" disabled selected>+++ Bitte Auswählen +++</option>
+                            <option value="weiblich">Weiblich</option>
+                            <option value="männlich">Männlich</option>
+                            <option value="divers">Divers</option>    
+                        </select>
+                    </div>
+                    <div class="grundschule input-holder">
+                        <input type="text" name="grundschule" id="grundschule" placeholder="Grundschule" required>
+                        <input type="text" name="empfehlung" id="empfehlung" placeholder="Empfehlung" required>
+                    </div>
+                    <div class="geschwisterkind inputholder">
+                        <input type="text" name="geschwisterkind" id="geschwisterkind" placeholder="Geschwisterkind" required>
+                    </div>
+                    <div class="eltern input-holder">
+                        <input type="text" name="betreff" id="betreff" placeholder="Eltern/Erziehungsberechtige" required>
+                        <input type="tel" name="telefon" id="telefon" placeholder="Telefonnummer" required>
+                    </div>
+                    <textarea name="msg" id="msg" placeholder="Bemerkung"></textarea>
+                    <center><button type="submit">Abschicken</button></center>
+                </form>
+            </div>
+        </div>
+
+        
     </div>
+
+
 
     <table id="eventTable">
         <thead>
