@@ -1,6 +1,11 @@
 ---
 title: Musik
 banner: /img/uploads/vp.jpeg
+banners:
+  - banner: /img/uploads/orch1.jpg
+    alignment: center
+  - banner: /img/uploads/vp.jpeg
+    alignment: center
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AC.jpg
   - fachschaftImage: /img/uploads/BER.jpg
