@@ -1,6 +1,9 @@
 ---
 title: Mathematik
 banner: /img/uploads/bild1_mathe.png
+banners:
+  - banner: /img/uploads/bild1_mathe.png
+    alignment: center
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AT.jpg
   - fachschaftImage: /img/uploads/DR.jpg
