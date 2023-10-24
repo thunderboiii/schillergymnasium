@@ -1,5 +1,13 @@
 ---
-banners: []
+banners:
+  - banner: /img/uploads/img_4497.jpg
+    alignment: center
+  - banner: /img/uploads/img_20221025_114421.jpg
+    alignment: top
+  - banner: /img/uploads/img_4496.jpg
+    alignment: center
+  - banner: /img/uploads/img_20221025_120247.jpg
+    alignment: center
 banner: /img/uploads/img_4497.jpg
 about:
   fachText: >-
