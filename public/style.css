@@ -343,6 +343,14 @@ hr {
 }
 
 .page-content h2 {
+    margin-top: 3rem;
+}
+
+.page-content h3 {
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    line-height: 1.2;
     margin-top: 1.5rem;
 }
 
@@ -450,6 +458,13 @@ blockquote .author p {
     margin-top: 2rem;
 }
 
+.person div:not(.description) {
+    display: flex;
+    align-items: flex-end;
+    gap: .5rem;
+    width: 500px;
+}
+
 .person img {
     width: 200px;
     aspect-ratio: 35/45;
@@ -462,8 +477,12 @@ blockquote .author p {
 
 .person .description p {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     margin: 0;
+}
+
+.person .description p b {
+    color: var(--color-accent-900);
 }
 
 @media (max-width: 35em) {
@@ -507,6 +526,26 @@ blockquote .author p {
 
     .gallary {
         width: auto;
+    }
+
+    .person div:not(.description) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem;
+        width: auto;
+    }
+
+    .person .description p {
+        font-size: 18px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .person img {
+        width: 200px !important;
+        aspect-ratio: 35/45;
+        object-fit: cover;
     }
 }
 
@@ -975,6 +1014,7 @@ header .faecher {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    transform: translateY(-7px);
 }
 
 .hero-center .upper-title img {
@@ -999,7 +1039,7 @@ header .faecher {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    transform: translateY(-8px);
+    transform: translateY(-6px);
 }
 
 .hero-center .lower-title hr {
