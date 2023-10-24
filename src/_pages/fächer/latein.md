@@ -1,5 +1,7 @@
 ---
-title: Latein
+banners:
+  - banner: /img/uploads/img_0540.jpeg
+    alignment: center
 banner: /img/uploads/img_0540.jpeg
 about:
   fachText: >-
@@ -22,14 +24,15 @@ about:
 
 
     *Information |Description= Einblick ins Pantheon, Rom; Panoramabild |Source= own work |Date= 04-09-2005 |Author= Stefan Bauer,[ http://www.ferras.at ](http://www.ferras.at)|Permission= |other_versions= }}*
-fachschaft:
-  teachers: Herr Gunderloch
 fachschaftGallery:
   - fachschaftImage: /img/uploads/KM.jpg
   - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/TE.jpg
   - fachschaftImage: /img/uploads/avatar.png
 teachers: Herr Gunderloch, Frau Teske, Herr Klausmann, Frau Pietsch
+fachschaft:
+  teachers: Herr Gunderloch
+title: Latein
 tags:
   - fach
 ---
