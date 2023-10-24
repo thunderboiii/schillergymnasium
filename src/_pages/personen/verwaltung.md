@@ -36,7 +36,7 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/Schulz.jpg" alt=""></center><div class="description"><p>Michael Schulz</p><p><b>Hausmeister</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Fehlend</p><p><b>Hausmeister</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/Gänßler.jpg" alt=""></center><div class="description"><p>Thomas Gänßler</p><p><b>Hausmeister</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Mehdi Eskandari</p><p><b>Hausmeister</b></p></div></div></div>
 
