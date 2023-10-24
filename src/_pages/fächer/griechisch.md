@@ -1,6 +1,11 @@
 ---
 title: Griechisch
 banner: /img/uploads/15e91c2b-cc21-42ba-841d-36d96bbb39ce_1_105_c.jpeg
+banners:
+  - banner: /img/uploads/87a704e1-8ef3-4372-ad07-eb929ba63e17_1_105_c.jpeg
+    alignment: center
+  - banner: /img/uploads/15e91c2b-cc21-42ba-841d-36d96bbb39ce_1_105_c-1-.jpeg
+    alignment: center
 fachschaftGallery:
   - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/avatar.png
