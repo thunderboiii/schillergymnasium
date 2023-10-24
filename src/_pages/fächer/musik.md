@@ -1,7 +1,12 @@
 ---
 title: Musik
 banner: /img/uploads/vp.jpeg
-teachers: Herr Meier, Herr Berthel
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/AC.jpg
+  - fachschaftImage: /img/uploads/BER.jpg
+  - fachschaftImage: /img/uploads/HIM.jpg
+  - fachschaftImage: /img/uploads/ME.jpg
+teachers: Herr Meier, Herr Henrichmann, Herr Berthel, Frau Allecke
 tags:
   - fach
 ---
