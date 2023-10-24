@@ -1,5 +1,6 @@
 ---
-title: Erprobungsstufe
+title: Erprobungs-, Mittel- und Oberstufe
+shortTitle: Schulstufen
 banners:
   - banner: /img/uploads/bild-1-homepage.jpeg
     alignment: center
