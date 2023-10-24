@@ -21,8 +21,18 @@ about:
     - fachImage: /img/uploads/demokratie-bild.jpg
 fachschaft:
   teachers: Herr Winkler
-teachers: Frau Haverland, Herr Pater, Herr Nesselbosch, Frau Näpel, Herr Nagels,
-  Herr Fastabend und Herr Winkler
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/FAS.jpg
+  - fachschaftImage: /img/uploads/HA.jpg
+  - fachschaftImage: /img/uploads/HAV.jpg
+  - fachschaftImage: /img/uploads/HN.jpg
+  - fachschaftImage: /img/uploads/NC.jpg
+  - fachschaftImage: /img/uploads/NES.jpg
+  - fachschaftImage: /img/uploads/PAT.jpg
+  - fachschaftImage: /img/uploads/WK.jpg
+  - fachschaftImage: /img/uploads/NGL.jpg
+teachers: Herr Nagels, Herr Winkler, Herr Pater, Herr Nesselbosch, Frau Näpel,
+  Herr Heitmann, Frau Haverland, Frau Hartwig, Herr Fastabend
 tags:
   - fach
 ---
