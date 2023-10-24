@@ -1,10 +1,12 @@
 ---
-title: Austauschprogramm
+title: "Fahrten und Auslandskontakte "
 shortTitle: Austauschprogramm
 banner: /img/uploads/namibia.jpg
 banners:
   - banner: /img/uploads/namibia.jpg
+    alignment: top
   - banner: /img/uploads/polen_2.jpg
+    alignment: top
 tags:
   - schulleben
   - page
