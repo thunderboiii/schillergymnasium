@@ -1037,6 +1037,7 @@ header .faecher {
     color: var(--color-dom-100);
     font-family: Helvetica;
     line-height: 1.1;
+    font-weight: 600;
 }
 
 .hero-center .lower-title {
