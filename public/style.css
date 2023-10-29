@@ -327,7 +327,9 @@ hr {
 }
 
 .contents img {
-    width: 60%;
+    width: 30%;
+    display: inline-block;
+    margin-right: 2rem;
 }
 
 .contents .download-button {
