@@ -6,8 +6,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for profil in collections.profil %}
-                            <a href="{{ profil.url }}">{{ profil.data.title }}</a>
+                        {% for profil in collections.profil | sortByOrder %}
+                                <a href="{{ profil.url }}">{{ profil.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -18,8 +19,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for personen in collections.personen %}
-                            <a href="{{ personen.url }}">{{ personen.data.title }}</a>
+                        {% for personen in collections.personen | sortByOrder %}
+                                <a href="{{ personen.url }}">{{ personen.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -83,8 +85,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for lernen in collections.lernen %}
-                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                        {% for lernen in collections.lernen | sortByOrder %}
+                                <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -109,8 +112,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for service in collections.service %}
-                            <a href="{{ service.url }}">{{ service.data.title }}</a>
+                        {% for service in collections.service | sortByOrder %}
+                                <a href="{{ service.url }}">{{ service.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
 
                         <a href="/kontakt_ehemalige/">Kontakt: Ehemaligen Verein</a>
@@ -169,8 +173,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for profil in collections.profil %}
-                            <a href="{{ profil.url }}">{{ profil.data.title }}</a>
+                        {% for profil in collections.profil | sortByOrder %}
+                                <a href="{{ profil.url }}">{{ profil.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -181,8 +186,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for personen in collections.personen %}
-                            <a href="{{ personen.url }}">{{ personen.data.title }}</a>
+                        {% for personen in collections.personen | sortByOrder %}
+                                <a href="{{ personen.url }}">{{ personen.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -205,8 +211,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for lernen in collections.lernen %}
-                            <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                        {% for lernen in collections.lernen | sortByOrder %}
+                                <a href="{{ lernen.url }}">{{ lernen.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -217,8 +224,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for schulleben in collections.schulleben %}
-                            <a href="{{ schulleben.url }}">{{ schulleben.data.title }}</a>
+                        {% for schullebenItem in collections.schulleben | sortByOrder %}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
                     </div>
                 </div>
@@ -229,8 +237,9 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for service in collections.service %}
-                            <a href="{{ service.url }}">{{ service.data.title }}</a>
+                        {% for service in collections.service | sortByOrder %}
+                                <a href="{{ service.url }}">{{ service.data.title }}</a>
+                            {# Display other fields as needed #}
                         {% endfor %}
 
                         <a href="/kontakt_ehemalige/">Kontakt: Ehemaligen Verein</a>
