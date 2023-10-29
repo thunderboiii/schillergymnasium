@@ -3,6 +3,7 @@ title: Schülerzeitung
 shortTitle: Schillerglocke
 banner:
   - /img/uploads/bild-1-homepage.jpeg
+order: 8
 tags:
   - schulleben
   - page
