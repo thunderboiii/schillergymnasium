@@ -32,6 +32,7 @@ collections:
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['profil', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Profil'}
+    sortableFields: ["order", "title"]
   - name: "personen"
     label: "Personen"
     folder: "src/_pages/personen"
@@ -44,6 +45,7 @@ collections:
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['personen', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Personen'}
+    sortableFields: ["order", "title"]
   - name: "faecher"
     label: "Fächer"
     editor:
@@ -72,6 +74,7 @@ collections:
       - { name: 'body', label: 'Inhalt', widget: markdown}
       - { name: 'tags', label: 'Tags', widget: list, default: ['lernen', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Lernen'}
+    sortableFields: ["order", "title"]
   - name: "schulleben"
     label: "Schulleben"
     editor:
@@ -86,7 +89,7 @@ collections:
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Schulleben'}
-    sortableFields: ["title", "order"]
+    sortableFields: ["order", "title"]
   - name: "service"
     label: "Service"
     editor:
@@ -100,6 +103,7 @@ collections:
       - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['service', 'page'], required: false}
+    sortableFields: ["order", "title"]
   - name: "settings"
     label: "Settings"
     files: 
