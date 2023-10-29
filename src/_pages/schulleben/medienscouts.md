@@ -2,6 +2,7 @@
 title: Medienscouts
 shortTitle: Medienscouts
 banner: /img/uploads/img_0507-3.png
+order: 7
 tags:
   - schulleben
   - page
