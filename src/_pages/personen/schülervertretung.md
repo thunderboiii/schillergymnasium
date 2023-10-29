@@ -2,7 +2,7 @@
 title: Schülervertretung
 order: 6
 banners:
-  - banner: /img/uploads/sv.jpg
+  - banner: /img/uploads/sv-2-.jpg
     alignment: top
 tags:
   - personen
