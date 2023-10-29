@@ -20,6 +20,10 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByGlob("src/_pages/fächer/*.md");
     });
 
+    eleventyConfig.addNunjucksFilter("sortByOrder", (collection) => {
+        return collection.sort((a, b) => a.data.order - b.data.order);
+    });
+
     return {
         dir: {
             input: "src",
