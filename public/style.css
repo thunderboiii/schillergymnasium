@@ -1087,9 +1087,14 @@ header .faecher {
         font-size: 16px;
     }
 
+    .hero-center .lower-title {
+        transform: translateY(1px) !important;
+    }
+
     .hero-center .lower-title hr {
         width: 28px;
         margin: 0;
+        transform: translateY(1px) !important;
     }
 
     .hero-center .upper-title img {
@@ -1168,7 +1173,7 @@ header .faecher {
     }
 
     .lower-hero li a {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 0;
         color: var(--color-dom-100);
     }

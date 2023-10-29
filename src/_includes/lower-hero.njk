@@ -2,7 +2,7 @@
     <ul>
         <li><a href="/termine">Termine</a></li>
         {% if anmeldung.anmeldephase %}
-            <li class="anmeldung"><a href="/anmeldung">Anmeldung Schuljahr {{ anmeldung.schuljahr }}</a></li>
+            <li class="anmeldung"><a href="/_pages/service/anmeldung-zum-schuljahr-23-24/">Anmeldung Schuljahr {{ anmeldung.schuljahr }}</a></li>
         {% endif %}
         <li><a href="/kontakt">Kontakt</a></li>
     </ul>
@@ -10,7 +10,7 @@
     <div class="buttons">
         <a href="/termine"><i class='bx bx-calendar tooltip' ><span class="tooltiptext">Termine</span></i></a>
         {% if anmeldung.anmeldephase %}
-            <a href="/anmeldung" class="anmeldung"><i class='bx bx-check-square tooltip'><span class="tooltiptext">Anmeldung zum Schuljahr {{ anmeldung.schuljahr }}</span></i></a>
+            <a href="_pages/service/anmeldung-zum-schuljahr-23-24/" class="anmeldung"><i class='bx bx-check-square tooltip'><span class="tooltiptext">Anmeldung zum Schuljahr {{ anmeldung.schuljahr }}</span></i></a>
         {% endif %}
         <a href="/kontakt"><i class='bx bx-phone-call tooltip' ><span class="tooltiptext">Kontakt</span></i></a>
     </div>

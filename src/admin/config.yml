@@ -78,6 +78,7 @@ collections:
     fields:
       - { name: 'title', label: 'Titel', widget: 'string' }
       - { name: 'shortTitle', label: 'Kurzer Titel', widget: 'string', requied: false }
+      - { name: 'order', label: 'Reihenfolge in der Navigation', widget: 'number' }
       - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}

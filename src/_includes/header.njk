@@ -95,8 +95,36 @@
 
                 <div class="dropdown-menu">
                     <div class="dropdown-links">
-                        {% for schulleben in collections.schulleben %}
-                            <a href="{{ schulleben.url }}">{{ schulleben.data.title }}</a>
+                        {% for schullebenItem in collections.schulleben %}
+                            {% if schullebenItem.data.order == 1 %}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 2%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 3%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 4%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 5%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 6%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 8%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 9%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 10%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 11%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 12%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 13%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 14%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% elif schullebenItem.data.order == 15%}
+                                <a href="{{ schullebenItem.url }}">{{ schullebenItem.data.title }}</a>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
