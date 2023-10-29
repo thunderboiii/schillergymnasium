@@ -1,5 +1,6 @@
 ---
 title: Elternvertretung
+order: 5
 banners:
   - banner: /img/uploads/elternvertretung-2023_2024.jpg
     alignment: top
