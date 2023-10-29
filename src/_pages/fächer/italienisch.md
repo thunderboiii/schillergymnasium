@@ -1,6 +1,9 @@
 ---
 title: Italienisch
 banner: /img/uploads/img_0909.jpeg
+banners:
+  - banner: /img/uploads/img_0909.jpeg
+    alignment: center
 fachschaftGallery:
   - fachschaftImage: /img/uploads/LAF.jpg
   - fachschaftImage: /img/uploads/PUE.jpg

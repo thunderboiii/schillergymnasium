@@ -1,5 +1,5 @@
 ---
-title: Schillerglocke
+title: Schülerzeitung
 shortTitle: Schillerglocke
 banner:
   - /img/uploads/bild-1-homepage.jpeg

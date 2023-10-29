@@ -1,15 +1,18 @@
 ---
 title: Laufbahnberatung
 shortTitle: Laufbahnberatung
-banner: /img/uploads/fremdbild-berufsorientierung.jpg
 banners:
   - banner: /img/uploads/fremdbild-berufsorientierung.jpg
+    alignment: top
   - banner: /img/uploads/fremdbild-praktikum.jpg
+    alignment: center
 tags:
-  - lernen
+  - schulleben
   - page
-category: Lernen
+category: Schulleben
 ---
+
+
 <center><div class="title"><h4>Orientierung</h4><h2>Studien- und Berufsorientierung </h2></div></center>
 
 „Kein Abschluss ohne Anschluss“ (KAoA) – Das Landesvorhaben zur Berufs- und Studienorientierung in NRW 
@@ -64,8 +67,6 @@ Martin Luther-King-Weg 22 \
 E-Mail: [Barbara.Reher@arbeitsagentur.de ](mailto:Barbara.Reher@arbeitsagentur.de)
 
 ![](/img/uploads/bild-kaoa-sek-ii.jpg)
-
-
 
 <center><div class="title"><h4>Orientierung</h4><h2>Links</h2></div></center>
 

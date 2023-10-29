@@ -1,5 +1,13 @@
 ---
-title: Sport
+banners:
+  - banner: /img/uploads/img_4497.jpg
+    alignment: center
+  - banner: /img/uploads/img_20221025_114421.jpg
+    alignment: top
+  - banner: /img/uploads/img_4496.jpg
+    alignment: center
+  - banner: /img/uploads/img_20221025_120247.jpg
+    alignment: center
 banner: /img/uploads/img_4497.jpg
 about:
   fachText: >-
@@ -20,9 +28,26 @@ about:
     - fachImage: /img/uploads/img_20221025_120247.jpg
     - fachImage: /img/uploads/img_4496.jpg
     - fachImage: /img/uploads/img_4497.jpg
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/AT.jpg
+  - fachschaftImage: /img/uploads/BÜR.jpg
+  - fachschaftImage: /img/uploads/DRI.jpg
+  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/PAT.jpg
+  - fachschaftImage: /img/uploads/PER.jpg
+  - fachschaftImage: /img/uploads/SD.jpg
+  - fachschaftImage: /img/uploads/SIR.jpg
+  - fachschaftImage: /img/uploads/ST.jpg
+  - fachschaftImage: /img/uploads/UY.jpg
+  - fachschaftImage: /img/uploads/VOG.jpg
+  - fachschaftImage: /img/uploads/ZEC.jpg
+  - fachschaftImage: /img/uploads/BOG.jpg
+teachers: Herr Borgers, Frau Zech, Herr Vogt,  Frau Uylenkate, Frau Stüwe, Herr
+  Stier, Herr Schade, Frau Perner, Herr Pater, Herr Dzaebel, Herr Driver, Herr
+  Bürschel, Frau Albiker
 fachschaft:
   teachers: Herr Stier
-teachers: Frau Stüwe, Herr Vogt, Herr Stier
+title: Sport
 tags:
   - fach
 ---

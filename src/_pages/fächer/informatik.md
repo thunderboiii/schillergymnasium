@@ -1,4 +1,9 @@
 ---
+banners:
+  - banner: /img/uploads/microsoftteams-image-1-.png
+    alignment: center
+  - banner: /img/uploads/img_0983.png
+    alignment: top
 banner: /img/uploads/microsoftteams-image-1-.png
 about:
   fachText: >-

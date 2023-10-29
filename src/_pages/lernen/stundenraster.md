@@ -1,5 +1,5 @@
 ---
-title: Stundenraster
+title: Unterrichtszeiten
 banners: []
 tags:
   - lernen

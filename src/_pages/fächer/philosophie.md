@@ -1,5 +1,7 @@
 ---
-title: Philosophie
+banners:
+  - banner: /img/uploads/philosophie-was-ist-der-mensch-7-2023-09-04-13_43_29.jpeg
+    alignment: center
 banner: /img/uploads/philosophie-was-ist-der-mensch-7-2023-09-04-13_43_29.jpeg
 about:
   fachText: >-
@@ -19,9 +21,15 @@ about:
 
 
     Im Fach „Praktische Philosophie“ werden in den Jahrgangsstufen 6-10 die großen philosophischen Fragen in den kleinen und konkreten personalen Bereich der Schülerinnen und Schüler übertragen. Das betrifft einerseits die Auswahl der Medien (z.B. literarische Texte wie Märchen oder Romanauszüge, Spielfilme, Liedtexte usw.) andererseits das Abstraktionsniveau der Fragen. Auch philosophische Texte in einfacher und kurzer Form (je nach Altersstufe) werden genutzt.
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/JAE.jpg
+  - fachschaftImage: /img/uploads/PS.jpg
+  - fachschaftImage: /img/uploads/SBM.jpg
+teachers: Frau Schlumbohm, Frau Pietsch, Frau Jenschke, Frau Jäschke, Frau Dr.
+  Grugel-Pannier
 fachschaft:
   teachers: Frau Schlumbohm
-teachers: Frau Schlumbohm
+title: Philosophie
 tags:
   - fach
 ---

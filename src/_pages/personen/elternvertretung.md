@@ -1,11 +1,12 @@
 ---
 title: Elternvertretung
-shortTitle: Elternvertretung
-banner: /img/uploads/elternvertretung-2023_2024.jpg
+banners:
+  - banner: /img/uploads/elternvertretung-2023_2024.jpg
+    alignment: top
 tags:
-  - schulleben
+  - personen
   - page
-category: Schulleben
+category: Personen
 ---
 Alle Eltern einer Klasse bilden die Klassenpflegschaft, die am Anfang eines Schuljahres einen Vorsitzenden/eine Vorsitzende und eine Stellvertretung wählt. Diese sind automatisch Mitglied der Schulpflegschaft. Die Schulpflegschaft ist das zentrale Mitwirkungsorgan der Elternschaft auf der Ebene der Schule. 
 
@@ -29,6 +30,6 @@ Machen Sie mit!
 
 schulpflegschaftsvorstand@schiller.ms.de
 
-**Weiterführende Informationen** 
+### **Weiterführende Informationen** 
 
 „Elternmitwirkung in der Schule“ vom Ministerium für Schule und Weiterbildung des Landes Nordrhein-Westfalen

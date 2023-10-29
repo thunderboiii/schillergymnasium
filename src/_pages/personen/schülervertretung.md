@@ -1,13 +1,11 @@
 ---
 title: Schülervertretung
-shortTitle: Schülervertretung
-banner: /img/uploads/banner.jpeg
 tags:
-  - schulleben
+  - personen
   - page
-category: Schulleben
+category: Personen
 ---
-<center><div class="title"><h4>Schülervertretung</h4><h2>SV-Aktivkreis am Schiller   </h2></div></center>
+<center><div class="title"><h4>Schülervertretung</h4><h2>SV-Aktivkreis am Schiller </h2></div></center>
 
 Hallo, 
 
