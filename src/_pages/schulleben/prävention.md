@@ -2,6 +2,7 @@
 title: Prävention
 shortTitle: Prävention
 banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
+order: 5
 tags:
   - schulleben
   - page
