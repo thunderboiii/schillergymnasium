@@ -1,6 +1,9 @@
 ---
 title: Schülervertretung
 order: 6
+banners:
+  - banner: /img/uploads/sv.jpg
+    alignment: center
 tags:
   - personen
   - page
@@ -19,8 +22,14 @@ Deine/Eure SV am Schiller
 
 ## Schülersprecher:innen Team 2023/2024
 
-Dieses Jahr (2023/24) besteht der Schülersprecher: innen Team aus Joy Ann Giesen (Q1), Philipp Göhde (Q2), Luca Näpel (Q2) und Jos Jacobs (Klasse 10). \
+Dieses Jahr (2023/24) besteht der Schülersprecher: innen Team aus Joy Ann Giesen (Q1), Philipp Göhde (Q2), Luca Näpel (Q2) und Jos Jacobs (Klasse 10). 
+
+![Die Schülersprecher der Schillergymnasium Münsters](/img/uploads/schülersprecher.jpg)
+
+\
 Als SV-Lehrer wurden Frau Heiny und Herr Meyer dieses Mal gewählt. 
+
+![Die SV Lehrer des Schillergymnasiums Münsters](/img/uploads/sv_lehrer.jpg)
 
 <center><div class="title"><h4>Schillerball</h4><h2>Der Schillerball</h2></div></center>
 
