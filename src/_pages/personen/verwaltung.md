@@ -1,5 +1,6 @@
 ---
 title: Verwaltung
+order: 1
 banners:
   - banner: /img/uploads/portal.jpg
     alignment: bottom
