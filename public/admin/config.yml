@@ -86,8 +86,7 @@ collections:
       - {name: 'body', label: 'Inhalt', widget: markdown}
       - {name: 'tags', label: 'Tags', widget: list, default: ['schulleben', 'page'], required: false}
       - { name: 'category', label: 'Kategorie',  widget: "string", default: 'Schulleben'}
-    summary: '{{title}} (Reihenfolge: {{order}})'
-    sort: 'order'
+    sortableFields: ["title", "order"]
   - name: "service"
     label: "Service"
     editor:
