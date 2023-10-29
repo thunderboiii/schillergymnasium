@@ -1,5 +1,6 @@
 ---
 title: Leitbild
+order: 1
 banners:
   - banner: /img/uploads/portal.jpg
     alignment: top

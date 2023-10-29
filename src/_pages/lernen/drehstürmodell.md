@@ -1,6 +1,7 @@
 ---
 title: Fördern und Fordern
 banner: /img/uploads/img_0909.jpeg
+order: 4
 banners:
   - banner: /img/uploads/img_0909.jpeg
     alignment: center

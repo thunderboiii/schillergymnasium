@@ -1,6 +1,7 @@
 ---
-title: UNESCO
+title: UNESCO-Schule
 banner: /img/uploads/nam.jpg
+order: 2
 banners:
   - banner: /img/uploads/nam.jpg
     alignment: center

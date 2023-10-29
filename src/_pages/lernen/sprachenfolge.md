@@ -1,6 +1,7 @@
 ---
 title: Sprachen
 banner: /img/uploads/2022-im-stadtarchiv.jpeg
+order: 2
 banners:
   - banner: /img/uploads/img_0540.jpeg
     alignment: center

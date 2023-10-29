@@ -1,5 +1,6 @@
 ---
 title: Schülervertretung
+order: 6
 tags:
   - personen
   - page
