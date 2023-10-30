@@ -33,9 +33,6 @@
                                 <a href="/_pages/profil/unesco/">UNESCO-Schule</a>
                             
                         
-                                <a href="/_pages/profil/schulsozialarbeit/">Schulsozialarbeit</a>
-                            
-                        
                     </div>
                 </div>
             </div>
@@ -288,9 +285,6 @@
                                 <a href="/_pages/profil/unesco/">UNESCO-Schule</a>
                             
                         
-                                <a href="/_pages/profil/schulsozialarbeit/">Schulsozialarbeit</a>
-                            
-                        
                     </div>
                 </div>
             </div>
@@ -504,93 +498,72 @@
 
 <section class="contents">
     <div class="content page-content">
-        <div class="person">
-            <div>
-                <img src="/img/uploads/HY.jpg" alt="">
-                <div class="description">
-                    <p>Frau Heiny</p>
-                    <p><b>Englisch Lehrerin</b></p>
-                </div>
-            </div>
-        </div>
+        <input type="file" id="csvFileInput" value="test_excel.csv" accept=".csv">
+        <table id="csvRoot"></table>
+    
+        <script src="/scripts/papaparse.min.js"></script>
+        <script type="module" src="/scripts/table.js"></script>
 
-        <div class="person">
-            <div>
-                <img src="/img/uploads/HY.jpg" alt="">
-                <div class="description">
-                    <p>Frau Heiny</p>
-                    <p><b>Englisch Lehrerin</b></p>
-                </div>
-            </div>
-        </div>
-
-        <h2>Mathe</h2>
-
-        <div id="tableContainer"></div>
-        <script src="/scripts/table.js"></script>
-
-        <div class="contact">
-            <div class="contact-form">
-                <h1>Anmeldeformular</h1>
-                
-                <form action="https://formsubmit.co/">
-                    <div>
-                        <input type="hidden" name="_subject" value="New submission!">
-                        <input type="hidden" name="_template" value="box">
-                    </div>
-                    <div class="vorname-nachname input-holder">
-                        <input type="text" name="vorname" id="vorname" placeholder="Vorname Kind" required>
-                        <input type="text" name="nachname" id="nachname" placeholder="Nachname Kind" required>
-                    </div>
-                    <div class="geschlecht-kind input-holder">
-                        <select name="geschlecht" id="geschlecht" required>
-                            <option value="auswählen" disabled selected>+++ Bitte Auswählen +++</option>
-                            <option value="weiblich">Weiblich</option>
-                            <option value="männlich">Männlich</option>
-                            <option value="divers">Divers</option>    
-                        </select>
-                    </div>
-                    <div class="grundschule input-holder">
-                        <input type="text" name="grundschule" id="grundschule" placeholder="Grundschule" required>
-                        <input type="text" name="empfehlung" id="empfehlung" placeholder="Empfehlung" required>
-                    </div>
-                    <div class="geschwisterkind inputholder">
-                        <input type="text" name="geschwisterkind" id="geschwisterkind" placeholder="Geschwisterkind" required>
-                    </div>
-                    <div class="eltern input-holder">
-                        <input type="text" name="betreff" id="betreff" placeholder="Eltern/Erziehungsberechtige" required>
-                        <input type="tel" name="telefon" id="telefon" placeholder="Telefonnummer" required>
-                    </div>
-                    <textarea name="msg" id="msg" placeholder="Bemerkung"></textarea>
-                    <center><button type="submit">Abschicken</button></center>
-                </form>
-            </div>
-        </div>
-
+        <table >
+            <thead>
+                <tr>
+                    <th>STUNDE</th><th>ZEIT</th><th>MONTAG</th><th>DIENSTAG</th><th>MITTWOCH</th><th>DONNERSTAG</th><th>FREITAG</th>
+                </tr>
+            </thead>
         
+            <tbody>
+                
+                <tr>
+                    <td>1</td><td>7:50 - 8:35</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td><td>8:40 - 9:25</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td><td>9:40 - 10:25</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td><td>10:30 - 11.15</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td><td>11:30 - 12:15</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td><td>12:20 - 13:05</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td><td>14:00 - 14:45</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td><td>14:50 - 15:35</td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            
+                <tr>
+                    <td></td>
+                </tr>
+            
+            </tbody>
+        </table>
     </div>
-
-
-
-    <table id="eventTable">
-        <thead>
-            <tr>
-                <th>Mo</th>
-                <th>Di</th>
-                <th>Mi</th>
-                <th>Do</th>
-                <th>Fr</th>
-                <th>Sa</th>
-                <th>So</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Events will be populated here dynamically -->
-        </tbody>
-    </table>
-
-    <script src="https://unpkg.com/ical.js"></script>
-    <script src="/scripts/calendar.js"></script>
 </section>
     </main>
     
@@ -603,10 +576,9 @@
 
             <div class="links">
                 <ul>
-                    <li><a href="">Impressum</a></li>
-                    <li><a href="">Datenschutz</a></li>
-                    <li><a href="">AGB</a></li>
-                    <li><a href="">Kontakt</a></li>
+                    <li><a href="/impressum">Impressum</a></li>
+                    <li><a href="/datenschutz">Datenschutz</a></li>
+                    <li><a href="/kontakt">Kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -621,7 +593,8 @@
     </section>
 
     <section class="cc">
-        <center><p>© Schillergymnasium 2023</p></center>
+        <p>© Schillergymnasium 2023</p>
+        <p class="mi_footer"><a href="https://de.maple-ink.com" target="_blank">Erstellt von Maple Ink <img src="/img/icons/mi_yellow.png" alt=""></a></p>
     </section>
 </footer>
 

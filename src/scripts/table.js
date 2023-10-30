@@ -1,42 +1,16 @@
-window.onload = function () {
-    function handleFile(file) {
-        const reader = new FileReader();
+import tableCons from "./tableCons.js";
 
-        reader.onload = function(e)  {
-            const csvData = e.target.result;
-            const rows = csvData.split("\n");
-            const table = document.createElement("table");
+const tableRoot = document.querySelector("#csvRoot");
+const tableCSV = new tableCons(tableRoot);
+const csvFileInput = document.querySelector("#csvFileInput");
 
-            for (let i = 0; i < rows.length; i++) {
-                const row = document.createElement(i === 0 ? "th" : "tr");
-                const cells = rows[i].split(",");
+csvFileInput.addEventListener("change", e => {
+    Papa.parse(csvFileInput.files[0], {
+        delimter: ",",
+        skipEmptyLines: false,
+        complete: results => {
+            tableCSV.update(results.data.slice(1), results.data[0]);
+        }
+    });
+});
 
-                for (let j = 0; j < cells.length; j++) {
-                    const cell = i === 0 ? "th" : "td";
-                    const td = document.createElement(cell);
-                    td.textContent = cells[j];
-                    row.appendChild(td); 
-                }
-                
-                table.appendChild(row);
-            }
-
-            document.getElementById("tableContainer").innerHTML = "";
-            document.getElementById("tableContainer").appendChild(table);
-        };   
-
-        reader.readAsText(file);
-    }
-
-    const sampleCSVFilePath = "/img/test/test_excel.CSV";
-    fetch (sampleCSVFilePath)
-        .then(response => response.text())
-        .then(data => {
-            const blob = new Blob([data], {type: "text/csv"});
-            const file = new File([blob], sampleCSVFilePath);
-            handleFile(file);
-        })
-        .catch(error => {
-            console.error("Error loading sample CSV file:", error);
-        });
-};
