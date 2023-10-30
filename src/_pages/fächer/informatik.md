@@ -35,7 +35,10 @@ fachText: >-
 
 
   Finde Lösungen für globale Herausforderungen, gestalte die Welt und nutze deine Kreativität! Egal, ob Technik-Enthusiast oder kreativer Geist, Informatik bietet dir Raum zum Wachsen
-teachers: Herr Voigt
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/JAE.jpg
+  - fachschaftImage: /img/uploads/VOI.jpg
+teachers: Herr Voigt, Frau Jäschke
 fachschaft:
   teachers: Herr Voigt
 title: Informatik
