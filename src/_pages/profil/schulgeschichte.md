@@ -1,6 +1,9 @@
 ---
 title: Schulgeschichte
 order: 5
+banners:
+  - banner: /img/uploads/portal.jpg
+    alignment: top
 tags:
   - profil
   - page
