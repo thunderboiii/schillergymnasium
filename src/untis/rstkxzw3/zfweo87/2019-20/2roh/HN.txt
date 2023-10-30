@@ -1,0 +1,67 @@
+kuerzel	HN
+korrekturkurs0	Q1 N-GK
+häufigkeit0	1
+dauer0	135
+dauer_anders0	
+schreiber0	22
+bemerkung0	Koevoets und Thelen werden nicht mitschreiben
+nachschr0	nein
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 N-GK
+häufigkeit1	1
+dauer1	135
+dauer_anders1	
+schreiber1	17
+bemerkung1	
+nachschr1	nein
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 N-GK
+häufigkeit2	1
+dauer2	135
+dauer_anders2	
+schreiber2	16
+bemerkung2	
+nachschr2	nein
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 N-GK1
+häufigkeit3	normalGK
+dauer3	Abi
+dauer_anders3	
+schreiber3	7
+bemerkung3	1 Schüler mehr vom Schlaun
+nachschr3	nein
+andereeingabe3	
+nicht3	
+abi_erst4	Q2 N-GK2
+häufigkeit4	normalGK
+dauer4	Abi
+dauer_anders4	
+schreiber4	2
+bemerkung4	
+nachschr4	nein
+andereeingabe4	
+nicht4	
+abi_erst5	Q2 Sw-GK1
+häufigkeit5	normalGK
+dauer5	Abi
+dauer_anders5	
+schreiber5	5
+bemerkung5	
+nachschr5	nein
+andereeingabe5	
+nicht5	
+abi_erst6	Q2 Sw-GK2
+häufigkeit6	normalGK
+dauer6	Abi
+dauer_anders6	
+schreiber6	1
+bemerkung6	
+nachschr6	nein
+andereeingabe6	
+nicht6	
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Die Vorabiklausuren sämtlicher Q2 Kurse wurden von mir mit Erwartungshorizont erstellt aber nicht korrigiert. Korrekturen: Q2 N1 GK1 KN, Q2 N1 GK2 BLM, beide Q2 Sw NES).//Ich hatte Elternzeit vom 02.03. bis 01.04.2020.

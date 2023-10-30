@@ -1,0 +1,14 @@
+kuerzel	ST
+korrekturkurs0	Q2 Ge-LK
+häufigkeit0	2
+dauer0	4
+dauer_anders0	
+schreiber0	15
+bemerkung0	
+nachschr0	nein
+andereeingabe0	
+nicht0	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

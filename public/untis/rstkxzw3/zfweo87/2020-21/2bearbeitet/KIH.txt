@@ -1,0 +1,35 @@
+kuerzel	KIH
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	EF I-GK
+häufigkeit0	1
+dauer0	2
+dauer_anders0	
+schreiber0	20
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Ge-GK
+häufigkeit1	2
+dauer1	135
+dauer_anders1	
+schreiber1	9
+bemerkung1	
+nachschr1	0
+facharbeiten1	0
+andereeingabe1	
+nicht1	
+abi_erst2	Q2 E-LK
+häufigkeit2	normalLK
+dauer2	Abi
+dauer_anders2	
+schreiber2	19
+bemerkung2	Bei der Vorabiklausur musste eine Nachschrift gestellt werden, mit Auswahl ✔
+nachschr2	1
+andereeingabe2	
+nicht2	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Warum kommt automatisch in der Übersicht beim LK „nachschreiber: nein“, wenn ich nichts anklicken konnte und es als Bemerkung hingeschrieben habe? (KN: war noch nicht implementiert, wurde nachgeholt) ✔

@@ -1,0 +1,32 @@
+kuerzel	SCJ
+korrekturkurs0	5 E5
+häufigkeit0	3
+dauer0	1
+schreiber0	27
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	6 E5
+häufigkeit1	3
+dauer1	1
+schreiber1	18
+bemerkung1	+ Johann Reiter 8a
+andereeingabe1	
+nicht1	
+abi_erst2	Q2 BI
+häufigkeit2	normalGK
+schreiber2	4
+bemerkung2	
+andereeingabe2	
+nicht2	
+abi_zweit3	Q2 BI von BAR
+häufigkeit3	normalGK
+schreiber3	2
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	5c
+klassenleitung_nr	1
+klassenleitung_aufteilung	jeder die Hälfte
+kommentar	

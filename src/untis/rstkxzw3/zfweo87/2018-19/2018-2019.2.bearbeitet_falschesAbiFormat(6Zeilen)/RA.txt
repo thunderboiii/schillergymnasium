@@ -1,0 +1,33 @@
+kuerzel	RA
+korrekturkurs0	5d D
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9b D
+häufigkeit1	2
+dauer1	2
+schreiber1	25
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF 
+häufigkeit2	2
+dauer2	2
+schreiber2	11
+bemerkung2	
+andereeingabe2	
+nicht2	
+abi_zweit3	Q2 D von SBM
+häufigkeit3	normalLK
+schreiber3	19
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	5d
+klassenleitung_nr	1
+klassenleitung_aufteilung	60
+kommentar	

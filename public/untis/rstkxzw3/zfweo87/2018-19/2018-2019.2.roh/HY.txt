@@ -1,0 +1,18 @@
+kuerzel	HY
+korrekturkurs0	9b E
+häufigkeit0	2
+dauer0	60
+schreiber0	25
+bemerkung0	1 Klassenarbeit wurde durch eine Kommunikationsprüfung ersetzt
+andereeingabe0	
+nicht0	
+abi_erst1	Q2 E
+häufigkeit1	normalGK
+schreiber1	3
+bemerkung1	
+andereeingabe1	
+nicht1	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

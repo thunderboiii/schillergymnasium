@@ -1,0 +1,33 @@
+kuerzel	AC
+korrekturkurs0	7c D
+häufigkeit0	0
+dauer0	0
+schreiber0	
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q2 D
+häufigkeit1	0
+dauer1	0
+schreiber1	
+bemerkung1	1. Klausur 2h, 2. Kl. 3h
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q2 D
+häufigkeit2	0
+dauer2	0
+schreiber2	
+bemerkung2	s.o.
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Mu
+häufigkeit3	0
+dauer3	0
+schreiber3	
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_aufteilung	1. 60/  2. 60 P.
+kommentar	

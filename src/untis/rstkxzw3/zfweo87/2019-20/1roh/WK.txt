@@ -1,0 +1,42 @@
+kuerzel	WK
+korrekturkurs0	9b D
+häufigkeit0	2
+dauer0	2
+dauer_anders0	
+schreiber0	30
+bemerkung0	
+nachschr0	2
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Sw-GK
+häufigkeit1	1
+dauer1	2
+dauer_anders1	
+schreiber1	12
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Sw-GK
+häufigkeit2	1
+dauer2	2
+dauer_anders2	
+schreiber2	6
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q2 Sw-LK
+häufigkeit3	2
+dauer3	4
+dauer_anders3	
+schreiber3	17
+bemerkung3	
+nachschr3	1
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	9b
+klassenleitung_nr	1
+klassenleitung_aufteilung	60:60
+kommentar	

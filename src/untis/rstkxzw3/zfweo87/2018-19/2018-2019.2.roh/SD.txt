@@ -1,0 +1,34 @@
+kuerzel	SD
+korrekturkurs0	6 F6
+häufigkeit0	3
+dauer0	1
+schreiber0	
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	7 F6
+häufigkeit1	3
+dauer1	60
+schreiber1	
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	8 F8
+häufigkeit2	2
+dauer2	60
+schreiber2	
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 F
+häufigkeit3	2
+dauer3	2
+schreiber3	
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_nr	2
+klassenleitung_aufteilung	60
+kommentar	

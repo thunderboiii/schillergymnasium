@@ -1,0 +1,51 @@
+kuerzel	HA
+korrekturkurs0	7b D
+häufigkeit0	3
+dauer0	1
+dauer_anders0	
+schreiber0	25
+bemerkung0	
+nachschr0	ja
+andereeingabe0	
+nicht0	
+korrekturkurs1	8c D
+häufigkeit1	3
+dauer1	60
+dauer_anders1	
+schreiber1	29
+bemerkung1	
+nachschr1	ja
+andereeingabe1	
+nicht1	
+korrekturkurs2	8 DG
+häufigkeit2	2
+dauer2	60
+dauer_anders2	
+schreiber2	18
+bemerkung2	
+nachschr2	ja
+andereeingabe2	
+nicht2	
+korrekturkurs3	9 DG
+häufigkeit3	2
+dauer3	60
+dauer_anders3	
+schreiber3	9
+bemerkung3	MOE hat die restlichen 9 Arbeiten korrigiert.
+nachschr3	ja
+andereeingabe3	
+nicht3	
+korrekturkurs4	EF D-GK
+häufigkeit4	2
+dauer4	2
+dauer_anders4	
+schreiber4	19
+bemerkung4	
+nachschr4	nein
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	7b
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

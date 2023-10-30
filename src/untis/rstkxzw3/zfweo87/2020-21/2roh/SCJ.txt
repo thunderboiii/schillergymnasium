@@ -1,0 +1,29 @@
+kuerzel	SCJ
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	5d E5
+häufigkeit0	2
+dauer0	1
+dauer_anders0	
+schreiber0	23
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+abi_erst1	Q2 Bi-GK3
+häufigkeit1	normalGK
+dauer1	Abi
+dauer_anders1	
+schreiber1	4
+bemerkung1	
+nachschr1	nein(neu)
+andereeingabe1	
+nicht1	
+abi_mue_A4_fach_und_kursart2	Bi GK
+abi_A4_mue_bloecke2	2
+abi_mue_bemerkung2	
+klassenleitung_janein	ja
+klassenleitung_klasse	5d
+klassenleitung_nr	2
+klassenleitung_aufteilung	hälftig
+kommentar	

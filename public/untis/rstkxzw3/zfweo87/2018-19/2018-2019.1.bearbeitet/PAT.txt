@@ -1,0 +1,27 @@
+kuerzel	PAT
+korrekturkurs0	6c D
+häufigkeit0	3
+dauer0	60
+schreiber0	27
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 D
+häufigkeit1	2
+dauer1	2
+schreiber1	14
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q2 Sw
+häufigkeit2	2
+dauer2	3
+schreiber2	2
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	ja
+klassenleitung_klasse	6c
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

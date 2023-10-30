@@ -1,0 +1,5 @@
+kuerzel	MAE
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Elternzeit im laufenden Schuljahr 2018/19 mit unterhälftiger Beschäftigung von 6 Unterrichtsstunden

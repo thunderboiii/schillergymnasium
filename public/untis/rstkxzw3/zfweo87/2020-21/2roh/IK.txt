@@ -1,0 +1,7 @@
+kuerzel	IK
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

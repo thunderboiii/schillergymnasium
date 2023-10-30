@@ -1,0 +1,225 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="expires" content="0">
+<meta name="GENERATOR" content="gp-Untis 2020">
+<title>Navigation</title>
+<script language="JavaScript" src="../untisscripts.js"></script>
+<link rel="stylesheet" href="../untisinfo.css" type="text/css">
+
+<script LANGUAGE="JavaScript">
+var topDir = "w";
+
+function PopulateElementOption(Form, entries, flag)
+{
+ var idx = 0;
+ if (flag & 1)
+ {
+   Form.element[0] = new Option("- Alle -", 0);
+   idx++;
+ }
+ if (flag == 0 || flag & 2)
+ {
+  for (i = 0; i < entries.length; i++, idx++)
+  {
+    Form.element[idx] = new Option(entries[i], i+1);
+  }
+ }
+ if (idx > 0)
+ {
+	Form.element.selectedIndex = 0;
+	doDisplayTimetable(Form, topDir);
+ }
+}
+
+ var classes = ["5a","5b","5c","5d","6a","6b","6c","6d","7a","7b","7c","7d","8a","8b","8c","8d","9a","9b","9c","9d","10a","EF","Q1","Q2"];
+ var teachers = ["AT","AC","BAR","BK","BM","BER","BÖR","BUS","DR","DZ","EY","GP","GUN","HD","HA","HAV","HY","HN","HTM","HOY","IK","JAE","JE","KIH","KM","KN","LM","LEA","LC","MAE","MF","ME","MKI","MOE","MLR","NC","NES","NOW","PAT","PE","PIE","PS","RA","SD","STL","SBM","SCJ","STP","SIR","ST","TBE","TE","UY","VLZ","VS","VOG","VOI","WAA","WEL","WP","WIE","WK","BEA","HOK","NOR","PIN","BLM","BRO","GRE","NÄ","PER","REH","UPH","VOR","ZEC","ALB","BÜR","FEG","KWH","MAM","NOL","PEA","Leß","Geißler","BOD","GOE","PPR","SLB","ZAN"];
+ var rooms = ["F.E02 (Diff.-Raum zu F.E03)","F.E03","F.E05","F.E06","F.E07 (Diff.-Raum zu F.E08)","F.E08","F.E09","F.E10","F.E11","F.101","F.103","F.106","F.107","F.108","F.109","F.202 (Computer I)","F.207","F.208","F.209","G.E05","G.201","G.202","G.204","G.205","G.206 (Nebenraum Erdkunde)","G.207","G.208 (Klasse 10a Mo, Do, Fr)","G.209 (Diff.-Raum zu G.210)","G.210","G.211 (BOB)","G.301 (Computer II)","G.305","G.307","G.308","H.K03","H.E02","H.E03","H.E05","H.E06","H.E09 (Computer III)","H.102","H.103","H.104","H.105","H.106","H.107 (Diff.-Raum zu H.106)","H.109 (Diff.-Raum zu H.110)","H.110","H.301 (Musikraum I)","Aula H.201","Turnhalle 1 (NEUE HALLE)","Turnhalle 2 (ALTE HALLE)","Turnhalle Kreuzschule","Stadtbad Mitte","Physik-Vorraum"];
+ var subjects = ["Ber.","Fber.","Bi","Bi LK","Bi LK1","Bi LK2","Bi GK1","Bi GK2","Bi GK3","Bi GK4","Bi GK5","Bi PJK","B/C PK","B/C","B/C1","B/C2","Ch","Ch LK","Ch LK1","Ch LK2","Ch GK1","Ch GK2","Ch GK3","D","D Eg","D LK1","D LK2","D LK3","D LK4","D GK1","D GK2","D GK3","D GK4","D GK5","D GK6","D VK","D VK1","D VK2","DFö","D-Schr","DG","DG1","DG2","DGx2","D/E VK","E","E Eg","E LK1","E LK2","E GK1","E GK2","E GK3","E GK4","E GK5","E GK6","E VK","E VK1","E VK2","E5","E51","E52","E53","E54","E6","E61","E62","Ez","Ez1","Ez2","E Fö","Ek","Ek LK","Ek LK1","Ek LK2","Ek GK1","Ek GK2","Ek GK3","F LK","F GK","F GK1","F GK2","F6","F61","F62","F63","F8","GC","GC1","GC2","Ge","Ge LK","Ge LK1","Ge LK2","Ge LK3","Ge GK1","Ge GK2","Ge GK3","Ge GK4","Ge GK5","Ge Z1","Ge Z2","Ge ZK1","Ge ZK2","G","G GK","G GK1","G Fö","H Fö","If","If GK1","If GK2","If GK3","I GK","I GK1","I Gk2","Iv GK","Iv GK1","KL","Klausur","Ku","Ku LK","Ku LK1","Ku LK2","Ku GK1","Ku GK2","Ku GK3","Ku GK4","L GK","L GK1","L GK2","L GK3","L5 GK","L5 GK1","L5 GK2","L6 GK","L6 GK1","L VK","L5","L51","L52","L6","L61","L62","Li GK","Li GK1","Li GK2","M","M Eg","M LK","M LK1","M LK2","M GK1","M GK2","M GK3","M GK4","M GK5","M GK6","M VK1","M VK2","M VK3","M VK4","M VK5","Mu","Mu GK1","Mu GK2","Mu GK3","MUN PK1","N GK1","N GK2","N GK3","Nw","Ph","Ph LK1","Ph LK2","Ph GK","Ph GK1","Ph GK2","Pk","PK B/C","PK Bi","PK Ge","PK MUN","PK Th","Pl GK1","Pl GK2","Pl GK3","Pp","Re","Re1","Re2","Re GK","Re GK1","Re GK2","Rk","Rk1","Rk2","Rk3","Rk GK1","Rk GK2","Rk GK3","Rk GK4","Rö","S GK","S LK","Sp","Sp GK1","Sp GK2","Sp GK3","Sp GK4","Sp GK5","Sp GK6","Schw","Sw LK","Sw LK1","Sw LK2","Sw GK1","Sw GK2","Sw GK3","Sw GK4","Sw Z1","Sw Z2","Sw Z3","Sw ZK1","Sw ZK2","FFP","AL","Hw","Wi","Wk","Fö","LR","X","Pl GK1+2","N GK1+2"];
+ var flcl = 1; var flte = 1;
+function ChangeStudentOptions(Form)
+{
+ var type = Form.type[Form.type.selectedIndex].value;
+ if (type != "s")
+    return;
+ var nr = Form.classes[Form.classes.selectedIndex].value;
+ Form.element.length = 0;
+ var idx = 0;
+ for (i = 0; i < students.length; i++)
+ {
+   if (nr == 0 || studtable[i] == nr)
+   {
+      Form.element[idx] = new Option(students[i], i+1);
+      idx++;
+   }
+ }
+ doDisplayTimetable(Form, topDir);
+}
+
+function ChangeElementOptions(Form)
+{
+ setselclass("empty");
+ Form.element.length = 0;
+ var type = Form.type[Form.type.selectedIndex].value;
+ switch(type)
+ {
+	case "c": PopulateElementOption(Form, classes, 0); break;
+	case "w": PopulateElementOption(Form, classes, flcl); break;
+	case "t": PopulateElementOption(Form, teachers, 0); break;
+	case "v": PopulateElementOption(Form, teachers, flte); break;
+	case "r": PopulateElementOption(Form, rooms, 0); break;
+	case "f": PopulateElementOption(Form, subjects, 0); break;
+	case "g": PopulateElementOption(Form, corridors, 0); break;
+	case "s": 
+	{
+        setselclass("restore");
+        PopulateElementOption(Form, students, 0); 
+        break;
+    }
+ }
+
+ return;
+}
+
+function SelectElement(Form, name)
+{
+	var art = getParameter(parent.location.href, "art");
+	if (art != "")
+	{
+		for (var i = 0; i < Form.type.length; i++)
+		{
+			if (Form.type[i].value == art)
+			{
+				Form.type.selectedIndex = i;
+				break;
+			}
+		}
+	}
+	ChangeElementOptions(Form);
+	for (var i = 0; i < Form.element.length; i++)
+	{
+		if (Form.element[i].text == name)
+		{
+			Form.element.selectedIndex = i;
+			break;
+		}
+	}
+}
+
+function OnLoad(Form)
+{
+    setselclass("save");
+    
+	var weeknr = WeekOfYear(new Date);
+	for (var i = 0; i < Form.week.options.length; i++)
+	{
+		if (Form.week.options[i].value == weeknr)
+			Form.week.options[i].selected = true;
+	}
+
+	var name = "";
+	try 
+	{
+		name = getParameter(parent.location.href, "name");
+	}
+	catch (e) {};
+	if (name == "")
+	{
+		ChangeElementOptions(Form);
+		Form.element.selectedIndex = -1;
+		parent.main.location = "../welcome.htm";
+	}
+	else
+	{
+		SelectElement(Form, name);
+		doDisplayTimetable(Form, topDir);
+	}
+}
+
+</script>
+</head>
+
+<body class="nav" onload="OnLoad(document.forms[0]);">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+
+<form name="NavBar" method="post">
+  <tr><td height="10"></td></tr>
+
+  <tr>
+
+     <!-- week selection -->
+     <td align="left" class="tabelle">
+      <span class="selection">
+       <nobr>
+        Periode<br>
+        <span class="absatz">
+         &nbsp;<br>
+        </span>
+        <select name="week" class="selectbox" style='width:114' onChange="doDisplayTimetable(NavBar, topDir);">
+<option value="P9">2.Halbj.</option>
+<option value="P10">(Corona) Q2</option>
+        </select>
+       </nobr>
+      </span>
+     </td>
+  </tr>
+
+  <tr><td height="10"></td></tr>
+
+  <tr>
+
+     <!-- type selection -->
+     <td align="left" class="tabelle">
+      <span class="selection">
+       <nobr>
+        Art<br>
+        <span class="absatz">
+         &nbsp;<br>
+        </span>
+        <select name="type" class="selectbox" style='width:114' onChange="ChangeElementOptions(NavBar);">
+<option value="c">Klassen</option>
+<option value="t">Lehrer</option>
+<option value="r">Räume</option>
+<option value="f">Fächer</option>
+        </select>
+       </nobr>
+      </span>
+     </td>
+ </tr>
+
+
+
+  <tr><td height="10"></td></tr>
+
+  <tr>
+     <!-- element selection -->
+     <td align="left" class="tabelle">
+      <span class="selection">
+       <nobr>
+        Element<br>
+        <span class="absatz">
+         &nbsp;<br>
+        </span>
+        <select name="element" class="selectbox" style="width:114" size="12" onChange="doDisplayTimetable(NavBar, topDir);">
+		<option value="1">
+____________________
+		</option>
+        </select>
+       </nobr>
+      </span>
+     </td>
+ </tr>
+
+  <tr><td height="10"></td></tr>
+
+  <tr><td class="selection">
+	<a href="$" onclick="return(doPrintTimetable())" ><img src="print.gif" border="0" /> Drucken</a>
+  </td></tr>
+
+</form>
+
+</table>
+
+</body>
+</html>

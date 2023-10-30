@@ -1,0 +1,20 @@
+kuerzel	UY
+abi_erst0	Q2 EK
+häufigkeit0	normalGK
+dauerX	Abi
+schreiber0	6
+bemerkung0	
+andereeingabe0	
+nicht0	
+abi_zweit1	Q2 EK von VF
+häufigkeit1	normalLK
+dauerX	Abi
+schreiber1	26
+bemerkung1	
+andereeingabe1	
+nicht1	
+klassenleitung_janein	ja
+klassenleitung_klasse	6d
+klassenleitung_nr	1
+klassenleitung_aufteilung	60:60
+kommentar	

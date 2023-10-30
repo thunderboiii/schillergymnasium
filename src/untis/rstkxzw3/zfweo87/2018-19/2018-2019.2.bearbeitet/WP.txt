@@ -1,0 +1,27 @@
+kuerzel	WP
+korrekturkurs0	8 B/C
+häufigkeit0	2
+dauer0	2
+schreiber0	19
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Ch
+häufigkeit1	2
+dauer1	3
+schreiber1	9
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Bi
+häufigkeit2	2
+dauer2	2
+schreiber2	8
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	ja
+klassenleitung_klasse	8c
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	

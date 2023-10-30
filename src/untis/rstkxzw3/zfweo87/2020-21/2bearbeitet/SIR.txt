@@ -1,0 +1,8 @@
+kuerzel	SIR
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+klassenleitung_janein	ja
+klassenleitung_klasse	9d
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

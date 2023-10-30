@@ -1,0 +1,13 @@
+kuerzel	UY
+korrekturkurs0	Q2 Ek
+häufigkeit0	2
+dauer0	3
+schreiber0	10
+bemerkung0	
+andereeingabe0	
+nicht0	
+klassenleitung_janein	ja
+klassenleitung_klasse	6d
+klassenleitung_nr	1
+klassenleitung_aufteilung	50:50
+kommentar	

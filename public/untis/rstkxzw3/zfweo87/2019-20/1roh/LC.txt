@@ -1,0 +1,42 @@
+kuerzel	LC
+korrekturkurs0	7b M
+häufigkeit0	3
+dauer0	60
+dauer_anders0	
+schreiber0	26
+bemerkung0	(Klasse 7b + Jonas Heusler)
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF M-GK
+häufigkeit1	2
+dauer1	2
+dauer_anders1	
+schreiber1	21
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Rk-GK
+häufigkeit2	_
+dauer2	0
+dauer_anders2	
+schreiber2	
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q2 M-LK
+häufigkeit3	2
+dauer3	4
+dauer_anders3	
+schreiber3	23
+bemerkung3	
+nachschr3	0
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	7b
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	

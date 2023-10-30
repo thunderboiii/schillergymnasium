@@ -1,0 +1,62 @@
+kuerzel	GU
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	8 DG
+häufigkeit0	1
+dauer0	1
+dauer_anders0	
+schreiber0	12
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Ku-GK
+häufigkeit1	1
+dauer1	2
+dauer_anders1	
+schreiber1	4
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Ku-GK
+häufigkeit2	1
+dauer2	2
+dauer_anders2	
+schreiber2	5
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Lit.-GK
+häufigkeit3	0
+dauer3	0
+dauer_anders3	
+schreiber3	0
+bemerkung3	Lit ist grundsätzlich mündlich, es werden keine Klausuren geschrieben.
+nachschr3	0
+facharbeiten3	0
+andereeingabe3	
+nicht3	
+abi_zweit4	Q2 Ku-LK von WIE
+häufigkeit4	normalLK
+dauer4	Abi
+dauer_anders4	
+schreiber4	14
+bemerkung4	
+nachschr4	nein
+andereeingabe4	
+nicht4	
+abi_zweit5	Q2 Ku-GK2 von WIE
+häufigkeit5	normalGK
+dauer5	Abi
+dauer_anders5	
+schreiber5	2
+bemerkung5	
+nachschr5	nein
+andereeingabe5	
+nicht5	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

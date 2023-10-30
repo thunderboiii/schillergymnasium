@@ -1,0 +1,47 @@
+kuerzel	KIH
+korrekturkurs0	Q1 E
+häufigkeit0	2
+dauer0	2
+schreiber0	21
+bemerkung0	die zweite Klausur ist eine mündliche Kommunikationsprüfung. Wie geht  diese in die Berechnung ein ? => Anm.: Ich denke wie eine Klausur.
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF I
+häufigkeit1	2
+dauer1	2
+schreiber1	13
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Ge
+häufigkeit2	2
+dauer2	2
+schreiber2	5
+bemerkung2	
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 E
+häufigkeit3	normalGK
+dauerX	Abi
+schreiber3	7
+bemerkung3	
+andereeingabe3	
+nicht3	
+abi_erst4	Q2 GE
+häufigkeit4	normalGK
+dauerX	Abi
+schreiber4	1
+bemerkung4	
+andereeingabe4	
+nicht4	
+abi_zweit5	Q2 GE von NOW
+häufigkeit5	normalGK
+dauerX	Abi
+schreiber5	4
+bemerkung5	
+andereeingabe5	
+nicht5	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

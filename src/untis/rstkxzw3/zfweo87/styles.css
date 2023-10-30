@@ -1,0 +1,129 @@
+html {
+	font-family:sans-serif;
+	color:#444;
+}
+
+#logo a {
+	text-decoration: none;
+	color:inherit;
+}
+
+h1#logo {
+color:#9b9;
+}
+h1#logo a.smalllink {
+	font-size:12.8px;
+	text-decoration: underline;
+	color:rgb(0,0,238);
+	font-weight:normal;
+}
+
+/* button {
+background:#8c8;
+border-radius:4px;
+padding:4px;
+color:#fff;
+} */
+
+.rahmen {
+	display:block;
+	/* border:1px dotted #aaa; */
+	/* border:1px solid #eee;
+	border-radius:5px;
+	margin:20px;
+	padding:20px;
+	box-shadow: 3px 3px 4px #ccc; */
+	background-color: #fff;
+	margin: 0px 4px 14px 4px;
+	box-shadow: 0 1px 6px rgba(33, 33, 33, 0.28);
+	border-radius: 8px;
+	padding: 12px 16px;
+}
+a.rahmen {
+	text-decoration:none;
+	color:#444;
+	padding: 16px;
+}
+a.rahmen:hover {
+	box-shadow: 0 1px 6px #1ba9cf;
+	background:#f4fbff;
+}
+a.rahmen:active {
+	box-shadow: 0 1px 6px rgba(122, 210, 61, 0.82);
+	background:rgba(140, 255, 80, 0.1);
+}
+div.rahmen div.rahmentitle {
+	
+}
+.rahmenrest {
+	min-width: calc(100% - 100px);
+}
+div.rahmen div, div.rahmen textarea, div.rahmen select, div.rahmen input , div.rahmen label {
+	display:inline-block;
+	margin:4px 0;
+	vertical-align:middle;
+}
+div.rahmen div.rahmen select {
+	
+}
+input[type="number"], input[type="text"], input[type="password"], select, textarea {
+	border-radius:5px;
+	border:1px solid #aaa;
+}
+input[type="number"] {
+	width:3em;
+}
+
+/* input[type="radio"] { // funktioniert nicht, sieht dann in Safari ganz anders aus als Standard, daher lieber oben statt global "input" die einzelnen types auﬂer radio auflisten
+border-radius:inherit;
+border:inherit;
+} */
+div.rahmen div#klassenleitung {
+	display:none;
+}
+textarea.bemerkung {
+	width:70en;
+	height:1em;
+}
+.andereeingabe {
+	min-width:240px;
+	width:calc(100% - 190px);
+}
+textarea.andereeingabe {
+	height:4em;
+	width:100%;
+}
+.nicht {
+	min-width:240px;
+	width:calc(100% - 190px);
+}
+textarea.nicht {
+	height:1.5em;
+	width:100%;
+}
+textarea.andere_dauer {
+width:70en;
+height:1em;
+}
+
+textarea#kommentarfeld {
+width:100%; /* calc(100% - 100px); */
+height:6em;
+}
+.readonly {
+background:#eee;
+border-radius:5px;
+padding:4px;
+margin:4px;
+}
+a.img {
+border:0;
+text-decoration:0;
+}
+
+img.toggle {
+border:0;
+height:40px;
+width:62px;
+vertical-align:middle;
+}

@@ -1,0 +1,7 @@
+kuerzel	MF
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Betreuung und Korrektur von drei Facharbeiten in der Q1 (KN: ???)

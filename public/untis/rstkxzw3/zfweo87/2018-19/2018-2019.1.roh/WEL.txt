@@ -1,0 +1,25 @@
+kuerzel	WEL
+korrekturkurs0	7d M
+häufigkeit0	3
+dauer0	1
+schreiber0	28
+bemerkung0	-
+andereeingabe0	
+nicht0	
+korrekturkurs1	8b M
+häufigkeit1	3
+dauer1	60
+schreiber1	
+bemerkung1	-
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 M
+häufigkeit2	2
+dauer2	2
+schreiber2	
+bemerkung2	-
+andereeingabe2	
+nicht2	
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

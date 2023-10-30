@@ -1,0 +1,38 @@
+kuerzel	HN
+korrekturkurs0	Q1 N
+häufigkeit0	2
+dauer0	2
+schreiber0	23
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Sw
+häufigkeit1	2
+dauer1	2
+schreiber1	16
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Sw
+häufigkeit2	2
+dauer2	2
+schreiber2	11
+bemerkung2	
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 NL
+häufigkeit3	normalGK
+schreiber3	8
+bemerkung3	
+andereeingabe3	
+nicht3	
+abi_zweit4	Q2 NL von BM
+häufigkeit4	normalGK
+schreiber4	5
+bemerkung4	
+andereeingabe4	
+nicht4	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

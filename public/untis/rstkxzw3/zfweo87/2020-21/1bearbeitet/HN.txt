@@ -1,0 +1,52 @@
+kuerzel	HN
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	EF N-GK
+häufigkeit0	2
+dauer0	2
+dauer_anders0	
+schreiber0	24
+bemerkung0	
+nachschr0	2
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 N-GK
+häufigkeit1	2
+dauer1	90
+dauer_anders1	
+schreiber1	19
+bemerkung1	
+nachschr1	2
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Sw-GK
+häufigkeit2	2
+dauer2	90
+dauer_anders2	
+schreiber2	7
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q2 N-GK
+häufigkeit3	2
+dauer3	4
+dauer_anders3	
+schreiber3	21
+bemerkung3	
+nachschr3	0
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q2 N-GK
+häufigkeit4	2
+dauer4	4
+dauer_anders4	
+schreiber4	18
+bemerkung4	
+nachschr4	1
+andereeingabe4	
+nicht4	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Elternzeit vom 02.09.-01.10.2021

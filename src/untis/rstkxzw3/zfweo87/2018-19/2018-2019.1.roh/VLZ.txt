@@ -1,0 +1,39 @@
+kuerzel	VLZ
+korrekturkurs0	8d D
+häufigkeit0	3
+dauer0	60
+schreiber0	27
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9c D
+häufigkeit1	2
+dauer1	2
+schreiber1	26
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 D
+häufigkeit2	2
+dauer2	2
+schreiber2	15
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF Ek
+häufigkeit3	2
+dauer3	2
+schreiber3	19
+bemerkung3	
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Ek
+häufigkeit4	2
+dauer4	2
+schreiber4	16
+bemerkung4	
+andereeingabe4	
+nicht4	
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

@@ -1,0 +1,40 @@
+kuerzel	VS
+korrekturkurs0	7b F6
+häufigkeit0	1
+dauer0	1
+dauer_anders0	
+schreiber0	22
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	9b E
+häufigkeit1	_
+dauer1	0
+dauer_anders1	
+schreiber1	
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF E-GK
+häufigkeit2	_
+dauer2	0
+dauer_anders2	
+schreiber2	
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 E-LK
+häufigkeit3	normalLK
+dauer3	Abi
+dauer_anders3	
+schreiber3	17
+bemerkung3	
+nachschr3	nein
+andereeingabe3	
+nicht3	
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

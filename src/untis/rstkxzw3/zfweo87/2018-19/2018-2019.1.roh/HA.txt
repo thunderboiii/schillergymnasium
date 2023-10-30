@@ -1,0 +1,34 @@
+kuerzel	HA
+korrekturkurs0	6b D
+häufigkeit0	3
+dauer0	1
+schreiber0	25
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	8 DG
+häufigkeit1	2
+dauer1	60
+schreiber1	10
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	9 DG
+häufigkeit2	2
+dauer2	60
+schreiber2	11
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q2 D
+häufigkeit3	2
+dauer3	4
+schreiber3	16
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

@@ -1,0 +1,46 @@
+kuerzel	POS
+korrekturkurs0	5a M
+häufigkeit0	3
+dauer0	1
+schreiber0	22
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	6c M
+häufigkeit1	3
+dauer1	60
+schreiber1	27
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	9a M
+häufigkeit2	2
+dauer2	2
+schreiber2	18
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF M
+häufigkeit3	0
+dauer3	0
+schreiber3	
+bemerkung3	
+andereeingabe3	
+nicht3	
+abi_erst4	Q2 M
+häufigkeit4	normalGK
+schreiber4	6
+bemerkung4	
+andereeingabe4	
+nicht4	
+abi_erst5	Q2 M
+häufigkeit5	normalGK
+schreiber5	7
+bemerkung5	
+andereeingabe5	
+nicht5	
+klassenleitung_janein	ja
+klassenleitung_klasse	9a
+klassenleitung_aufteilung	60
+kommentar	8 mündliche Abiturprüfungen
+22 Abi-Zweitkorrektur

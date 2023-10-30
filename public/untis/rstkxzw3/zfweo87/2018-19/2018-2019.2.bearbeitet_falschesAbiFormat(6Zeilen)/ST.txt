@@ -1,0 +1,17 @@
+kuerzel	ST
+korrekturkurs0	Q1 Ge
+häufigkeit0	2
+dauer0	3
+schreiber0	16
+bemerkung0	
+andereeingabe0	
+nicht0	
+abi_zweit1	Q2 GE von PS
+häufigkeit1	normalLK
+schreiber1	20
+bemerkung1	
+andereeingabe1	
+nicht1	
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	6 Facharbeiten

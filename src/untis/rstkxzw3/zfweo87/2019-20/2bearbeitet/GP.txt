@@ -1,0 +1,5 @@
+kuerzel	GP
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

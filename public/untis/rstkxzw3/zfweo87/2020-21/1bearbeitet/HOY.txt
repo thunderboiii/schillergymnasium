@@ -1,0 +1,62 @@
+kuerzel	HOY
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	8a F6
+häufigkeit0	2
+dauer0	0
+dauer_anders0	
+schreiber0	19
+bemerkung0	
+nachschr0	2
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Ku-GK
+häufigkeit1	1
+dauer1	3
+dauer_anders1	
+schreiber1	2
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Ku-GK
+häufigkeit2	1
+dauer2	3
+dauer_anders2	
+schreiber2	1
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 F-GK
+häufigkeit3	2
+dauer3	90
+dauer_anders3	
+schreiber3	4
+bemerkung3	die erste Klausur wurde durch eine mündliche Prfg. ersetzt. ✔
+nachschr3	0
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Ku-GK
+häufigkeit4	_
+dauer4	0
+dauer_anders4	
+schreiber4	
+bemerkung4	
+nachschr4	0
+andereeingabe4	
+nicht4	
+korrekturkurs5	Q2 Ku-GK
+häufigkeit5	_
+dauer5	0
+dauer_anders5	
+schreiber5	
+bemerkung5	
+nachschr5	0
+andereeingabe5	
+nicht5	
+klassenleitung_janein	ja
+klassenleitung_klasse	8d
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	Die Fachschaft Kunst musste einen Abivorschlag + Erwartungshorizont bei der Bezirksregierung einreichen. Ich habe an beidem intensiv mitgearbeitet und ca. 8 - 10 Zeitstunden dafür eingesetzt.

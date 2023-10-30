@@ -1,0 +1,38 @@
+Prüfungsart ("A4" oder "A1-3")	Kursart ("GK" oder "LK")	Kurs(e)	Prüfungsblock	Kürzel Prüfer	Anzahl Blöcke	
+A4	GK	Bi1	Bi1	WP	1	
+A4	GK	Bi2	Bi2	WAA	1	
+A4	GK	Bi3	Bi3	BAR	1	
+A4	GK	Bi3	Bi4	BAR	1	
+A4	GK	D1	D1	VLZ	1	
+A4	GK	D1	D2	VLZ	1	
+A4	GK	D2	D3	BÖR	1	
+A4	GK	D2	D4	BÖR	1	
+A4	GK	D3	D5	MF	0,5	ein Prüfungsblock MF+PAT
+A4	GK	D4	D5	PAT	0,5	ein Prüfungsblock MF+PAT
+A4	GK	D3	D6	MF	0,5	ein Prüfungsblock MF+PAT
+A4	GK	D4	D6	PAT	0,5	ein Prüfungsblock MF+PAT
+A4	GK	E1	E1	MOE	1	
+A4	GK	E1	E2	MOE	1	
+A4	GK	E1	E3	MOE	0,5	ein Prüfungsblock MOE+KIH
+A4	GK	E2	E3	KIH	0,5	ein Prüfungsblock MOE+KIH
+A4	GK	E2	E4	KIH	1	
+A4	GK	E3	E5	MOE	1	
+A4	GK	Ek1	Ek1	VLZ	1	
+A4	GK	Ek1	Ek2	VLZ	1	
+A4	GK	Ek1	Ek3	VLZ	1	
+A4	GK	Ge1	Ge1	KIH	1	
+A4	GK	Ge2	Ge2	GUN	1	
+A4	GK	Ku1	Ku1	HOY	0,5	ein Prüfungsblock HOY+TBE
+A4	GK	Ku2	Ku1	TBE	0,5	ein Prüfungsblock HOY+TBE
+A4	GK	M1	M1	DR	1	
+A4	GK	M1	M2	DR	0,5	ein Prüfungsblock DR+WEL
+A4	GK	M3	M2	WEL	0,5	ein Prüfungsblock DR+WEL
+A4	GK	M2	M3	KN	1	
+A4	GK	M2/M4	M4	KN	1	
+A4	GK	N1/2	N1	HN	1	
+A4	GK	Ph1	Ph1	SIR	1	
+A4	GK	Pl1	Pl1	GP	1	
+A4	GK	Pl1/2	Pl2	GP	1	
+A4	GK	Sw1	Sw1	HN	1	
+A4	GK	Sw1/2	Sw2	HN	1	
+A4	GK	Sw2	Sw3	HN	1	

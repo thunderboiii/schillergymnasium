@@ -1,0 +1,46 @@
+kuerzel	TE
+korrekturkurs0	5 L5
+häufigkeit0	2
+dauer0	1
+schreiber0	16
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	8a L6
+häufigkeit1	2
+dauer1	2
+schreiber1	26
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	9a L6
+häufigkeit2	2
+dauer2	2
+schreiber2	15
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF L6
+häufigkeit3	2
+dauer3	2
+schreiber3	21
+bemerkung3	
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 I
+häufigkeit4	2
+dauer4	2
+schreiber4	12
+bemerkung4	
+andereeingabe4	
+nicht4	
+abi_zweit5	Q2 L von PIE
+häufigkeit5	normalGK
+schreiber5	3
+bemerkung5	
+andereeingabe5	
+nicht5	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

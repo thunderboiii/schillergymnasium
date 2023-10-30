@@ -1,0 +1,26 @@
+kuerzel	PS
+korrekturkurs0	6 F6
+häufigkeit0	3
+dauer0	1
+schreiber0	22
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Pl
+häufigkeit1	1
+dauer1	2
+schreiber1	3
+bemerkung1	
+andereeingabe1	
+nicht1	
+abi_erst2	Q2 GE
+häufigkeit2	normalLK
+dauer2	Abi
+schreiber2	20
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

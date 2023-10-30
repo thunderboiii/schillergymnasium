@@ -1,0 +1,50 @@
+kuerzel	MLR
+korrekturkurs0	5d M
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	8a M
+häufigkeit1	a
+dauer1	0
+schreiber1	
+bemerkung1	
+andereeingabe1	2 Klassenarbeiten (60 Minuten) plus Lernstandserhebung (90 Minuten)
+20 schreibende schreibende Schüler
+nicht1	
+korrekturkurs2	8c M
+häufigkeit2	a
+dauer2	0
+schreiber2	
+bemerkung2	
+andereeingabe2	2 Klassenarbeiten (60 Minuten) plus Lernstandserhebung (90 Minuten)
+27 schreibende schreibende Schüler
+nicht2	
+korrekturkurs3	EF M
+häufigkeit3	a
+dauer3	0
+schreiber3	
+bemerkung3	
+andereeingabe3	eine Klausur 90 Minuten
+plus zentrale Klausur 100 Minuten
+15 schreibende Schüler
+nicht3	
+abi_zweit4	Q2 M von extern
+häufigkeit4	normalGK
+schreiber4	18
+bemerkung4	
+andereeingabe4	
+nicht4	
+abi_zweit5	Q2 PH von SIR
+häufigkeit5	normalGK
+schreiber5	2
+bemerkung5	
+andereeingabe5	
+nicht5	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	

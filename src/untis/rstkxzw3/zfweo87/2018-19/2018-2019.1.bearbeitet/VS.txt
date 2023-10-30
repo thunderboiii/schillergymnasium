@@ -1,0 +1,35 @@
+kuerzel	VS
+korrekturkurs0	8b E
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 E
+häufigkeit1	2
+dauer1	3
+schreiber1	19
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q2 E
+häufigkeit2	2
+dauer2	4
+schreiber2	22
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	6 F6
+häufigkeit3	3
+dauer3	1
+schreiber3	23
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	Q1
+klassenleitung_nr	1
+klassenleitung_aufteilung	hälftig
+kommentar	Habe Klassenleitung eingetragen, weiß nicht, ob Stufenleitung damit auch gemeint ist. Eigentlich ist Stufenleitung aber grundsätzlich ja schon durch die Stundenermäßigung abgegolten.
+Ach ja: Dieses Verfahren, Anrechnungsstunden geltend zu machen, finde ich sehr komfortabel. Ich hoffe, das ist es auch bei der Auswertung der Kollegenangaben.

@@ -1,0 +1,27 @@
+kuerzel	MKI
+korrekturkurs0	9a F6
+häufigkeit0	2
+dauer0	1
+schreiber0	20
+bemerkung0	Die 2. Arbeit wird durch mündliche Kommunikationsprüfungen ersetzt.
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF F
+häufigkeit1	2
+dauer1	2
+schreiber1	16
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Re
+häufigkeit2	0
+dauer2	0
+schreiber2	0
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Mit BAR habe ich die Stufenleitung EF.
+Ich betreue die Praxissemesterstudierende Laura Buschhoff im Fach Evangelische Religionslehre.

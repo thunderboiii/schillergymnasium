@@ -1,0 +1,19 @@
+kuerzel	GP
+korrekturkurs0	Q1 Pl
+häufigkeit0	2
+dauer0	2,5
+schreiber0	5
+bemerkung0	die letzte Klausur ist 3 stündig
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Pl
+häufigkeit1	2
+dauer1	2,5
+schreiber1	3
+bemerkung1	die letzte Klausur ist 3 stündig
+andereeingabe1	
+nicht1	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

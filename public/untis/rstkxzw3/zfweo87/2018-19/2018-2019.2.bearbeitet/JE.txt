@@ -1,0 +1,15 @@
+kuerzel	JE
+korrekturkurs0	5b D
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+klassenleitung_janein	ja
+klassenleitung_klasse	5b
+klassenleitung_nr	1
+klassenleitung_aufteilung	50/50
+kommentar	Falls Steffi Perner davon überhaupt etwas hat, würde ich die Klassenleitungsentlastung gerne mit ihr teilen.
+Liebe Grüße und Dankeschön!!
+Tina

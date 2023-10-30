@@ -1,0 +1,44 @@
+kuerzel	PE
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	6a M
+häufigkeit0	2
+dauer0	1
+dauer_anders0	
+schreiber0	20
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	7a M
+häufigkeit1	2
+dauer1	1
+dauer_anders1	
+schreiber1	23
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	9 B/C
+häufigkeit2	1
+dauer2	a
+dauer_anders2	Projektarbeit
+schreiber2	16
+bemerkung2	
+nachschr2	0
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 M-LK
+häufigkeit3	normalLK
+dauer3	Abi
+dauer_anders3	
+schreiber3	22
+bemerkung3	
+nachschr3	1
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	6a
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

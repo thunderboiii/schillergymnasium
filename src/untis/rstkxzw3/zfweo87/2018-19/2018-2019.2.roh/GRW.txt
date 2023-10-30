@@ -1,0 +1,27 @@
+kuerzel	GRW
+korrekturkurs0	8a D
+häufigkeit0	3
+dauer0	60
+schreiber0	20
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF D
+häufigkeit1	2
+dauer1	2
+schreiber1	21
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Ch
+häufigkeit2	2
+dauer2	2
+schreiber2	11
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	ja
+klassenleitung_klasse	8a
+klassenleitung_nr	1
+klassenleitung_aufteilung	60:60
+kommentar	Herr Möller (MLR) ist 2. Klassenleitung und hat eine andere Verteilung angegeben. Diese Angabe entspricht der aktuellen Absprache. 

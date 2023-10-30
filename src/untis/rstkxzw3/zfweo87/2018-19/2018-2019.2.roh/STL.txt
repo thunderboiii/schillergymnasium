@@ -1,0 +1,19 @@
+kuerzel	STL
+korrekturkurs0	6a M
+häufigkeit0	3
+dauer0	1
+schreiber0	22
+bemerkung0	
+andereeingabe0	
+nicht0	
+abi_zweit1	Q2 M von extern
+häufigkeit1	normalGK
+schreiber1	14
+bemerkung1	Korrekturtag bekommen
+andereeingabe1	
+nicht1	
+klassenleitung_janein	ja
+klassenleitung_klasse	6a
+klassenleitung_nr	1
+klassenleitung_aufteilung	60-60
+kommentar	

@@ -1,0 +1,42 @@
+kuerzel	HOY
+korrekturkurs0	EF Ku-GK
+häufigkeit0	_
+dauer0	0
+dauer_anders0	
+schreiber0	
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Ku-GK
+häufigkeit1	_
+dauer1	0
+dauer_anders1	
+schreiber1	
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Ku-GK
+häufigkeit2	_
+dauer2	0
+dauer_anders2	
+schreiber2	
+bemerkung2	
+nachschr2	0
+facharbeiten2	0
+andereeingabe2	
+nicht2	
+abi_zweit3	Q2 Ku-LK von BK
+häufigkeit3	normalLK
+dauer3	Abi
+dauer_anders3	
+schreiber3	19
+bemerkung3	
+nachschr3	nein
+andereeingabe3	
+nicht3	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

@@ -1,0 +1,62 @@
+kuerzel	BAR
+korrekturkurs0	EF Bi
+häufigkeit0	1
+dauer0	2
+schreiber0	20
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF Bi
+häufigkeit1	1
+dauer1	2
+schreiber1	17
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Bi
+häufigkeit2	2
+dauer2	2
+schreiber2	18
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Rk
+häufigkeit3	0
+dauer3	0
+schreiber3	
+bemerkung3	
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Rk
+häufigkeit4	0
+dauer4	0
+schreiber4	
+bemerkung4	
+andereeingabe4	
+nicht4	
+abi_erst5	Q2 BI
+häufigkeit5	normalGK
+dauerX	Abi
+schreiber5	2
+bemerkung5	
+andereeingabe5	
+nicht5	
+abi_zweit6	Q2 BI von SCJ
+häufigkeit6	normalGK
+dauerX	Abi
+schreiber6	4
+bemerkung6	
+andereeingabe6	
+nicht6	
+abi_zweit7	Q2 BI von HTM
+häufigkeit7	normalGK
+dauerX	Abi
+schreiber7	1
+bemerkung7	
+andereeingabe7	
+nicht7	
+klassenleitung_janein	ja
+klassenleitung_klasse	Stufe EF
+klassenleitung_nr	1
+klassenleitung_aufteilung	60/60
+kommentar	MKI und ich teilen uns die Jahrgangsstufenleitung EF je zur Hälfte

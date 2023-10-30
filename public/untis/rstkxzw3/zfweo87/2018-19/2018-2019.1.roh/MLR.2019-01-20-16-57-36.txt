@@ -1,0 +1,34 @@
+kuerzel	MLR
+korrekturkurs0	5d M
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	8a M
+häufigkeit1	3
+dauer1	60
+schreiber1	20
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	8c M
+häufigkeit2	3
+dauer2	60
+schreiber2	27
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF M
+häufigkeit3	2
+dauer3	2
+schreiber3	15
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	Korrektur der 2. Klassenarbeit (Mathe) der 7b für Lena Spin (1 Schulstunde, 30 Schüler)

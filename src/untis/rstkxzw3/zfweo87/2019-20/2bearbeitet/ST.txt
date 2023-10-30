@@ -1,0 +1,14 @@
+kuerzel	ST
+abi_erst0	Q2 Ge-LK
+häufigkeit0	normalLK
+dauer0	Abi
+dauer_anders0	
+schreiber0	14
+bemerkung0	
+nachschr0	nein
+andereeingabe0	
+nicht0	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

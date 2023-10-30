@@ -1,0 +1,40 @@
+kuerzel	NC
+korrekturkurs0	5 E5
+häufigkeit0	3
+dauer0	1
+schreiber0	28
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	8c E
+häufigkeit1	2
+dauer1	60
+schreiber1	27
+bemerkung1	Lernstandserhebungen 27x
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 E
+häufigkeit2	2
+dauer2	3
+schreiber2	17
+bemerkung2	mündliche Prüfung
+andereeingabe2	
+nicht2	
+korrekturkurs3	8 G/C
+häufigkeit3	2
+dauer3	2
+schreiber3	25
+bemerkung3	
+andereeingabe3	
+nicht3	
+abi_zweit4	Q2 SW von HAV
+häufigkeit4	normalGK
+schreiber4	3
+bemerkung4	
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	8c
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

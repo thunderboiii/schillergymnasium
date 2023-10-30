@@ -1,0 +1,17 @@
+kuerzel	DZ
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	EF Ge-GK
+häufigkeit0	_
+dauer0	2
+dauer_anders0	
+schreiber0	8
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+klassenleitung_janein	ja
+klassenleitung_klasse	6c
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

@@ -1,0 +1,33 @@
+kuerzel	STP
+korrekturkurs0	6a D
+häufigkeit0	3
+dauer0	1
+dauer_anders0	
+schreiber0	22
+bemerkung0	
+nachschr0	ja
+andereeingabe0	
+nicht0	
+korrekturkurs1	7a E5
+häufigkeit1	3
+dauer1	1
+dauer_anders1	
+schreiber1	17
+bemerkung1	
+nachschr1	ja
+andereeingabe1	
+nicht1	
+korrekturkurs2	8 G/C
+häufigkeit2	2
+dauer2	1
+dauer_anders2	
+schreiber2	22
+bemerkung2	
+nachschr2	ja
+andereeingabe2	
+nicht2	
+klassenleitung_janein	ja
+klassenleitung_klasse	6a
+klassenleitung_nr	1
+klassenleitung_aufteilung	50% und 50%
+kommentar	

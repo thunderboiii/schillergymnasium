@@ -1,0 +1,41 @@
+kuerzel	MKI
+korrekturkurs0	7 F6
+häufigkeit0	3
+dauer0	1
+schreiber0	23
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9a F6
+häufigkeit1	2
+dauer1	1
+schreiber1	20
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF F
+häufigkeit2	2
+dauer2	2
+schreiber2	16
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Re
+häufigkeit3	a
+dauer3	0
+schreiber3	
+bemerkung3	
+andereeingabe3	keine Klausurschreiber
+nicht3	
+korrekturkurs4	Q2 Re
+häufigkeit4	a
+dauer4	0
+schreiber4	
+bemerkung4	
+andereeingabe4	keine Klausurschreiber
+nicht4	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Stufenleitung der EF zusammen mit BAR
+Seit 30.11. erteile ich vertretungsweise für Lena Spin den ev. Reliunterricht in Klasse 7 (einstündig und Aufgabe für die 2. Wochenstunde) und seit 4.12. auch in Klasse 9 (einstündig) 

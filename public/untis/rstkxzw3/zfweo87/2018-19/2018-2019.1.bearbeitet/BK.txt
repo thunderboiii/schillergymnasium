@@ -1,0 +1,19 @@
+kuerzel	BK
+korrekturkurs0	5c M
+häufigkeit0	3
+dauer0	1
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Ku
+häufigkeit1	2
+dauer1	3
+schreiber1	19
+bemerkung1	eine Klausur der beiden ist vierstündig
+andereeingabe1	
+nicht1	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

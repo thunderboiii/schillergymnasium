@@ -1,0 +1,34 @@
+kuerzel	HAV
+korrekturkurs0	6b M
+häufigkeit0	1
+dauer0	1
+dauer_anders0	
+schreiber0	29
+bemerkung0	
+nachschr0	1
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Sw-LK
+häufigkeit1	1
+dauer1	180
+dauer_anders1	
+schreiber1	15
+bemerkung1	4 Facharbeiten
+nachschr1	2
+facharbeiten1	3
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Sw-GK
+häufigkeit2	1
+dauer2	135
+dauer_anders2	
+schreiber2	9
+bemerkung2	1 Facharbeit
+nachschr2	4
+facharbeiten2	5
+andereeingabe2	
+nicht2	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Für den GK weiß ich noch nicht, ob es Nachschreiber gibt, weil erst im Juni geschrieben wird.

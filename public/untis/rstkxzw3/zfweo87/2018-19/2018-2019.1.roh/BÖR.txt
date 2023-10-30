@@ -1,0 +1,41 @@
+kuerzel	BÖR
+korrekturkurs0	5c D
+häufigkeit0	3
+dauer0	60
+schreiber0	30
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	6d D
+häufigkeit1	3
+dauer1	60
+schreiber1	
+bemerkung1	25 (konnte ich nicht in der passenden Spalte unterbringen
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF D
+häufigkeit2	2
+dauer2	2
+schreiber2	
+bemerkung2	20 s.o.
+andereeingabe2	
+nicht2	
+korrekturkurs3	7 E5
+häufigkeit3	3
+dauer3	60
+schreiber3	
+bemerkung3	24s.o.
+andereeingabe3	
+nicht3	
+korrekturkurs4	EF Ge
+häufigkeit4	1
+dauer4	2
+schreiber4	
+bemerkung4	13 s.o.
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	5c
+klassenleitung_nr	2
+klassenleitung_aufteilung	60/60
+kommentar	

@@ -1,0 +1,47 @@
+kuerzel	VOG
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	EF Ek-GK
+häufigkeit0	1
+dauer0	2
+dauer_anders0	
+schreiber0	10
+bemerkung0	
+nachschr0	1
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Ek-LK
+häufigkeit1	2
+dauer1	180
+dauer_anders1	
+schreiber1	21
+bemerkung1	
+nachschr1	2
+facharbeiten1	5
+andereeingabe1	
+nicht1	
+abi_erst2	Q2 Ek-LK
+häufigkeit2	normalLK
+dauer2	Abi
+dauer_anders2	
+schreiber2	17
+bemerkung2	
+nachschr2	1
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 Ek-GK1
+häufigkeit3	normalGK
+dauer3	Abi
+dauer_anders3	
+schreiber3	4
+bemerkung3	
+nachschr3	1
+andereeingabe3	
+nicht3	
+abi_mue_A4_fach_und_kursart4	Ek GK
+abi_A4_mue_bloecke4	2
+abi_mue_bemerkung4	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

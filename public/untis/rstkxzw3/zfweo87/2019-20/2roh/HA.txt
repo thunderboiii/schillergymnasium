@@ -1,0 +1,50 @@
+kuerzel	HA
+korrekturkurs0	7b D
+häufigkeit0	1
+dauer0	60
+dauer_anders0	
+schreiber0	25
+bemerkung0	
+nachschr0	ja
+andereeingabe0	
+nicht0	
+korrekturkurs1	8c D
+häufigkeit1	1
+dauer1	2
+dauer_anders1	
+schreiber1	29
+bemerkung1	
+nachschr1	nein
+andereeingabe1	In dem Lerngruppe wurde vor der coronabedingten Schulschließung keine Klassenarbeit geschrieben, wohl aber die LSE 8.
+nicht1	
+korrekturkurs2	8 DG
+häufigkeit2	a
+dauer2	0
+dauer_anders2	
+schreiber2	
+bemerkung2	
+nachschr2	nein
+andereeingabe2	Vor der Schulschließung wurde keine Arbeit geschrieben.
+nicht2	
+korrekturkurs3	9 DG
+häufigkeit3	a
+dauer3	0
+dauer_anders3	
+schreiber3	
+bemerkung3	
+nachschr3	nein
+andereeingabe3	Vor der Schulschließung wurde keine Arbeit geschrieben.
+nicht3	
+korrekturkurs4	EF D-GK
+häufigkeit4	1
+dauer4	2
+dauer_anders4	
+schreiber4	18
+bemerkung4	
+nachschr4	nein
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	7b
+klassenleitung_aufteilung	
+kommentar	Ich habe die Rechtschreibwerkstatt für die Jahrgänge 7/8/9 mit einer Wochenstunden geleitet.

@@ -1,0 +1,74 @@
+ALB	13		0	     	     	     	     	     	     	     	     	     	     	     	     	0
+AT	18		0	     	     	     	     	     	     	     	     	     	     	     	     	0
+AC	25,5	1A	24,5	   7c D 5	   Q2 D 3	   Q2 D 3	   5a Mu 2	   5c Mu 2	   5d Mu 2	   7b Mu 2	   9a Mu 2	   Q1 Mu 3	     	     	     	24
+BAR	25,5	1,5O, 0,24 LR, 0,5 AG	23,26	   8b Bi 2	   9c Bi 2	   EF Bi 3	   EF Bi 3	   Q1 Bi 3	   Q2 Bi 3	   5b Rö 2	   Q1 Rk 3	   Q1 Rk 3	     	     	     	24
+BK	16	7FB	9	   5c M 5	   Q1 Ku 5	     	     	     	     	     	     	     	     	     	     	10
+BNA	14	1:00 AM	13	     	     	     	     	     	     	     	     	     	     	     	     	0
+BM	25,5		25,5	   7 E5 4	   8a E 4	   6 E6 4	   EF N 4	   Q1 N 4	   Q2 N 4	     	     	     	     	     	     	24
+BER	17	1I	16	   7a D 5	   Q1 D 5	   6a Mu 2	   7a Mu 2	   Q2 Mu 3	     	     	     	     	     	     	     	17
+BÖR	25,5	1A, 0,24 LR, 0,7 PRS, 3FB	20,56	   5c D 5	   6d D 4	  Q1  D  3	   7 E5 4	   6d Ge 2	     	     	     	     	     	     	     	18
+BÜR	25,5	1A, 4 FB	20,5	     	     	     	     	     	     	     	     	     	     	     	     	0
+DR	20	2SL, 0,5 B, 0,7 PRS	16,8	   8d M 4	   Q1 M 3	   Q2 M 5	   Q1 Ch 3	     	     	     	     	     	     	     	     	15
+DZ	25,5	1A 	24,5	   7d Ge 2	   8d Ge 2	   9c Ge 2	   7c Sp 3	   8c Sp 4	   8d Sp 4	   Q1 Sp 2	   Q1 Sp 2	   Q2 Sp 2	   Q2 Sp 2	     	     	25
+EY	25,5	18SL, 2SB	5,5	   7a Ch 2	   9 B/C 2	   Q1 PK 2	   Q1  PK   2 	     	     	     	     	     	     	     	     	8
+FEG	14		14	     	     	     	     	     	     	     	     	     	     	     	     	0
+GP	25,5	15FL, 1A	9,5	   6 Pp 2	   7 Pp 2	   Q1 Pl 3	   Q1 Pl 3	   Q2 Pl 3	     	     	     	     	     	     	     	13
+GRW	18,5	1I	17,5	   8a D 4	   EF D 3	   8a Ch 2	   8b Ch 2	   EF Ch 3	     	     	     	     	     	     	     	14
+GUN	25,5	6 FB, 1 MOD, 1GR, 0,7 PRS, 	16,8	   8a L5 3	   9a L5 3	   Q1 G 4	   6c Ge 2	   EF Ge 3	   EF Ge 3	   Q1 Ge 3	  7  G fö  1	  9  G Fö  1	     	     	     	23
+GU	25,5	1,5 O, 2FB	22	   6a Ku 2	   8d Ku 2	   8 DGx2 2	   9c Ku 2	   9 DG 2	   EF Ku 3	   Q2 Ku 5	   Q2 Ku 3	     	     	     	     	21
+HD	13		13	   7c M 4	   9b M 4	   9a Ph 2	   9b Ph 2	   9c Ph 2	     	     	     	     	     	     	     	14
+HA	16	0,7 PRS	15,3	   6b D 4	   8 DG 2	   9 DG 2	   Q2 D 5	   6b KL 1	     	     	     	     	     	     	     	14
+HAV	25,5	1SL	24,5	   5b M 5	   6d M 4	   5b Bi 2	   5c Pk 2	   5d Pk 2	   EF Sw 3	   Q2 Sw 3	   Q2 SZ 2	     	     	     	     	23
+HY	18	3 FB	15	   9b E 3	   Q2 E 3	   9b Rk 2	   Q2 Rk 3	   Q2 Rk 3	     	     	     	     	     	     	     	14
+HN	25,5		25,5	   Q1 N 4	   Q2 N 4	   Q2 N 4	   7c Pk 2	   9a Pk 2	   EF Sw 3	   Q1 Sw 3	     	     	     	     	     	22
+HTM	25,5	1 AG, 0,7 PRS, 0,5 BiS	23,3	   7 E5 4	   8d E 4	   6d Bi 2	   8a Bi 2	   8d Bi 2	   Q1 Bi 5	   Q2 Bi 3	   7 Rk 2	     	     	     	     	24
+HDN	18	5 MOD	13		     	     	     	     	     	     	     	     	     	     	     	0
+HOY	25,5		25,5	   7 F6 4	   8b F6 3	   9b F6 3	   9 F8 3	   5a Ku 2	   5b Ku 2	   5c Ku 2	   6b Ku 2	   8b Ku 2	   Q1 Ku 3	     	     	26
+IK	21	1,5 O, 1RUD	18,5	   Q1 MUN 2	   Q2 E 3	   7c Ek 2	   9 G/C 2	   Q1 Ek 5	     	     	     	     	     	     	     	14
+JAE	13	0,5 B, 0,24 LR	12,26	   9c M 4	   Q1 If 3	   Q2 If 3	     	     	     	     	     	     	     	     	     	10
+JE	12,75		12,75	   5b D 5	   5b KL 1	   9a Pp 2	     	     	     	     	     	     	     	     	     	8
+JUN	25,5	4 SB, 1P, 3PRS, 1A	16,5	   EF M 4	   Q1 M 3	   Q2 M 3	     	     	     	     	     	     	     	     	     	10
+KIN	24,5	3 SB, 9,5 FL	12					     	     	     	     	     	     	     	     	0
+KIH	24,5	4,5O, 3A, 1SL	16	   Q1 E 3	   EF I 4	   Q2 I 4	   Q1 Ge 3	   Q2 Ge 3	     	     	     	     	     	     	     	17
+KM	25,5		25,5	   7 L5 4	   EF L5 3	   6 L6 4	   7 L6 4	   6a Ge 2	   8a Ge 2	   8b Ge 2	   Q2 GZ 3	  7a  Ge  2	     	     	     	26
+KN	25,5	5SL	20,5	     	     	     	     	     	     	     	     	     	     	     	     	0
+LM	25,5	3A, 4FB, 7FB, 1,5R	10	   Q2 D 3	   7 Rk 2	   8a Rk 2	   EF Rk 3	     	     	     	     	     	     	     	     	10
+LEA	25,5	21,5 FL	6,5	   Q2 Bi 5	     	     	     	     	     	     	     	     	     	     	     	5
+LC	25,5	5SL, 0,24 LR	20,26	   6b M 4	   EF M 4	   EF M 3	   Q1 M 5	   6 Rk 2	     	     	     	     	     	     	     	18
+MAE	6		6	   5b Mu 2	   6b Mu 2	   6d Mu 2	     	     	     	     	     	     	     	     	     	6
+MF	12,75	1I	11,75	   5a D 5	   9a D 3	   Q1 D 3	   9a Sp 2	     	     	     	     	     	     	     	     	13
+ME	24	1SV, 1AG	22	   6 E5 4	   EF E 3	   6c Mu 2	   7c Mu 2	   7d Mu 2	   EF Mu 3	   Q1 VP 3	     	     	     	     	     	19
+MKI	25,5	1,5 O	24	   9a F6 3	   EF F 3	   5a Rö 2	   5d Rö 2	   6 Re 2	   7 Re 2	   9a Re 2	   Q1 Re 3	   Q2 Re 3	     	     	     	22
+MOE	22	1C	21	   7d D 5	   Q1 Li 3	   Q1 E 3	   Q1 E 3	     	     	     	     	     	     	     	     	14
+MLR	25,5		25,5	   5d M 5	   8a M 4	   8c M 4	   EF M 4	   6b Ph 2	   8a Ph 2	   8b Ph 2	     	     	     	     	     	23
+NC	20		20	   5 E5 4	   8c E 4	   Q1 E 5	   5b Pk 2	   Q2 SZ 2	   8 G/C 2	     	     	     	     	     	     	19
+NES	25,5	17 FL, 3A, 1 FB	4,5	   Q2 Sw 5	     	     	     	     	     	     	     	     	     	     	     	5
+NOL	25,5		0	     	     	     	     	     	     	     	     	     	     	     	     	0
+NOW	25,5	11 SL, 1 FB	13,5	   9a E 3	   Q2 E 3	   9a Ge 2	   Q2 Ge 3	   Q2 GZ 3	     	     	     	     	     	     	     	14
+PAT	25,5	4 BO	21,5	   6c D 4	   Q1 D 3	   6c KL 1	   5a Pk 2	   9b Pk 2	   Q2 Sw 3	   6c Sp 3	   8a Sp 4	     	     	     	     	22
+PER	25,5		25,5	   5a Ek 2	   5b Ek 2	   5d Ek 2	   7a Ek 2	   7d Ek 2	   EF Ek 3	   EF Ek 3	   5a Sp 3	   5b Sp 3	   6a Sp 3	     	     	25
+PIE	20	1A	19	   5 E5 4	   EF E 3	   7 E6 4	   6 L5 4	   Q2 L 3	     	     	     	     	     	     	     	18
+PS	16		16	   6 F6 4	   8  FFP  2	   Q2 Ge 5	   EF Pl 3	   Q2 Pl 3	     	     	     	     	     	     	     	17
+POS	25,5	1I, 0,5 BiS	24	   5a M 5	   6c M 4	   9a M 4	   EF M 1	   Q2 M 3	   Q2 M 3	   9a Bi 2	   9b Bi 2	     	     	     	     	24
+RA	25,5	0,7 PRS	24,7	   5d D 5	   9b D 3	   5d KL 1	   7b Ch 2	   7c Ch 2	   9a Ch 2	   9b Ch 2	   9c Ch 2	   EF  CH  3	     	     	     	22
+RAU	0	Elternzeit	0	     	     	     	     	     	     	     	     	     	     	     	     	0
+SD	25,5	0,5 NA, 0,7 PRS	24,3	   6 F6 4	   7 F6 4	   8 F8 3	   Q1 F 3	   5d Sp 3	   7b Sp 3	   8b Sp 4	   Q1 Sp 2	     	     	     	     	26
+STL	12,75	1I	11,75	   6a M 4	   6a Ph 2	   6c Ph 2	   6d Ph 2	     	     	     	     	     	     	     	     	10
+SBM	16		16	   6a D 4	   Q2 D 5	   6a KL 1	     	     	     	     	     	     	     	     	     	10
+SCJ	16		16	   5 E5 4	   6 E5 4	   5c KL 1	   5c Bi 2	   Q2 Bi 3	     	     	     	     	     	     	     	14
+SPN	13		13	   7b M 4	     	     	     	     	     	     	     	     	     	     	     	4
+STP	25,5	8FB, 1I	16,5	     	     	     	     	     	     	     	     	     	     	     	     	0
+SIR	25,5	1Aula, 2IT, 1SiB	21,5	   7b Ph 2	   7c Ph 2	   8c Ph 2	   8d Ph 2	   EF Ph 3	   Q1 Ph 3	   Q2 Ph 3	   6b Sp 3	   7d Sp 3	     	     	     	23
+ST	25,5	1SV, 1B, 1,5O, 2SL, 0,24 LR, 0,7 PRS	19,06	   Q1 Ge 5	   7a Sp 3	   9b Sp 2	   Q1 Sp 2	   Q2 Sp 2	   Q2 Sp 2	     	     	     	     	     	     	16
+TBE	19	4FB 	15	   EF D 3	   EF D 3	   5d Ku 2	   EF Ku 3	   Q1 Ku 3	     	     	     	     	     	     	     	14
+TE	25,5	1B, 1SL, 1A, 1GR	21,5	   5 L5 4	   8a L6 3	   9a L6 3	   EF L6 3	   Q1 I 4	   8  G Fö  1	     	     	     	     	     	     	18
+UY	12,75		12,75	   6d KL 1	   5c Ek 2	   Q2 Ek 3	   5c Sp 3	   6d Sp 3	     	     	     	     	     	     	     	12
+VDB	17		16,3	   7a M 4	   EF M 4	   Q1 M 3	   7a Pk 2	   Q1 Sw 3	     	     	     	     	     	     	     	16
+VS	22	1,5 O, 3,5 REF, 1A	16	   8b E 4	   Q1 E 5	   Q2 E 5	   6 F6 4	     	     	     	     	     	     	     	     	18
+VF	25,5	2 LR-AG	23,5	   5 E5 4	   9c E 3	   EF E 2	   8 If 2	     		     	     	     	     	     	     	16
+VLZ	25,5		25,5	   8d D 4	   9c D 3	   Q1 D 3	   7b Ek 2	   9a Ek 2	   9b Ek 2	   9c Ek 2	   EF Ek 3	   Q1 Ek 3	     	     	     	24
+WAA	12,75	1 AG, 0,5 PRÄ, 0,7 PRS	10,55	   8a F6 3	   5a KL 1	   7d Ch 2	   5a Bi 2	   Q1 Bi 3	     	     	     	     	     	     	     	11
+WEL	14		14	   7d M 4	   8b M 4	   Q1 M 3	     	     	     	     	     	     	     	     	     	11
+WP	25,5	1SCh, 2IT, 1GS (SL)	21,5	   8c Ch 2	   8d Ch 2	   8 B/C 2	   Q1 Ch 5	   Q2 Ch 3	   8c Bi 2	   Q1 Bi 3	     	     	     	     	     	19
+WIE	25,5		25,5	   6 E5 4	   EF E 3	   EF E 3	   6c Ku 2	   6d Ku 2	   8a Ku 2	   9b Ku 2	   Q2 Ku 3	   Q2 Ku 3	     	     	     	24
+WK	25,5	4 BO, 0,5 NA, 0,7 PRS, 0,2 PRS	20,3	   8b D 4	   7b Pk 2	   7d Pk 2	   9c Pk 2	   EF Sw 3	   Q1 Sw 5	   Q2 SZ 2	     	     	     	     	     	20

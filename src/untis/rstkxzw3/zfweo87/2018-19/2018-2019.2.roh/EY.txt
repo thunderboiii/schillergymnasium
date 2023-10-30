@@ -1,0 +1,26 @@
+kuerzel	EY
+korrekturkurs0	9 B/C
+häufigkeit0	2
+dauer0	60
+schreiber0	12
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 PK
+häufigkeit1	0
+dauer1	0
+schreiber1	
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 
+häufigkeit2	0
+dauer2	0
+schreiber2	
+bemerkung2	
+andereeingabe2	
+nicht2	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

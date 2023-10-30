@@ -1,0 +1,20 @@
+kuerzel	HD
+korrekturkurs0	7c M
+häufigkeit0	3
+dauer0	1
+schreiber0	29
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9b M
+häufigkeit1	2
+dauer1	60
+schreiber1	26
+bemerkung1	
+andereeingabe1	
+nicht1	
+klassenleitung_janein	ja
+klassenleitung_klasse	9b
+klassenleitung_nr	1
+klassenleitung_aufteilung	halb halb
+kommentar	

@@ -1,0 +1,19 @@
+kuerzel	LM
+korrekturkurs0	EF Rk
+häufigkeit0	1
+dauer0	2
+schreiber0	2
+bemerkung0	
+andereeingabe0	
+nicht0	
+abi_erst1	Q2 D
+häufigkeit1	normalGK
+dauerX	Abi
+schreiber1	4
+bemerkung1	
+andereeingabe1	
+nicht1	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

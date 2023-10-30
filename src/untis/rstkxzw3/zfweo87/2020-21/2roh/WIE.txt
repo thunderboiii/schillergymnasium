@@ -1,0 +1,54 @@
+kuerzel	WIE
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	5c E5
+häufigkeit0	1
+dauer0	1
+dauer_anders0	
+schreiber0	14
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	9b E
+häufigkeit1	1
+dauer1	60
+dauer_anders1	
+schreiber1	30
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 E-GK
+häufigkeit2	2
+dauer2	135
+dauer_anders2	
+schreiber2	22
+bemerkung2	
+nachschr2	0
+facharbeiten2	0
+andereeingabe2	
+nicht2	
+abi_erst3	Q2 Ku-LK
+häufigkeit3	normalLK
+dauer3	Abi
+dauer_anders3	
+schreiber3	14
+bemerkung3	
+nachschr3	nein(neu)
+andereeingabe3	
+nicht3	
+abi_erst4	Q2 Ku-GK2
+häufigkeit4	normalGK
+dauer4	Abi
+dauer_anders4	
+schreiber4	2
+bemerkung4	
+nachschr4	nein(neu)
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	9B
+klassenleitung_nr	2
+klassenleitung_aufteilung	90:90
+kommentar	

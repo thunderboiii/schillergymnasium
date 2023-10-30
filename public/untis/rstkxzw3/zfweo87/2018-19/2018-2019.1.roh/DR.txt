@@ -1,0 +1,33 @@
+kuerzel	DR
+korrekturkurs0	8d M
+häufigkeit0	3
+dauer0	60
+schreiber0	27
+bemerkung0	Die 1. KA dauerte nur 45 min.
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 M
+häufigkeit1	2
+dauer1	2
+schreiber1	20
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q2 M
+häufigkeit2	2
+dauer2	4
+schreiber2	23
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Ch
+häufigkeit3	2
+dauer3	2
+schreiber3	4
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

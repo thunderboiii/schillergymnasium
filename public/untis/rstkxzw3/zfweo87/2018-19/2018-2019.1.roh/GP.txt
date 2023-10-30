@@ -1,0 +1,33 @@
+kuerzel	GP
+korrekturkurs0	EF E
+häufigkeit0	2
+dauer0	2
+schreiber0	20
+bemerkung0	J. Diekmann entschuldigt
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Pl
+häufigkeit1	2
+dauer1	2
+schreiber1	4
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Pl
+häufigkeit2	2
+dauer2	2
+schreiber2	6
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q2 Pl
+häufigkeit3	2
+dauer3	3
+schreiber3	2
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	Extraaufwand, da Nachklausuren nötig in EF e GK2 und in Q2 pl1

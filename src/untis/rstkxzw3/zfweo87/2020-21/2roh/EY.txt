@@ -1,0 +1,16 @@
+kuerzel	EY
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	EF Bi-GK
+häufigkeit0	1
+dauer0	2
+dauer_anders0	
+schreiber0	20
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

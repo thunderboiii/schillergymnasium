@@ -1,0 +1,42 @@
+kuerzel	VLZ
+korrekturkurs0	8d D
+häufigkeit0	3
+dauer0	2
+schreiber0	28
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9c D
+häufigkeit1	2
+dauer1	2
+schreiber1	
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 D
+häufigkeit2	2
+dauer2	2
+schreiber2	
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF Ek
+häufigkeit3	1
+dauer3	2
+schreiber3	
+bemerkung3	
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Ek
+häufigkeit4	2
+dauer4	2
+schreiber4	
+bemerkung4	
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	Es war leider nicht möglich in die anderen Felder die Anzahl der anderen schreibenden Schüler einzutragen, trotz anklicken könnte ich die Felder nicht aktivieren. 
+Da ich mich seit dem 23.04.19 in Elternzeit befinde, habe ich die letzte Klausur bzw. Klassenarbeit in den Kursen nicht gestellt/korrigiert.

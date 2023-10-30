@@ -1,0 +1,23 @@
+kuerzel	LEA
+korrekturkurs0	EF Bi-GK
+häufigkeit0	2
+dauer0	2
+dauer_anders0	
+schreiber0	20
+bemerkung0	
+nachschr0	2
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 Bi-GK
+häufigkeit1	2
+dauer1	90
+dauer_anders1	
+schreiber1	11
+bemerkung1	
+nachschr1	2
+andereeingabe1	
+nicht1	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

@@ -1,0 +1,41 @@
+kuerzel	VLZ
+korrekturkurs0	8d D
+häufigkeit0	2
+dauer0	2
+schreiber0	28
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	9c D
+häufigkeit1	1
+dauer1	2
+schreiber1	26
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 D
+häufigkeit2	1
+dauer2	2
+schreiber2	15
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	EF Ek
+häufigkeit3	1
+dauer3	2
+schreiber3	19
+bemerkung3	
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Ek
+häufigkeit4	1
+dauer4	2
+schreiber4	14
+bemerkung4	
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	8d
+klassenleitung_nr	2
+klassenleitung_aufteilung	
+kommentar	Ich war ab dem 23.04.2019 für zwei Monate in Elternzeit, wodurch ich die jeweils letzte Klassenarbeit bzw. Klausur pro Kurs nicht gestellt und korrigiert habe.

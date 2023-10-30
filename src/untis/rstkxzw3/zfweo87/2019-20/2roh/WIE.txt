@@ -1,0 +1,54 @@
+kuerzel	WIE
+korrekturkurs0	7d E5
+häufigkeit0	1
+dauer0	1
+dauer_anders0	
+schreiber0	25
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+korrekturkurs1	8b E
+häufigkeit1	1
+dauer1	2
+dauer_anders1	
+schreiber1	29
+bemerkung1	
+nachschr1	0
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 Ku-LK
+häufigkeit2	1
+dauer2	225
+dauer_anders2	
+schreiber2	13
+bemerkung2	
+nachschr2	0
+facharbeiten2	0
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Ku-GK
+häufigkeit3	1
+dauer3	180
+dauer_anders3	
+schreiber3	2
+bemerkung3	
+nachschr3	0
+facharbeiten3	0
+andereeingabe3	
+nicht3	
+korrekturkurs4	Q1 Ku-GK
+häufigkeit4	0
+dauer4	0
+dauer_anders4	
+schreiber4	
+bemerkung4	
+nachschr4	0
+facharbeiten4	0
+andereeingabe4	
+nicht4	
+klassenleitung_janein	ja
+klassenleitung_klasse	8b
+klassenleitung_nr	2
+klassenleitung_aufteilung	50:50
+kommentar	Ich bin Sammlungsbeauftragter im Fach Kunst (1 Std. wird angerechnet)////Ich habe einen Praxissemesterstudenten betreut (0,5 Std. wird angerechnet) 

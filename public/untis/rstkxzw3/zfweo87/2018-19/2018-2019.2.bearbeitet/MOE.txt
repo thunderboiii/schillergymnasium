@@ -1,0 +1,34 @@
+kuerzel	MOE
+korrekturkurs0	7d D
+häufigkeit0	3
+dauer0	60
+schreiber0	28
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	Q1 E
+häufigkeit1	2
+dauer1	2
+schreiber1	22
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	Q1 E
+häufigkeit2	2
+dauer2	2
+schreiber2	22
+bemerkung2	
+andereeingabe2	
+nicht2	
+abi_zweit3	Q2 E von KIH
+häufigkeit3	normalGK
+dauerX	Abi
+schreiber3	7
+bemerkung3	
+andereeingabe3	
+nicht3	
+klassenleitung_janein	ja
+klassenleitung_klasse	7d
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	

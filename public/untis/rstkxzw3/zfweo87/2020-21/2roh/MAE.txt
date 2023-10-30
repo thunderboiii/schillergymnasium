@@ -1,0 +1,17 @@
+kuerzel	MAE
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	8c E
+häufigkeit0	1
+dauer0	60
+dauer_anders0	
+schreiber0	27
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+klassenleitung_janein	ja
+klassenleitung_klasse	8c
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	Ich bin in diesem Schuljahr in Elternzeit und arbeite unterhälftig 6 Stunden.

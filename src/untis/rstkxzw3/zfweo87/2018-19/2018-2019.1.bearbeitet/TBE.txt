@@ -1,0 +1,33 @@
+kuerzel	TBE
+korrekturkurs0	EF D
+häufigkeit0	2
+dauer0	2
+schreiber0	19
+bemerkung0	
+andereeingabe0	
+nicht0	
+korrekturkurs1	EF D
+häufigkeit1	2
+dauer1	2
+schreiber1	21
+bemerkung1	
+andereeingabe1	
+nicht1	
+korrekturkurs2	EF Ku
+häufigkeit2	1
+dauer2	3
+schreiber2	4
+bemerkung2	
+andereeingabe2	
+nicht2	
+korrekturkurs3	Q1 Ku
+häufigkeit3	2
+dauer3	2
+schreiber3	1
+bemerkung3	1 der Klausuren ist 3-stündig
+andereeingabe3	
+nicht3	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

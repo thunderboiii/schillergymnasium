@@ -1,0 +1,12 @@
+kuerzel	NES
+korrekturkurs0	Q2 Sw
+häufigkeit0	2
+dauer0	4
+schreiber0	-22
+bemerkung0	
+andereeingabe0	
+nicht0	
+klassenleitung_janein	nein
+klassenleitung_klasse	
+klassenleitung_aufteilung	
+kommentar	

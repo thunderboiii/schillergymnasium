@@ -1,0 +1,17 @@
+kuerzel	JE
+deputat_korrekt_janein	ja
+deputat_berichtigung	
+korrekturkurs0	7b D
+häufigkeit0	2
+dauer0	1
+dauer_anders0	
+schreiber0	28
+bemerkung0	
+nachschr0	0
+andereeingabe0	
+nicht0	
+klassenleitung_janein	ja
+klassenleitung_klasse	7b
+klassenleitung_nr	1
+klassenleitung_aufteilung	
+kommentar	
