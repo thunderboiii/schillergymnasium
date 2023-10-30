@@ -507,6 +507,7 @@ table {
 th,
 td {
     padding: 1rem;
+    font-family: Helvetica, sans-serif;
 }
 
 th {
