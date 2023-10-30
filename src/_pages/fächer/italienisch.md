@@ -8,7 +8,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/LAF.jpg
   - fachschaftImage: /img/uploads/PUE.jpg
   - fachschaftImage: /img/uploads/ZEC.jpg
-  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/TE.jpg
 teachers: "Frau Zech, Frau Teske, FrauPüning, Frau Lanfer "
 tags:
   - fach

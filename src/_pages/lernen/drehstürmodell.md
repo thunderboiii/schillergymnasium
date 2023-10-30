@@ -3,8 +3,12 @@ title: Fördern und Fordern
 banner: /img/uploads/img_0909.jpeg
 order: 4
 banners:
-  - banner: /img/uploads/img_0909.jpeg
-    alignment: center
+  - banner: /img/uploads/_q6a7244-1-.jpg
+    alignment: top
+  - banner: /img/uploads/_q6a7268-1-.jpg
+    alignment: top
+  - banner: /img/uploads/_q6a7375-1-.jpg
+    alignment: top
 tags:
   - lernen
   - page

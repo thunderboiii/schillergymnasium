@@ -3,7 +3,11 @@ title: Erprobungs-, Mittel- und Oberstufe
 shortTitle: Schulstufen
 order: 1
 banners:
-  - banner: /img/uploads/bild-1-homepage.jpeg
+  - banner: /img/uploads/schnupper9.jpg.jpeg
+    alignment: center
+  - banner: /img/uploads/theater5.jpeg
+    alignment: center
+  - banner: /img/uploads/schnupperfahrt-mit-jungen.jpeg
     alignment: center
 tags:
   - lernen
