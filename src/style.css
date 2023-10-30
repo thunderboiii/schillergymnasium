@@ -247,6 +247,15 @@ p {
     line-height: 1.2;
 }
 
+@media (max-width: 35em) {
+    p {
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+}
+
 li {
     font-size: 21px;
     color: var(--color-dom-900);
@@ -437,6 +446,7 @@ hr {
     width: 145px;
     user-select: none;
     pointer-events: none;
+    margin-right: 0;
 }
 
 blockquote {
@@ -579,6 +589,14 @@ tr:nth-of-type(2n) {
         width: 200px !important;
         aspect-ratio: 35/45;
         object-fit: cover;
+    }
+
+    .fachschaft-gallery img {
+        aspect-ratio: 35/45;
+        width: 145px;
+        user-select: none;
+        pointer-events: none;
+        margin-right: 0;
     }
 }
 
