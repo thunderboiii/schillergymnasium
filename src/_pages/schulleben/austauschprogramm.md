@@ -35,14 +35,21 @@ Die verantwortlichen Lehrpersonen sind Christian Meyer und Cornelia Näpel.
 
 ## 2. Meung-sur-Loire – Frankreich
 
-![](/img/uploads/meung_sur_loire.png)
+![](/img/uploads/20230320_114436-orléans-2.jpeg)
 
-Bereits seit dem Schuljahr 2008/2009 führt das Schillergymnasium Münster einen Austausch mit einem französischen Collège durch. Nachdem uns der Austausch in den letzten Jahren in den Südwesten Frankreichs nach Périgueux geführt hatte, besteht nun seit zwei Jahren Kontakt zu einem Collège in Meung-sur-Loire, in der Nähe von Orléans. In diesem Schuljahr nun wird den Schülerinnen und Schülern der 9. Klassen des Schillergymnasiums die Möglichkeit geboten sich für den Frankreichaustausch mit unserer Partnerschule in Meung-sur-Loire zu bewerben.
+![](/img/uploads/20230320_134727-orléans-3.jpeg)
 
-Weitere Informationen finden Sie auf der Homepage:\
-<https://www.education.gouv.fr/annuaire/45130/meung-sur-loire/college/0450038x/college-gaston-coute.html>
+![](/img/uploads/20230320_134727-orléans-3.jpeg)
 
-Der Austausch richtet sich an Mädchen und Jungen der 9. Klasse. Verantwortliche Lehrpersonen sind Andrea Michalski und Maik Schade.
+
+
+Nach einem langjährigen Austausch mit dem Collège Anne Frank in Périgueux besteht nun seit 2019 eine Partnerschaft mit dem Collège Gaston Couté in Meung–sur-Loire (bei Orléans). Erstmalig fand vom 07.12.22 bis zum 15.12.22 der Besuch der französischen Gäste in Münster statt. Im März 2023 war der Gegenbesuch in Meung-sur-Loire. Im Rahmen des Aufenthalts in Frankreich erkundeten die Schiller-Schülerinnen und Schüler unter anderem Münsters Partnerstadt Orleáns. Darüber hinaus wurde Blois, Meung-sur-Loire und Beaugency besichtigt.
+
+Am Wochenende unternahmen viele Familien mit ihren Gästen Ausflüge in die Umgebung. So wurde das Schloss Chambord besichtigt oder auch Frankreichs Hauptstadt Paris angesteuert.
+
+Insgesamt wurde der Austausch als sehr erfahrungsreich und erfolgreich wahrgenommen, sodass die Freude auf den nächsten gegenseitigen Besuch groß ist.
+
+
 
 ## 3. Liceum Lublin- Polen
 
