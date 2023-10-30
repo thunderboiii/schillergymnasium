@@ -50,5 +50,3 @@ Wir erachten das Fach als unabdingbar für eine ganzheitliche Persönlichkeitsbi
 Als weiterführenden Einblick in unser Verständnis von Kunstunterricht verweisen wir auf die [Fachbeschreibung des Deutschen Kulturrats.](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
 
 [](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
-
-<div class="gallary">[object Object],[object Object]</div>
