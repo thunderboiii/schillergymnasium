@@ -55,7 +55,11 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/WEL.jpg
   - fachschaftImage: /img/uploads/WK.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
-teachers: Frau Schlumbohm
+teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
+  Stapelbroek, Frau Schlumbohm,Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
+  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
+  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
+  Grunewald, Frau Börding, Frau Allecke
 fachschaft:
   teachers: "Frau Schlumbohm "
 title: Deutsch
