@@ -1,0 +1,31 @@
+RewriteEngine ON
+
+# Force www version
+RewriteCond %{HTTP_HOST} ^schillergymnasium-muenster.de [NC]
+RewriteRule ^(.*)$ http://www.schillergymnasium-muenster.de/$1 [L,R=301]
+
+# Untis Stunden- und Vertretungsplan
+## slash anfügen, wenn ohne:
+RewriteCond %{REQUEST_URI} ^/(rarw78tg/38o7fgn7|r8asofijh/s0xh89u35z|rstkxzw3/hrcacrx|rstkxzw3/zfweo87|rstkxzw3/wzv8wgg|ABC/VVV)$
+RewriteRule (.*) %{REQUEST_URI}/ [R,L]
+## Anfragen nach "untis/..." umleiten:
+RewriteCond %{REQUEST_URI} ^/(rarw78tg/38o7fgn7|r8asofijh/s0xh89u35z|rstkxzw3/hrcacrx|rstkxzw3/zfweo87|rstkxzw3/wzv8wgg|ABC/VVV)
+RewriteRule (.*) untis/$1 [L]
+
+# wiki:
+# von außen soll es "/wiki" heißen:
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki/index.php [L]
+# "/mediawiki/images" soll nicht direkt von außen erreichbar sein (sondern nur für angemeldete Benutzer über img_auth.php):
+RewriteCond %{THE_REQUEST} /mediawiki/images
+RewriteRule ^ - [F]
+
+# Original Wordpress-Umleitung zu wordpress-Verzeichnis
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?schillergymnasium-muenster\.de$
+RewriteCond %{REQUEST_URI} !^/wordpress/
+RewriteCond %{REQUEST_URI} !^/wiki/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /wordpress/$1
+RewriteCond %{HTTP_HOST} ^(www.)?schillergymnasium-muenster\.de$
+RewriteRule ^(/)?$ wordpress/index.php [L]
