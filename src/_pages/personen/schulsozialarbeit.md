@@ -40,7 +40,7 @@ Telefon: [0251/68661840 ](tel:0251/68661840)
 
 <div class="person"><div><center><img src="/img/uploads/SCÖ.jpg" alt=""></center><div class="description"><p>Martin Schröter</p><p><b>Schulsozialarbeiter</b></p></div></div></div>
 
-**Martin Schröter - Raum H.108** \
+**Raum H.108** \
 E-Mail (für die Schulgemeinschaft): [martin.schroeter@schiller.ms.de ](mailto:martin.schroeter@schiller.ms.de)\
 E-Mail (für externe Anfragen): [schroeter@seht-muenster.de ](mailto:schroeter@seht-muenster.de)\
 Telefonnummer: [0157 39 39 14 87 ](<tel:0157 39 39 14 87>)
@@ -51,4 +51,4 @@ Telefonnummer: [0157 39 39 14 87 ](<tel:0157 39 39 14 87>)
 
 ## Info-Video:
 
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/2aPXFwdddAM????si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/2aPXFwdddAM?????si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
