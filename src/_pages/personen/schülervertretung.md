@@ -1,6 +1,6 @@
 ---
 title: Schüler:innenvertretung
-shortTitle: Schülervertretung
+shortTitle: Die SV
 order: 6
 banners:
   - banner: /img/uploads/sv-2-.jpg
