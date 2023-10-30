@@ -3,6 +3,11 @@ title: Schulsanitätsdients
 shortTitle: Schulsanitätsdients
 banner: /img/uploads/img_20221025_114421.jpg
 order: 6
+banners:
+  - banner: /img/uploads/img_20221025_114421.jpg
+    alignment: center
+  - banner: /img/uploads/img_20221025_120247.jpg
+    alignment: center
 tags:
   - schulleben
   - page
