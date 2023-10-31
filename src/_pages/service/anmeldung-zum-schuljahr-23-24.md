@@ -1,6 +1,7 @@
 ---
 title: Anmeldung zum Schuljahr 24/25
 shortTitle: Anmeldung
+order: 1
 banners:
   - banner: /img/uploads/portal.jpg
     alignment: center
@@ -21,9 +22,7 @@ Mittwoch, 21. Februar 2024		09 Uhr – 12 Uhr	und 	15 Uhr – 18 Uhr
 
 Donnerstag, 22. Februar 2024	        09 Uhr – 12 Uhr 
 
-
-
-Ab **Montag, 9. Januar 2024** können Sie an dieser Stelle bequem einen Termin für dieses Anmeldegespräch buchen. \
+Ab **Montag, 8. Januar 2024** können Sie an dieser Stelle bequem einen Termin für dieses Anmeldegespräch buchen. \
 Folgende Unterlagen (im Original) sind für die Anmeldung erforderlich: 
 
 * *Geburtsurkunde* 
