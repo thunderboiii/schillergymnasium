@@ -13,7 +13,7 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/NOW (Schulleitung).jpg" alt=""></center><div class="description"><p>Andreas Nowak</p><p><b>Schulleiter</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Vakant</p><p><b>Stellvertretende Schulleitung</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>vakant</p><p><b>Stellvertretende Schulleitung</b></p></div></div></div>
 
 ## Erweiterte Schulleitung
 
@@ -23,15 +23,15 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/VOI.jpg" alt=""></center><div class="description"><p>Christian Voigt</p><p><b>Oberstufenkoordinator</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/DR.jpg" alt=""></center><div class="description"><p>Erika Dreßel</p><p><b>Organisation</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/DR.jpg" alt=""></center><div class="description"><p>Erika Dreßel</p><p><b>Verwaltung</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/LC.jpg" alt=""></center><div class="description"><p>Stefan Lütkecosmann</p><p><b>Schulentwicklung</b></p></div></div></div>
 
 ## Sekretariat
 
-<div class="person"><div><center><img src="/img/uploads/Schönbeck.jpg" alt=""></center><div class="description"><p>Frau Schönbeck</p><p><b>Sekretärin</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/Schönbeck.jpg" alt=""></center><div class="description"><p>Sabine Schönbeck</p><p><b>Sekretärin</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/Heming.jpg" alt=""></center><div class="description"><p>Frau Hemming</p><p><b>Sekretärin</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/Heming.jpg" alt=""></center><div class="description"><p>Annemarie Heming</p><p><b>Sekretärin</b></p></div></div></div>
 
 ## Weitere Mitarbeiter:innen
 
