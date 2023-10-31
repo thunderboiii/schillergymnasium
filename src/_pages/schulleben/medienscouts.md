@@ -1,6 +1,6 @@
 ---
 title: Medienscouts
-shortTitle: Medienscouts
+shortTitle: ""
 banner: /img/uploads/img_0507-3.png
 order: 7
 banners:
