@@ -1,6 +1,6 @@
 ---
 title: Schulsanitätsdienst
-shortTitle: Schulsanitätsdienst
+shortTitle: ""
 banner: /img/uploads/img_20221025_114421.jpg
 order: 6
 banners:
