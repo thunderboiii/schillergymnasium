@@ -39,17 +39,11 @@ Die verantwortlichen Lehrpersonen sind Christian Meyer und Cornelia Näpel.
 
 ![](/img/uploads/20230320_134727-orléans-3.jpeg)
 
-![](/img/uploads/20230320_134727-orléans-3.jpeg)
-
-
-
 Nach einem langjährigen Austausch mit dem Collège Anne Frank in Périgueux besteht nun seit 2019 eine Partnerschaft mit dem Collège Gaston Couté in Meung–sur-Loire (bei Orléans). Erstmalig fand vom 07.12.22 bis zum 15.12.22 der Besuch der französischen Gäste in Münster statt. Im März 2023 war der Gegenbesuch in Meung-sur-Loire. Im Rahmen des Aufenthalts in Frankreich erkundeten die Schiller-Schülerinnen und Schüler unter anderem Münsters Partnerstadt Orleáns. Darüber hinaus wurde Blois, Meung-sur-Loire und Beaugency besichtigt.
 
 Am Wochenende unternahmen viele Familien mit ihren Gästen Ausflüge in die Umgebung. So wurde das Schloss Chambord besichtigt oder auch Frankreichs Hauptstadt Paris angesteuert.
 
 Insgesamt wurde der Austausch als sehr erfahrungsreich und erfolgreich wahrgenommen, sodass die Freude auf den nächsten gegenseitigen Besuch groß ist.
-
-
 
 ## 3. Liceum Lublin- Polen
 
