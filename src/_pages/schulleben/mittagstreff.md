@@ -3,6 +3,9 @@ title: Offener Ganztag
 shortTitle: Schiller nach 1
 banner: /img/uploads/mittagstreff.jpg
 order: 1
+banners:
+  - banner: /img/uploads/mittagstreff.jpg
+    alignment: bottom
 tags:
   - schulleben
   - page

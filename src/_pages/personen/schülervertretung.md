@@ -5,6 +5,8 @@ order: 6
 banners:
   - banner: /img/uploads/sv-2-.jpg
     alignment: top
+  - banner: /img/uploads/sv-nikolaus.jpg
+    alignment: top
 tags:
   - personen
   - page

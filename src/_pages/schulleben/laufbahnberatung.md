@@ -1,6 +1,6 @@
 ---
 title: Laufbahnberatung
-shortTitle: Laufbahnberatung
+shortTitle: ""
 order: 4
 banners:
   - banner: /img/uploads/fremdbild-berufsorientierung.jpg

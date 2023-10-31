@@ -1,6 +1,6 @@
 ---
 title: Prävention
-shortTitle: Prävention
+shortTitle: ""
 banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
 order: 5
 banners:
