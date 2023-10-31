@@ -5,7 +5,7 @@ banner: /img/uploads/mittagstreff.jpg
 order: 1
 banners:
   - banner: /img/uploads/mittagstreff.jpg
-    alignment: bottom
+    alignment: center
 tags:
   - schulleben
   - page
