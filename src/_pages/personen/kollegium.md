@@ -9,6 +9,6 @@ tags:
   - page
 category: Personen
 ---
-## Das Gesamtkollegium
-
 ![](/img/uploads/gesamtkollegium_edit.jpg)
+
+**Das Gesamtkollegium**
