@@ -1,6 +1,9 @@
 ---
 title: Schulsozialarbeit
 order: 3
+banners:
+  - banner: /img/uploads/_q6a7450.jpg
+    alignment: center
 tags:
   - personen
   - page
