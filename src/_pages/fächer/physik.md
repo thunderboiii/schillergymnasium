@@ -68,8 +68,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/MLR.jpg
   - fachschaftImage: /img/uploads/STL.jpg
   - fachschaftImage: /img/uploads/SIR.jpg
-teachers: Herr Stier, Frau Schechtel, Herr Möller, Herr Schilling, Frau
-  Lechtenböhmer, Frau Hartmann
+teachers: Herr Stier, Frau Schechtel, Herr Möller, Herr Schilling, Frau Hartmann
 fachGallery:
   - fachImage: /img/uploads/wärme-1.jpg
   - fachImage: /img/uploads/wärme-2.jpg
