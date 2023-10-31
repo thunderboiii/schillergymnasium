@@ -25,6 +25,7 @@ Doctrina, also Bildung, soll uns die notwendige Orientierung bieten und Wege er√
 
 Ich lade alle herzlich ein, unsere Homepage und unsere Schule zu besuchen. Wir am Schiller freuen uns √ºber interessante Begegnungen, gegenseitige Inspiration und kreative Zusammenarbeit in unserem Haus des Lernens. 
 
-Ihr / Euer\
+Ihr / Euer
+
 Andreas Nowak\
 Schulleiter
