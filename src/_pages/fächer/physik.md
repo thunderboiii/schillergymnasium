@@ -64,11 +64,12 @@ fachText: >-
   Nicht zuletzt unterstützen wir besonders begabte und interessierte Schüler*innen bei der Teilnahme an Wettbewerben oder Projekten der Universität.
 fachschaftGallery:
   - fachschaftImage: /img/uploads/HD.jpg
-  - fachschaftImage: /img/uploads/LEA.jpg
+  - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/MLR.jpg
   - fachschaftImage: /img/uploads/STL.jpg
   - fachschaftImage: /img/uploads/SIR.jpg
-teachers: Herr Stier, Frau Schechtel, Herr Möller, Frau Lechtenböhmer, Frau Hartmann
+teachers: Herr Stier, Frau Schechtel, Herr Möller, Herr Schilling, Frau
+  Lechtenböhmer, Frau Hartmann
 fachGallery:
   - fachImage: /img/uploads/wärme-1.jpg
   - fachImage: /img/uploads/wärme-2.jpg
