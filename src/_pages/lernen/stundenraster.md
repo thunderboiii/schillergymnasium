@@ -1,7 +1,9 @@
 ---
 title: Unterrichtszeiten
 order: 5
-banners: []
+banners:
+  - banner: /img/uploads/vollversammlung-01-kopie.jpg
+    alignment: center
 tags:
   - lernen
   - page
