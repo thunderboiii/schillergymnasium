@@ -25,7 +25,7 @@ Deine/Eure SV am Schiller
 
 Dieses Jahr (2023/24) besteht der Schülersprecher:innen Team aus Joy Ann Giesen (Q1), Philipp Göhde (Q2), Luca Näpel (Q2) und Jos Jacobs (Klasse 10). 
 
-![Die Schülersprecher der Schillergymnasium Münsters](/img/uploads/schülersprecher.jpg)
+![Die Schülersprecher:innen der Schillergymnasium Münsters](/img/uploads/dsc_5576.jpeg)
 
 \
 Als SV-Lehrer wurden Frau Heiny und Herr Meyer dieses Mal gewählt. 

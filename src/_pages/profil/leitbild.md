@@ -11,7 +11,7 @@ category: Profil
 ---
 <center><div class="title"><h4>Leitbild</h4><h2>Unser Leitbild</h2></div></center>
 
-Herzlich Willkommen am Schillergymnasium!
+Herzlich willkommen am Schillergymnasium!
 
 Wenn man unser Gebäude betritt, dann sieht man über dem Eingangsportal unser Schulmotto „Pietati – Virtuti - Doctrinae“. Es ist weit über 100 Jahre alt, hat aber auch heute noch Geltung für uns, denn am Schillergymnasium wollen wir mehr denn je gemeinsam auf der Grundlage des humanistischen Menschenbildes leben und arbeiten, um in politisch, sozial und klimatisch herausfordernden Zeiten ein Leitbild zu geben. 
 
@@ -25,6 +25,7 @@ Doctrina, also Bildung, soll uns die notwendige Orientierung bieten und Wege er�
 
 Ich lade alle herzlich ein, unsere Homepage und unsere Schule zu besuchen. Wir am Schiller freuen uns über interessante Begegnungen, gegenseitige Inspiration und kreative Zusammenarbeit in unserem Haus des Lernens. 
 
-Ihr / Euer\
+Ihr / Euer
+
 Andreas Nowak\
 Schulleiter
