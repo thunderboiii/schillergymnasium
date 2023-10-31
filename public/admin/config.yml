@@ -107,6 +107,11 @@ collections:
   - name: "settings"
     label: "Settings"
     files: 
+      - label: 'Startseite'
+        name: 'home'
+        file: 'src/_data/home.json'
+        fields:
+           - {label: 'Termine Hintergrundbild', name: termineBackground, widget: 'image'}
       - label: 'Anmeldephase'
         name: 'anmeldung'
         file: 'src/_data/anmeldung.json'
