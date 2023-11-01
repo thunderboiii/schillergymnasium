@@ -3,7 +3,9 @@ title: Suchtpräventionstag Jg. 9
 shortTitle: Suchtprävention
 date: 2023-10-14T13:15:26.219Z
 author: Christina Waanders
-description: Suchtpräventionstag Jg. 9
+description: "Was bedeutet süchtig sein, ab wann ist jemand süchtig und warum
+  werden Menschen überhaupt süchtig? Fragen, die sich in Anbetracht der
+  facettenreichen Konsequenzen einer Sucht aufdrängen. "
 banner: /img/uploads/schiller-präventationstag-jgst.-9-holze.jpg
 tags:
   - post
