@@ -1,7 +1,7 @@
 ---
 title: Klassenfahrt nach Norderney
 shortTitle: Norderney
-date: 2023-10-13T18:36:29.063Z
+date: 2023-10-13T17:23:29.063Z
 author: Jonas Fastabend
 description: Die Klassenfahrt hat den siebten Jahrgang des Schillergymnasiums in
   der letzten Septemberwoche nach Norderney geführt. Es war eine tolle Fahrt,
