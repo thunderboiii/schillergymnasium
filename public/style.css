@@ -1318,7 +1318,7 @@ header .faecher {
 }
 
 .aktuelles-termine .aktuelles .snippet {
-    min-width: 330px;
+    width: 330px;
 }
 
 .aktuelles-termine .aktuelles .snippet .snippet_title {
@@ -1468,6 +1468,18 @@ header .faecher {
        (min-width: 35em) {
     .aktuelles-termine .scroll-group {
         gap: 0;
+    }
+
+    .aktuelles-termine .scroll-group i {
+        font-size: 40px;
+    }
+
+    .aktuelles-termine .aktuelles .snippet {
+        width: 300px;
+    }
+
+    .aktuelles-termine .scroll {
+        width: calc(900px + 4rem);
     }
 }
 
