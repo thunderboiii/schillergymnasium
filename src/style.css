@@ -1403,7 +1403,7 @@ header .faecher {
     text-align: center;
     color: var(--color-compliment-900);
     margin-top: .5rem;
-    line-break: anywhere;
+    word-wrap: break-word;
 }
 
 @media (max-width: 35em) {
