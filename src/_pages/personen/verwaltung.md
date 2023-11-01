@@ -2,7 +2,7 @@
 title: Verwaltung
 order: 1
 banners:
-  - banner: /img/uploads/portal.jpg
+  - banner: /img/uploads/von-oben.jpg
     alignment: bottom
 tags:
   - personen

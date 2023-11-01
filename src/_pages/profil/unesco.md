@@ -9,7 +9,7 @@ banners:
     alignment: center
   - banner: /img/uploads/nam3.jpg
     alignment: center
-  - banner: /img/uploads/nam4.jpg
+  - banner: /img/uploads/sdg-würfel.jpeg
     alignment: center
 tags:
   - profil
