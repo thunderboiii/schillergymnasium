@@ -1,7 +1,0 @@
-# Passwortschutz
-# AuthType Basic
-# AuthName "Schiller: Entlastungsberechnung"
-# AuthUserFile /is/htdocs/wp12599526_UWBR3PUPTC/www/untis/rstkxzw3/zfweo87/.htusers
-# Require user schiller
-
-DirectoryIndex index.php, index.html, index.htm, default.html, default.htm

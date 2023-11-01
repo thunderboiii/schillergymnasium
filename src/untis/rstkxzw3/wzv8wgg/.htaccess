@@ -1,5 +1,0 @@
-# Passwortschutz
-AuthType Basic
-AuthName "uvplaner"
-AuthUserFile /is/htdocs/wp12599526_UWBR3PUPTC/www/untis/rstkxzw3/wzv8wgg/.htusers
-Require user schiller

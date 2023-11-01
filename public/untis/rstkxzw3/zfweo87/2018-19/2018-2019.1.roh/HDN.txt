@@ -1,6 +1,0 @@
-kuerzel	HDN
-klassenleitung_janein	nein
-klassenleitung_klasse	
-klassenleitung_aufteilung	
-kommentar	Korrekturen von WIE: 2 x EF Englisch (2-stündig), 1 x Klasse 6  Englisch (1-stündig)
-
