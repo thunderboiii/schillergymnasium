@@ -1450,7 +1450,7 @@ header .faecher {
     }
 
     .aktuelles-termine .scroll-group i {
-        display: none;
+        display: block;
         pointer-events: none;
     }
 }
@@ -1740,6 +1740,7 @@ header .faecher {
 .contact .contact-form .input-holder {
     display: flex;
     justify-content: space-between;
+    gap: .5rem;
 }
 
 .contact .contact-form input {
@@ -1750,6 +1751,7 @@ header .faecher {
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-dom-900);
+    border-radius: 0;
 }
 
 .contact .contact-form select {
@@ -1772,6 +1774,7 @@ header .faecher {
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-dom-900);
+    border-radius: 0;
 }
 
 .contact .contact-form button {
@@ -1779,6 +1782,8 @@ header .faecher {
     border: var(--color-accent-900) 3px solid;
     text-align: center;
     transition: all ease-in-out 200ms;
+    color: var(--color-accent-900);
+    font-weight: 500 !important;
 }
 
 .contact .contact-form button:hover {
