@@ -1,6 +1,6 @@
 ---
 title: Arbeitsgemeinschaften
-shortTitle: ""
+shortTitle: Unsere AGs
 order: 2
 banners:
   - banner: /img/uploads/img_0962.jpeg
