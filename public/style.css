@@ -1415,6 +1415,25 @@ header .faecher {
     hyphens: auto;
 }
 
+@media (max-width: 74em),
+       (min-width: 35.999em) {
+    .aktuelles-termine .scroll-group {
+        gap: 0;
+    }
+
+    .aktuelles-termine .scroll-group i {
+        font-size: 40px;
+    }
+
+    .aktuelles-termine .aktuelles .snippet {
+        width: 300px;
+    }
+
+    .aktuelles-termine .scroll {
+        width: calc(900px + 4rem);
+    }
+}
+
 @media (max-width: 35em) {
     .aktuelles-termine {
         overflow-x: hidden;
@@ -1461,25 +1480,6 @@ header .faecher {
     .aktuelles-termine .scroll-group i {
         display: block;
         pointer-events: none;
-    }
-}
-
-@media (max-width: 74em),
-       (min-width: 35em) {
-    .aktuelles-termine .scroll-group {
-        gap: 0;
-    }
-
-    .aktuelles-termine .scroll-group i {
-        font-size: 40px;
-    }
-
-    .aktuelles-termine .aktuelles .snippet {
-        width: 300px;
-    }
-
-    .aktuelles-termine .scroll {
-        width: calc(900px + 4rem);
     }
 }
 
