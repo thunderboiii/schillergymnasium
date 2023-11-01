@@ -36,6 +36,8 @@ layout: base.njk
                 <option value="2017">2020</option>
                 <option value="2017">2021</option>
                 <option value="2017">2022</option>
+                <option value="2017">2023</option>
+
 
             </select>
 
@@ -55,6 +57,7 @@ layout: base.njk
                 <option value="Dec">Dezember</option>
             </select>
         </div>
+
         {%- for post in collections.post | reverse -%}
             <div class="snippet">
                 <img src="{{ post.data.banner }}" alt="" class="snippet__image">
