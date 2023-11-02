@@ -27,4 +27,7 @@ Um dieser Vielfalt gerecht zu werden, verfügt das Schillergymnasium über beson
 
 <div class="person"><div><center><img src="/img/uploads/NOL.jpg" alt=""></center><div class="description"><p>Herr Nolting</p><p><b>Sonderpädagoge</b></p></div></div></div>
 
+<div class="person"><div><center><img src="/img/uploads/ZEC.jpg" alt=""></center><div class="description"><p>Frau Zech</p><p><b>Sonderpädagogin</b></p></div></div></div>
+
+\
 Die bisherigen Erfahrungen zeigen, dass das Gemeinsame Lernen gelingt und alle Schülerinnen und Schüler von dieser Lernkultur profitieren – sowohl fachlich als auch sozial.
