@@ -28,9 +28,14 @@ about:
     - fachImage: /img/uploads/img_20221025_120247.jpg
     - fachImage: /img/uploads/img_4496.jpg
     - fachImage: /img/uploads/img_4497.jpg
+teachers: Herr Borgers, Frau Zech, Herr Vogt,  Frau Uylenkate, Frau Stüwe, Herr
+  Stier, Herr Schade, Frau Perner, Herr Pater, Herr Dzaebel, Herr Driver, Frau
+  Albiker
+fachschaft:
+  teachers: Herr Stier
+title: Sport
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AT.jpg
-  - fachschaftImage: /img/uploads/BÜR.jpg
   - fachschaftImage: /img/uploads/DRI.jpg
   - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/PAT.jpg
@@ -42,12 +47,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/VOG.jpg
   - fachschaftImage: /img/uploads/ZEC.jpg
   - fachschaftImage: /img/uploads/BOG.jpg
-teachers: Herr Borgers, Frau Zech, Herr Vogt,  Frau Uylenkate, Frau Stüwe, Herr
-  Stier, Herr Schade, Frau Perner, Herr Pater, Herr Dzaebel, Herr Driver, Herr
-  Bürschel, Frau Albiker
-fachschaft:
-  teachers: Herr Stier
-title: Sport
 tags:
   - fach
 ---
