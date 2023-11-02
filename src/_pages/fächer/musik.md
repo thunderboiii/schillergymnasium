@@ -11,7 +11,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/BER.jpg
   - fachschaftImage: /img/uploads/HIM.jpg
   - fachschaftImage: /img/uploads/ME.jpg
-teachers: Herr Meier, Herr Henrichmann, Herr Berthel, Frau Allecke
+teachers: Herr Meyer, Herr Henrichmann, Herr Berthel, Frau Allecke
 tags:
   - fach
 ---
