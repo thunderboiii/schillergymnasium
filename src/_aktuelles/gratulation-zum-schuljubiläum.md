@@ -2,7 +2,8 @@
 title: Gratulation zum Schuljubiläum
 date: 2023-11-02T07:03:58.363Z
 author: WK
-description: Am 16. September 2023 feierte das Graf-Adolf-Gymnasium (GAG)
+description: Am 16. September 2023 feierte das Graf-Adolf-Gymnasium (GAG) das
+  100-jährige Schuljubiläum auf der Freilichtbühne in Tecklenburg.
 banner: /img/uploads/chor.jpeg
 tags:
   - post
