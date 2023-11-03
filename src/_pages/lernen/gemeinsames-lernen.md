@@ -13,7 +13,7 @@ category: Lernen
 ---
 <center><div class="title"><h4>Lernen</h4><h2>Gemeinsam Lernen</h2></div></center>
 
-Als UNESCO-Projektschule ist es dem Schillergymnasium ein besonderes Anliegen, seinen Beitrag zur schrittweisen Umsetzung der UN-Behindertenrechtskonvention zu leisten. Daher gibt es seit dem Schuljahr 2011/12 am Schillergymnasium Klassen des Gemeinsamen Lernens. 
+Als UNESCO-Projektschule ist es dem Schillergymnasium ein besonderes Anliegen, seinen Beitrag zur schrittweisen Umsetzung der UN-Behindertenrechtskonvention zu leisten. Daher gibt es seit dem Schuljahr 2011/12 am Schillergymnasium Klassen des Gemeinsamen Lernens. 
 
 In den a-Klassen werden jeweils ca. 26 Schülerinnen und Schüler unterrichtet, davon haben vier bis sechs den sonderpädagogischen Unterstützungsbedarf „Lernen“. Sie werden zieldifferent, d.h. auf der Grundlage individueller Förderpläne unterrichtet, lernen aber gemeinsam mit Kindern des gymnasialen Bildungsgangs. 
 
