@@ -14,7 +14,7 @@ tags:
   - page
 category: Lernen
 ---
-<center><div class="title"><h4>8 - 10</h4><h2>Drehtürmodell</h2></div></center>
+<center><div class="title"><h4>Drehtür</h4><h2>Drehtürmodell</h2></div></center>
 
 Das Drehtürmodell gehört zu den Elementen der individuellen Förderung, die sich speziell auf die Begabtenförderung beziehen. Es kommt oft bei der Sprachenwahl im WP I zur Klasse 7 zum Einsatz, wenn sich Schüler:innen und Schüler nach dem Vorschlag durch die Schule dafür entscheiden, jeweils nur mit der Hälfte der Stunden an Sprachunterricht von zwei Sprachen teilzunehemn, also z.B. Latein und Französisch gleichzeitig zu belegen. Neben diesem horizontalen Drehtürmodell gibt es auch die Möglichkeit zur besonderen Förderung am Unterricht eines Faches in einer höheren Stufe teilzunehmen. Darüber hinaus wird das Fach Griechisch angeboten. 
 
