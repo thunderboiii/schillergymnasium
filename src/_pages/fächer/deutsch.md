@@ -36,6 +36,14 @@ about:
   fachGallery:
     - fachImage: /img/uploads/foto-d-fs.jpeg
     - fachImage: /img/uploads/img_9739.jpeg
+teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
+  Stapelbroek, Frau Schlumbohm,Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
+  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
+  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
+  Grunewald, Frau Börding, Frau Allecke
+fachschaft:
+  teachers: "Frau Schlumbohm "
+title: Deutsch
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AC.jpg
   - fachschaftImage: /img/uploads/BER.jpg
@@ -53,16 +61,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STP.jpg
   - fachschaftImage: /img/uploads/TBE.jpg
   - fachschaftImage: /img/uploads/WEL.jpg
-  - fachschaftImage: /img/uploads/WK.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
-teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
-  Stapelbroek, Frau Schlumbohm,Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
-  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
-  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
-  Grunewald, Frau Börding, Frau Allecke
-fachschaft:
-  teachers: "Frau Schlumbohm "
-title: Deutsch
 tags:
   - fach
 ---
