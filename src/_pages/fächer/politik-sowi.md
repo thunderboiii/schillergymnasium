@@ -21,6 +21,11 @@ about:
   fachGallery:
     - fachImage: /img/uploads/bild-1-homepage.jpeg
     - fachImage: /img/uploads/demokratie-bild.jpg
+teachers: Herr Nagels, Herr Winkler, Herr Pater, Herr Nesselbosch, Frau Näpel,
+  Herr Heitmann, Frau Haverland, Frau Hartwig, Herr Fastabend
+fachschaft:
+  teachers: Herr Winkler
+title: Politik/SoWi
 fachschaftGallery:
   - fachschaftImage: /img/uploads/FAS.jpg
   - fachschaftImage: /img/uploads/HA.jpg
@@ -29,13 +34,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/NC.jpg
   - fachschaftImage: /img/uploads/NES.jpg
   - fachschaftImage: /img/uploads/PAT.jpg
-  - fachschaftImage: /img/uploads/WK.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
-teachers: Herr Nagels, Herr Winkler, Herr Pater, Herr Nesselbosch, Frau Näpel,
-  Herr Heitmann, Frau Haverland, Frau Hartwig, Herr Fastabend
-fachschaft:
-  teachers: Herr Winkler
-title: Politik/SoWi
 tags:
   - fach
 ---
