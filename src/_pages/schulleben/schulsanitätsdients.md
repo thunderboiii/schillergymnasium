@@ -21,7 +21,7 @@ Alle zwei Wochen treffen sich Schüler:innen der Jahrgangsstufen 9 bis Q2, um si
 
 Ihnen ist zudem wichtig, im Sinne des Whole School Approaches ihr Wissen weiterzugeben. So unterstützen die Schulsanis die Fachschaft Sport bei der Woche der Wiederbelebung, indem sie ihre Mitschüler:innen im Erkennen und Behandeln von Herzkreislaufstillständen (Herzdruckmassage) schulen.  Außerdem nehmen einige Schulsanitäterinnen des Schillergymnasiums regelmäßig an DRK-Wettbewerben teil, um sich mit anderen Schulsanitäter:innen zu vernetzen. 
 
-## Warum entscheiden sich Schüler*innen, am Schulsanitätsdienst teilzunehmen?
+## Warum entscheiden sich Schüler:innen, am Schulsanitätsdienst teilzunehmen?
 
 „Ich finde, wir sind ein super Team, es macht total viel Spaß!“ – Max 
 
