@@ -37,7 +37,7 @@ about:
   fachGallery:
     - fachImage: /img/uploads/dg_01.jpg
     - fachImage: /img/uploads/lit_01.jpg
-teachers: "Frau Hartwig, Frau Moek, Herr Gutsche, "
+teachers: Frau Hartwig, Frau Moek, Herr Gutsche
 fachschaft:
   teachers: Herr Gutsche
 title: Darstellen & Gestalten
