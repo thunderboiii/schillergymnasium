@@ -11,7 +11,7 @@ tags:
   - page
 category: Lernen
 ---
-<center><div class="title"><h4>Lernen</h4><h2>Gemeinsam Lernen</h2></div></center>
+<center><div class="title"><h4>Gemeinsam</h4><h2>Gemeinsames Lernen</h2></div></center>
 
 Als UNESCO-Projektschule ist es dem Schillergymnasium ein besonderes Anliegen, seinen Beitrag zur schrittweisen Umsetzung der UN-Behindertenrechtskonvention zu leisten. Daher gibt es seit dem Schuljahr 2011/12 am Schillergymnasium Klassen des Gemeinsamen Lernens. 
 
