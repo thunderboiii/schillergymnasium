@@ -9,7 +9,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/PUE.jpg
   - fachschaftImage: /img/uploads/ZEC.jpg
   - fachschaftImage: /img/uploads/TE.jpg
-teachers: "Frau Zech, Frau Teske, FrauPüning, Frau Lanfer "
+teachers: "Frau Zech, Frau Teske, Frau Püning, Frau Lanfer "
 tags:
   - fach
 ---
