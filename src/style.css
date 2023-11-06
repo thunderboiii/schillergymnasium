@@ -554,13 +554,13 @@ tr:nth-of-type(2n) {
     }
 
     .title h2 {
-        font-size: 45px;
+        font-size: 35px;
         text-align: center;
-        
+        line-height: 1;
     }
 
     .title h4 {
-        font-size: 16vw;
+        font-size: 14vw;
         width: 80vw;
     }
 
