@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
     // Your code to parse the CSV and update the table
     Papa.parse(csvFile, {
         download: true,
-        delimiter: "",
+        delimiter: ";",
         skipEmptyLines: false,
         complete: results => {
             tableCSV.update(results.data.slice(1), results.data[0]);
