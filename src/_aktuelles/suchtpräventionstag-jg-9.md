@@ -22,7 +22,7 @@ Die von Familie Holze gegründete, nach ihrem Sohn und Bruder benannte Tilman-Ho
 
 <https://www.caritas-muenster.de/cms/contents/caritas-muenster.de/medien/dokumente/stiftung/flyer-tilman-holze-s2/2022_flyer_tilman-holze-stiftung_v02.pdf>
 
-Begleitet wurde die Aulaveranstaltung von der Redakteurin Ina Rottscheidt, die im Sender Domradio über die Veranstaltung, Familie Holze und die Stiftung berichet.
+Begleitet wurde die Aulaveranstaltung von der Redakteurin Ina Rottscheidt, die im Sender Domradio über die Veranstaltung, Familie Holze und die Stiftung berichtet: <https://www.youtube.com/watch?v=NAmW-9wXos4>
 
 Abgerundet wurde die Veranstaltung mit einer Reflexionsrunde im Klassenverband.
 
