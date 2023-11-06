@@ -36,14 +36,6 @@ about:
   fachGallery:
     - fachImage: /img/uploads/foto-d-fs.jpeg
     - fachImage: /img/uploads/img_9739.jpeg
-teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
-  Stapelbroek, Frau Schlumbohm,Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
-  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
-  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
-  Grunewald, Frau Börding, Frau Allecke
-fachschaft:
-  teachers: "Frau Schlumbohm "
-title: Deutsch
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AC.jpg
   - fachschaftImage: /img/uploads/BER.jpg
@@ -62,10 +54,18 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/TBE.jpg
   - fachschaftImage: /img/uploads/WEL.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
+teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
+  Stapelbroek, Frau Schlumbohm, Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
+  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
+  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
+  Grunewald, Frau Börding, Frau Allecke
+fachschaft:
+  teachers: "Frau Schlumbohm "
+title: Deutsch
 tags:
   - fach
 ---
-**Was macht unsern Deutschunterricht ab Klasse 5 aus?** 
+**Was macht unseren Deutschunterricht ab Klasse 5 aus?**
 
 * Wir wollen unsere Schüler:innen in ihrer Fähigkeit stärken, selbstsicher, souverän und frei vor einer Gruppe zu sprechen, beispielsweise durch kleine Vorträge zu Tieren in der 5 und durch Elemente des szenischen Spiels.   
 * In unserer UNI-Zeit arbeiten Schüler:innen selbstständig und eigenverantwortlich. Dabei erschließen sie sich neue Inhalte oder vertiefen Bekanntes. Die Zeit dient somit besonders dem individuellen Fördern und Fordern. 
@@ -75,8 +75,6 @@ tags:
 * Im Rahmen des Balladenprojektes gestalten Schüler:innen der Klasse 7 in kooperativer, kreativer und lebendiger Form Beiträge für das Balladenfest.
 * Als „Jugend debattiert“-Schule fördern wir gezielt die Fähigkeiten, sachorientiert Streitgespräche zu führen und ab Klasse 8 können Schüler:innen am Bundeswettbewerb „Jugend debattiert“ teilnehmen.  
 
-
-
 Video zum Balladenfest:
 
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/O3ULKl2_WJE?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/O3ULKl2_WJE??si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
