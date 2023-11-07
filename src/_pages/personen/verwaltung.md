@@ -9,13 +9,13 @@ tags:
   - page
 category: Personen
 ---
-## Schulleitung
+# Schulleitung
 
 <div class="person"><div><center><img src="/img/uploads/NOW (Schulleitung).jpg" alt=""></center><div class="description"><p>Andreas Nowak</p><p><b>Schulleiter</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>vakant</p><p><b>Stellvertretende Schulleitung</b></p></div></div></div>
 
-## Erweiterte Schulleitung
+# Erweiterte Schulleitung
 
 <div class="person"><div><center><img src="/img/uploads/HAV.jpg" alt=""></center><div class="description"><p>Elke Haverland</p><p><b>Erprobungstufenkoordinatorin</b></p></div></div></div>
 
@@ -27,13 +27,13 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/LC.jpg" alt=""></center><div class="description"><p>Stefan Lütkecosmann</p><p><b>Schulentwicklung</b></p></div></div></div>
 
-## Sekretariat
+# Sekretariat
 
 <div class="person"><div><center><img src="/img/uploads/Schönbeck.jpg" alt=""></center><div class="description"><p>Sabine Schönbeck</p><p><b>Sekretärin</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Annemarie Heming</p><p><b>Sekretärin</b></p></div></div></div>
 
-## Weitere Mitarbeiter:innen
+# Weitere Mitarbeiter:innen
 
 <div class="person"><div><center><img src="/img/uploads/Schulz.jpg" alt=""></center><div class="description"><p>Michael Schulz</p><p><b>Hausmeister</b></p></div></div></div>
 
