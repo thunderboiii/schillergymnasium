@@ -1,5 +1,5 @@
 ---
-title: Offener Ganztag
+title: Flexibler Ganztag
 shortTitle: Schiller nach 1
 banner: /img/uploads/mittagstreff.jpg
 order: 1
