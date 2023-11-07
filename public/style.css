@@ -1104,6 +1104,8 @@ header .faecher {
     font-family: Helvetica;
     line-height: 1.1;
     font-weight: 600;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .hero-center .lower-title {
