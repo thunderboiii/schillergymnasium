@@ -1,6 +1,6 @@
 ---
 title: Erprobungsstufe
-order: -2
+order: 1
 banners:
   - banner: /img/uploads/schnupper9.jpg.jpeg
     alignment: center
