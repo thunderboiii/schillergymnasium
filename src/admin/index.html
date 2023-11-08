@@ -189,30 +189,30 @@
       }
     });
 
-    CMS.registerEditorComponent({
-    id: "gallery",
-    label: "Gallerie",
-    fields: [
-      {
-        name: 'gallery',
-        label: 'Gallerie',
-        widget: 'list',
-        fields: [{ name: 'image', label: 'Bild', widget: 'image' }]
-      }
-    ],
-    pattern: /^<div class="gallary">(.*?)<\/div>$/,   
-    fromBlock: function(match) {
-      return {
-        gallery: match[1]
-      };
-    },
-    toBlock: function(obj) {
-      return '<div class="gallary">' + obj.gallery.image + '</div>'; 
-    },
-    toPreview: function(obj) {
-      return 'Gallery: ' + obj.gallery;
-    }
-  });
+  //   CMS.registerEditorComponent({
+  //   id: "gallery",
+  //   label: "Gallerie",
+  //   fields: [
+  //     {
+  //       name: 'gallery',
+  //       label: 'Gallerie',
+  //       widget: 'list',
+  //       fields: [{ name: 'image', label: 'Bild', widget: 'image' }]
+  //     }
+  //   ],
+  //   pattern: /^<div class="gallary">(.*?)<\/div>$/,   
+  //   fromBlock: function(match) {
+  //     return {
+  //       gallery: match[1]
+  //     };
+  //   },
+  //   toBlock: function(obj) {
+  //     return '<div class="gallary">' + obj.gallery.image + '</div>'; 
+  //   },
+  //   toPreview: function(obj) {
+  //     return 'Gallery: ' + obj.gallery;
+  //   }
+  // });
 
   CMS.registerEditorComponent({
       // Internal id of the component

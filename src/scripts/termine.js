@@ -29,6 +29,7 @@ fetch(proxyUrl + calendarUrl)
         for (const event of events) {
             const eventHtml = generateEventHTML(event);
             scrollElement.innerHTML += eventHtml;
+            console.log(event);
         }
     });
 
