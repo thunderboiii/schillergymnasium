@@ -7,10 +7,10 @@ scrollGroups.forEach(scrollGroup => {
     const scroll = scrollGroup.getElementsByClassName('scroll')[0];
 
     btnL.addEventListener('click', () => {
-        scroll.scrollLeft += -1090;
+        scroll.scrollLeft += -964;
     });
 
     btnR.addEventListener('click', () => {
-        scroll.scrollLeft += 1090;
+        scroll.scrollLeft += 964;
     });
 })
