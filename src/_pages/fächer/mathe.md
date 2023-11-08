@@ -6,7 +6,6 @@ banners:
     alignment: center
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AT.jpg
-  - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/FAS.jpg
   - fachschaftImage: /img/uploads/FIE.jpg
   - fachschaftImage: /img/uploads/HD.jpg
