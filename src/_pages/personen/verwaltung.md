@@ -31,7 +31,7 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/Schönbeck.jpg" alt=""></center><div class="description"><p>Sabine Schönbeck</p><p><b>Sekretärin</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Annemarie Heming</p><p><b>Sekretärin</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/heming.jpg" alt=""></center><div class="description"><p>Annemarie Heming</p><p><b>Sekretärin</b></p></div></div></div>
 
 # Weitere Mitarbeiter:innen
 
