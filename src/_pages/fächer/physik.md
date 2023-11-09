@@ -64,7 +64,7 @@ fachText: >-
   Nicht zuletzt unterstützen wir besonders begabte und interessierte Schüler*innen bei der Teilnahme an Wettbewerben oder Projekten der Universität.
 fachschaftGallery:
   - fachschaftImage: /img/uploads/HD.jpg
-  - fachschaftImage: /img/uploads/avatar.png
+  - fachschaftImage: /img/uploads/slg.jpg
   - fachschaftImage: /img/uploads/MLR.jpg
   - fachschaftImage: /img/uploads/STL.jpg
   - fachschaftImage: /img/uploads/SIR.jpg
