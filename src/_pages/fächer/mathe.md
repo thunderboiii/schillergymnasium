@@ -17,6 +17,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STL.jpg
   - fachschaftImage: /img/uploads/SPN.jpg
   - fachschaftImage: /img/uploads/wel.jpg
+  - fachschaftImage: /img/uploads/slg.jpg
 teachers: Frau Hartmann-Dietrich, Frau Albiker, Frau Dreßel, Herr Fastabend,
   Frau Fieberg, Frau Haverland, Frau Hettwer, Herr Isermann, Frau Jäschke, Herr
   Lütkecosmann, Herr Möller, Frau Pech, Frau Schechtel, Herr Schilling, Frau
