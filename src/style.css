@@ -366,6 +366,10 @@ hr {
     border-radius: 10px;
 }
 
+.contents center:has(.download-button) {
+    margin-top: 3rem;
+}
+
 .page-content p {
     margin-top: 10px;
 }
@@ -1916,7 +1920,7 @@ header .faecher {
 }
 
 .datenschutz-container h3 {
-    color: var(--color-accent-900);
+    color: var(--color-accent-700);
 }
 
 @media (max-width: 35em) {
