@@ -28,7 +28,7 @@ In unserer Redaktion sind:
 * Luca Näpel
 * Joshua Lison
 
-Bei uns ist jeder -  egal welche Stufe und Alter - willkommen! Also, wenn du Lust hast uns beizutreten, melde dich einfach bei: wiechensa[@schiller.ms.de](mailto:wiechensa@schiller.ms.de)
+Bei uns ist jeder -  egal welche Stufe und Alter - willkommen! Also, wenn du Lust hast uns beizutreten, melde dich einfach bei: [wiechensa@schiller.ms.de](mailto:wiechensa@schiller.ms.de)
 
 [](bechere@schiller.ms.de)
 
