@@ -4,6 +4,9 @@ shortTitle: Schillerglocke
 banner:
   - /img/uploads/bild-1-homepage.jpeg
 order: 8
+banners:
+  - banner: /img/uploads/schillerglocken.jpeg
+    alignment: center
 tags:
   - schulleben
   - page
