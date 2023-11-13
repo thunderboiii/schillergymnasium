@@ -547,17 +547,12 @@
 
                 <div class="phone">
                     <p><b>Telefon</b></p>
-                    <a href="tel:0251 / 6866 180"><p></p></a>
-                </div>
-
-                <div class="fax">
-                    <p><b>Telefax</b></p>
-                    <a href="fax:0251.6866.1849"><p></p></a>
+                    <a href="tel:"><p></p></a>
                 </div>
 
                 <div class="email">
                     <p><b>E-Mail</b></p>
-                    <a href="mailto:schillergymnasium@stadt-muenster.de"><p></p></a>
+                    <a href="mailto:"><p></p></a>
                 </div>
             </div>
 
@@ -568,14 +563,14 @@
                         <input type="hidden" name="_cc" value="schillergymnasium@stadt-muenster.de">
                     </div>
                     <div class="vorname-nachname input-holder">
-                        <input type="text" name="vorname" id="vorname" placeholder="Vorname">
-                        <input type="text" name="nachname" id="nachname" placeholder="Nachname">
+                        <input type="text" name="vorname" id="vorname" placeholder="Vorname" required>
+                        <input type="text" name="nachname" id="nachname" placeholder="Nachname" required> 
                     </div>
                     <div class="email-betreff input-holder">
-                        <input type="email" name="email" id="email" placeholder="E-Mail Adresse">
-                        <input type="text" name="_subject" id="betreff" placeholder="Betreff">
+                        <input type="email" name="email" id="email" placeholder="E-Mail Adresse" required>
+                        <input type="text" name="_subject" id="betreff" placeholder="Betreff" required>
                     </div>
-                    <textarea name="msg" id="msg" placeholder="Nachricht"></textarea>
+                    <textarea name="msg" id="msg" placeholder="Nachricht" required></textarea>
                     <center><button type="submit">Abschicken</button></center>
                 </form>
             </div>

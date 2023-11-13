@@ -1883,7 +1883,7 @@ header .faecher {
 }
 
 .datenschutz-container .sidebar .menu a {
-    border: 2px solid var(--color-accent-700);
+    border: 2px solid var(--color-accent-900) !important;
     border-radius: 10px;
     padding: .25rem 1rem;
     color: var(--color-accent-700);
@@ -1894,7 +1894,7 @@ header .faecher {
 }
 
 .datenschutz-container .sidebar .menu a:hover {
-    background-color: var(--color-accent-900);
+    background-color: var(--color-accent-900) !important; 
     color: var(--color-dom-100);
 }
 
@@ -1916,7 +1916,7 @@ header .faecher {
 }
 
 .datenschutz-container h3 {
-    color: var(--color-accent-700);
+    color: var(--color-accent-900);
 }
 
 @media (max-width: 35em) {

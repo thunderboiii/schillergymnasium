@@ -127,5 +127,12 @@ collections:
           - {label: 'E-Mail Adresse', name: email, widget: string}
           - {label: 'Telefax', name: fax, widget: string}
           - {label: 'Tags', name: 'tags', widget: 'list', default: ['contact'], required: false }
+      - label: 'Kontakt zu den Ehemaligen - Einstellungen'
+        name: 'contactEhem'
+        file: 'src/_data/contact_ehem.json'
+        fields:
+          - {label: 'Telefonnummer', name: phone, widget: 'string'}
+          - {label: 'E-Mail Adresse', name: email, widget: string}
+          - {label: 'Tags', name: 'tags', widget: 'list', default: ['contact'], required: false }
 
 
