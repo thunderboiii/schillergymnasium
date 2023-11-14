@@ -19,6 +19,7 @@
     "decap-cms-app": "^3.0.9",
     "ical": "^0.8.0",
     "marked": "^8.0.0",
+    "node-ical": "^0.16.1",
     "nunjucks": "^3.2.4"
   }
 }
