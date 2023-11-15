@@ -28,12 +28,6 @@ about:
     - fachImage: /img/uploads/img_20221025_120247.jpg
     - fachImage: /img/uploads/img_4496.jpg
     - fachImage: /img/uploads/img_4497.jpg
-teachers: Herr Borgers, Frau Zech, Herr Vogt,  Frau Uylenkate, Frau Stüwe, Herr
-  Stier, Herr Schade, Frau Perner, Herr Pater, Herr Dzaebel, Herr Driver, Frau
-  Albiker
-fachschaft:
-  teachers: Herr Stier
-title: Sport
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AT.jpg
   - fachschaftImage: /img/uploads/DRI.jpg
@@ -47,6 +41,10 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/VOG.jpg
   - fachschaftImage: /img/uploads/ZEC.jpg
   - fachschaftImage: /img/uploads/BOG.jpg
+teachers: " "
+fachschaft:
+  teachers: Herr Stier
+title: Sport
 tags:
   - fach
 ---
@@ -55,3 +53,7 @@ Wir sind eine Schule, die Sport und Bildung auf besondere Weise verbindet. Unser
 Für unsere jüngsten Schülerinnen und Schüler der 5. und 6. Klassen organisieren wir zusätzlich jedes Jahr ein besonderes Highlight: das Nikolaus-Turnier im Völkerball. Ein fröhlicher Wettkampf, der den Teamgeist stärkt und für strahlende Gesichter sorgt. 
 
 Im Nachmittagsbereich erhalten die Schülerinnen und Schüler über das AG-Angebot die Möglichkeit Sportarten vertieft zu betreiben oder neue Sportarten kennen zu lernen. Schülerinnen und Schüler, die mehr Verantwortung im Schulsport übernehmen möchten, können sich zu Sporthelfern ausbilden lassen. Zudem führt die Fachschaft Sport einmal im Jahr die Woche der Wiederbelebung durch, in deren Rahmen Erste Hilfe praktisch und theoretisch gelernt und aufgefrischt wird. Einen Höhepunkt bildet darüber hinaus das jährliche stattfindende (Spiele-)Sportfest, bei dem alle Schülerinnen und Schüler zusammen Sport treiben können.
+
+
+
+Frau Albiker, Herr Borgers, Herr Driver, Herr Dzaebel, Frau Perner, Herr Pater, Herr Schade, Herr Stier, Frau Stüwe, Frau Uylenkate, Herr Vogt, Frau Zech
