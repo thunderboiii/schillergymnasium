@@ -457,9 +457,6 @@ hr {
 }
 
 .fachschaft-gallery {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--color-dom-600);
-    margin-bottom: calc(2rem - 10px);
     width: calc((3*1rem) + (4*145px));
 }
 
