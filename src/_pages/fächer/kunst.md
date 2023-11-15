@@ -29,7 +29,7 @@ fachText: >-
 
 
   Als weiterführenden Einblick in unser Verständnis von Kunstunterricht verweisen wir auf die [Fachbeschreibung des Deutschen Kulturrats](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
-teachers: Herr Gutsche, Frau Tebben, Frau Püning, Herr Wierichs, Frau Hoymann
+teachers: " "
 fachschaft:
   teachers: Herr Gutsche
 title: Kunst
@@ -50,3 +50,5 @@ Wir erachten das Fach als unabdingbar für eine ganzheitliche Persönlichkeitsbi
 Als weiterführenden Einblick in unser Verständnis von Kunstunterricht verweisen wir auf die [Fachbeschreibung des Deutschen Kulturrats.](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
 
 [](https://www.kulturrat.de/themen/kulturelle-bildung/kulturelle-bildung-schule/das-schulfach-kunst/)
+
+Herr Gutsche, Frau Hoymann, Frau Püning, Frau Tebben, Herr Wierichs
