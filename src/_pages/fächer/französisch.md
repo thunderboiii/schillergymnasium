@@ -24,15 +24,14 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/PS.jpg
   - fachschaftImage: /img/uploads/SD.jpg
   - fachschaftImage: /img/uploads/WAA.jpg
-teachers: "Frau Waanders, Frau Vogelsang, Herr Schade, Frau Pietsch, Frau
-  Michalski, Frau Hoymann "
+teachers: " "
 fachschaft:
   teachers: Frau Hoymann
 title: Französisch
 tags:
   - fach
 ---
-## SALUT! ÇA VA?  
+## SALUT! ÇA VA? 
 
 Französisch am Schillergymnasium wird als neu einsetzende Sprache in der Klasse 7 angeboten. In der Oberstufe kann Französisch bis zum Abitur weitergeführt werden.   
 
@@ -41,3 +40,7 @@ Mit Hilfe des Lehrwerks À Plus! und dem vielfältigen digitalen Zusatzmaterial 
 Regelmäßig unterstützen französischsprachige Fremdsprachenassistenten den Unterricht und bieten außerunterrichtliche Aktivitäten an.  
 
 Es besteht eine Partnerschaft mit dem Collège Gaston Couté in Meung–sur-Loire (bei Orléans). Im Rahmen dieses Austausches erhalten die Schülerinnen und Schüler die Möglichkeit, am Leben einer französischen Familie teilzuhaben, den französischen Schulalltag kennen zu lernen und die Region des Loire-Tals mit ihren vielen Schlössern (Chambord) und schönen Städten (Blois, Orléans) zu entdecken.
+
+
+
+Frau Hoymann, Frau Michalski, Frau Pietsch, Frau Vogelsang, Frau Waanders, Herr Schade
