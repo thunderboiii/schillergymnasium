@@ -48,19 +48,14 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/PS.jpg
   - fachschaftImage: /img/uploads/ST.jpg
   - fachschaftImage: /img/uploads/HLR.jpg
-teachers: "Frau Stüwe, Frau Pietsch, Herr Nowak, Herr Klausmann, Herr Kinkelbur,
-  Herr Gunderloch, Herr Dzaebel, Frau Börding, Herr Hauler "
+teachers: " "
 fachschaft:
   teachers: Frau Stüwe
 title: Geschichte
 tags:
   - fach
 ---
-
-
-<blockquote class="component"><p>Die Welt ist erfüllt von Kleinstädtern der Zeit, von Leuten, die nie aus ihrer Zeit herausgekommen sind, die nichts andres gesehen haben als ihre kümmerlichen siebzig Jahre.(…) .. Wie gut täte ihnen, sich einmal den Zeitwind um die Nase wehen zu lassen – Was sähen sie?“ </p><div class="author"><p> - Kurt Tucholsky, Das Zeitdorf, 1926</p></div></blockquote>
-
-
+<blockquote class="component"><p>Die Welt ist erfüllt von Kleinstädtern der Zeit, von Leuten, die nie aus ihrer Zeit herausgekommen sind, die nichts andres gesehen haben als ihre kümmerlichen siebzig Jahre.(…) .. Wie gut täte ihnen, sich einmal den Zeitwind um die Nase wehen zu lassen – Was sähen sie?“ </p><div class="author"><p> -  - Kurt Tucholsky, Das Zeitdorf, 1926</p></div></blockquote>
 
 Schüler und Schülerinnen nehmen ihre Welt oft unhinterfragt hin. Um unsere Gegenwart als etwas Gewordenes wahrzunehmen, ihre Systeme als etwas von Menschen Gestaltetes und als etwas Zu-Veränderndes – dazu braucht man kritische Distanz und die Vorstellung einer alternativen Wirklichkeit.  
 
@@ -71,3 +66,5 @@ In der Sekundarstufe II gibt es Unterrichtsreihen mit unterschiedlichen methodis
 Die regelmäßige Zusammenarbeit mit außerschulischen Lern- und Erinnerungsorten (z. B. Stadtmuseum, Landesmuseum für Kunst- und Kulturgeschichte, Stadtarchiv, Staatsarchiv, Villa ten Hompel) und Exkursionen bereichern dabei in allen Stufen den normalen Unterricht.  
 
 In den letzten Jahren konnte neben Grundkursen auch immer ein Leistungskurs angeboten werden.
+
+Frau Börding, Herr Dzaebel, Herr Gunderloch, Herr Hauler, Herr Kinkelbur, Herr Klausmann, Herr Nowak, Frau Pietsch, Frau Stüwe
