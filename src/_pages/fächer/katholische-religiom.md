@@ -1,5 +1,4 @@
 ---
-title: Religion
 banners:
   - banner: /img/uploads/img_0937.jpeg
     alignment: center
@@ -128,10 +127,10 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/LDS.jpg
   - fachschaftImage: /img/uploads/LC.jpg
   - fachschaftImage: /img/uploads/wel.jpg
-teachers: Frau Welp, Herr Lütkecosmann, Frau Laanders, Frau Herdin, Frau
-  Heitmann, Frau Heiny, Herr Barckhaus, Frau Albiker, Frau Spin, Frau Michalski
+teachers: " "
 fachschaft:
   teachers: Frau Heiny
+title: Religion
 tags:
   - fach
 category: Gesellschaftswissenschaften
@@ -163,3 +162,7 @@ category: Gesellschaftswissenschaften
 … beschränkt sich nicht auf den Religionsunterricht! Wir feiern das Kirchenjahr mit Schulgottesdiensten in der Advents- und Fastenzeit sowie am Ende des Schuljahres. Advents- und Fastenimpulse laden zum Innehalten ein. Für die Oberstufe findet alle drei Jahre die Religiöse Schulwoche statt und weitere Angebote der Schulseelsorge folgen.
 
 Im Unterricht ist uns der Blick über den Tellerrand wichtig. Als Innenstadtschule sind Ausflüge zu außerschulischen Lernorten wie Kirchen, der Synagoge, Moscheen, dem Bibelmuseum leicht möglich. Religion sollte sowohl lebensnah als auch erfahrbar sein, sodass wir am Schiller einen zugänglichen Unterricht für die Lernenden gestalten
+
+
+
+Frau Albiker, Herr Barckhaus, Frau Heiny, Frau Heitmann, Frau Herdin, Frau Laanders, Herr Lütkecosmann, Frau Michalski, Frau Spin, Frau Welp
