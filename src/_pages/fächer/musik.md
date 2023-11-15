@@ -11,7 +11,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/BER.jpg
   - fachschaftImage: /img/uploads/HIM.jpg
   - fachschaftImage: /img/uploads/ME.jpg
-teachers: Herr Meyer, Herr Henrichmann, Herr Berthel, Frau Allecke
+teachers: " "
 tags:
   - fach
 ---
@@ -28,3 +28,5 @@ In das Schuljahr fest eingebunden sind drei Konzerte. \
 In der Weihnachtszeit lädt das Schillergymnasium zu einem Adventskonzert ein, bei dem die Ensembles der Schule auftreten und auch musikalische Kostbarkeiten aus dem Musikunterricht aller Jahrgänge auf die Bühne gebracht werden.  \
 Im Februar organisieren alle Schüler*innen ein Benefiz-Konzert zugunsten von UNICEF. \
 Das musikalische Schuljahr endet mit einem großen Sommerkonzert in der Aula.
+
+Frau Allecke, Herr Berthel, Herr Henrichmann, Herr Meyer
