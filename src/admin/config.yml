@@ -110,6 +110,7 @@ collections:
         name: 'home'
         file: 'src/_data/home.json'
         fields:
+           - {label: 'Aktuelles Hintergrundbild', name: aktuellesBackground, widget: 'image'}
            - {label: 'Termine Hintergrundbild', name: termineBackground, widget: 'image'}
       - label: 'Anmeldephase'
         name: 'anmeldung'

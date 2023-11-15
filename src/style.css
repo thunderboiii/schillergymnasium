@@ -1268,9 +1268,6 @@ header .faecher {
 }
 
 .aktuelles-termine .aktuelles {
-    background: url(img/background-images/htrackt.png);
-    background-size: cover;
-    background-position: top center;
     padding-bottom: 300px;
     position: relative;
     padding-top: 600px;
@@ -1386,7 +1383,7 @@ header .faecher {
 }
 
 .aktuelles-termine .termine .scroll{
-    gap: 10rem;
+    gap: 2rem;
     scroll-behavior: smooth;
 }
 
@@ -1434,6 +1431,10 @@ header .faecher {
     }
 
     .aktuelles-termine .aktuelles .snippet {
+        min-width: 300px !important;
+    }
+
+    .aktuelles-termine .termine .termin {
         min-width: 300px !important;
     }
 
