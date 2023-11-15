@@ -29,7 +29,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/avatar.png
   - fachschaftImage: /img/uploads/TE.jpg
   - fachschaftImage: /img/uploads/avatar.png
-teachers: Herr Gunderloch, Frau Teske, Herr Klausmann, Frau Pietsch
+teachers: " "
 fachschaft:
   teachers: Herr Gunderloch
 title: Latein
@@ -42,8 +42,8 @@ Aber die Mühe lohnt sich. Denn Latein ist so viel mehr als eine vermeintlich to
 
 Indem wir uns mit dem Lateinischen beschäftigen, lernen wir so nicht nur eine Sprache kennen, die vielen Tochtersprachen zugrunde liegt und deren Erlernen erheblich vereinfacht, wir absolvieren gleichsam einen umfassenden Einführungskurs in die europäische Kultur. Deshalb ist es mehr als die Mühe wert, Latein zu lernen. 
 
-
-
-
-
 *Bildautor: "Stefan Bauer"; Quelle: <http://www.ferras.at>; Datum: Apr 09, 2005*
+
+
+
+Herr Gunderloch, Herr Klausmann, Frau Pietsch, Frau Teske
