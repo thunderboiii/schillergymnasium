@@ -64,4 +64,4 @@ Im Rahmen des Oberstufenunterrichts im Fach „Philosophie“ können die Schül
 
 
 
-Frau Dr. Grugel-Pannier, Frau Jäschke, Frau Jenschke, Frau Pietsch, Frau Schlumbohm
+Frau Grugel-Pannier, Frau Jäschke, Frau Jenschke, Frau Pietsch, Frau Schlumbohm
