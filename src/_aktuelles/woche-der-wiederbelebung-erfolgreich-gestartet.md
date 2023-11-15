@@ -21,3 +21,5 @@ Am 6. November 2023 ist erneut das Programm „Schüler retten Leben“ am Schil
 Bis zu 45 % aller Herz-Kreislaufstillstände werden von Familienangehörigen und Freunden beobachtet – nicht nur deshalb sollte sich jeder und jede mit dem „Prüfen-Rufen-Drücken“ auskennen!
 
 Kenntnisse der Laienwiederbelebung sind schon länger curricularer Bestandteil am Schillergymnasium mit der Hoffnung, dass die Schüler*innen dieses Wissen ein Leben lang behalten und im Notfall beherzt drücken.
+
+<https://www1.wdr.de/lokalzeit/fernsehen/muensterland/lokalzeit-muensterland-clip-lokalzeit-muensterland--08-11-2023-100.html?at_medium=wdr.de&at_campaign=sharing&at_source=Clipboard>
