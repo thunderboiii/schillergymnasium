@@ -1,6 +1,7 @@
 ---
 banners:
   - banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
+    alignment: center
 banner: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
 about:
   fachText: >-
@@ -43,8 +44,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STG.jpg
   - fachschaftImage: /img/uploads/WAA.jpg
   - fachschaftImage: /img/uploads/WP.jpg
-teachers: Frau Lechtenböhmer, Frau Haverland, Frau Schüßler, Frau Waanders, Herr
-  Barckhaus, Frau Stegemann, Herr Diletti, Frau Herdin, Frau Pech
+teachers: " "
 fachschaft:
   teachers: Frau Westphal
 title: Biologie
@@ -59,4 +59,6 @@ In der Oberstufe geht es für den Leistungskurs auf eine mehrtägige Exkursion z
 
 Eine Besonderheit im Unterricht ist, dass wir unsere Schüler\*innen „in die Sammlung holen“ – wir arbeiten gezielt in Gruppenarbeitsphasen an Gruppentischen in der Biologiesammlung. Das hier zur Verfügung stehende Anschauungsmaterial wird so von den Schüler\*innen eigenständiger und selbstverständlicher genutzt. 
 
-Im Wahlpflichtbereich können unsere Schülerinnen und Schüler Bio-Chemie als Kurs wählen, in der Qualifikationsphase bieten wir einen Bio-Chemie Projektkurs mit den inhaltlichen Schwerpunkten Genetik und Neurologie. Dieser wird in Zusammenarbeit mit dem Institut für molekulare Neurobiologie der Uni Münster durchgeführt.
+Im Wahlpflichtbereich können unsere Schülerinnen und Schüler Bio-Chemie als Kurs wählen, in der Qualifikationsphase bieten wir einen Bio-Chemie Projektkurs mit den inhaltlichen Schwerpunkten Genetik und Neurologie. Dieser wird in Zusammenarbeit mit dem Institut für molekulare Neurobiologie der Uni Münster durchgeführt.\
+\
+Herr Barckhaus, Herr Diletti, Frau Haverland, Frau Herdin, Frau Lechtenböhmer, Frau Pech, Frau Schüßler, Frau Stegemann, Frau Waanders
