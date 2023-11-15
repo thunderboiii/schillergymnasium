@@ -54,11 +54,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/TBE.jpg
   - fachschaftImage: /img/uploads/WEL.jpg
   - fachschaftImage: /img/uploads/NGL.jpg
-teachers: Herr Nagels, Herr Winkler, Frau Welp, Herr Völtz, Frau Tebben, Herr
-  Stapelbroek, Frau Schlumbohm, Frau Rippolz, Frau Rauchbach-Evels, Frau Rath,
-  Herr Pater, Herr Nesselbosch, Frau Moek, Frau Lanfer, Frau Laanders, Herr
-  Kinkelbur, Frau Jenschke, Herr Isermann, Frau Herdin, Frau Hartwig, Frau
-  Grunewald, Frau Börding, Frau Allecke
+teachers: " "
 fachschaft:
   teachers: "Frau Schlumbohm "
 title: Deutsch
@@ -77,4 +73,8 @@ tags:
 
 Video zum Balladenfest:
 
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/O3ULKl2_WJE??si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/O3ULKl2_WJE???si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+
+
+Frau Allecke, Frau Börding, Frau Grunewald, Frau Hartwig, Frau Herdin, Frau Jenschke, Frau Laanders, Frau Lanfer, Frau Moek, Frau Rauchbach-Evels, Frau Rath, Frau Rippolz, Frau Schlumbohm, Frau Tebben, Frau Welp, Herr Isermann, Herr Kinkelbur, Herr Nagels, Herr Nesselbosch, Herr Pater, Herr Stapelbroek, Herr Völtz, Herr Winkler
