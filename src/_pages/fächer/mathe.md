@@ -18,10 +18,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/SPN.jpg
   - fachschaftImage: /img/uploads/wel.jpg
   - fachschaftImage: /img/uploads/slg.jpg
-teachers: Frau Hartmann-Dietrich, Frau Albiker, Frau Dreßel, Herr Fastabend,
-  Frau Fieberg, Frau Haverland, Frau Hettwer, Herr Isermann, Frau Jäschke, Herr
-  Lütkecosmann, Herr Möller, Frau Pech, Frau Schechtel, Herr Schilling, Frau
-  Spin und Frau Welp
+teachers: " "
 tags:
   - fach
 ---
@@ -40,3 +37,7 @@ Besonders interessierte oder begabte Schüler*innen können an diversen Forderan
 * Mathematik-Olympiade 
 * „Mathe im Advent“ 
 * Schülerakademie für Mathematik in Münster (SAMMS), die als SAMMSextern am Schillergymnasium für eine große Gruppe der Jahrgangsstufe 6 angeboten wird
+
+
+
+Frau Albiker, Frau Dreßel, Frau Fieberg, Frau Hartmann-Dietrich, Frau Haverland, Frau Hettwer, Frau Jäschke, Frau Pech, Frau Schechtel, Frau Spin, Frau Welp, Herr Fastabend, Herr Isermann, Herr Lütkecosmann, Herr Möller, Herr Schilling
