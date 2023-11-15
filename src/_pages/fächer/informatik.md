@@ -39,7 +39,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/JAE.jpg
   - fachschaftImage: /img/uploads/PE.jpg
   - fachschaftImage: /img/uploads/VOI.jpg
-teachers: Herr Voigt, Frau Pech, Frau Jäschke
+teachers: " "
 fachschaft:
   teachers: Herr Voigt
 title: Informatik
@@ -54,3 +54,7 @@ Informatik ist dein Wegweiser in dieser Welt: Verstehe die Sprache hinter den Bi
 Wir Informatiklehrer vermitteln euch das durch praxisnahe Projekte wie Websites, Softwareentwicklung und Roboter, die dich das Gelernte anwenden lassen. Und: Mit informatischer Bildung und einem kritischen Blick auf die Wirkung der Informatik auf die Gesellschaft gewinnt man Unabhängigkeit in einer digitalen Gesellschaft. Deshalb gehört auch diese Perspektive auf die digitale Welt zu unserem Unterricht. 
 
 Finde Lösungen für globale Herausforderungen, gestalte die Welt und nutze deine Kreativität! Egal, ob Technik-Enthusiast oder kreativer Geist, Informatik bietet dir Raum zum Wachsen!
+
+
+
+Frau Jäschke, Frau Pech, Herr Voigt
