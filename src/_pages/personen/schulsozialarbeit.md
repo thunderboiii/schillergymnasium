@@ -35,7 +35,7 @@ auch für Sie ist die Schulsozialarbeit eine Anlaufstelle bei Sorgen und Problem
 
 ## Kontakt
 
-<div class="person"><div><center><img src="/img/uploads/RAS.jpg" alt=""></center><div class="description"><p>Farnia Rassouli</p><p><b>Schulsozialarbeiterin</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/ras.jpg" alt=""></center><div class="description"><p>Farnia Rassouli</p><p><b>Schulsozialarbeiterin</b></p></div></div></div>
 
 **Raum H.108** \
 E-Mail: [rassoulif@schiller.ms.de ](mailto:rassoulif@schiller.ms.de)\
@@ -54,4 +54,4 @@ Telefonnummer: [0157 39 39 14 87 ](<tel:0157 39 39 14 87>)
 
 ## Info-Video:
 
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/2aPXFwdddAM?????si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/2aPXFwdddAM??????si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
