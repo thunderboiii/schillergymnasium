@@ -43,6 +43,6 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/Mihaylova.jpg" alt=""></center><div class="description"><p>Vesela Mihaylova</p><p><b>Cafeteria</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Hai Phan</p><p><b>Bücherei</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/phan.jpg" alt=""></center><div class="description"><p>Hai Phan</p><p><b>Bücherei</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/Burmeister.jpg" alt=""></center><div class="description"><p>Daniel Burmeister</p><p><b>IT</b></p></div></div></div>
