@@ -21,6 +21,8 @@ Um dieser Vielfalt gerecht zu werden, verfügt das Schillergymnasium über beson
 
 <div class="person"><div><center><img src="/img/uploads/BÜR.jpg" alt=""></center><div class="description"><p>Herr Bürschel</p><p><b>Sonderpädagoge</b></p></div></div></div>
 
+<div class="person"><div><center><img src="/img/uploads/ras.jpg" alt=""></center><div class="description"><p>Frau Rassouli</p><p><b>Sozialpädagogin, MPT</b></p></div></div></div>
+
 <div class="person"><div><center><img src="/img/uploads/FEG.jpg" alt=""></center><div class="description"><p>Frau Ferreira González</p><p><b>Sonderpädagogin</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/KWH.jpg" alt=""></center><div class="description"><p>Frau Kaiser-Wening</p><p><b>Sonderpädagogin</b></p></div></div></div>
