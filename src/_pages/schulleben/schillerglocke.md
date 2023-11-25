@@ -32,4 +32,4 @@ Bei uns ist jeder -  egal welche Stufe und Alter - willkommen! Also, wenn du Lus
 
 [](bechere@schiller.ms.de)
 
-Mehr zur Schillerglocke gibt es auf: [www.schillerglocke.de](https://www.schillerglocke.de)
+[](https://www.schillerglocke.de)
