@@ -21,7 +21,7 @@ category: Personen
 
 <div class="person"><div><center><img src="/img/uploads/TE.jpg" alt=""></center><div class="description"><p>Dörte Teske</p><p><b>Mittelstufenkoordinatorin</b></p></div></div></div>
 
-<div class="person"><div><center><img src="/img/uploads/VOI.jpg" alt=""></center><div class="description"><p>Christian Frederik Voigt</p><p><b>Oberstufenkoordinator</b></p></div></div></div>
+<div class="person"><div><center><img src="/img/uploads/VOI.jpg" alt=""></center><div class="description"><p>Christian Frederik Voigt</p><p><b>Oberstufenkoordinator (kommissarisch)</b></p></div></div></div>
 
 <div class="person"><div><center><img src="/img/uploads/avatar.png" alt=""></center><div class="description"><p>Erika Dreßel</p><p><b>Verwaltung</b></p></div></div></div>
 
