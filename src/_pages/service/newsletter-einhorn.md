@@ -3,7 +3,7 @@ title: "Newsletter: Einhorn"
 shortTitle: Einhörner
 order: 7
 banners:
-  - banner: /img/uploads/ensa-abschlusskonferenz.jpeg
+  - banner: /img/uploads/sdg-würfel.jpeg
     alignment: center
 tags:
   - service
