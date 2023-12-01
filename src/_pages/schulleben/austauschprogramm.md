@@ -1,13 +1,15 @@
 ---
-title: "Fahrten und Auslandskontakte "
-shortTitle: Austauschprogramm
-banner: /img/uploads/namibia.jpg
-order: 3
 banners:
   - banner: /img/uploads/namibia.jpg
     alignment: top
   - banner: /img/uploads/polen_2.jpg
     alignment: top
+banner: /img/uploads/namibia.jpg
+title: "Fahrten und Auslandskontakte "
+shortTitle: Austauschprogramm
+titleUp: Schulleben
+titleDown: des Schillergymnasiums
+order: 3
 tags:
   - schulleben
   - page
