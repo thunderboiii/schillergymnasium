@@ -1,7 +1,4 @@
 ---
-title: UNESCO-Schule
-banner: /img/uploads/nam.jpg
-order: 2
 banners:
   - banner: /img/uploads/nam.jpg
     alignment: center
@@ -11,6 +8,12 @@ banners:
     alignment: center
   - banner: /img/uploads/sdg-würfel.jpeg
     alignment: center
+banner: /img/uploads/nam.jpg
+title: UNESCO-Schule
+shortTitle: UNESCO
+titleUp: Profil
+titleDown: am Schillergymnasium
+order: 2
 tags:
   - profil
   - page
