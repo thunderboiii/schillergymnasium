@@ -8,6 +8,8 @@ tags:
   - personen
   - page
 category: Personen
+titleUp: Personen
+titleDown: am Schillergymnasium
 ---
 <center><div class="title"><h4>Schulsozialarbeit</h4><h2>Die Schulsozialarbeit am Schillergymansium </h2></div></center>
 
