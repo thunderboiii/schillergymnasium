@@ -1,11 +1,13 @@
 ---
-title: Flexibler Ganztag
-shortTitle: Schiller nach 1
-banner: /img/uploads/mittagstreff.jpg
-order: 1
 banners:
   - banner: /img/uploads/mittagstreff.jpg
     alignment: center
+banner: /img/uploads/mittagstreff.jpg
+title: Flexibler Ganztag
+shortTitle: Schiller nach 1
+titleUp: Schulleben
+titleDown: am Schillergymnasium
+order: 1
 tags:
   - schulleben
   - page
