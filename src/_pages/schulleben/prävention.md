@@ -1,11 +1,13 @@
 ---
-title: Prävention
-shortTitle: ""
-banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
-order: 5
 banners:
   - banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
     alignment: center
+banner: /img/uploads/bild-20230323-142612-7848483a.jpeg
+title: Prävention
+shortTitle: ""
+titleUp: Schulleben
+titleDown: am Schillergymnasium
+order: 5
 tags:
   - schulleben
   - page
