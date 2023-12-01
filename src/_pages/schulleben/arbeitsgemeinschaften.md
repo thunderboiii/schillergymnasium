@@ -1,6 +1,8 @@
 ---
 title: Arbeitsgemeinschaften
 shortTitle: Unsere AGs
+titleUp: Schulleben
+titleDown: am Schillergymnasium
 order: 2
 banners:
   - banner: /img/uploads/img_0962.jpeg
