@@ -1,6 +1,8 @@
 ---
 title: Schüler:innenvertretung
 shortTitle: Die SV
+titleUp: Personen
+titleDown: des Schillergymnasiums
 order: 6
 banners:
   - banner: /img/uploads/sv-2-.jpg
