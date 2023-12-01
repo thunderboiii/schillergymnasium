@@ -1,7 +1,4 @@
 ---
-title: Fördern und Fordern
-banner: /img/uploads/img_0909.jpeg
-order: 4
 banners:
   - banner: /img/uploads/_q6a7244-1-.jpg
     alignment: top
@@ -9,6 +6,11 @@ banners:
     alignment: top
   - banner: /img/uploads/_q6a7375-1-.jpg
     alignment: top
+banner: /img/uploads/img_0909.jpeg
+title: Fördern und Fordern
+titleUp: Lernen
+titleDown: am Schillergymnasium
+order: 4
 tags:
   - lernen
   - page
