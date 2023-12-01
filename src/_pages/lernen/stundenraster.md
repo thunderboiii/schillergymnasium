@@ -1,5 +1,7 @@
 ---
 title: Unterrichtszeiten
+titleUp: Lernen
+titleDown: des Schillergymnasiums
 order: 5
 banners:
   - banner: /img/uploads/vollversammlung-01-kopie.jpg
