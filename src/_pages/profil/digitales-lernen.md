@@ -8,6 +8,8 @@ tags:
   - profil
   - page
 category: Profil
+titleUp: Profil
+titleDown: am Schillergymnasium
 ---
 <center><div class="title"><h4>Digitales Lernen</h4><h2>Digitalisierung</h2></div></center>
 
