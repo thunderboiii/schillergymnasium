@@ -1,12 +1,14 @@
 ---
-title: Schülerzeitung
-shortTitle: Schillerglocke
-banner:
-  - /img/uploads/bild-1-homepage.jpeg
-order: 8
 banners:
   - banner: /img/uploads/schillerglocken.jpeg
     alignment: center
+banner:
+  - /img/uploads/bild-1-homepage.jpeg
+title: Schülerzeitung
+shortTitle: Schillerglocke
+titleUp: Schulleben
+titleDown: des Schillergymnasiums
+order: 8
 tags:
   - schulleben
   - page
