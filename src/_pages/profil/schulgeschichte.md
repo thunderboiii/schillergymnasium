@@ -8,6 +8,8 @@ tags:
   - profil
   - page
 category: Profil
+titleUp: Profil
+titleDown: des Schillergymnasiums
 ---
 <center><div class="title"><h4>1900 bis heute</h4><h2>Geschichte des Schillergymnasiums</h2></div></center>
 
