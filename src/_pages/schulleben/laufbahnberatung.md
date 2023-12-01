@@ -1,6 +1,8 @@
 ---
 title: Laufbahnberatung
 shortTitle: ""
+titleUp: Schulleben
+titleDown: am Schillergymnasium
 order: 4
 banners:
   - banner: /img/uploads/fremdbild-berufsorientierung.jpg
