@@ -8,6 +8,8 @@ tags:
   - profil
   - page
 category: Profil
+titleUp: Profil
+titleDown: des Schillergymnasiums
 ---
 <center><div class="title"><h4>Leitbild</h4><h2>Unser Leitbild</h2></div></center>
 
