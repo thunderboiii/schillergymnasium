@@ -1,12 +1,14 @@
 ---
-title: Sprachen
-banner: /img/uploads/2022-im-stadtarchiv.jpeg
-order: 2
 banners:
   - banner: /img/uploads/img_0540.jpeg
     alignment: center
   - banner: /img/uploads/img_0909.jpeg
     alignment: top
+banner: /img/uploads/2022-im-stadtarchiv.jpeg
+title: Sprachen
+titleUp: Lernen
+titleDown: am Schillergymnasium
+order: 2
 tags:
   - lernen
   - page
