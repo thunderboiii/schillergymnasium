@@ -1,11 +1,13 @@
 ---
-title: Medienscouts
-shortTitle: ""
-banner: /img/uploads/img_0507-3.png
-order: 7
 banners:
   - banner: /img/uploads/img_0507-3.png
     alignment: center
+banner: /img/uploads/img_0507-3.png
+title: Medienscouts
+shortTitle: ""
+titleUp: Schulleben
+titleDown: am Schillergymnasium
+order: 7
 tags:
   - schulleben
   - page
