@@ -1,6 +1,8 @@
 ---
 title: Mittelstufe
 shortTitle: ""
+titleUp: Lernen
+titleDown: am Schillergymnasium
 order: 1
 banners:
   - banner: /img/uploads/20230926_102851-norderney-1320x990.jpeg
