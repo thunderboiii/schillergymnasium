@@ -8,6 +8,8 @@ tags:
   - personen
   - page
 category: Personen
+titleUp: Personen
+titleDown: des Schillergymnasiums
 ---
 ![](/img/uploads/gesamtkollegium_edit.jpg)
 
