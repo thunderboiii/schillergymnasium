@@ -8,6 +8,8 @@ tags:
   - personen
   - page
 category: Personen
+titleUp: Personen
+titleDown: des Schillergymnasiums
 ---
 # Schulleitung
 
