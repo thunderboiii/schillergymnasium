@@ -1,11 +1,13 @@
 ---
-title: "Gemeinsames Lernen "
-shortTitle: ""
-banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
-order: 3
 banners:
   - banner: /img/uploads/bild-1-homepage.jpeg
     alignment: center
+banner: /img/uploads/bild-20230803-133256-d306fcbe-1-.jpeg
+title: "Gemeinsames Lernen "
+shortTitle: ""
+titleUp: Lernen
+titleDown: am Schillergymnasium
+order: 3
 tags:
   - lernen
   - page
