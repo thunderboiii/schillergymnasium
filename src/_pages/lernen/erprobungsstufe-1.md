@@ -1,5 +1,7 @@
 ---
 title: Erprobungsstufe
+titleUp: Lernen
+titleDown: am Schillergymnasium
 order: 1
 banners:
   - banner: /img/uploads/schnupper9.jpg.jpeg
