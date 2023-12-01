@@ -1,13 +1,15 @@
 ---
-title: Schulsanitätsdienst
-shortTitle: ""
-banner: /img/uploads/img_20221025_114421.jpg
-order: 6
 banners:
   - banner: /img/uploads/img_20221025_114421.jpg
     alignment: center
   - banner: /img/uploads/img_20221025_120247.jpg
     alignment: center
+banner: /img/uploads/img_20221025_114421.jpg
+title: Schulsanitätsdienst
+shortTitle: ""
+titleUp: Schulleben
+titleDown: am Schillergymnasium
+order: 6
 tags:
   - schulleben
   - page
