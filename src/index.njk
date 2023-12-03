@@ -36,7 +36,7 @@ seoImage: /img/banners/main.png
             <div class="scroll">
                 {% for post in collections.post | reverse %}
                     <div class="snippet scroll-item">
-                        <img class="snippet_image" src="{{ post.data.banner }}" alt="">
+                        <a href="{{ post.url }}"><img class="snippet_image" src="{{ post.data.banner }}" alt=""></a>
                         <a href="{{ post.url }}"><h3 class="snippet_title">{{ post.data.title }}</h3></a>
                         <p class="snippet_description">{{ post.data.description }}</p>
                     </div>
