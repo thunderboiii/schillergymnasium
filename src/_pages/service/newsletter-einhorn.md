@@ -1,6 +1,8 @@
 ---
 title: "Newsletter: Einhorn"
 shortTitle: Einhörner
+titleUp: Service
+titleDown: des Schillergymnasiums
 order: 7
 banners:
   - banner: /img/uploads/sdg-würfel.jpeg
