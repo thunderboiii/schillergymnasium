@@ -6,23 +6,15 @@ layout: base.njk
     <div class="hero-center">
         <div class="upper-title">
             <img class="decoration-l" src="/img/icons/icon_var2.svg" alt="">
-            <h2>Aktuelles</h2>
+            <h2>{{ title }}</h2>
             <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
         </div>
         <div class="main-title">
-            {% if shortTitle == null %}
-                <h1>{{title}}</h1>
-            {% elif shortTitle != null %}
-                <h1>{{ shortTitle }}</h1>
-            {% endif %}
+            <h1>Aktuelles</h1>
         </div>
         <div class="lower-title">
             <hr>
-            {% if shortTitle == null %}
-                <h2>am Schillergymnasium</h2>
-            {% elif shortTitle != null %}
-                <h2>{{ title }}</h2>
-            {% endif %}
+                <h2>vom Schillergymnasium</h2>
             <hr>
         </div>
 
@@ -34,6 +26,8 @@ layout: base.njk
 
 <section class="contents">
     <div class="content">
+        <h1>{{title}}</h1>
+        
         {{ content | safe}}
     </div>
 </section>
