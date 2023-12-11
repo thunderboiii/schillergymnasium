@@ -2,7 +2,7 @@
 title: Anmeldung zum Schuljahr 24/25
 shortTitle: Anmeldung
 titleUp: Service
-titleDown: zum Schillergymnasium
+titleDown: am Schillergymnasium
 order: 1
 banners:
   - banner: /img/uploads/portal.jpg
