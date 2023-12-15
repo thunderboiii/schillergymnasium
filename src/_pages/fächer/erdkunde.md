@@ -93,6 +93,7 @@ fachGallery: []
 fachschaft:
   teachers: Frau Perner
 title: Erdkunde
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/VOI.jpg
   - fachschaftImage: /img/uploads/VOG.jpg
