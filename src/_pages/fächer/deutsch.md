@@ -36,6 +36,11 @@ about:
   fachGallery:
     - fachImage: /img/uploads/foto-d-fs.jpeg
     - fachImage: /img/uploads/img_9739.jpeg
+teachers: " "
+fachschaft:
+  teachers: "Frau Schlumbohm "
+title: Deutsch
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AC.jpg
   - fachschaftImage: /img/uploads/BER.jpg
@@ -53,11 +58,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STP.jpg
   - fachschaftImage: /img/uploads/TBE.jpg
   - fachschaftImage: /img/uploads/WEL.jpg
-  - fachschaftImage: /img/uploads/NGL.jpg
-teachers: " "
-fachschaft:
-  teachers: "Frau Schlumbohm "
-title: Deutsch
 tags:
   - fach
 ---
