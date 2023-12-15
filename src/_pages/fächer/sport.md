@@ -28,6 +28,11 @@ about:
     - fachImage: /img/uploads/img_20221025_120247.jpg
     - fachImage: /img/uploads/img_4496.jpg
     - fachImage: /img/uploads/img_4497.jpg
+teachers: " "
+fachschaft:
+  teachers: Herr Stier
+title: Sport
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/AT.jpg
   - fachschaftImage: /img/uploads/DRI.jpg
@@ -41,10 +46,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/VOG.jpg
   - fachschaftImage: /img/uploads/ZEC.jpg
   - fachschaftImage: /img/uploads/BOG.jpg
-teachers: " "
-fachschaft:
-  teachers: Herr Stier
-title: Sport
 tags:
   - fach
 ---
