@@ -33,6 +33,7 @@ teachers: " "
 fachschaft:
   teachers: Herr Gutsche
 title: Kunst
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/WIE.jpg
   - fachschaftImage: /img/uploads/GU.jpg
