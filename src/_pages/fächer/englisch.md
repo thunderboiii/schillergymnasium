@@ -34,6 +34,11 @@ about:
     - fachImage: /img/uploads/englischunterricht-2.jpeg
     - fachImage: /img/uploads/mun.jpeg
     - fachImage: /img/uploads/brisbane.jpeg
+teachers: " "
+fachschaft:
+  teachers: Frau Heiny
+title: Englisch
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BM.jpg
   - fachschaftImage: /img/uploads/BÖR.jpg
@@ -51,10 +56,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/VOI.jpg
   - fachschaftImage: /img/uploads/WIE.jpg
   - fachschaftImage: /img/uploads/BOG.jpg
-teachers: " "
-fachschaft:
-  teachers: Frau Heiny
-title: Englisch
 tags:
   - fach
 ---
