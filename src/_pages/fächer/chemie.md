@@ -43,15 +43,16 @@ fachText: >-
 
 
   In der Oberstufe wird Chemie im Grund- und Leistungskurs erteilt; durch die Kooperation mit Münsteraner Innenstadtgymnasien kann das Angebot des Leistungskurses immer gewährleistet werden. Die Kooperation mit der Universität Münster eröffnet den Schüler:innen zum einen erste berufliche Perspektiven und zum anderen erste vertiefte Einblicke in wissenschaftliche Arbeit. Diesem Anspruch versucht auch der in der Oberstufe eingerichtete Projektkurs Genetik Rechnung zu tragen; hier wird das (gesellschafts-)wissenschaftlich hochaktuelle Thema Gentechnik unter verschiedenen Aspekten beleuchtet.
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/DIL.jpg
-  - fachschaftImage: /img/uploads/RA.jpg
-  - fachschaftImage: /img/uploads/WP.jpg
 teachers: " "
 more: []
 fachschaft:
   teachers: Frau Westphal
 title: Chemie
+titleDown: am Schillergymnasium
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/DIL.jpg
+  - fachschaftImage: /img/uploads/RA.jpg
+  - fachschaftImage: /img/uploads/WP.jpg
 tags:
   - fach
 category: Naturwissenschaften
