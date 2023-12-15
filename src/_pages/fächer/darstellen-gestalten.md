@@ -37,14 +37,15 @@ about:
   fachGallery:
     - fachImage: /img/uploads/dg_01.jpg
     - fachImage: /img/uploads/lit_01.jpg
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/gu.jpg
-  - fachschaftImage: /img/uploads/HA.jpg
-  - fachschaftImage: /img/uploads/MOE.jpg
 teachers: " Frau Hartwig, Herr Gutsche, Frau Moek"
 fachschaft:
   teachers: Herr Gutsche
 title: Darstellen & Gestalten
+titleDown: am Schillergymnasium
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/gu.jpg
+  - fachschaftImage: /img/uploads/HA.jpg
+  - fachschaftImage: /img/uploads/MOE.jpg
 tags:
   - fach
 ---
