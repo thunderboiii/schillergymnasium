@@ -34,7 +34,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/NC.jpg
   - fachschaftImage: /img/uploads/NES.jpg
   - fachschaftImage: /img/uploads/PAT.jpg
-  - fachschaftImage: /img/uploads/NGL.jpg
 tags:
   - fach
 ---
