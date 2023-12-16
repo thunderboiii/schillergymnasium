@@ -244,7 +244,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -474,7 +474,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -548,6 +548,56 @@
 <p>Die Freude war sehr groß, als nach Mitternacht sogar die zweite Runde erreicht wurde!</p>
 <p>Wenige Stunden wurde in der Aula geschlafen und am nächsten Morgen konnten die Eltern müde, aber glückliche Kinder abholen.</p>
 <p>Ein herzlicher Dank gilt dem Förderverein des Schillers für die finanzielle Unterstützung, den Eltern für die Hilfe beim Kochen und Spülen sowie den Kolleg*innen der Fachschaft Mathematik, welche die Mathenacht betreut haben.</p>
+
+
+        <p id="description"></p>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            // Find the div with the class "content"
+            const contentDiv = document.querySelector('.content');
+
+            // Find all paragraphs within the "content" div
+            const paragraphs = contentDiv.querySelectorAll('p');
+
+            let foundParagraph = false;
+
+            // Loop through each paragraph
+            for (let i = 0; i < paragraphs.length; i++) {
+                const paragraph = paragraphs[i];
+
+                // Check if the paragraph has text content
+                if (paragraph.textContent.trim() !== '') {
+                foundParagraph = true;
+                const content = paragraph.textContent;
+                let displayContent;
+
+                // Check if the content exceeds the character limit
+                if (content.length > 200) {
+                    // Trim the content to the character limit and add "..."
+                    displayContent = content.substring(0, 200) + '...';
+                } else {
+                    // If the content is within the character limit, use it as is
+                    displayContent = content;
+                }
+
+                // Create a new paragraph element with the id "description"
+                const descriptionParagraph = document.getElementById('description');
+                
+                // Set the content of the new paragraph
+                descriptionParagraph.textContent = displayContent;
+
+                // Break out of the loop after processing the first paragraph with text content
+                break;
+                }
+            }
+
+            // If no paragraph with text content is found
+            if (!foundParagraph) {
+                console.log('No paragraph with text content found.');
+            }
+            });
+        </script>
 
     </div>
 </section>

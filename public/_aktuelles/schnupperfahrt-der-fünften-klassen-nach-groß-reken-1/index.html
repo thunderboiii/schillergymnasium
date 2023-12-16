@@ -244,7 +244,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -474,7 +474,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -544,6 +544,56 @@
 <p>Am Tag der Abfahrt trafen wir uns an der Bushaltestelle. Dann mussten wir 40 Minuten mit dem Bus fahren. Anschließend konnten wir das Spielgelände der Jugendherberge erkunden. Auf dem Gelände gab es einen Fußballplatz, zwei Klettergerüste, Bänke und eine Feuerschale. Viele Kinder spielten zusammen Fußball. Nachdem wir unsere Zimmer bekommen hatten, wurden wir von den Teamern, die mit uns ein Agententraining durchführten, abgeholt. Mit den Teamern wanderten wir zu einem Niedrigseilgarten, wo wir die Übung „Tausendfüßler“ durchführten. Das war eine Übung, bei der wir als Gruppe beim Klettern nicht „auseinanderfallen“ durften. Außerdem bauten wir Tipis, zu denen wir uns lustige und spannende Geschichten ausdachten.</p>
 <p>Eine Aktion war auch, auf den Funkturm zu klettern. Er bestand aus Eisen, hatte 168 Stufen und war 60 Meter hoch. Wir kletterten aber „nur“ auf die 30 Meter hohe Aussichtsplattform. In der Jugendherberge gab es sehr viele Mücken.</p>
 <p>Am Ende der Fahrt hatten wir uns alle besser kennengelernt und viele Mückenstiche eingefangen.</p>
+
+
+        <p id="description"></p>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            // Find the div with the class "content"
+            const contentDiv = document.querySelector('.content');
+
+            // Find all paragraphs within the "content" div
+            const paragraphs = contentDiv.querySelectorAll('p');
+
+            let foundParagraph = false;
+
+            // Loop through each paragraph
+            for (let i = 0; i < paragraphs.length; i++) {
+                const paragraph = paragraphs[i];
+
+                // Check if the paragraph has text content
+                if (paragraph.textContent.trim() !== '') {
+                foundParagraph = true;
+                const content = paragraph.textContent;
+                let displayContent;
+
+                // Check if the content exceeds the character limit
+                if (content.length > 200) {
+                    // Trim the content to the character limit and add "..."
+                    displayContent = content.substring(0, 200) + '...';
+                } else {
+                    // If the content is within the character limit, use it as is
+                    displayContent = content;
+                }
+
+                // Create a new paragraph element with the id "description"
+                const descriptionParagraph = document.getElementById('description');
+                
+                // Set the content of the new paragraph
+                descriptionParagraph.textContent = displayContent;
+
+                // Break out of the loop after processing the first paragraph with text content
+                break;
+                }
+            }
+
+            // If no paragraph with text content is found
+            if (!foundParagraph) {
+                console.log('No paragraph with text content found.');
+            }
+            });
+        </script>
 
     </div>
 </section>

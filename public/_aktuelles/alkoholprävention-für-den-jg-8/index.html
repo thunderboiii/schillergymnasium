@@ -244,7 +244,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -474,7 +474,7 @@
 
                         <a href="/termine/">Termine</a>
                         <a href="/kontakt/">Kontakt</a>
-                        <a href="/kontakt_ehemalige/">Kontakt zum Ehemaligen Verein</a>
+                        <a href="/kontakt_ehemalige/">Kontakt zum Förderverein</a>
                     </div>
                 </div>
             </div>
@@ -547,6 +547,56 @@
 <p>Sehr offen und schonungslos erzählte Timo Schüsseler davon, wie er alkoholabhängig wurde, wie sich sein Leben durch diese Suchterkrankung drastisch veränderte und dass er nach einem absoluten Tiefpunkt lernen musste, sein Leben ganz neu zu gestalten.</p>
 <p>Während des 1,5-stündigen Vortrags herrschte eine sehr aufmerksame Atmosphäre in unserer Aula, und es war, auch an vielen Nachfragen, deutlich zu spüren, dass der autobiographische, z.T. schockierende Bericht die Schülerinnen und Schüler beeindruckte. Timo Schüsseler machte deutlich, dass das Thema Sucht uns alle angeht und dass es wichtig ist, bei sich und anderen aufmerksam für die Anzeichen einer Suchterkrankung zu sein. Er stellte heraus, dass es problematische Verhaltensweisen in vielen alltäglichen Bereichen geben kann, bspw. bei der Nutzung digitaler Medien: „Wenn ihr nach der Schule gefrustet seid und stundenlang zockt, statt euch mit eurem Frust auseinanderzusetzen, dann gebt ihr dem Zocken eine Funktion, die es nicht haben sollte!“</p>
 <p>Weitere Infos über Timo Schüsseler und sein Engagement im Rahmen der Suchtprävention gibt es <a href="https://home.benecke.com/publications/alkoholismus-schul-unterricht">hier</a> and <a href="https://lecture2go.uni-hamburg.de/l2go/-/get/v/64488">hier</a>.</p>
+
+
+        <p id="description"></p>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            // Find the div with the class "content"
+            const contentDiv = document.querySelector('.content');
+
+            // Find all paragraphs within the "content" div
+            const paragraphs = contentDiv.querySelectorAll('p');
+
+            let foundParagraph = false;
+
+            // Loop through each paragraph
+            for (let i = 0; i < paragraphs.length; i++) {
+                const paragraph = paragraphs[i];
+
+                // Check if the paragraph has text content
+                if (paragraph.textContent.trim() !== '') {
+                foundParagraph = true;
+                const content = paragraph.textContent;
+                let displayContent;
+
+                // Check if the content exceeds the character limit
+                if (content.length > 200) {
+                    // Trim the content to the character limit and add "..."
+                    displayContent = content.substring(0, 200) + '...';
+                } else {
+                    // If the content is within the character limit, use it as is
+                    displayContent = content;
+                }
+
+                // Create a new paragraph element with the id "description"
+                const descriptionParagraph = document.getElementById('description');
+                
+                // Set the content of the new paragraph
+                descriptionParagraph.textContent = displayContent;
+
+                // Break out of the loop after processing the first paragraph with text content
+                break;
+                }
+            }
+
+            // If no paragraph with text content is found
+            if (!foundParagraph) {
+                console.log('No paragraph with text content found.');
+            }
+            });
+        </script>
 
     </div>
 </section>
