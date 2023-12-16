@@ -14,6 +14,7 @@ teachers: " "
 fachschaft:
   teachers: Frau Rippolz
 title: Niederländisch
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BM.jpg
   - fachschaftImage: /img/uploads/HN.jpg

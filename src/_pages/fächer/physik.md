@@ -62,12 +62,6 @@ fachText: >-
 
 
   Nicht zuletzt unterstützen wir besonders begabte und interessierte Schüler*innen bei der Teilnahme an Wettbewerben oder Projekten der Universität.
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/HD.jpg
-  - fachschaftImage: /img/uploads/MLR.jpg
-  - fachschaftImage: /img/uploads/STL.jpg
-  - fachschaftImage: /img/uploads/slg.jpg
-  - fachschaftImage: /img/uploads/SIR.jpg
 teachers: " "
 fachGallery:
   - fachImage: /img/uploads/wärme-1.jpg
@@ -77,6 +71,13 @@ fachGallery:
 fachschaft:
   teachers: Herr Stier
 title: Physik
+titleDown: am Schillergymnasium
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/HD.jpg
+  - fachschaftImage: /img/uploads/MLR.jpg
+  - fachschaftImage: /img/uploads/STL.jpg
+  - fachschaftImage: /img/uploads/slg.jpg
+  - fachschaftImage: /img/uploads/SIR.jpg
 tags:
   - fach
 category: Naturwissenschaften

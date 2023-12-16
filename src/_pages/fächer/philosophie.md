@@ -21,14 +21,15 @@ about:
 
 
     Im Fach „Praktische Philosophie“ werden in den Jahrgangsstufen 6-10 die großen philosophischen Fragen in den kleinen und konkreten personalen Bereich der Schülerinnen und Schüler übertragen. Das betrifft einerseits die Auswahl der Medien (z.B. literarische Texte wie Märchen oder Romanauszüge, Spielfilme, Liedtexte usw.) andererseits das Abstraktionsniveau der Fragen. Auch philosophische Texte in einfacher und kurzer Form (je nach Altersstufe) werden genutzt.
-fachschaftGallery:
-  - fachschaftImage: /img/uploads/JAE.jpg
-  - fachschaftImage: /img/uploads/PS.jpg
-  - fachschaftImage: /img/uploads/SBM.jpg
 teachers: " "
 fachschaft:
   teachers: Frau Schlumbohm
 title: Philosophie
+titleDown: am Schillergymnasium
+fachschaftGallery:
+  - fachschaftImage: /img/uploads/JAE.jpg
+  - fachschaftImage: /img/uploads/PS.jpg
+  - fachschaftImage: /img/uploads/SBM.jpg
 tags:
   - fach
 ---

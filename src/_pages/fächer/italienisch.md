@@ -10,6 +10,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/ZEC.jpg
   - fachschaftImage: /img/uploads/TE.jpg
 teachers: " "
+titleDown: am Schillergymnasium
 tags:
   - fach
 ---

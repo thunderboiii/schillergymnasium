@@ -33,6 +33,11 @@ about:
   fachGallery:
     - fachImage: /img/uploads/53eaa853-fc1b-4f3c-a2c7-b55cd462d80b.jpeg
     - fachImage: /img/uploads/bild-20230814-102250-93a0de39.jpeg
+teachers: " "
+fachschaft:
+  teachers: Frau Westphal
+title: Biologie
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BAR.jpg
   - fachschaftImage: /img/uploads/DIL.jpg
@@ -44,10 +49,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/STG.jpg
   - fachschaftImage: /img/uploads/WAA.jpg
   - fachschaftImage: /img/uploads/WP.jpg
-teachers: " "
-fachschaft:
-  teachers: Frau Westphal
-title: Biologie
 tags:
   - fach
 ---

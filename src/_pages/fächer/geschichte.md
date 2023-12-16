@@ -40,6 +40,11 @@ about:
     - fachImage: /img/uploads/besuch-der-ausstellung-911.jpeg
     - fachImage: /img/uploads/buchdruck-im-unterricht-.jpeg
     - fachImage: /img/uploads/hist.-comics-im-unterricht.jpg
+teachers: " "
+fachschaft:
+  teachers: Frau Stüwe
+title: Geschichte
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/BÖR.jpg
   - fachschaftImage: /img/uploads/KIN.jpg
@@ -47,11 +52,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/NOW (Fächer).jpg
   - fachschaftImage: /img/uploads/PS.jpg
   - fachschaftImage: /img/uploads/ST.jpg
-  - fachschaftImage: /img/uploads/HLR.jpg
-teachers: " "
-fachschaft:
-  teachers: Frau Stüwe
-title: Geschichte
 tags:
   - fach
 ---

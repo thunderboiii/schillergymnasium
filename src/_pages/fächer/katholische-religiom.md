@@ -117,6 +117,11 @@ fachText: >-
   Bibelmuseum leicht möglich. Religion sollte sowohl lebensnah als auch erfahrbar sein,
 
   sodass wir am Schiller einen zugänglichen Unterricht für die Lernenden gestalten
+teachers: " "
+fachschaft:
+  teachers: Frau Heiny
+title: Religion
+titleDown: am Schillergymnasium
 fachschaftGallery:
   - fachschaftImage: /img/uploads/MKI.jpg
   - fachschaftImage: /img/uploads/SPN.jpg
@@ -127,10 +132,6 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/LDS.jpg
   - fachschaftImage: /img/uploads/LC.jpg
   - fachschaftImage: /img/uploads/wel.jpg
-teachers: " "
-fachschaft:
-  teachers: Frau Heiny
-title: Religion
 tags:
   - fach
 category: Gesellschaftswissenschaften

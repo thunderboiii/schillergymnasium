@@ -12,6 +12,7 @@ fachschaftGallery:
   - fachschaftImage: /img/uploads/HIM.jpg
   - fachschaftImage: /img/uploads/ME.jpg
 teachers: " "
+titleDown: am Schillergymnasium
 tags:
   - fach
 ---
