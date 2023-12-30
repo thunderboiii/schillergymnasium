@@ -1,12 +1,46 @@
-const ical = require('node-ical');
+const icsFilePath = '/assets/schiller.ics';
 
-const events = ical.sync.parseFile('https://calendar.google.com/calendar/ical/r59d3v49824ce551us502etp002dkdec%40import.calendar.google.com/public/basic.ics');
+  // Fetch the ICS file content
+  fetch(icsFilePath)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch ICS file. Status: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(icsData => {
+      // Parse the ICS data
+      const jcalData = ICAL.parse(icsData);
+      const comp = new ICAL.Component(jcalData);
+      const vevents = comp.getAllProperties('vevent');
 
-for (const event of Object.values(events)) {
-    console.log(
-        'Summary: ' + event.summary +
-        '\nDescription: ' + event.description +
-        '\nStart Date: ' + event.start.toISOString() +
-        '\n'
-    );
-}
+      if (vevents.length === 0) {
+        throw new Error('No events found in the ICS file.');
+      }
+
+      // Iterate through each event
+      vevents.forEach((vevent, index) => {
+        const uid = vevent.getFirstPropertyValue('uid');
+        const summary = vevent.getFirstPropertyValue('summary');
+        const startDate = vevent.getFirstPropertyValue('dtstart');
+
+        if (!uid) {
+          console.warn(`Event ${index + 1} has no UID. Skipping.`);
+          return;
+        }
+
+        if (!summary) {
+          console.warn(`Event ${index + 1} has no SUMMARY. Skipping.`);
+          return;
+        }
+
+        console.log(`Event ${index + 1}:`);
+        console.log(`UID: ${uid}`);
+        console.log(`Summary: ${summary}`);
+        console.log(`Start Date: ${startDate.toJSDate()}`);
+        console.log('-----------------------------');
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
