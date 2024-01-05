@@ -14,6 +14,10 @@ tags:
 Liebe Schülerinnen und Schüler, \
 Liebe Eltern, 
 
+hier ist der Link zu den Anmeldeterminen:
+
+<https://www.schillerplan.de/anmeldung/2024/>
+
 die **Anmeldung** am Schillergymnasium für die neuen 5er Klassen ist (wie bei allen Gymnasien in Münster) möglich in der Woche von **Montag, 19. Februar 2024, bis Donnerstag 22. Februar 2024**. Die Anmeldung erfolgt in einem persönlichen Gespräch, zu dem Eltern und Kinder eingeladen sind. Es ist zu folgenden Zeiten möglich: 
 
 Montag, 19. Februar 2024		09 Uhr – 12 Uhr	und 	15 Uhr – 18 Uhr 
