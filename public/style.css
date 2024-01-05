@@ -1710,6 +1710,10 @@ header .faecher {
     }
 }
 
+.post img {
+    float: left;
+}
+
 
 
 .teachers {

@@ -25,12 +25,12 @@ layout: base.njk
 </section>
 
 <section class="contents">
-    <div class="content">
+    <div class="content post">
         <h1>{{title}}</h1>
         
         {{ content | safe}}
 
-        <p id="description"></p>
+        <p id="description" style="display: none;"></p>
 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
