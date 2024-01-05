@@ -1710,8 +1710,13 @@ header .faecher {
     }
 }
 
-.post img {
-    float: left;
+
+.post {
+    position: relative;
+}
+
+.post .image-container {
+    display: inline-block;
 }
 
 
