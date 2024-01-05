@@ -287,6 +287,11 @@ a {
     text-decoration: none;
 }
 
+a[href="https://www.schillerplan.de/anmeldung/2024/"] {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 @media (max-width: 35em) {
     p {
         font-weight: 300;
