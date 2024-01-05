@@ -262,6 +262,61 @@
 
     CMS.registerEditorComponent({
       // Internal id of the component
+      id: "image",
+      // Visible label
+      label: "Image",
+      // Fields the user need to fill out when adding an instance of the component
+      fields: [
+        {
+          name: 'image',
+          label: 'Bild',
+          widget: 'image',
+        },
+        {
+          name: 'alt',
+          label: 'Alt Text',
+          widget: 'string',
+        },
+        {
+          name: 'size',
+          label: 'Größe',
+          widget: 'select',
+          options: [{label: "Groß", value: "400px"}, {label: "Mittel", value: "300px"}, {label: "Klein", value: "200px"}]
+        },
+        {
+          name: 'art',
+          label: 'Art',
+          widget: 'select',
+          options: [{label: "Normal", value: "normal"}, {label: "Slide Show", value: "slide"}, {label: "Galerie", value: "gallery"}],
+          default: [{label: "Normal", value: "normal"}]
+        }
+      ],
+      // Pattern to identify a block as being an instance of this component
+      pattern: /^<img src="(.*?)" alt="(.*?)" style="width: (.*?);" class="(.*?)">$/,
+      // Function to extract data elements from the regexp match
+      fromBlock: function(match) {
+        return {
+          image: match[1],
+          alt: match[2],
+          size: match[3],
+          art: match[4],
+        };
+      },
+      // Function to create a text block from an instance of this component
+      toBlock: function(obj) {
+        return '<img src="' + obj.image + '" alt="' + obj.alt +'" style="width: '+ obj.size +'" class="' + obj.art +'">'
+      },
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: function(obj) {
+        return (
+          'Image: ' + obj.image + ' Alt: ' + obj.alt + 'Größe: ' + obj.size + 'Art: ' + obj.art 
+        );
+      }
+    });
+
+    CMS.registerEditorComponent({
+      // Internal id of the component
       id: "table",
       // Visible label
       label: "Tabelle",
