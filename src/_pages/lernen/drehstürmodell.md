@@ -56,7 +56,7 @@ Die Rechtschreibwerkstatt wird seit 2004 in Kooperation mit dem ICBF angeboten. 
 
 Erfahrungsgemäß erreichen die meisten Kinder, die in der fünften und sechsten Klasse an den Angeboten zur Rechtschreibförderung teilnehmen, am Ende der sechsten Klasse ein Rechtschreibniveau, das der Alters- und Schulformnorm entspricht. Zeigt sich dennoch bei Schüler:innen der Klasse 7 noch ein Förderbedarf im Bereich der Rechtschreibung, bieten wir weiterführend einen wöchentlichen Förderkurs („Rechtschreibwerkstatt 7“) an. Hier lernen die Schüler:innen, selbstständig Fehlerschwerpunkte zu erkennen und Strategien der Fehlerkorrektur zu automatisieren. Der Schwerpunkt liegt dabei - gemäß den Anforderungen an Schreiben in der gymnasialen Mittelstufe - auf der Überarbeitung eigener Texte. In besonders begründeten Fällen können Schüler:innen auch nach der Jahrgangsstufe 7 an der Förderung teilnehmen.
 
-<center><div class="title"><h4>Am Schiller</h4><h2>Beratung</h2></div></center>
+<center><div class="title"><h4>am Schiller</h4><h2>Beratung</h2></div></center>
 
 Beratung am Schillergymnasium hat viele Gesichter und umfasst nicht nur die Laufbahnberatung von Schülerinnen und Schülern, wenn es z.B. um Wahlen von Fächern geht, sondern bietet auch Hilfe in verschiedenen Konfliktsituationen und persönlichen Schwierigkeiten. Die verlinkte Taskcard gibt einen Überblick über die Hilfsangebote und die Ansprechpartner:innen.
 
