@@ -538,8 +538,92 @@
 </section>
 
 <section class="contents">
+
+    <style>
+        .slide-group {
+        overflow: hidden;
+        }
+
+        .slide {
+        display: none;
+        }
+
+        .active {
+        display: block;
+        }
+    </style>
+
     <div class="content page-content">
-        <div class="table-wrapper"><div id="csvFile" data-table="/img/test/test_excel.csv"></div><table id="csvRoot"></table><script src="/scripts/papaparse.min.js"></script><script type="module" src="/scripts/table.js"></script></div>
+        <img src="/img/banners/main.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/main.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/main.png" alt="" class="slide" style="width: 400px;">
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde deserunt, in nisi excepturi nulla nobis numquam possimus ab. Tenetur maiores omnis exercitationem et unde ipsam facilis, quod a soluta alias, quaerat placeat tempora delectus explicabo velit fugit illo ipsum dolorem laboriosam. Atque, adipisci, dolore totam tempore placeat molestias modi, iste quod incidunt illum perspiciatis voluptates quam repudiandae. Sequi quod et sit natus fugiat sint dolorum pariatur qui? Mollitia optio quos velit eaque dignissimos, esse illo aperiam maiores quae reiciendis repellat voluptatem in, non itaque porro tempora odio numquam, quo nostrum labore est? Fugit reprehenderit atque vel iusto? Sapiente labore quod consectetur aliquam culpa quis quo, vel fugit cupiditate minus ad error molestias odio, qui odit aperiam inventore ut fuga sequi deserunt beatae. Voluptas, laboriosam.</p>
+        
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+        <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
+
+        <script>
+           
+    document.addEventListener("DOMContentLoaded", function() {
+      const slides = document.querySelectorAll('.slide');
+      let currentSlide = 0;
+
+      // Create a container for slide groups
+      const container = document.createElement('div');
+      document.body.appendChild(container);
+
+      // Group slides into divs
+      for (let i = 0; i < slides.length; i += 4) {
+        const slideGroup = document.createElement('div');
+        slideGroup.classList.add('slide-group');
+
+        for (let j = i; j < i + 4 && j < slides.length; j++) {
+          slideGroup.appendChild(slides[j]);
+        }
+
+        // Append slideGroup to the container
+        container.appendChild(slideGroup);
+      }
+
+      // Set up slideshow for each group
+      const slideGroups = document.querySelectorAll('.slide-group');
+      slideGroups.forEach(slideGroup => {
+        showSlides(slideGroup, currentSlide); // Display the first slide
+
+        setInterval(() => {
+          nextSlide(slideGroup);
+          showSlides(slideGroup, currentSlide);
+        }, 3000); // Change slide every 3 seconds
+      });
+
+      // Slideshow functionality
+      function showSlides(slideGroup, n) {
+        const slidesInGroup = slideGroup.querySelectorAll('.slide');
+
+        for (let i = 0; i < slidesInGroup.length; i++) {
+          slidesInGroup[i].style.display = 'none';
+        }
+
+        slidesInGroup[n].style.display = 'block';
+        currentSlide++;
+        if (currentSlide >= slidesInGroup.length) {
+          currentSlide = 0;
+        }
+      }
+
+      function nextSlide(slideGroup) {
+        const slidesInGroup = slideGroup.querySelectorAll('.slide');
+        for (let i = 0; i < slidesInGroup.length; i++) {
+          slidesInGroup[i].classList.remove('active');
+        }
+      }
+    });
+        </script>
     </div>
 </section>
     </main>
