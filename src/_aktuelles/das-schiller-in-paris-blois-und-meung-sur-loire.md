@@ -1,7 +1,7 @@
 ---
 title: Das Schiller in Paris, Blois und ....Meung-sur-Loire
 date: 2024-01-08T14:32:18.150Z
-author: Frankreichfahrer
+author: Maik Schade
 description: Vom 12.12.23 bis zum 19.12.23 fand die Frankreichfahrt nach
   Meung-sur-Loire statt. Die Schülerinnen und Schüler der Klasse 9 fuhren mit
   ihren begleitenden Lehrkräften Frau Michalski und Herrn Schade zu ihren
