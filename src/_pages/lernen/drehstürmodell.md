@@ -1,4 +1,8 @@
 ---
+title: Fördern und Fordern
+titleUp: Lernen
+titleDown: am Schillergymnasium
+order: 4
 banners:
   - banner: /img/uploads/_q6a7244-1-.jpg
     alignment: top
@@ -7,10 +11,6 @@ banners:
   - banner: /img/uploads/_q6a7375-1-.jpg
     alignment: top
 banner: /img/uploads/img_0909.jpeg
-title: Fördern und Fordern
-titleUp: Lernen
-titleDown: am Schillergymnasium
-order: 4
 tags:
   - lernen
   - page
@@ -59,3 +59,5 @@ Erfahrungsgemäß erreichen die meisten Kinder, die in der fünften und sechsten
 <center><div class="title"><h4>Am Schiller</h4><h2>Beratung</h2></div></center>
 
 Beratung am Schillergymnasium hat viele Gesichter und umfasst nicht nur die Laufbahnberatung von Schülerinnen und Schülern, wenn es z.B. um Wahlen von Fächern geht, sondern bietet auch Hilfe in verschiedenen Konfliktsituationen und persönlichen Schwierigkeiten. Die verlinkte Taskcard gibt einen Überblick über die Hilfsangebote und die Ansprechpartner:innen.
+
+<https://ms-digital.taskcards.app/#/board/72370d15-6a43-4be3-94fd-4a361e8fc81b/view?token=0128bc9a-9435-402b-8af6-c35bed222cc8>
