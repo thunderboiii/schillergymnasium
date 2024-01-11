@@ -56,8 +56,37 @@ Die Rechtschreibwerkstatt wird seit 2004 in Kooperation mit dem ICBF angeboten. 
 
 Erfahrungsgemäß erreichen die meisten Kinder, die in der fünften und sechsten Klasse an den Angeboten zur Rechtschreibförderung teilnehmen, am Ende der sechsten Klasse ein Rechtschreibniveau, das der Alters- und Schulformnorm entspricht. Zeigt sich dennoch bei Schüler:innen der Klasse 7 noch ein Förderbedarf im Bereich der Rechtschreibung, bieten wir weiterführend einen wöchentlichen Förderkurs („Rechtschreibwerkstatt 7“) an. Hier lernen die Schüler:innen, selbstständig Fehlerschwerpunkte zu erkennen und Strategien der Fehlerkorrektur zu automatisieren. Der Schwerpunkt liegt dabei - gemäß den Anforderungen an Schreiben in der gymnasialen Mittelstufe - auf der Überarbeitung eigener Texte. In besonders begründeten Fällen können Schüler:innen auch nach der Jahrgangsstufe 7 an der Förderung teilnehmen.
 
-<center><div class="title"><h4>Am Schiller</h4><h2>Beratung</h2></div></center>
+<center><div class="title"><h4>am Schiller</h4><h2>Beratung</h2></div></center>
 
 Beratung am Schillergymnasium hat viele Gesichter und umfasst nicht nur die Laufbahnberatung von Schülerinnen und Schülern, wenn es z.B. um Wahlen von Fächern geht, sondern bietet auch Hilfe in verschiedenen Konfliktsituationen und persönlichen Schwierigkeiten. Die verlinkte Taskcard gibt einen Überblick über die Hilfsangebote und die Ansprechpartner:innen.
 
 <https://ms-digital.taskcards.app/#/board/72370d15-6a43-4be3-94fd-4a361e8fc81b/view?token=0128bc9a-9435-402b-8af6-c35bed222cc8>
+
+[](https://ms-digital.taskcards.app/#/board/72370d15-6a43-4be3-94fd-4a361e8fc81b/view?token=0128bc9a-9435-402b-8af6-c35bed222cc8)
+
+<center><div class="title"><h4>am Schiller</h4><h2>Schüler:innen helfen Schüler:innen</h2></div></center>
+
+Schüler:innen helfen Schüler:innenNicht immer läuft die Schullaufbahn glatt. Manche Kinder haben Schwierigkeiten oder Wissenslücken, die selbstständig schwer zu schließen sind.Wir wollen diese Situation nicht dem Zufall überlassen, sondern bieten das Förderkonzept “Schüler:innen helfen Schüler:innen” an. Defizite werden hier zeitnah durch betreutes Üben kontinuierlich aufgearbeitet. Durch die sich einstellenden Erfolge kehrt der Spaß am Lernen zurück. In den Fächern Englisch, Mathematik, Latein, Französisch, Deutsch, Italienisch, Chemie und Biologie (weitere auf Anfrage) unterstützen Jugendliche aus verschiedenen Klassenstufen, die sich durch entsprechende Kompetenzen und Noten qualifiziert haben.
+
+[](https://www.schillergymnasium-muenster.de/wp-content/uploads/2020/12/ShS-Vordruck-Eltern.pdf)Anmeldeformular “Schüler\*innen helfen Schüler\*innen” zum Download.
+
+<center><div class="title"><h4>am Schiller</h4><h2>Akademien</h2></div></center>
+
+Regelmäßig empfehlen wir Schüler:innen für die Deutschen Schülerakademien und Deutschen Juniorakademien sowie für diverse Mathe-Akademien.Zusätzlich zur „Schülerakademie Mathematik in Münster“ (SAMMS) führen wir für die 6. Klassen schulübergreifend auch „SAMMS extern“ durch.
+
+<center><div class="title"><h4>am Schiller</h4><h2>JuniorUni</h2></div></center>
+
+Das Projekt "JuniorUni" fördert besonders begabte, motivierte und leistungsstarke Jugendliche in der Qualifikationsphase Q1 und Q2. Damit sollen Schüler:innen eine frühe Orientierungshilfe zur Studienwahl bekommen. Langfristig kann so auch eine Verkürzung der Studienzeit erreicht werden.
+
+<center><div class="title"><h4>am Schiller</h4><h2>Wettbewerbe</h2></div></center>
+
+Die Teilnahme an Wettbewerben, sei es im Fachunterricht, im Rahmen von Arbeitsgemeinschaften oder individuell wird am Schillergymnasium gesehen als eine Möglichkeit
+
+* seinen individuellen Neigungen nachzugehen
+* seine Fähigkeiten auch außerhalb von Unterricht und Schule zu zeigen
+* seine besonderen Begabungen zu nutzen
+* sich mit Themen zu beschäftigen, die im Unterricht wenig oder gar nicht angesprochen werden
+* in Gruppen an einer Thematik längerfristig und intensiv zu arbeiten
+* den Unterricht zu beleben und das Schulleben zu bereichern.
+
+Aus diesen Gründen wird die Teilnahme an Wettbewerben, sei es im Bereich der Fremdsprachen, der Mathematik und der Naturwissenschaften sowie der historisch-politischen Bildung auf allen Ebenen von der Schule unterstützt. Viele Aktivitäten in allen Jahrgangsstufen und mancher Erfolg bestätigen das.
