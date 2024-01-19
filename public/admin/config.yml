@@ -62,6 +62,20 @@ collections:
       - {name: 'body', label: 'Über das Fach', widget: markdown}
       - {name: 'fachschaftGallery', label: 'Fachschaft Gallerie', widget: list, fields: [{ name: 'fachschaftImage', label: 'Bild', widget: image}]}
       - {name: 'tags', label: 'Tags', widget: list, default: ['fach'], required: false}
+  - name: "faecher2"
+    label: "Fächer"
+    editor:
+      preview: false
+    folder: "src/_pages/faecher"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {name: 'title', label: 'Fach Title', widget: 'string' }
+      - { name: 'titleDown', label: 'Titel Unten', widget: 'string', default: "am Schillergymnasium" }
+      - { name: 'banners', label: 'Banner Bilder', widget: list, fields: [{ name: 'banner', label: 'Banner Bild', widget: image}, {name: 'alignment', label: 'Ausrichtung', widget: select, options: [{label: "Oben", value: "top"}, {label: "Mittig", value: "center"}, {label: "Unten", value: "bottom"}]}]}
+      - {name: 'body', label: 'Über das Fach', widget: markdown}
+      - {name: 'fachschaftGallery', label: 'Fachschaft Gallerie', widget: list, fields: [{ name: 'fachschaftImage', label: 'Bild', widget: image}]}
+      - {name: 'tags', label: 'Tags', widget: list, default: ['fach2'], required: false}
   - name: "lernen"
     label: "Lernen"
     editor:
