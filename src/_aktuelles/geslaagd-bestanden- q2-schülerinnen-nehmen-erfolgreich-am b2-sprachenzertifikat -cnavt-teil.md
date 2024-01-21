@@ -1,5 +1,5 @@
 ---
-title: Geslaagd! (=Bestanden!) Erfolgreiche Teilnahme am B2-Sprachenzertifikat (CNaVT)
+title: Geslaagd! (=Bestanden!)
 date: 2024-01-21T20:08:34.144Z
 author: Fachschaft Niederländisch
 description: "Tami Bigalski und Elina Grüneberg erhielten in dieser Woche Post
