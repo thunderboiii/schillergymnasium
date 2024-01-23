@@ -59,18 +59,19 @@
       // Visible label
       label: "Youtube",
       // Fields the user need to fill out when adding an instance of the component
-      fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
+      fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}, {name: 'autoplay', label: 'Autoplay', widget: 'select', options: [{label: "Autoplay", value: "1"}, {label: "Kein Autoplay", value: "0"}]}],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^<center><iframe class="youtube component" src="https:\/\/www.youtube.com\/embed\/(.*?)?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen><\/iframe><\/center>$/,
+      pattern: /^<center><iframe class="youtube component" src="https:\/\/www.youtube.com\/embed\/(.*?)?si=fwYUPNAgq_2mM5Ht&autoplay=(.*?)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen><\/iframe><\/center>$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
         return {
-          id: match[1]
+          id: match[1],
+          autoplay: match[2]
         };
       },
       // Function to create a text block from an instance of this component
       toBlock: function(obj) {
-        return '<center><iframe class="youtube component" src="https://www.youtube.com/embed/' + obj.id + '?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>';
+        return '<center><iframe class="youtube component" src="https://www.youtube.com/embed/' + obj.id + '?si=fwYUPNAgq_2mM5Ht&autoplay=' + obj.autoplay + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>';
       },
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
