@@ -1,5 +1,5 @@
 ---
-title: "#schillerontheroad_namibia"
+title: "#schillerontheroad_ namibia"
 date: 2024-01-23T20:20:14.280Z
 author: Farnia Rassouli
 description: Voller Erwartungen und Vorfreude machen sich  insgesamt 20
