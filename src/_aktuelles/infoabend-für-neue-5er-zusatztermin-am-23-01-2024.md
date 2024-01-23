@@ -9,6 +9,8 @@ banner: /img/uploads/infoabemd.jpg
 tags:
   - post
 ---
-<center><iframe class="youtube component" src="https://www.youtube.com/embed/kGMQC8zmh58?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+
+<center><iframe class="youtube component" src="https://www.youtube.com/embed/kGMQC8zmh58?si=fwYUPNAgq_2mM5Ht&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 
 Wir laden alle Interessierten, die am eigentlichen Infoabend verhindert waren, zu einem Zusatztermin mit Schnelldurchlauf am Dienstag, 23.01.2024 um 18 Uhr in die Aula des Schillergymnasiums ein.
