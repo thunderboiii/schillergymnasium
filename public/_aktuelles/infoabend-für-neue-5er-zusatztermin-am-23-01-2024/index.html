@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <title>Infoabend für neue 5er - Zusatztermin am 23.01.2024</title>
 
     <link rel="stylesheet" href="/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -460,19 +460,19 @@
     <div class="hero-center">
         <div class="upper-title">
             <img class="decoration-l" src="/img/icons/icon_var2.svg" alt="">
-            <h2>seit 1900</h2>
+            <h2>Infoabend für neue 5er - Zusatztermin am 23.01.2024</h2>
             <img class="decoration-r" src="/img/icons/icon_var2.svg" alt="">
         </div>
         <div class="main-title">
-            <h1>Kontakt</h1>
+            <h1>Aktuelles</h1>
         </div>
         <div class="lower-title">
             <hr>
-            <h2>zum Schillergymnasium</h2>
+                <h2>vom Schillergymnasium</h2>
             <hr>
         </div>
 
-        <img class="background" src="/img/banners/main.png" alt="">
+        <img class="background" src="/img/uploads/infoabemd.jpg" alt="">
     </div>
 
     <div class="lower-hero">
@@ -492,60 +492,65 @@
         <a href="/kontakt"><i class='bx bx-phone-call tooltip' ><span class="tooltiptext">Kontakt</span></i></a>
     </div>
 </div>
-
-    
 </section>
 
 <section class="contents">
-    <div class="content">
-        <center><div class="title">
-            <h4>Kontakt</h4>
-            <h2>Noch Fragen?</h2>
-        </div></center>
+    <div class="content post">
+        <h1>Infoabend für neue 5er - Zusatztermin am 23.01.2024</h1>
+        
+        <center><iframe class="youtube component" src="https://www.youtube.com/embed/kGMQC8zmh58?si=fwYUPNAgq_2mM5Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<p>Wir laden alle Interessierten, die am eigentlichen Infoabend verhindert waren, zu einem Zusatztermin mit Schnelldurchlauf am Dienstag, 23.01.2024 um 18 Uhr in die Aula des Schillergymnasiums ein.</p>
 
-        <div class="contact">
-            <div class="contact-info">
-                <div class="adresse">
-                    <p><b>Adresse</b></p>
-                    <p>Gertrudenstr. 5</p>
-                    <p>48149 Münster</p>
-                </div>
 
-                <div class="phone">
-                    <p><b>Telefon</b></p>
-                    <a href="tel:0251 / 6866 180"><p>0251 / 6866 180</p></a>
-                </div>
+        <p id="description" style="display: none;"></p>
 
-                <div class="fax">
-                    <p><b>Telefax</b></p>
-                    <a href="fax:0251 / 6866 1849"><p>0251 / 6866 1849</p></a>
-                </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            // Find the div with the class "content"
+            const contentDiv = document.querySelector('.content');
 
-                <div class="email">
-                    <p><b>E-Mail</b></p>
-                    <a href="mailto:schillergymnasium@stadt-muenster.de"><p>schillergymnasium@stadt-muenster.de</p></a>
-                </div>
-            </div>
+            // Find all paragraphs within the "content" div
+            const paragraphs = contentDiv.querySelectorAll('p');
 
-            <div class="contact-form">
-                <form action="https://formsubmit.co/51c487ff10a96e0e9839c796dee751a3" method="POST">
-                    <div>
-                        <input type="hidden" name="_template" value="box">
-                        <input type="hidden" name="_cc" value="emil@maple-ink.com">
-                    </div>
-                    <div class="vorname-nachname input-holder">
-                        <input type="text" name="vorname" id="vorname" placeholder="Vorname" required>
-                        <input type="text" name="nachname" id="nachname" placeholder="Nachname" required>
-                    </div>
-                    <div class="email-betreff input-holder">
-                        <input type="email" name="email" id="email" placeholder="E-Mail Adresse" required>
-                        <input type="text" name="_subject" id="betreff" placeholder="Betreff" required>
-                    </div>
-                    <textarea name="msg" id="msg" placeholder="Nachricht" required></textarea>
-                    <center><button type="submit">Abschicken</button></center>
-                </form>
-            </div>
-        </div>
+            let foundParagraph = false;
+
+            // Loop through each paragraph
+            for (let i = 0; i < paragraphs.length; i++) {
+                const paragraph = paragraphs[i];
+
+                // Check if the paragraph has text content
+                if (paragraph.textContent.trim() !== '') {
+                foundParagraph = true;
+                const content = paragraph.textContent;
+                let displayContent;
+
+                // Check if the content exceeds the character limit
+                if (content.length > 200) {
+                    // Trim the content to the character limit and add "..."
+                    displayContent = content.substring(0, 200) + '...';
+                } else {
+                    // If the content is within the character limit, use it as is
+                    displayContent = content;
+                }
+
+                // Create a new paragraph element with the id "description"
+                const descriptionParagraph = document.getElementById('description');
+                
+                // Set the content of the new paragraph
+                descriptionParagraph.textContent = displayContent;
+
+                // Break out of the loop after processing the first paragraph with text content
+                break;
+                }
+            }
+
+            // If no paragraph with text content is found
+            if (!foundParagraph) {
+                console.log('No paragraph with text content found.');
+            }
+            });
+        </script>
+
     </div>
 </section>
     </main>
