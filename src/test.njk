@@ -55,62 +55,6 @@ layout: base.njk
         <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
         <img src="/img/banners/kunst.png" alt="" class="slide" style="width: 400px;">
 
-        <script>
-           
-    document.addEventListener("DOMContentLoaded", function() {
-      const slides = document.querySelectorAll('.slide');
-      let currentSlide = 0;
-
-      // Create a container for slide groups
-      const container = document.createElement('div');
-      document.body.appendChild(container);
-
-      // Group slides into divs
-      for (let i = 0; i < slides.length; i += 4) {
-        const slideGroup = document.createElement('div');
-        slideGroup.classList.add('slide-group');
-
-        for (let j = i; j < i + 4 && j < slides.length; j++) {
-          slideGroup.appendChild(slides[j]);
-        }
-
-        // Append slideGroup to the container
-        container.appendChild(slideGroup);
-      }
-
-      // Set up slideshow for each group
-      const slideGroups = document.querySelectorAll('.slide-group');
-      slideGroups.forEach(slideGroup => {
-        showSlides(slideGroup, currentSlide); // Display the first slide
-
-        setInterval(() => {
-          nextSlide(slideGroup);
-          showSlides(slideGroup, currentSlide);
-        }, 3000); // Change slide every 3 seconds
-      });
-
-      // Slideshow functionality
-      function showSlides(slideGroup, n) {
-        const slidesInGroup = slideGroup.querySelectorAll('.slide');
-
-        for (let i = 0; i < slidesInGroup.length; i++) {
-          slidesInGroup[i].style.display = 'none';
-        }
-
-        slidesInGroup[n].style.display = 'block';
-        currentSlide++;
-        if (currentSlide >= slidesInGroup.length) {
-          currentSlide = 0;
-        }
-      }
-
-      function nextSlide(slideGroup) {
-        const slidesInGroup = slideGroup.querySelectorAll('.slide');
-        for (let i = 0; i < slidesInGroup.length; i++) {
-          slidesInGroup[i].classList.remove('active');
-        }
-      }
-    });
-        </script>
+        
     </div>
 </section>

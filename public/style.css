@@ -212,7 +212,7 @@ select {
     --color-dom-600: #8c8c8c;
     --color-dom-900: #111;
 
-    --color-accent-900: #232248;
+    --color-accent-900: rgb(35, 34, 72);
     --color-accent-700: #302F60;
 
     --color-compliment-900: #EEBD1E; 
