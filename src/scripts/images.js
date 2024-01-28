@@ -1,3 +1,4 @@
+// SLIDESHOW
 function wrapConsecutiveSlides() {
     const slideElements = document.querySelectorAll('.slide');
     let consecutiveSlides = [];
@@ -50,8 +51,41 @@ function startAutomaticSlideshow() {
     });
 }
 
+// GALLERY
+
+function wrapConsecutiveGallery() {
+    const galleryElements = document.querySelectorAll('.gallery');
+    let consecutiveGallery = [];
+
+    galleryElements.forEach((gallery, index) => {
+        if (index === 0 || gallery.previousElementSibling !== galleryElements[index - 1]) {
+            // Start a new group of consecutive slides
+            consecutiveGallery = [gallery];
+        } else {
+            // Continue the group of consecutive slides
+            consecutiveGallery.push(gallery);
+        }
+
+        if (index === galleryElements.length - 1 || gallery.nextElementSibling !== galleryElements[index + 1]) {
+            // Wrap consecutive slides in a div when reaching the end of the group
+            if (consecutiveGallery.length >= 2) {
+                const wrapperDiv = document.createElement('div');
+                wrapperDiv.classList.add('gallery-wrapper');
+
+                // Insert the wrapper before the first element of the group
+                consecutiveGallery[0].parentNode.insertBefore(wrapperDiv, consecutiveGallery[0]);
+
+                // Move consecutive slides into the wrapper
+                consecutiveGallery.forEach(slide => wrapperDiv.appendChild(slide));
+            }
+        }
+    });
+}
+
 // Call the function to wrap consecutive slides
 wrapConsecutiveSlides();
 
 // Call the function to start the automatic slideshow
 startAutomaticSlideshow();
+
+wrapConsecutiveGallery();

@@ -461,6 +461,30 @@ hr {
     object-fit: cover;
 }
 
+.gallery-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-wrapper img {
+    margin: 0;
+    width: 40% !important;
+}
+
+.slide-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-wrapper img {
+    width: 40% !important;
+    margin: 0;
+}
+
 .fachschaft-gallery {
     width: calc((3*1rem) + (4*145px));
 }
