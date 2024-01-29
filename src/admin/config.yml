@@ -1,10 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: thunderboiii/schillergymnasium
+  base_url: https://schiller-oauth.glitch.me
 media_folder: "public/img/uploads"
 public_folder: "/img/uploads"
-site_url: https://schillergymnasium.netlify.app
-display_url: https://schillergymnasium.netlify.app
+site_url: https://schillergymnasium-muenster.de
+display_url: https://schillergymnasium-muenster.de
 locale: 'de'
 collections: 
   - name: 'aktuelles'
