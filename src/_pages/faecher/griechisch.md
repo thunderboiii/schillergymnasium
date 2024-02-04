@@ -36,6 +36,6 @@ Zunächst werden wir gut 1½ Jahre ein modernes Lehrbuch mit originalnahen Texte
 
 Der Griechischunterricht ermöglicht den Erwerb des Graecums. Das Graecum ist Studienvoraussetzung für einige Geisteswissenschaften (abhängig von der jeweiligen Universität). Darüber hinaus sind Kenntnisse der altgriechischen Sprache in praktisch allen historisch-kulturell ausgerichteten Studiengängen (und nicht nur dort!) von Nutzen, so dass man durch das Lernen des Griechischen in jedem Fall Vorteile im Studium er-langt.
 
-Griechisch wird als stadtweiter Grundkurs am Schillergymnasium angeboten. Der Unterricht findet nach Absprache einmal pro Woche am späteren Nachmittag statt. Schülerinnen und Schüler aller Münsteraner Schulen mit gymnasialer Oberstufe können diesen Kurs wählen. Nähere Informationen beim Fachvorsitzenden Herrn Guido Gunderloch, zu erreichen unter [gunderlochg@schiller.ms.de](mailto:gunderlochg@schiller.ms.de)
+Griechisch wird als stadtweiter Grundkurs am Schillergymnasium angeboten. Der Unterricht findet nach Absprache an ein oder zwei Nachmittagen statt; vorgesehen ist als Termin zunächst: mittwochs von 16 bis 19 Uhr. Schülerinnen und Schüler aller Münsteraner Schulen mit gymnasialer Oberstufe können diesen Kurs wählen. Nähere Informationen beim Fachvorsitzenden Herrn Guido Gunderloch, zu erreichen unter gunderlochg@schiller.ms.de[](mailto:gunderlochg@schiller.ms.de)
 
 Herr Gunderloch, Frau Teske
