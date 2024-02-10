@@ -1,5 +1,5 @@
 ---
-title: Schillerplaner 2024
+title: Schillerball 2024
 date: 2024-02-10T15:57:37.776Z
 author: Andreas Nowak
 description: "Am letzten Samstag (3.2.24) „schillerte“ unsere Aula wieder in
