@@ -15,4 +15,4 @@ Dort besuchen wir vom 23.01.-14.02.24 unsere Partnerschulen,  die  A. Shipena Se
 
 Folgt uns gerne unter
 
-[https://www.instagram.com/schillerontheroad_namibia/](http://www.instagramm.com/stories/schillerontheroad_namibia/3286601549986766099?utm_source=ig_story_item_share&igsh=MWMyeGdsM24zZTN2cg==)
+[https://www.instagram.com/schillerontheroad_namibia?igsh=MTgzNDdmMmZ3Nmc5MA%3D%3D](http://www.instagramm.com/stories/schillerontheroad_namibia/3286601549986766099?utm_source=ig_story_item_share&igsh=MWMyeGdsM24zZTN2cg==)
