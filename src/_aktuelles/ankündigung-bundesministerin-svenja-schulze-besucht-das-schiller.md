@@ -3,7 +3,7 @@ title: "Ankündigung: Bundesministerin Svenja Schulze besucht das Schiller"
 date: 2024-02-10T16:19:21.177Z
 author: Andreas Nowak
 description: "Save the Date: 29.2.24"
-banner: /img/uploads/img_1841.jpeg
+banner: /img/uploads/img_1841.jpg
 tags:
   - post
 ---
