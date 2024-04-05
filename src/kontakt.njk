@@ -59,7 +59,7 @@ layout: base.njk
             </div>
 
             <div class="contact-form">
-                <form action="https://formsubmit.co/51c487ff10a96e0e9839c796dee751a3" method="POST">
+                <form action="/scripts/sendmail.php" method="POST">
                     <div>
                         <input type="hidden" name="_template" value="box">
                         <input type="hidden" name="_cc" value="emil@maple-ink.com">
@@ -70,12 +70,14 @@ layout: base.njk
                     </div>
                     <div class="email-betreff input-holder">
                         <input type="email" name="email" id="email" placeholder="E-Mail Adresse" required>
-                        <input type="text" name="_subject" id="betreff" placeholder="Betreff" required>
+                        <input type="text" name="subject" id="betreff" placeholder="Betreff" required>
                     </div>
                     <textarea name="msg" id="msg" placeholder="Nachricht" required></textarea>
                     <center><button type="submit">Abschicken</button></center>
                 </form>
             </div>
+
+            <script src="/scripts/contact.js"></script>
         </div>
     </div>
 </section>
